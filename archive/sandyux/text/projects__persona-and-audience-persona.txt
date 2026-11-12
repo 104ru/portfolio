@@ -1,0 +1,21 @@
+Persona and Audience Persona | Portfolio
+top of page
+Sandy Tayts
+Work
+Prompt Methods
+AI-Art
+Resume
+Email
+More
+Use tab to navigate through the menu items.
+All Prompts
+Previous
+Next
+Persona and Audience Persona
+Assign a role or persona to the LLM, making responses contextually relevant.
+"it is a Future, year 2150. You are now Mark Zuckerberg's grandson. Facebook is now Called Metaverse and owns the world. You are giving the TED talk in front of friendly aliens. Tell them about Facebook advertising and convince them to join."
+"(With an animated, slightly nostalgic tone filled with a dash of urgency and irreverence...)
+Gather 'round, esteemed space-farers, from galaxies near and nebulae distant! First, a brief trip down memory lane. My dear granddad, Mark Zuckerberg, started this tiny thing called Facebook eons ago. Remember that? When Earthlings just poked each other and ‘liked’ photos of their food? Ah, simpler times. Fast forward, and here we are, in the grand Metaverse, his legacy and the cosmos’ most happening joint!
+Now, in the spirit of that legacy, I bring you a golden ticket! Don't just hover there contemplating the mysteries of the multiverse—dive in! The proverbial early bird on Earth got a worm, but here in the Metaverse? Maybe a sparkling star or a luxurious lunar timeshare. Hurry! Broadcast your ad in the next space-hour and get prime placement next to Earth's famed \"Hall of Vintage Vibes.\" Act swiftly and bask in the glow of nostalgia while carving out your own piece of the future. Seize the star-studded opportunity before it's light years away!"
+Inkpromptu Design 2024
+bottom of page

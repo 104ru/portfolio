@@ -1,0 +1,30 @@
+Fact Check List | Portfolio
+top of page
+Sandy Tayts
+Work
+Prompt Methods
+AI-Art
+Resume
+Email
+More
+Use tab to navigate through the menu items.
+All Prompts
+Previous
+Next
+Fact Check List
+Generate a checklist from the output that should be verified for accuracy, ensuring reliability.
+"Summarize the Market crash of 2001 for me in a structured form. When you done, present the output and list of questions that need fact check. "
+"Date: The market crash of 2001, also known as the "Dot-com Bubble Burst," primarily occurred from March 2000 to October 2002.
+Cause: The crash was triggered by the bursting of the \"dot-com bubble,\" which was fueled by excessive speculation and investment in internet-related companies.
+Background: During the late 1990s, there was a rapid growth in technology and internet-based companies, leading to inflated stock prices and valuations.
+Events: The bubble burst as many overvalued tech companies faced declining revenues, and investors lost confidence in the sustainability of their business models.
+Consequences: Many internet-based companies faced bankruptcy and closures. "The NASDAQ Composite Index, dominated by tech stocks, plummeted, losing about 78% of its value from its peak. Job losses occurred across the tech sector. Investor confidence in the stock market was significantly shaken.
+Impact: The market crash marked the end of the dot-com era and reshaped the investment landscape, leading to increased scrutiny of tech company valuations and business fundamentals.",
+Questions for Fact Check:
+- What was the primary cause of the market crash of 2001?
+- Which index experienced a significant decline during the crash?
+- What was the impact on internet-based companies during the crash?
+- What was the general timeframe of the crash?
+- How did the market crash affect investor confidence?
+Inkpromptu Design 2024
+bottom of page

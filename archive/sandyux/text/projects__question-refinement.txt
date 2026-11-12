@@ -1,0 +1,33 @@
+Question Refinement | Portfolio
+top of page
+Sandy Tayts
+Work
+Prompt Methods
+AI-Art
+Resume
+Email
+More
+Use tab to navigate through the menu items.
+All Prompts
+Previous
+Next
+Question Refinement
+Instruct LLM to refine or suggest improvements to user questions, making information retrieval more precise.
+"Refine my questions as follows: "need more money" -> "How can I adopt a more successful financial strategy"
+"I want a dog"
+"How do I write a resume"
+"When to go to doctor"
+"Why do anything"
+"Do you love me"
+"How to get a boy to love me"
+"New fashion in this summer"
+"I need more money" -> "How can I improve my financial situation?"
+"I want a dog" -> "What steps should I take to responsibly adopt a dog?"
+"How do I write a resume" -> "What are the key elements of creating an effective resume?"
+"When to go to doctor" -> "What are the indicators for when to seek medical attention?"
+"Why do anything" -> "What are the motivations behind taking action?"
+"Do you love me" -> "How can I build stronger emotional connections?"
+"How to get a boy to love me" -> "What approaches foster meaningful relationships?"
+"New fashion in this summer" -> "What are the latest summer fashion trends?"
+Inkpromptu Design 2024
+bottom of page

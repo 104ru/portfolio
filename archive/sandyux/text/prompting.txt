@@ -1,0 +1,50 @@
+Projects (List) | Portfolio
+top of page
+Sandy Tayts
+Work
+Prompt Methods
+AI-Art
+Resume
+Email
+More
+Use tab to navigate through the menu items.
+Prompt Engineering Illustrated
+On this page, I present a focused guide on chat engineering, specifically ChatGPT. It includes various prompt techniques, illustrated with MidJourney examples for an engaging learning experience. Only visually appealing methods are showcased here. For a complete overview, please download my
+Methods Cheat Sheet.
+Download Cheat Sheet
+Prompt engineering is the practice of crafting and refining inputs to elicit the most accurate, relevant, and comprehensive outputs from advanced language models, notably the LLM (Large Language Model). It goes beyond just asking questions—it's about guiding a conversation to discover the vast capabilities of the model.
+Unlike traditional machines that await precise, word-for-word commands, the LLM is capable of fluid conversation and requires dynamic approach. It offers users access to insights drawn from almost the entirety of the internet. Yet, many only tap into its surface capabilities, seeking basic facts. They often miss out on its potential for tasks like market analysis reports, generating business strategies, predicting industry trends, optimizing operational workflows, and deep data analytics.
+This underutilization is akin to owning a Swiss Army knife but only using the blade, oblivious all the versatile tools hidden inside.
+Cognitive verification output
+After Cognitive verifier is presented, User will supply the necessary information and LLM will output the actual usable result
+Persona and Audience Persona
+Assign a role or persona to the LLM, making responses contextually relevant.
+Semantic Filter
+Filter outputs based on certain parameters to refine content, especially for professional or sensitive use cases.
+Cognitive Verifier
+Have LLM generate sub-questions that refine the user's main question, making answers more tailored.
+Alternative Approaches
+Propose multiple methods to achieve a task, ensuring flexibility in problem-solving.
+Reflection
+Ask LLM to review and introspect its own output, ensuring self-awareness and potential error correction.
+Recipe
+Create a step-by-step guide based on partial information, ensuring a clear path to the end goal.
+Fact Check List
+Generate a checklist from the output that should be verified for accuracy, ensuring reliability.
+Question Refinement
+Instruct LLM to refine or suggest improvements to user questions, making information retrieval more precise.
+Flipped Interaction
+Shift the onus to LLM to ask questions, making user interaction dynamic.
+in this case I am showing only the Chat questions for brevity sake
+Chain of Thought
+Asking LLM to provide reasoning for the answer in a certain format. Can be very useful in defining results and minimizing hallucinations/lies.
+Meta Language
+Develop a custom language for the LLM, can be used doe encoding, guided content creation, or in cases when natural language is confusing.
+Few Shots
+Giving LLM few use cases in a certain format, then giving the input. LLM will process it in the same format. It yields great results when used with fact checking and tail generation.
+Template
+Offer a specific structure for LLM to fill, ensuring uniformity in outputs.
+Context Manager
+Specify a particular context or theme for the conversation, ensuring topic consistency.
+Inkpromptu Design 2024
+bottom of page

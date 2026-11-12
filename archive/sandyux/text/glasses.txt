@@ -1,0 +1,63 @@
+Frey Glasses | Portfolio
+top of page
+Sandy Tayts
+Work
+Prompt Methods
+AI-Art
+Resume
+Email
+More
+Use tab to navigate through the menu items.
+FREY Glasses Branding and UX /UI Design
+Client Brief
+FREY is a sunglasses brand in Portland, Maine. We wanted it to speak in vivid colors and bold shapes, embracing a playful yet sophisticated aesthetic. Design language combines mint and peach hues with the clean, modernist typography of Chivo and Inria, creating a visual image that's as fresh and uplifting.
+What We Delivered as a Team
+Discovery, Synthesis, Design for MVP Journeys
+Detailed Proposal for the 5-year implementation
+Delivery Plan
+Resource Plan
+Projected Outcomes
+2 stores in Portland and San Diego to be opened in October 2025
+Recognizable brand and definitive product placement
+My Role: Product Designer
+Branding: Logo, Color System, Design System
+UX discovery and Personas
+Application Map
+Wireframes
+UX
+testing on the wireframes
+Prototypes for Mobile and Desktop
+Desktop HiFi Prototype
+Open Prototype
+* This button opens presentation in Figma in the new window. Opening external links might take time and is not quaranteed
+Desktop Screens
+Order Confirmation
+Home
+Inventory Page
+Item Page
+Checkout
+Personas and Marketing Strategies
+Customer personas for design and marketing.  Emily, a mid-30s environmental consultant, and Joseph, an early-40s researcher, with their lifestyle and aspirations. Marketing strategies are tailored to their unique preferences, blending online and offline engagement.
+Branding
+Light and Dark Color Palette
+blend of cool mints and warm peaches as primary and secondary colors, with rich purple for accents. Easily adapted for light and dark themes
+Logo Usage
+FREY logo is versatile, It looks good in full color, black and white, with and without accompanying text, It also maintain readability and visual impact across different uses.
+Fonts
+clean and modern, suitable for easy reading in paragraphs "Inria Sans" for the body text.
+"Chivo" for headings, a bold and striking style for attention-grabbing titles
+Application Flowchart
+Our team used FigJam to discover clients requirements and priorities in series of workshops. Below is the application flowchart, which was produced as a result of our discovery.
+Mobile Wireframes and Low Fi Prototyping
+Based on the App flowchart above, we created sets of wireframes and organized them into the lo-fi prototype. We tested prototype at this point so ensure seamless user experience.
+Click here to open the interactive wireframe in a new window *
+Open wireframe
+* This button opens presentation in Figma in the new window. Opening external links might take time and is not quaranteed
+Desktop Wireframes and Prototyping
+The client is focused on connecting with their customers through a variety of platforms. Leveraging the desktop channel, we can create a more visually engaging experience. Our initial step involves developing desktop wireframes, which will be closely aligned with the mobile wireframes, ensuring consistency in logic and components across both platforms.
+Home, Inventory, Filtered Page
+Series of wireframes for the desktop view, each depicting the structural layout of different screens. These wireframes focus on the placement and functionality of elements and consistency of experience
+Service Pages
+Overlay Pages  Wireframes for Cart, Filters, Product allow. to keep the buyers shopping journey uninterrupted.
+Inkpromptu Design 2024
+bottom of page

@@ -1,0 +1,24 @@
+Cognitive Verifier | Portfolio
+top of page
+Sandy Tayts
+Work
+Prompt Methods
+AI-Art
+Resume
+Email
+More
+Use tab to navigate through the menu items.
+All Prompts
+Previous
+Next
+Cognitive Verifier
+Have LLM generate sub-questions that refine the user's main question, making answers more tailored.
+"I'm planning a holiday in Europe. What do you need to know to help me best?"
+"Destination Preferences: Which specific countries or cities in Europe are you interested in visiting?
+Travel Dates: When do you plan to travel? Provide exact dates or a general time frame.
+Travel Companions: Are you traveling alone, with family, friends, or a partner? How many people are in your group?
+Interests and Activities: What types of activities do you enjoy? Are you looking for cultural experiences, outdoor adventures, historical sites, shopping, or relaxation?
+Budget: What is your estimated budget for the trip, including accommodations, transportation, activities, and meals?
+Accommodation Preferences: Do you prefer hotels, hostels, vacation rentals, or other types of accommodations??
+Inkpromptu Design 2024
+bottom of page

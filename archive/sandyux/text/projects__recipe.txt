@@ -1,0 +1,32 @@
+Recipe | Portfolio
+top of page
+Sandy Tayts
+Work
+Prompt Methods
+AI-Art
+Resume
+Email
+More
+Use tab to navigate through the menu items.
+All Prompts
+Previous
+Next
+Recipe
+Create a step-by-step guide based on partial information, ensuring a clear path to the end goal.
+I have crocodile steak, ostrich egg and one kilo of kale. Guide me towards making a breakfast step by step.
+"Ingredients
+Crocodile steak. 1 ostrich egg. 1 kilo of kale, washed, stemmed, and roughly chopped
+Olive oil or butter
+Salt and pepper, to taste
+Instructions
+Crocodile Steak
+Start by seasoning the crocodile steak with salt and pepper. In a skillet, heat some olive oil or butter over medium-high heat. Once the oil is hot, add the crocodile steak. Cook for about 3-4 minutes on each side. Crocodile meat is lean, so don't overcook it. Once done, set the steak aside to rest.",
+Kale Hash
+In the same skillet, add a bit more oil or butter if necessary.Add the chopped kale. Cook until the kale is wilted and has a bright green color.
+Ostrich Scrambled  Egg
+Crack the egg into a very large bowl. Whisk it thoroughly, adding a pinch of salt and pepper. In another skillet or pan, melt some butter or heat oil over medium heat. Pour the whisked ostrich egg into the skillet. Stir occasionally.
+Serve:
+Slice the rested crocodile steak into manageable pieces. Plate the kale hash and place the sliced crocodile steak on top. Serve the scrambled ostrich egg on the side.
+Optional: Add some ketchup"
+Inkpromptu Design 2024
+bottom of page

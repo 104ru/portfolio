@@ -1,0 +1,36 @@
+Template | Portfolio
+top of page
+Sandy Tayts
+Work
+Prompt Methods
+AI-Art
+Resume
+Email
+More
+Use tab to navigate through the menu items.
+All Prompts
+Previous
+Next
+Template
+Offer a specific structure for LLM to fill, ensuring uniformity in outputs.
+'Write 3 limericks about people from Silicon valley. Select 3 most prominent types yourself. There should be correct # of syllables and misfortune in each of limericks."
+"1. The Startup Founder:
+There once was a founder named Lee
+In tech, he sought his decree
+He launched his app "Glide",
+But to his chagrin and pride,
+It crashed on day one, oh dearie me!
+2. The Software Engineer:",
+An engineer named Jay from the Valley,
+Rarely left his tech-filled alley.
+But his code, once so neat,
+Caused a massive retweet,
+When a bug made the internet dally.
+3. The Venture Capitalist:
+A VC with the pockets quite deep,
+Bought 10 startups and thought it was cheap.",
+Next, the ROI went south,
+Left a bad taste in his mouth,
+Now he double checks before he leaps.
+Inkpromptu Design 2024
+bottom of page

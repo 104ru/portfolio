@@ -1,0 +1,70 @@
+Admin App | Portfolio
+top of page
+Sandy Tayts
+Work
+Prompt Methods
+AI-Art
+Resume
+Email
+More
+Use tab to navigate through the menu items.
+CRM Admin App
+Our partnership with Microsoft resulted in the creation of an omnichannel customer engagement experience tailored for MS Dynamics CRM solutions. This comprehensive solution is composed of two key components:
+​
+​
+​Omnichannel
+Chat for Seamless Communication:
+Our team designed and developed a CRM chat feature that seamlessly integrates with MS Dynamics CRM. This empowers businesses to engage with customers across various communication channels, enhancing the overall customer experience.
+​
+Admin Portal for Effortless Management
+: We conceptualized, researched, designed, and implemented an Admin portal. This portal equips company administrators with the tools needed to efficiently manage user permissions, installation processes, and ongoing maintenance. It streamlines the system and ensures a smooth operational environment.
+High-Level Business Map
+(Elevator Pitch)
+Our project was highly technical, yet we needed to present, it, align on it and onboard the new team members quickly.
+To effectively communicate the project essence, we created a visually engaging elevator pitch. This lighthearted yet precise diagram succinctly portrays the core functionality and business process of our Admin App. It offers a concise, non-technical overview of how the main application functions in terms of onboarding, alignment, and generating proposals.
+User Testing Results and User Segments
+Our team embarked on Version 2 of Live Assist, building upon the experimental MVP of Version 1 with minimal features. Stakeholders outlined the primary application requirements. Leveraging insights from early adopters, which included agents and admins, we gleaned valuable information from our already-deployed application.
+​
+Focus Group Requirements
+Business & Marketing:
+Our clients are large MS Business Accounts.
+Focus on trial conversion
+.
+Sub
+scription-based seat sales is a core model.
+​
+​
+Early Adopters:
+Diverse language environments.
+The daily use of CRM in operations.
+Two distinct types of admins (see personas below).
+​
+​
+Project Management:
+ACCOUNT comprises of ORGS, housing AGENTS.
+Each AGENT to possess a SEAT.
+The organization of SEATS is managed by ADMINS.
+​
+User Experience
+Deliverables
+In the Admin project, our team produced a full spectrum of UX deliverables. These deliverables, including user flows, wireframes, fast prototypes, and more, maintained a focus on continuous alignment with business goals and technical feasibility, ensuring an interface that harmoniously blends user needs and practicality.
+User Flows
+Driven by business and user requirements, user flows served as a guide for usability testing, business alignment, and feasibility assessment, shaping the foundation for subsequent journey development.
+​
+Wireframes Template
+standardized structural elements for both portals. We prioritized simplicity, consistent design patterns, and scalability
+​
+Process Wireflows
+Organizing wireframes into coherent process flows facilitated intuitive user navigation and interaction, enhancing overall user experience.
+​
+Wireframes and Fast Prototypes
+We expanded our toolkit to include detailed wireframes and fast prototypes. These dynamic representations were invaluable during usability testing, allowing us to gather real user feedback and refine the design accordingly..
+UI Deliverables
+Hi-Fidelity mockup
+Responsive design templates
+Developers hand off in Invision
+Style guide
+Adoption tour design
+Our UI designs were focused on ensuring the app can effectively scale and adapt to various screen sizes, catering to a diverse range of admin configurations. This user-centric approach guarantees a seamless and user-friendly experience, all within the framework of a standardized design system. Moreover, we incorporated an adoption tour to assist users in quickly familiarizing themselves with the app's features and functionalities.
+Inkpromptu Design 2024
+bottom of page

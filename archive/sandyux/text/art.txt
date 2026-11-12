@@ -1,0 +1,74 @@
+AI-Art | Portfolio
+top of page
+Sandy Tayts
+Work
+Prompt Methods
+AI-Art
+Resume
+Email
+More
+Use tab to navigate through the menu items.
+AI- Assisted Visuals
+Runway
+AI now is the integral part of any design work, and in some cases it is invaluable. As an artist I deeply appreciate the Gen AI possibilities. This is a growing collection of various my AI visual experiments:  from illustrations, to short animations, to book covers to printer design
+AI-Art
+Botanical Dragons Series
+Load More
+Urban Magic Series
+Botanical Dragons Series
+Load More
+Trailhead Style Images
+Load More
+Shiny Night Images
+Load More
+Art Prints
+Upon discovering MidJourney, I immediately began working with real objects to showcase the potential of Generative AI designs. InkPromptu store marks my first foray into AI-enhanced creativity. Everything from the logo and business name to product analysis and marketing materials was crafted using ChatGPT, with designs originating from MidJourney and refined in Photoshop.
+​
+​
+Open Live Site
+Bone China plates and coffee cups with four season design is the latest addition to my collection, they are not advertised on my website yet. High resolution print, bone china. Printed in England.
+4-season pattern on the cups is unique: they represent four seasons in my home state, California.
+Winter has rain, showing the wet season. Spring is all about flowers blooming. Summer's got the California poppy, our famous flower. And fall shows the hills turning golden, just like they do here when the weather changes.
+Winter
+Spring
+Summer
+Fall
+Book Covers
+Book cover design is historically based on collages, hybrid creations, superimposing of several conflicting artist styles and other bold design approaches. This is exactly the area we can use some AI help.
+The sample below is MJ take on "The City We Became" by N.K. Jemisin. It's a contemporary fantasy novel set in New York City where the city itself comes alive through individual avatars for its different boroughs. It combines elements of urban fantasy, magic, and a touch of Lovecraftian horror, all while commenting on the cultural heartbeat of NYC."
+Brighton
+Greenwich
+Bronx
+Manhattan
+Staten Island
+Each NYC borough in this novel has it's anthropomorphic avatar. I asked Chat GPT to describe the gods of boroughs, edited the description to get an effective prompt, and fed it to MidJourney
+Short Animations
+MidJourney, Runway, Figma, and Camtasia are great tools for creating small animated features, like adding lively editorial illustrations to short stories. MidJourney and Runway are fantastic for animation and AI-generated imagery. Figma helps with design and layout, making it easy to integrate illustrations into the story. Camtasia is great for editing and finalizing the animations, ensuring they blend seamlessly with the text. Together, they provide a simple yet effective toolkit for bringing stories to life with engaging visuals.
+360 Panoramas and Tours
+MidJourney and Photoshop are powerful tools that allow you to create 360-degree equirectangular panorama images. These images offer a full spherical view of a scene, much like being in the center and looking around in every direction. What's even more interesting is that you can link these panoramic images to create virtual tours.
+All panoramas are interactive, please click around!
+3D Panoramas
+medium.com
+Button
+Simple Panorama.
+PAN AND SQUARE
+REPEATED PAN
+Open in separate window
+Open in separate window
+Panoramas created from the same seed image with different
+techniques. Click on the arrow in the lower right corner to open panorama in the new tab.
+START
+BAR
+STUDIO
+GROCERY
+HOTEL
+KITCHEN
+Open in separate window
+Open in separate window
+Open in separate window
+Open in separate window
+Open in separate window
+Open in separate window
+360 Tour: 6 panoramas connected together. Click on the arrow in the lower right corner to open panorama in the new tab.
+Inkpromptu Design 2024
+bottom of page

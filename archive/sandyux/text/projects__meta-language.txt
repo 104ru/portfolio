@@ -1,0 +1,20 @@
+Meta Language | Portfolio
+top of page
+Sandy Tayts
+Work
+Prompt Methods
+AI-Art
+Resume
+Email
+More
+Use tab to navigate through the menu items.
+All Prompts
+Previous
+Next
+Meta Language
+Develop a custom language for the LLM, can be used doe encoding, guided content creation, or in cases when natural language is confusing.
+"Whenever is input {}, provide the short description. Whenever I input [], give an advice
+Welcome to San Francisco, {}. Stay in the hotel Hilton{}. Start your day [], then go to Fisherman's Wharf and []. Unwind in the []"
+"Welcome to San Francisco, a bustling city known for its iconic Golden Gate Bridge, steep streets, and vibrant cultural scenes. Stay in the hotel Hilton, a renowned international chain offering upscale accommodations and top-notch services. Start your day with a hearty breakfast, preferably something local like a sourdough toast or a Mission burrito, to fuel your adventures in the city. Then go to Fisherman's Wharf and immerse yourself in its rich maritime history, explore the numerous seafood restaurants, and perhaps catch a glimpse of the playful sea lions. Unwind in the evening by visiting a local jazz bar or relaxing at one of the city's tranquil parks with a view of the sunset over the bay.",
+Inkpromptu Design 2024
+bottom of page

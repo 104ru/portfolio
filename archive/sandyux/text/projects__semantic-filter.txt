@@ -1,0 +1,22 @@
+Semantic Filter | Portfolio
+top of page
+Sandy Tayts
+Work
+Prompt Methods
+AI-Art
+Resume
+Email
+More
+Use tab to navigate through the menu items.
+All Prompts
+Previous
+Next
+Semantic Filter
+Filter outputs based on certain parameters to refine content, especially for professional or sensitive use cases.
+"Craft amusing anecdotes about mischievous pets. You need to name the kind of pet.
+Exclude References to Cats and Dogs",
+"Ferret Fiasco: My mischievous ferret once discovered the joys of redecorating when it rearranged my collection of shoes into a colorful maze, leaving me to navigate my way through footwear chaos."
+Rabbit's Munchies: My crafty rabbit embarked on a daring kitchen escapade, managing to gnaw its way into the cookie jar. I found it cozily nestled among the cookies, living its best sweet-tooth life.",
+Rebel Reptile: Who knew a bearded dragon could have an artistic side? Mine expressed its creative flair by leaving colorful footprints all over my sketchbook, giving it a reptilian makeover."
+Inkpromptu Design 2024
+bottom of page

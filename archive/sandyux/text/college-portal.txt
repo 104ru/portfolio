@@ -1,0 +1,28 @@
+College Portal | Portfolio
+top of page
+Sandy Tayts
+Work
+Prompt Methods
+AI-Art
+Resume
+Email
+More
+Use tab to navigate through the menu items.
+College Loyalty Portal
+The LoopedIn startup created the College Portal app, a simple way to help students do better in school. This app uses rewards to encourage good behavior patterns. The goal of the Portal is  extremely ambitious: we wanted to make students stay in college by changing their behavior. The faculty can pick good habits they want to encourage, like going to school events or eating healthy, and give rewards to students who do them.
+Discovery and UX
+Stakeholders alignment diagram
+The discovery phase revealed a clear alignment between the school's objectives and the students' aspirations, which has been effectively integrated into a reward-based portal. This system is designed to incentivize desired behaviors and engagement, with the involvement of key stakeholders including parents, faculty, students, and vendors, ensuring a comprehensive and collaborative educational environment.
+Main Journeys Affinity Map
+The affinity diagram acts as a blueprint for the main user journeys within the app, delineating the navigation through key features. Since different teams were responsible for various aspects of the app, this diagram was essential in highlighting the interdependencies among features, ensuring coherence and facilitating alignment across the teams' work. It served as a critical tool for maintaining a unified vision of the user experience.
+Userflow for UAT Reference
+The flowchart is well-organized and visually clear, effectively outlining a user-friendly navigation path through the app's key features, reflecting thoughtful UX design.
+User Interface Design
+Custom Fonts
+Custom fonts for the application include both standard app icons and specific elements unique to the college, helping to create a cohesive and branded user experience.
+Popluar College Colors
+ChatGPT
+Given that 90% of colleges in the U.S. typically align with a core palette of red, blue, gold, and white, the application can offer preset customization options. This setup enables college administrators to select a color set that best matches their institution’s branding, streamlining the customization process.
+Hi Fidelity Prototype
+Inkpromptu Design 2024
+bottom of page

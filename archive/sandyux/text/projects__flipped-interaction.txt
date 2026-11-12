@@ -1,0 +1,37 @@
+Flipped Interaction | Portfolio
+top of page
+Sandy Tayts
+Work
+Prompt Methods
+AI-Art
+Resume
+Email
+More
+Use tab to navigate through the menu items.
+All Prompts
+Previous
+Next
+Flipped Interaction
+Shift the onus to LLM to ask questions, making user interaction dynamic.
+in this case I am showing only the Chat questions for brevity sake
+"Help me choose a book genre. Start by asking about my reading preferences."
+"Alright, let's begin:"
+Do you prefer fiction or non-fiction?
+1. Fiction
+2. Non-fiction
+Would you like to read a classic novel or something contemporary?",
+1. Classic
+2. Contemporary
+Do you prefer stories set in a realistic world or ones with fantastical elements?
+1. Realistic
+2. Fantastic
+Do you want to dive into a world with magic and wizards or one with mythical creatures and other worlds?",
+1. Magic and Wizards
+2. Mythical Creatures
+Alright, blending the two can be fun!
+Which setting intrigues you more?
+1.  A modern city where the magical world hides in plain sight.
+2. A completely different world or realm where all these elements coexist."
+Based on your preferences, I recommend \"The City We Became\" by N.K. Jemisin. It's a contemporary fantasy novel set in New York City where the city itself comes alive through individual avatars for its different boroughs. It combines elements of urban fantasy, magic, and a touch of Lovecraftian horror, all while commenting on the cultural heartbeat of NYC."
+Inkpromptu Design 2024
+bottom of page

@@ -1,0 +1,46 @@
+Field Project | Portfolio
+top of page
+Sandy Tayts
+Work
+Prompt Methods
+AI-Art
+Resume
+Email
+More
+Use tab to navigate through the menu items.
+Digital Field Project
+Discovery, Buy In
+Process Mapping
+A prominent oil and gas enterprise seeking a digital documentation solution for seamless field communication. The current scenario presented disjointed documentation from engineers, workers, inspectors, and dispatchers, each with varying processes.
+With over 5 source systems, maintaining workflow required navigating multiple platforms. Transactions primarily relied on emails, calls, excel documents and even paper trail, often leading to costly errors.
+Our lead at the client engagement proactively identified the need to digitize field applications. This need emerged outside their ongoing project discussions. Recognizing the opportunity, we began crafting a proposal. A significant challenge was the client's lack of familiarity with design thinking and service design, as design and development were primarily driven by IT.
+Upon collecting initial data, it became imperative to demonstrate the value of service design to the client. To align the project and educate the client, I thoroughly analyzed collected data – including workshop videos, notes, and paperwork. Our team then devised process flows for high-value business processes.
+​
+​
+Our main goal is to bring all the systems together, make work processes smoother, and ensure everyone can collaborate effectively. We're doing this by creating a flexible platform that will be the foundation for a complete digital solution. This solution will make tasks easier for engineers, workers, inspectors, and dispatchers in the oil and gas industry, reducing mistakes and improving communication. Our focus is on making everything work better and helping everyone work together seamlessly.
+Activities Included:
+Initial stakeholder interviews (Business Analyst and Architect)
+Initial user interviews (Business Analyst)
+Business user workshops (Business Analyst)
+Requirements: Goals, Documents, Personas
+Process Diagrams L1 and L2
+​
+LOTO form wizard for easy filing
+Photos and  documents upload
+Offline functionality and draft auto-save
+Contextual help
+Access to LOTO search
+LOTO creation based on the existing LOTO
+Verification and approval process
+ONE application with a single source of data
+Functionality based on persona
+Minimal manual input
+Centralized DB automatically updated real-time
+Identifying a process ripe for improvement, we targeted an easy win and recommended an MVP exercise. Our choice hinged on the process being a prevalent pain point, marked by excessive manual intervention, involving multiple parties, prone to errors, and entangled in numerous systems.
+​
+Encouragingly, the process boasted a Project Owner (PO) who championed digital transformation and embraced risk. Thanks to the PO's groundwork, process steps and involved parties were partially outlined.
+​
+Our proposed MVP approach earned approval, securing funds for a service designer (myself). This marked a pivotal step towards a comprehensive solution.
+User Experience Design
+Inkpromptu Design 2024
+bottom of page

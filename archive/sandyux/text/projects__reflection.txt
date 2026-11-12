@@ -1,0 +1,23 @@
+Reflection | Portfolio
+top of page
+Sandy Tayts
+Work
+Prompt Methods
+AI-Art
+Resume
+Email
+More
+Use tab to navigate through the menu items.
+All Prompts
+Previous
+Next
+Reflection
+Ask LLM to review and introspect its own output, ensuring self-awareness and potential error correction.
+"Explain why you believe the Eiffel Tower is in Paris. Reflect on your reasoning."
+"Certainly! Here's the proof for the Eiffel Tower's location in Paris:
+Historical Records: Historical records confirm that the Eiffel Tower was constructed for the 1889 Exposition Universelle in Paris to celebrate the French Revolution's centenary.
+Geographical Coordinates: The Eiffel Tower's precise geographical coordinates (48.8584° N, 2.2945° E) place it within the city limits of Paris.
+Cultural Icon: The Eiffel Tower is a globally recognized symbol of Paris and is featured prominently in Parisian culture, art, and media.
+Official Recognition: The French government and international authorities officially recognize the Eiffel Tower's location in Paris.
+Inkpromptu Design 2024
+bottom of page

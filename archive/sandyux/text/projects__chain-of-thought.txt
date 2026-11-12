@@ -1,0 +1,23 @@
+Chain of Thought | Portfolio
+top of page
+Sandy Tayts
+Work
+Prompt Methods
+AI-Art
+Resume
+Email
+More
+Use tab to navigate through the menu items.
+All Prompts
+Previous
+Next
+Chain of Thought
+Asking LLM to provide reasoning for the answer in a certain format. Can be very useful in defining results and minimizing hallucinations/lies.
+"I want to forage blueberries in Alaska in December. Tell me if it is good idea, and give me reasoning"
+"Foraging for blueberries in Alaska in December isn't advisable. Here's why:
+1. Seasonality: Blueberries ripen from late June to mid-August. By December, they're gone due to prior harvesting or natural fall.
+2. Climate: December in Alaska is characterized by freezing temperatures and heavy snowfall, making foraging challenging and potentially dangerous.
+3. Daylight Hours: Alaska has extremely limited daylight in December. Some northern parts even experience continuous darkness.
+Conclusion: For a fruitful blueberry foraging in Alaska, plan for the summer months when conditions are more favorable"
+Inkpromptu Design 2024
+bottom of page

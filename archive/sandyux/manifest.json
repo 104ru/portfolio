@@ -1,0 +1,3492 @@
+{
+  "source": "https://www.sandyux.com/",
+  "pages": [
+    {
+      "url": "https://www.sandyux.com/",
+      "html": "pages/home.html",
+      "text": "text/home.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/field",
+      "html": "pages/field.html",
+      "text": "text/field.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/admin-crm",
+      "html": "pages/admin-crm.html",
+      "text": "text/admin-crm.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/dwellersgame",
+      "html": "pages/dwellersgame.html",
+      "text": "text/dwellersgame.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/prompting",
+      "html": "pages/prompting.html",
+      "text": "text/prompting.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/college-portal",
+      "html": "pages/college-portal.html",
+      "text": "text/college-portal.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/lexushybrid",
+      "html": "pages/lexushybrid.html",
+      "text": "text/lexushybrid.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/bigoil",
+      "html": "pages/bigoil.html",
+      "text": "text/bigoil.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/inspect",
+      "html": "pages/inspect.html",
+      "text": "text/inspect.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/art",
+      "html": "pages/art.html",
+      "text": "text/art.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/storytelling",
+      "html": "pages/storytelling.html",
+      "text": "text/storytelling.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/mvno",
+      "html": "pages/mvno.html",
+      "text": "text/mvno.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/glasses",
+      "html": "pages/glasses.html",
+      "text": "text/glasses.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/heelstead",
+      "html": "pages/heelstead.html",
+      "text": "text/heelstead.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/dh",
+      "html": "pages/dh.html",
+      "text": "text/dh.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/frey",
+      "html": "pages/frey.html",
+      "text": "text/frey.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/projects/cognitive-verification-output-",
+      "html": "pages/projects__cognitive-verification-output-.html",
+      "text": "text/projects__cognitive-verification-output-.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/projects/persona-and-audience-persona",
+      "html": "pages/projects__persona-and-audience-persona.html",
+      "text": "text/projects__persona-and-audience-persona.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/projects/semantic-filter",
+      "html": "pages/projects__semantic-filter.html",
+      "text": "text/projects__semantic-filter.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/projects/cognitive-verifier",
+      "html": "pages/projects__cognitive-verifier.html",
+      "text": "text/projects__cognitive-verifier.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/projects/alternative-approaches",
+      "html": "pages/projects__alternative-approaches.html",
+      "text": "text/projects__alternative-approaches.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/projects/reflection",
+      "html": "pages/projects__reflection.html",
+      "text": "text/projects__reflection.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/projects/recipe",
+      "html": "pages/projects__recipe.html",
+      "text": "text/projects__recipe.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/projects/fact-check-list",
+      "html": "pages/projects__fact-check-list.html",
+      "text": "text/projects__fact-check-list.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/projects/question-refinement",
+      "html": "pages/projects__question-refinement.html",
+      "text": "text/projects__question-refinement.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/projects/flipped-interaction",
+      "html": "pages/projects__flipped-interaction.html",
+      "text": "text/projects__flipped-interaction.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/projects/chain-of-thought",
+      "html": "pages/projects__chain-of-thought.html",
+      "text": "text/projects__chain-of-thought.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/projects/meta-language",
+      "html": "pages/projects__meta-language.html",
+      "text": "text/projects__meta-language.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/projects/few-shots",
+      "html": "pages/projects__few-shots.html",
+      "text": "text/projects__few-shots.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/projects/template",
+      "html": "pages/projects__template.html",
+      "text": "text/projects__template.txt"
+    },
+    {
+      "url": "https://www.sandyux.com/projects/context-manager",
+      "html": "pages/projects__context-manager.html",
+      "text": "text/projects__context-manager.txt"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_86d68a8cc5e34706b3118663a3c3391d~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/"
+      ],
+      "path": "assets/78783f22b0-c9a6ed_86d68a8cc5e34706b3118663a3c3391d~mv2.png",
+      "bytes": 1157269,
+      "sha256": "dd1e1064ef8ef8e3e9bb0e55471ba7915efdf4868a940fcbe3217b180171e732"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_a544a8beb5184a8d97b509ca17e33f2f~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/",
+        "https://www.sandyux.com/admin-crm",
+        "https://www.sandyux.com/art",
+        "https://www.sandyux.com/bigoil",
+        "https://www.sandyux.com/college-portal",
+        "https://www.sandyux.com/dh",
+        "https://www.sandyux.com/dwellersgame",
+        "https://www.sandyux.com/field",
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses",
+        "https://www.sandyux.com/heelstead",
+        "https://www.sandyux.com/inspect",
+        "https://www.sandyux.com/lexushybrid",
+        "https://www.sandyux.com/mvno",
+        "https://www.sandyux.com/projects/alternative-approaches",
+        "https://www.sandyux.com/projects/chain-of-thought",
+        "https://www.sandyux.com/projects/cognitive-verification-output-",
+        "https://www.sandyux.com/projects/cognitive-verifier",
+        "https://www.sandyux.com/projects/context-manager",
+        "https://www.sandyux.com/projects/fact-check-list",
+        "https://www.sandyux.com/projects/few-shots",
+        "https://www.sandyux.com/projects/flipped-interaction",
+        "https://www.sandyux.com/projects/meta-language",
+        "https://www.sandyux.com/projects/persona-and-audience-persona",
+        "https://www.sandyux.com/projects/question-refinement",
+        "https://www.sandyux.com/projects/recipe",
+        "https://www.sandyux.com/projects/reflection",
+        "https://www.sandyux.com/projects/semantic-filter",
+        "https://www.sandyux.com/projects/template",
+        "https://www.sandyux.com/prompting",
+        "https://www.sandyux.com/storytelling"
+      ],
+      "path": "assets/1c8e4e9739-c9a6ed_a544a8beb5184a8d97b509ca17e33f2f~mv2.png",
+      "bytes": 7386,
+      "sha256": "cc85395b28fe9e39a1bb31e990374a6d39a7f86de4e30adf1a6b306caf4477b8"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_a544a8beb5184a8d97b509ca17e33f2f%7Emv2.png",
+      "sources": [
+        "https://www.sandyux.com/",
+        "https://www.sandyux.com/admin-crm",
+        "https://www.sandyux.com/art",
+        "https://www.sandyux.com/bigoil",
+        "https://www.sandyux.com/college-portal",
+        "https://www.sandyux.com/dh",
+        "https://www.sandyux.com/dwellersgame",
+        "https://www.sandyux.com/field",
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses",
+        "https://www.sandyux.com/heelstead",
+        "https://www.sandyux.com/inspect",
+        "https://www.sandyux.com/lexushybrid",
+        "https://www.sandyux.com/mvno",
+        "https://www.sandyux.com/projects/alternative-approaches",
+        "https://www.sandyux.com/projects/chain-of-thought",
+        "https://www.sandyux.com/projects/cognitive-verification-output-",
+        "https://www.sandyux.com/projects/cognitive-verifier",
+        "https://www.sandyux.com/projects/context-manager",
+        "https://www.sandyux.com/projects/fact-check-list",
+        "https://www.sandyux.com/projects/few-shots",
+        "https://www.sandyux.com/projects/flipped-interaction",
+        "https://www.sandyux.com/projects/meta-language",
+        "https://www.sandyux.com/projects/persona-and-audience-persona",
+        "https://www.sandyux.com/projects/question-refinement",
+        "https://www.sandyux.com/projects/recipe",
+        "https://www.sandyux.com/projects/reflection",
+        "https://www.sandyux.com/projects/semantic-filter",
+        "https://www.sandyux.com/projects/template",
+        "https://www.sandyux.com/prompting",
+        "https://www.sandyux.com/storytelling"
+      ],
+      "path": "assets/ed72cb208b-c9a6ed_a544a8beb5184a8d97b509ca17e33f2f_7Emv2.png",
+      "bytes": 7386,
+      "sha256": "cc85395b28fe9e39a1bb31e990374a6d39a7f86de4e30adf1a6b306caf4477b8"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_074c9f07a7e748f78235acd54ac82170~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/",
+        "https://www.sandyux.com/college-portal"
+      ],
+      "path": "assets/6fbca19926-c9a6ed_074c9f07a7e748f78235acd54ac82170~mv2.jpg",
+      "bytes": 2908817,
+      "sha256": "dbed8ad4e8701b18247fc02577c4dd2d4fbb3e63092c201d9562b41cc26983d9"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_013dd102261f4532b5ad3906a41ff060~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/",
+        "https://www.sandyux.com/heelstead"
+      ],
+      "path": "assets/100ead3712-c9a6ed_013dd102261f4532b5ad3906a41ff060~mv2.jpg",
+      "bytes": 2472510,
+      "sha256": "c3716296fa3b29a5dfd7436f1147ef24aca56e3e715988e10dee21329e11d1ab"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_520e1c0d7f2b4757804a9c45eba0b969~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/"
+      ],
+      "path": "assets/c213d7b486-c9a6ed_520e1c0d7f2b4757804a9c45eba0b969~mv2.jpg",
+      "bytes": 324941,
+      "sha256": "473e63a6f4123e37d223f662624ea10422f9cfc120693b8064f9dc7742bed262"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_7897d465dc6544039e0c661427f98026~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/"
+      ],
+      "path": "assets/e1df64e901-c9a6ed_7897d465dc6544039e0c661427f98026~mv2.png",
+      "bytes": 2692255,
+      "sha256": "15500a8cc89672aea8e4e82740aaa7dd2f964a441048142858eab995ed1b2e01"
+    },
+    {
+      "url": "https://c9a6ed89-1f43-4634-8b77-551497c96d31.usrfiles.com/ugd/c9a6ed_4545f8b8a4c74aa4a8e6568bb8775d5f.pdf",
+      "sources": [
+        "https://www.sandyux.com/"
+      ],
+      "path": "assets/28d05087cb-c9a6ed_4545f8b8a4c74aa4a8e6568bb8775d5f.pdf",
+      "bytes": 8882448,
+      "sha256": "3d7772e1e7ce7b2be7bc9b235adffef6d90512a2be4b42637b650fb4776b6205"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_70e89ebae25a49e297f5d7115eafaf71~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/"
+      ],
+      "path": "assets/7c9c08f173-c9a6ed_70e89ebae25a49e297f5d7115eafaf71~mv2.jpg",
+      "bytes": 3210345,
+      "sha256": "b791b91655da7da82ef0dc94dcb8e24671e6ba2be4171aea320e6164494fbae2"
+    },
+    {
+      "url": "https://c9a6ed89-1f43-4634-8b77-551497c96d31.usrfiles.com/ugd/c9a6ed_a4608c4b6ad44c8098ee304ca94ff439.pdf",
+      "sources": [
+        "https://www.sandyux.com/",
+        "https://www.sandyux.com/admin-crm",
+        "https://www.sandyux.com/art",
+        "https://www.sandyux.com/bigoil",
+        "https://www.sandyux.com/college-portal",
+        "https://www.sandyux.com/dh",
+        "https://www.sandyux.com/dwellersgame",
+        "https://www.sandyux.com/field",
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses",
+        "https://www.sandyux.com/heelstead",
+        "https://www.sandyux.com/inspect",
+        "https://www.sandyux.com/lexushybrid",
+        "https://www.sandyux.com/mvno",
+        "https://www.sandyux.com/projects/alternative-approaches",
+        "https://www.sandyux.com/projects/chain-of-thought",
+        "https://www.sandyux.com/projects/cognitive-verification-output-",
+        "https://www.sandyux.com/projects/cognitive-verifier",
+        "https://www.sandyux.com/projects/context-manager",
+        "https://www.sandyux.com/projects/fact-check-list",
+        "https://www.sandyux.com/projects/few-shots",
+        "https://www.sandyux.com/projects/flipped-interaction",
+        "https://www.sandyux.com/projects/meta-language",
+        "https://www.sandyux.com/projects/persona-and-audience-persona",
+        "https://www.sandyux.com/projects/question-refinement",
+        "https://www.sandyux.com/projects/recipe",
+        "https://www.sandyux.com/projects/reflection",
+        "https://www.sandyux.com/projects/semantic-filter",
+        "https://www.sandyux.com/projects/template",
+        "https://www.sandyux.com/prompting",
+        "https://www.sandyux.com/storytelling"
+      ],
+      "path": "assets/c122167bcf-c9a6ed_a4608c4b6ad44c8098ee304ca94ff439.pdf",
+      "bytes": 132762,
+      "sha256": "c9479a3ad8a15003f89729d3b53d852293acf226023874160b92c56accfe4364"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_2f503e935880412ebd9785edf6bcaed0~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/"
+      ],
+      "path": "assets/d6f3edde8d-c9a6ed_2f503e935880412ebd9785edf6bcaed0~mv2.jpg",
+      "bytes": 1639383,
+      "sha256": "b5ee61c1cfffeb7a74c8dff07af7b101870bfbe30ce2159b187885f8504bccf4"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_9995e39f24ed4f99b2ed5a2f9b9b4afa~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/",
+        "https://www.sandyux.com/admin-crm",
+        "https://www.sandyux.com/art",
+        "https://www.sandyux.com/bigoil",
+        "https://www.sandyux.com/college-portal",
+        "https://www.sandyux.com/dh",
+        "https://www.sandyux.com/dwellersgame",
+        "https://www.sandyux.com/field",
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses",
+        "https://www.sandyux.com/heelstead",
+        "https://www.sandyux.com/inspect",
+        "https://www.sandyux.com/lexushybrid",
+        "https://www.sandyux.com/mvno",
+        "https://www.sandyux.com/projects/alternative-approaches",
+        "https://www.sandyux.com/projects/chain-of-thought",
+        "https://www.sandyux.com/projects/cognitive-verification-output-",
+        "https://www.sandyux.com/projects/cognitive-verifier",
+        "https://www.sandyux.com/projects/context-manager",
+        "https://www.sandyux.com/projects/fact-check-list",
+        "https://www.sandyux.com/projects/few-shots",
+        "https://www.sandyux.com/projects/flipped-interaction",
+        "https://www.sandyux.com/projects/meta-language",
+        "https://www.sandyux.com/projects/persona-and-audience-persona",
+        "https://www.sandyux.com/projects/question-refinement",
+        "https://www.sandyux.com/projects/recipe",
+        "https://www.sandyux.com/projects/reflection",
+        "https://www.sandyux.com/projects/semantic-filter",
+        "https://www.sandyux.com/projects/template",
+        "https://www.sandyux.com/prompting",
+        "https://www.sandyux.com/storytelling"
+      ],
+      "path": "assets/7fa94096f2-c9a6ed_9995e39f24ed4f99b2ed5a2f9b9b4afa~mv2.png",
+      "bytes": 5509,
+      "sha256": "171d0d1ce58e5c77fe0c12286b8887a6a29c44b2ce0f10c06a02dac1846fa302"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_f0b5b673a36a4189a49008f73f585964~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/"
+      ],
+      "path": "assets/c410e4fcfa-c9a6ed_f0b5b673a36a4189a49008f73f585964~mv2.webp",
+      "bytes": 218830,
+      "sha256": "a16cfec3a219ca37476ff87a1f53e964ff5889ff470ea53f5013b5405fa72bfd"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_c544b2ff371141fc953e5290e453c166~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/"
+      ],
+      "path": "assets/481e75c62c-c9a6ed_c544b2ff371141fc953e5290e453c166~mv2.webp",
+      "bytes": 132794,
+      "sha256": "7265d53ea17cc65bce8283b81c44fe6d1d7a13f327523b5aef8f594a9a074c56"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_e142d6fd8dd948b38945b3a744041d94~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/field"
+      ],
+      "path": "assets/ed34bfe83c-c9a6ed_e142d6fd8dd948b38945b3a744041d94~mv2.png",
+      "bytes": 4146494,
+      "sha256": "012d40668e0830c4a151a255e87935372b0e5eb242a266f55b592cffb0ee9101"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_d58da8fd2a8548709135b01180f74619~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/field"
+      ],
+      "path": "assets/a44c9a96e0-c9a6ed_d58da8fd2a8548709135b01180f74619~mv2.png",
+      "bytes": 671460,
+      "sha256": "5dd43406ba9c4afd24f95b3987287faac0c6ee88e44a6f7e368ad65100a0eb16"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_b9cb149023f54be799136b889c903c52~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/field"
+      ],
+      "path": "assets/14569be6ba-c9a6ed_b9cb149023f54be799136b889c903c52~mv2.png",
+      "bytes": 413572,
+      "sha256": "ef1b618a92ffb88f339abd2b582d58a36305dd4fbbb92bdf70ffcfa78c47d678"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_203bc8c1c6984be09f38cfbce1100b69~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/field"
+      ],
+      "path": "assets/5119b736f1-c9a6ed_203bc8c1c6984be09f38cfbce1100b69~mv2.png",
+      "bytes": 383388,
+      "sha256": "edbe25164ed39d3dd126ac13cb08a3147463fd788cb65173baec60c769f188c6"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_71ef127f756b4a35897a017364c383bf~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/field"
+      ],
+      "path": "assets/ded47d0669-c9a6ed_71ef127f756b4a35897a017364c383bf~mv2.png",
+      "bytes": 1554960,
+      "sha256": "c86f4e2429de1c5825b6c6d925e8729d31a1f88d23dbb116ccd7fe9680e0a8c2"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_2d0e9b85ec344fe88fdf98f8835fbc15~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/field"
+      ],
+      "path": "assets/f2b69d94f3-c9a6ed_2d0e9b85ec344fe88fdf98f8835fbc15~mv2.png",
+      "bytes": 1222991,
+      "sha256": "b425b050501887ba455fad59106e93baa7d0ac49d73c3711d8d31e972c791047"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_f4c818da53124bfeb2b2f25f1dc94bf4~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/field"
+      ],
+      "path": "assets/1908f1feff-c9a6ed_f4c818da53124bfeb2b2f25f1dc94bf4~mv2.png",
+      "bytes": 790974,
+      "sha256": "b1436011ae579bf415c134527f9d71631bc4ed1801f8752882f3acd260399178"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_b0fb8c48714e44f5a3692c27b63be1a8~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/field"
+      ],
+      "path": "assets/807c2a4739-c9a6ed_b0fb8c48714e44f5a3692c27b63be1a8~mv2.png",
+      "bytes": 58537,
+      "sha256": "93c287e14fd726d05d4e14b5bff3389a367be670a5435da6b20d13fbcac1a70d"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_8d15ad42d296485d8e6ac286b333637a~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/field"
+      ],
+      "path": "assets/aefca5ef6b-c9a6ed_8d15ad42d296485d8e6ac286b333637a~mv2.png",
+      "bytes": 731397,
+      "sha256": "0c2ac3a6d5991f8cbbad99d27559152837c21523c287e90f317114353f9408e9"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_c24d9b7f7f334796b32a2afb556f6a90~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/field"
+      ],
+      "path": "assets/0cdeb0a448-c9a6ed_c24d9b7f7f334796b32a2afb556f6a90~mv2.png",
+      "bytes": 660039,
+      "sha256": "51a3c019ac9ef9e994684d02cc7028968bce0d74c08db4077cd6d11aa9de5da5"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_61625d5864e74e1889474e36d68c95fa~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/field"
+      ],
+      "path": "assets/7765a92cfa-c9a6ed_61625d5864e74e1889474e36d68c95fa~mv2.png",
+      "bytes": 1879650,
+      "sha256": "3104afce1ba72e237d2cac64f42d7a8767b80d589b5139fcdb82adae4ba968ed"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_08d6d95ef47741bd92b9585feb1a61d4~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/field"
+      ],
+      "path": "assets/db5c9183a2-c9a6ed_08d6d95ef47741bd92b9585feb1a61d4~mv2.png",
+      "bytes": 1473090,
+      "sha256": "09377b2e65670727778fd1fce6df457e8e4649ee06ba1ea3292ae55b6dc6612c"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_ea73dfa940be4bd39b18060bb40287b5~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/field"
+      ],
+      "path": "assets/1215052b9d-c9a6ed_ea73dfa940be4bd39b18060bb40287b5~mv2.jpg",
+      "bytes": 177623,
+      "sha256": "2f7bee4636b146e1d39e6bb5102ea99ef19634b5dc874aee0e7285dde59b347a"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_e7612299cbbd4d70a80b56b537abd4b0~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/field"
+      ],
+      "path": "assets/f71cdfca22-c9a6ed_e7612299cbbd4d70a80b56b537abd4b0~mv2.png",
+      "bytes": 486546,
+      "sha256": "a661e5e345d016db0eb9bf3ec2cb37d8da70f81194db94e85a869fbe0999ce8e"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_ce9844eec57e4406b118ea35d1cb41bd~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/field"
+      ],
+      "path": "assets/ed0f57ba94-c9a6ed_ce9844eec57e4406b118ea35d1cb41bd~mv2.png",
+      "bytes": 753648,
+      "sha256": "195d3a168adf7b03fe4f02fe744ac87639ca64c189c615938bc2801b7941a421"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_4ed4987cb61d4fa5a2aa461595a7261e~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/field"
+      ],
+      "path": "assets/bd75884fb2-c9a6ed_4ed4987cb61d4fa5a2aa461595a7261e~mv2.png",
+      "bytes": 2398163,
+      "sha256": "b403472f911b65e244b13f208af0d6da64172374dea1e0d99bbae442e00dee70"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_74fceae1ce7c455bb3e9b24ddb6f64d8~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/field"
+      ],
+      "path": "assets/701e9640d6-c9a6ed_74fceae1ce7c455bb3e9b24ddb6f64d8~mv2.png",
+      "bytes": 663311,
+      "sha256": "34e6c65d17f11726f28dd16f5a0b9d506223e396566f4e01a23026568eb39524"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_60d9f16d1e874859ae226e8f47255916~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/field"
+      ],
+      "path": "assets/41beb93751-c9a6ed_60d9f16d1e874859ae226e8f47255916~mv2.jpg",
+      "bytes": 173458,
+      "sha256": "b7899cf4c0ed29b8bab9bb496c38269149cb332b5784675a9f4de8f635b59f54"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_942af0e8572a44bda63acf4096d045ce~mv2.gif",
+      "sources": [
+        "https://www.sandyux.com/field"
+      ],
+      "path": "assets/7b094716c8-c9a6ed_942af0e8572a44bda63acf4096d045ce~mv2.gif",
+      "bytes": 2479741,
+      "sha256": "dd323ebbb62a0ecbbd5a1c8850cfcc26bdbb8d0f439e06cd5d5726d5c64bc09c"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_6987db3b881745ca862627fabfc74c8e~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/field"
+      ],
+      "path": "assets/edf4a1104f-c9a6ed_6987db3b881745ca862627fabfc74c8e~mv2.png",
+      "bytes": 671460,
+      "sha256": "5dd43406ba9c4afd24f95b3987287faac0c6ee88e44a6f7e368ad65100a0eb16"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_3cbea87f7a6b4e84a146f11838921927~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/admin-crm"
+      ],
+      "path": "assets/3fc58fa08c-c9a6ed_3cbea87f7a6b4e84a146f11838921927~mv2.jpg",
+      "bytes": 70828,
+      "sha256": "6e11e65a067923565d73b273ded51ed9e3863b74dd21d826bf8b8df6658fbfcf"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_18fa153fa57f48699bea52575e2a9ed7~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/admin-crm"
+      ],
+      "path": "assets/ebc704801a-c9a6ed_18fa153fa57f48699bea52575e2a9ed7~mv2.jpg",
+      "bytes": 333533,
+      "sha256": "aad3041254a685921eb90c9343c47e2d5a8d7e45834a0d13c565a2541327c249"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_e829a2d9739e430999c9040afdd33d51~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/admin-crm"
+      ],
+      "path": "assets/e6959658f1-c9a6ed_e829a2d9739e430999c9040afdd33d51~mv2.jpg",
+      "bytes": 253583,
+      "sha256": "ed7e62df9149a2bafa3e5bd74db2964397a52cdf1de8a8c7d040c347a05b03a0"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_868f726065ae4b4dada55ee2798acfb8~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/admin-crm"
+      ],
+      "path": "assets/1ebe94be71-c9a6ed_868f726065ae4b4dada55ee2798acfb8~mv2.jpg",
+      "bytes": 193920,
+      "sha256": "247dee27ed4eebbfd1394180082ab484f440ee907bb3d0f1b6800d852b6ea6c0"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_f0efabcd66b0439f8dfac6ba8aeccad8~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/admin-crm"
+      ],
+      "path": "assets/14a16b74a5-c9a6ed_f0efabcd66b0439f8dfac6ba8aeccad8~mv2.jpg",
+      "bytes": 226574,
+      "sha256": "9ad3a26ef0f56d63b2b7d5eec33d034cc1a5300dab61bb3695168312ee513cd5"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_9704189b0ab741a8a60b514708021d23~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/admin-crm"
+      ],
+      "path": "assets/f20c7885d5-c9a6ed_9704189b0ab741a8a60b514708021d23~mv2.jpg",
+      "bytes": 181481,
+      "sha256": "576c70e046e54a775d95dce9a2599f4d9ebfbb13d42ab49187c8e53bc8e5100a"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_16d866e768fc4dca8ad9d44bb2d66b8f~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/admin-crm"
+      ],
+      "path": "assets/0a3249be14-c9a6ed_16d866e768fc4dca8ad9d44bb2d66b8f~mv2.png",
+      "bytes": 5407,
+      "sha256": "c3ac6febe9e2f39146cc698c5ebc8116b805b0aa0152f32b795e90d813e91fbf"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_f5f16572aacc4209897fdf49294cd9ca~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/admin-crm"
+      ],
+      "path": "assets/f3a8f2cf96-c9a6ed_f5f16572aacc4209897fdf49294cd9ca~mv2.jpg",
+      "bytes": 133299,
+      "sha256": "66aca9ba87ac6b752c2775b66e27d24089f19ac26bfcee15e69545f968989046"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_eab75c29c53446d29c5821bf49e08423~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/admin-crm"
+      ],
+      "path": "assets/a06bc37cc0-c9a6ed_eab75c29c53446d29c5821bf49e08423~mv2.jpg",
+      "bytes": 138472,
+      "sha256": "1f5e293b52ff1972d60a47954ce835a38e9ff7f90c7a0bc80c5be104d0b4e9ae"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_2da2a87b9bb24b88b2ffbc6cd8a2a346~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/admin-crm"
+      ],
+      "path": "assets/28e648d001-c9a6ed_2da2a87b9bb24b88b2ffbc6cd8a2a346~mv2.jpg",
+      "bytes": 106132,
+      "sha256": "19878983dbf85292b2c5fce80da023ab1ac2d3a5b56f1c88bfe25c6adf6811ad"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_fbfcc60de2a94bfbb9104d20e50e8459~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/admin-crm"
+      ],
+      "path": "assets/145c437910-c9a6ed_fbfcc60de2a94bfbb9104d20e50e8459~mv2.jpg",
+      "bytes": 317678,
+      "sha256": "87633368390972599217000ab20c224b6128d55610b3250104d2e08ef3343b5f"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_41365cb9319e4332acd92556cc203d56~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/admin-crm"
+      ],
+      "path": "assets/12d6ed8791-c9a6ed_41365cb9319e4332acd92556cc203d56~mv2.jpg",
+      "bytes": 125310,
+      "sha256": "633569688435add2d4bc3b1bbfbf26f1117c6e7a7d7b92fd6a6a80330e5f3fa4"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_859256a14287491c92559b3c59dadfd9~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/admin-crm"
+      ],
+      "path": "assets/18fd6706c7-c9a6ed_859256a14287491c92559b3c59dadfd9~mv2.jpg",
+      "bytes": 263408,
+      "sha256": "57bd85da1ad9aef901eb130a361df0ce75d19de8267beec8571b44ca4fa92d85"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_ec813c36da414bd1aae171df430b483e~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/admin-crm"
+      ],
+      "path": "assets/abcc01c6a1-c9a6ed_ec813c36da414bd1aae171df430b483e~mv2.jpg",
+      "bytes": 92486,
+      "sha256": "8fe2d730075148866c923ae59465c59d13d2e93dd6d13f69b5a3ccb5de386586"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_111ef20d87fd444a99d72297b5dc9206~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/admin-crm"
+      ],
+      "path": "assets/66556cc268-c9a6ed_111ef20d87fd444a99d72297b5dc9206~mv2.jpg",
+      "bytes": 281536,
+      "sha256": "6f65cf94bd1da4f8dfa150eb2b7feb4fc26eb0ff3ac754fc70f143ce5f03da5f"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_103b94ba9aaf4bcea4aeb07ddf48a5c2~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/admin-crm"
+      ],
+      "path": "assets/47f7362d5f-c9a6ed_103b94ba9aaf4bcea4aeb07ddf48a5c2~mv2.jpg",
+      "bytes": 227708,
+      "sha256": "0800a48fbe43e84408604e0bdfd71bf1fc6e407d1a262ed5e20721223ea21948"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_f2196b18e7ff4705adb6690a7b729ed5~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/admin-crm"
+      ],
+      "path": "assets/8b07d3e71a-c9a6ed_f2196b18e7ff4705adb6690a7b729ed5~mv2.jpg",
+      "bytes": 190332,
+      "sha256": "2e95904fb3ff8f8cdce768220e2f6ca13af8bfff9ddf8e67c594f73182815cb4"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_811aedb041434376afc88c4090cbcb62~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/admin-crm"
+      ],
+      "path": "assets/13b0d89cae-c9a6ed_811aedb041434376afc88c4090cbcb62~mv2.jpg",
+      "bytes": 220670,
+      "sha256": "c93c32163a34238c3feefd9d761ab8874ceac4d4eebd52de59f689714cf28ba6"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_8d4ea515e0fc4fc9bc65956bec092235~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/admin-crm"
+      ],
+      "path": "assets/3bd0388c8b-c9a6ed_8d4ea515e0fc4fc9bc65956bec092235~mv2.jpg",
+      "bytes": 228028,
+      "sha256": "7d3ccf9894b7e487f1b840ce54cb49eaaa696398914982f3a741dd00381bb4fa"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_f1b8b868d71d477a915c3cfc5746f228~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/admin-crm"
+      ],
+      "path": "assets/d5d87349e6-c9a6ed_f1b8b868d71d477a915c3cfc5746f228~mv2.jpg",
+      "bytes": 136305,
+      "sha256": "dafb71de19c40cc40db535b5cef21adcb67cee1aed2a6cfe7f0c9fc70cf1ba57"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_7557788f67404315b40e0cfb89cbc034~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/dwellersgame"
+      ],
+      "path": "assets/2f9cdc6974-c9a6ed_7557788f67404315b40e0cfb89cbc034~mv2.jpg",
+      "bytes": 29409,
+      "sha256": "05215b4f48aa9f0a85384060d60c3966c072536760d07b50981bada016e156f4"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_2af4de784fc64b8597926800f5fd007f~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/dwellersgame"
+      ],
+      "path": "assets/0a3e422caf-c9a6ed_2af4de784fc64b8597926800f5fd007f~mv2.png",
+      "bytes": 288282,
+      "sha256": "3609c8bb2be1b84e2bae055d2a9edbe83fefbd8f5e49ed7d974b1daa91693208"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_fe8b92bbce3346e3a9e84d78ff2f8974~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/dwellersgame"
+      ],
+      "path": "assets/0453e80b40-c9a6ed_fe8b92bbce3346e3a9e84d78ff2f8974~mv2.png",
+      "bytes": 119536,
+      "sha256": "8cb35c01ee8fdb2516c6ac8e757332627aaf1983f9fb453c243967b2a2de69f4"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_8e70af44843f4b97b9cf9ba03746f613~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/dwellersgame"
+      ],
+      "path": "assets/e38e211e2c-c9a6ed_8e70af44843f4b97b9cf9ba03746f613~mv2.png",
+      "bytes": 1557979,
+      "sha256": "6c22cc6de45b9ae862cdb25c4543aecfd727005f73ac849f666075db05ebe9ba"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_dccd8cf1e2e24797aac91476c3a6cec5~mv2_d_2448_2448_s_4_2.jpg",
+      "sources": [
+        "https://www.sandyux.com/dwellersgame"
+      ],
+      "path": "assets/27425bb77c-c9a6ed_dccd8cf1e2e24797aac91476c3a6cec5~mv2_d_2448_2448_s_4_2.jpg",
+      "bytes": 1198462,
+      "sha256": "4eb2fed50c2a1965f689916bbab5eeb77de539a50b07c45e37063ffee5d15e48"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_950caec5437d4faab81593626e8d3394~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/dwellersgame"
+      ],
+      "path": "assets/b49c07b7d6-c9a6ed_950caec5437d4faab81593626e8d3394~mv2.jpg",
+      "bytes": 110123,
+      "sha256": "249d8f2fa52d506763711289e41eec01d5b26bb232b95104ae503fe57d2adbf6"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_ec3638f1b1a44ccf9ecad5bf1db62f4c~mv2_d_2352_1470_s_2.png",
+      "sources": [
+        "https://www.sandyux.com/dwellersgame"
+      ],
+      "path": "assets/3d05b87aad-c9a6ed_ec3638f1b1a44ccf9ecad5bf1db62f4c~mv2_d_2352_1470_s_2.png",
+      "error": "curl: (56) The requested URL returned error: 403"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_d8041257bb5e40cb84fe24200e20b4c9~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/dwellersgame"
+      ],
+      "path": "assets/8f26033f61-c9a6ed_d8041257bb5e40cb84fe24200e20b4c9~mv2.jpg",
+      "bytes": 111879,
+      "sha256": "dfd1286192231d0479f87a3ffd92e52a0e8895e53b4ed5a70f9df3eba513f305"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_77d45f0555614864852bcbb2d758a1f0~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/dwellersgame"
+      ],
+      "path": "assets/92aa54804c-c9a6ed_77d45f0555614864852bcbb2d758a1f0~mv2.jpg",
+      "bytes": 122275,
+      "sha256": "205e383030037bcf97f6ba34628e15f01a2682f8a366235ffd56f76d5c61d438"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_7bb7908c9bd74c5894ce3990236abb0c~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/dwellersgame"
+      ],
+      "path": "assets/051379cd72-c9a6ed_7bb7908c9bd74c5894ce3990236abb0c~mv2.png",
+      "bytes": 333671,
+      "sha256": "f4b41f86b22b72dc87bba23a27a8ea33f6f1c2f770e6cbdc0dc3a3cf82803e90"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_ccd6a5fe82d043ff984651c081ed0353~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/dwellersgame"
+      ],
+      "path": "assets/2b29bdbae4-c9a6ed_ccd6a5fe82d043ff984651c081ed0353~mv2.png",
+      "error": "curl: (56) The requested URL returned error: 403"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_3164f3de7e2a4958984ee6f32f274593%7Emv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/dwellersgame",
+        "https://www.sandyux.com/lexushybrid",
+        "https://www.sandyux.com/prompting"
+      ],
+      "path": "assets/45f60cfd68-c9a6ed_3164f3de7e2a4958984ee6f32f274593_7Emv2.jpg",
+      "bytes": 163861,
+      "sha256": "64c452c6d133d48869c7693ee5f02b9e5c915292f31d5ca8556f38edfeee2082"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_5ec02eccce124857beebd0473c5a4997~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/projects/template",
+        "https://www.sandyux.com/prompting"
+      ],
+      "path": "assets/abfbf91789-c9a6ed_5ec02eccce124857beebd0473c5a4997~mv2.jpg",
+      "bytes": 165469,
+      "sha256": "8018d19cdd90bc8e33b3bae5d9ab177323834d93ffa0da6ab7ddf37511060d1b"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_be688bac09594f4e8bff40b236e86db3~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/projects/semantic-filter",
+        "https://www.sandyux.com/prompting"
+      ],
+      "path": "assets/1a9d55294e-c9a6ed_be688bac09594f4e8bff40b236e86db3~mv2.jpg",
+      "bytes": 193087,
+      "sha256": "b2f068587651db69847338e7d56161c7fa7015e3f1d274d2e59a7d9bec30a44c"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_804475d246ee4dfb87476bc8b607d743~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/projects/persona-and-audience-persona",
+        "https://www.sandyux.com/prompting"
+      ],
+      "path": "assets/cf4772978c-c9a6ed_804475d246ee4dfb87476bc8b607d743~mv2.jpg",
+      "bytes": 116732,
+      "sha256": "334feb6946ea8b455001d11c025c54aea467588a109f4e02c8849e3c53db91de"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_dcf8f9ba82db40e9a01dd7e3e8d7d6a8~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/projects/cognitive-verifier",
+        "https://www.sandyux.com/prompting"
+      ],
+      "path": "assets/49f7d18b57-c9a6ed_dcf8f9ba82db40e9a01dd7e3e8d7d6a8~mv2.jpg",
+      "bytes": 291878,
+      "sha256": "0c57d25984172c76a745edb7541a39ea40ab3de19221d8a0cc0cf78629c6e4aa"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_fbb3a93d70314fb2bbb55301b077cdfc~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/prompting"
+      ],
+      "path": "assets/5f570f1365-c9a6ed_fbb3a93d70314fb2bbb55301b077cdfc~mv2.png",
+      "bytes": 1304859,
+      "sha256": "d26e39ea71a1e42919314958cc07710fdb00baf2ab3f2a281de3d3235f38c579"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_ab0491e4d0574957b5bf7092be3335a7~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/projects/reflection",
+        "https://www.sandyux.com/prompting"
+      ],
+      "path": "assets/98a0315793-c9a6ed_ab0491e4d0574957b5bf7092be3335a7~mv2.jpg",
+      "bytes": 263011,
+      "sha256": "9c7a17e97eb4d439c1d5e051f3474426b541fe16415d2650e2cb8666938e6855"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_e8d6cd98acef4ee9803dd7c77f9d21c6~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/projects/few-shots",
+        "https://www.sandyux.com/prompting"
+      ],
+      "path": "assets/c4d5a5820f-c9a6ed_e8d6cd98acef4ee9803dd7c77f9d21c6~mv2.jpg",
+      "bytes": 114071,
+      "sha256": "8483d25b8f1f31e77e21ea3ac5a3ce410c1a0b1965ca8b3fc142052772bba401"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_6912e2b4c68f417cb4291b8931c6579b~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/projects/context-manager",
+        "https://www.sandyux.com/prompting"
+      ],
+      "path": "assets/86278b5894-c9a6ed_6912e2b4c68f417cb4291b8931c6579b~mv2.jpg",
+      "bytes": 513981,
+      "sha256": "e284235e2a2d0855cab423f3251a16a76bcfa5ac170329d571ca8d324b6202e4"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_8c7668d484c346b5bd349b44dd20d8b7~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/projects/meta-language",
+        "https://www.sandyux.com/prompting"
+      ],
+      "path": "assets/2d4ee6c09a-c9a6ed_8c7668d484c346b5bd349b44dd20d8b7~mv2.jpg",
+      "bytes": 242981,
+      "sha256": "8c80698f6a5acb183724373777991014e2c226781ee43682b27753b591e59f4a"
+    },
+    {
+      "url": "https://c9a6ed89-1f43-4634-8b77-551497c96d31.usrfiles.com/ugd/c9a6ed_cc60d087cb3d4589a1478e279f9c24d2.pdf",
+      "sources": [
+        "https://www.sandyux.com/prompting"
+      ],
+      "path": "assets/0a1aeb08cc-c9a6ed_cc60d087cb3d4589a1478e279f9c24d2.pdf",
+      "bytes": 89574,
+      "sha256": "d98a746d40b2dceb2a3336ff1faffc8e667bb8672d47691958bb8b9d04469371"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_79a6650c447b4332adaecfed46a1dc69~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/projects/recipe",
+        "https://www.sandyux.com/prompting"
+      ],
+      "path": "assets/296164fccf-c9a6ed_79a6650c447b4332adaecfed46a1dc69~mv2.jpg",
+      "bytes": 179425,
+      "sha256": "0e0d9c887400e1145bb953f8550f1ec9c20a4ed9fb2bcda512e71f1c5bfc5497"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_a14a1ec4f335448492fc1dbbd29358d2~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/projects/question-refinement",
+        "https://www.sandyux.com/prompting"
+      ],
+      "path": "assets/98e8e04b57-c9a6ed_a14a1ec4f335448492fc1dbbd29358d2~mv2.jpg",
+      "bytes": 174165,
+      "sha256": "e92573ae8dd11db7dc11b474c76c9f0f0d60fdbccbeeb2375f9befed8fc3db98"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_cc2f528fcb3b4215ae24f1bfee62854b~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/projects/cognitive-verification-output-",
+        "https://www.sandyux.com/prompting"
+      ],
+      "path": "assets/a4ea9474cb-c9a6ed_cc2f528fcb3b4215ae24f1bfee62854b~mv2.jpg",
+      "bytes": 132986,
+      "sha256": "0abad6010d5a4656d5ff2cec1fc22ed75b88e8ea9b3ced504b7b51e1d293770e"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_cec2c73785a84215b5b125d86866f375~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/projects/flipped-interaction",
+        "https://www.sandyux.com/prompting"
+      ],
+      "path": "assets/a76a688255-c9a6ed_cec2c73785a84215b5b125d86866f375~mv2.jpg",
+      "bytes": 150793,
+      "sha256": "d3f0ef96f4197c8a0389ce3ff44c315a451fc912830a52c183d3c68605550c24"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_43e596a3a83d49bbac158ac82b1b4b49~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/projects/fact-check-list",
+        "https://www.sandyux.com/prompting"
+      ],
+      "path": "assets/9f63a2c8d0-c9a6ed_43e596a3a83d49bbac158ac82b1b4b49~mv2.jpg",
+      "bytes": 131070,
+      "sha256": "26493828de504cbbdcd11057cd8c1215b22874e6f1986c54ea0787f080ea055f"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_f00f2cffa5fc416795587e4394ea0b36~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/projects/alternative-approaches",
+        "https://www.sandyux.com/prompting"
+      ],
+      "path": "assets/a5db455b07-c9a6ed_f00f2cffa5fc416795587e4394ea0b36~mv2.jpg",
+      "bytes": 154988,
+      "sha256": "c514aa844ebec4c785d17ea756478199e9021ffffc11354162a75f52d76aee54"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_e7f1a8149eb74cecb11e508506d7a307~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/projects/chain-of-thought",
+        "https://www.sandyux.com/prompting"
+      ],
+      "path": "assets/e76181e523-c9a6ed_e7f1a8149eb74cecb11e508506d7a307~mv2.jpg",
+      "bytes": 202655,
+      "sha256": "5d77a4daa819003737499ac202e5d003973efde29fa45988df0fda353538a781"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_070b98464cde408cb1e0fff35a32c6dc~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/college-portal"
+      ],
+      "path": "assets/6a896109f2-c9a6ed_070b98464cde408cb1e0fff35a32c6dc~mv2.png",
+      "bytes": 796383,
+      "sha256": "3c11dadb18496f8eca513fa10583f215dd2731645d788a48e246fb12136d1927"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_6c47cd23ddbe4abc93035dc40b588e97~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/college-portal"
+      ],
+      "path": "assets/a4344035d5-c9a6ed_6c47cd23ddbe4abc93035dc40b588e97~mv2.png",
+      "bytes": 863277,
+      "sha256": "f7fe792e1e53812a4086481366e44917e95516c1aee0e9f5e97758bf04b9e0c1"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_d4822f3da980411f85d7f21f1b8da9b8~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/college-portal"
+      ],
+      "path": "assets/380181d725-c9a6ed_d4822f3da980411f85d7f21f1b8da9b8~mv2.jpg",
+      "bytes": 405348,
+      "sha256": "a10765298771125f4cc7055fa8a63fd5acd02db6247bea3aeda2580bd574ceb4"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_51b009fe0d4a4ea6828d010ac8bb6243~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/college-portal"
+      ],
+      "path": "assets/79d37ec5c0-c9a6ed_51b009fe0d4a4ea6828d010ac8bb6243~mv2.jpg",
+      "bytes": 556895,
+      "sha256": "f2cb2d97ab728fd334d209e674888ed02db6de2a2ed2b9bc5bbc62335c664950"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_ffec12b57d0f4b8ab93b964a12b5aa06~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/college-portal"
+      ],
+      "path": "assets/26263af213-c9a6ed_ffec12b57d0f4b8ab93b964a12b5aa06~mv2.png",
+      "bytes": 337767,
+      "sha256": "39da28ae0578a0dcb69499c6db4e6037e72fd59466af0c261d68ea362916a4ec"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_648c8432423b4adb9e21d6a623d53be0~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/college-portal"
+      ],
+      "path": "assets/ead4bec026-c9a6ed_648c8432423b4adb9e21d6a623d53be0~mv2.png",
+      "bytes": 295667,
+      "sha256": "e140ae7c6b4fa4eaef8f57036a0af6ebd8ba3f0dde2511e3386519cf7496854c"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_77feed1e0d784c8eade08c4e3ec3f92a~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/college-portal"
+      ],
+      "path": "assets/19a98bb8b3-c9a6ed_77feed1e0d784c8eade08c4e3ec3f92a~mv2.jpg",
+      "bytes": 353705,
+      "sha256": "8c98bff41945cb7860f31b3b4893b7ad973b6ab37b3d80e9a8af4eb0c13293f2"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_b7af30916883448ea582a44a4da6b090~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/college-portal"
+      ],
+      "path": "assets/461d660481-c9a6ed_b7af30916883448ea582a44a4da6b090~mv2.png",
+      "bytes": 538124,
+      "sha256": "893c3996d28184e66fe05e1b35a83e00930f0d36ca244ff2595213d3bd1d8540"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_3837f03e66204017a037639e523b0289~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/college-portal"
+      ],
+      "path": "assets/a23d3b6071-c9a6ed_3837f03e66204017a037639e523b0289~mv2.png",
+      "bytes": 514835,
+      "sha256": "c2dd43ed19299c90eddbc81094002ab15312a6fe7c7d08b27407cb3a47fa6ff1"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_4ff3f873d4454d439d0b0bba51d5db43~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/college-portal"
+      ],
+      "path": "assets/ce4f9c0159-c9a6ed_4ff3f873d4454d439d0b0bba51d5db43~mv2.jpg",
+      "bytes": 1052144,
+      "sha256": "c077b1bfe3442143f9bd2ea719a1b06a1365ec2a8bbcc34244919b69963720e0"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_8b5be5ec32ba4a93810fa894d097e0b2~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/college-portal"
+      ],
+      "path": "assets/2a15d6d3c9-c9a6ed_8b5be5ec32ba4a93810fa894d097e0b2~mv2.png",
+      "bytes": 902021,
+      "sha256": "c8c42cf9d22f415a41a5e8fb3fa93750a16e065fe54149c8d035299737bbfcbd"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_1f12ae2373184f3baefa8ebd7a9143cf~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/college-portal"
+      ],
+      "path": "assets/042f82df0b-c9a6ed_1f12ae2373184f3baefa8ebd7a9143cf~mv2.png",
+      "bytes": 1164235,
+      "sha256": "b505a917b06f54f3a7123846f508b45e24c517921c9fd8ad9dccd94dab22103b"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_33e091528f28469f8a37cd06856140a6~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/college-portal"
+      ],
+      "path": "assets/5d35936f4d-c9a6ed_33e091528f28469f8a37cd06856140a6~mv2.png",
+      "bytes": 819038,
+      "sha256": "8706eb4da901de8afb3fd47744162a689ceac03811d5c39bb5fc28b17c2ae3bf"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_ddbe36414077474795e2c41485f85a60~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/college-portal"
+      ],
+      "path": "assets/9be0f7c3ae-c9a6ed_ddbe36414077474795e2c41485f85a60~mv2.jpg",
+      "bytes": 257804,
+      "sha256": "e5d49d5749fb1560f08157e9447150d9251a3063b963507e14514365e08ca89a"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_19a96a767ac4407ab9ab0d038a655b99~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/college-portal"
+      ],
+      "path": "assets/c85ea16dcc-c9a6ed_19a96a767ac4407ab9ab0d038a655b99~mv2.png",
+      "bytes": 480083,
+      "sha256": "bbff0c1f4891a740d03b7ab299d46ad8367d813bd0c8ae77a7b3466f017f3f79"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_1836e274f1624bfd8dda2eda67087a66~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/college-portal"
+      ],
+      "path": "assets/e2bf5b87a0-c9a6ed_1836e274f1624bfd8dda2eda67087a66~mv2.png",
+      "bytes": 1350610,
+      "sha256": "c84dc3be4488423c77c6f930e7f4bb3b484f6130ae6d24c9ec48fd633b7668e2"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_77316b98b1de4cee94806ea21f45fd24~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/lexushybrid"
+      ],
+      "path": "assets/0336654c79-c9a6ed_77316b98b1de4cee94806ea21f45fd24~mv2.png",
+      "bytes": 414744,
+      "sha256": "a807b60d9d64b5411437ea20d7783793c4e6550cc38574da43532da93ec14274"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_ba2e7ac2034e4fe486fbfd0fc81d70ae~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/lexushybrid"
+      ],
+      "path": "assets/536beda6c7-c9a6ed_ba2e7ac2034e4fe486fbfd0fc81d70ae~mv2.png",
+      "bytes": 936473,
+      "sha256": "3abff1012d9540f81a6366a55ead343d0c17d5c3a60d60ff155e7a932b589195"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_26b29e9def664a13b699d4b8845b3d35~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/lexushybrid"
+      ],
+      "path": "assets/077cc314f1-c9a6ed_26b29e9def664a13b699d4b8845b3d35~mv2.png",
+      "bytes": 697102,
+      "sha256": "fccfd7a69d8ba4564bd0349fc68b35d1271243ce5f1c8643747556232347380e"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_a8f96d35a15a41ce97aafe8afdaae962~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/lexushybrid"
+      ],
+      "path": "assets/3ab2da15da-c9a6ed_a8f96d35a15a41ce97aafe8afdaae962~mv2.png",
+      "bytes": 606642,
+      "sha256": "4dd7a850c05591921091210fbadea065ad4f814b255c23da5b31ace98cab09fc"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_4807f17f6c1c451aaf3f43a33e29f981~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/lexushybrid"
+      ],
+      "path": "assets/73d4d391e6-c9a6ed_4807f17f6c1c451aaf3f43a33e29f981~mv2.png",
+      "bytes": 600854,
+      "sha256": "0babaaed3fce83e0787e8bdf1c400dc961334bdcc4ff3b03a50816c0cbe7a5de"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_912dacf38cfe44c4a5f9c0476ab99bfd~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/lexushybrid"
+      ],
+      "path": "assets/4c9a0ce5f3-c9a6ed_912dacf38cfe44c4a5f9c0476ab99bfd~mv2.png",
+      "bytes": 258876,
+      "sha256": "8e73e3d83cad8af2e0a30d7cb417a5bab5b8a84d51f3c218a14c9ddd7a0cc0e4"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_c5fa2678fe8944b5b4a87a21ae923438~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/lexushybrid"
+      ],
+      "path": "assets/142aa8697c-c9a6ed_c5fa2678fe8944b5b4a87a21ae923438~mv2.png",
+      "bytes": 513758,
+      "sha256": "6aafcbb91fa88e21c238c9296526aaca0c4fd990876f6244519d93b8b3c2eaff"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_b1c7874946ef4de39e80cc21ba358ea6~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/lexushybrid"
+      ],
+      "path": "assets/ac2ba94e2a-c9a6ed_b1c7874946ef4de39e80cc21ba358ea6~mv2.png",
+      "bytes": 323885,
+      "sha256": "9fabe20bd26a7903735c6cbcfb48858c78dcd6b114224f7a5e2d55ad4a1cb45f"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_be5a47d054fc468a98000bd94c88798b~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/lexushybrid"
+      ],
+      "path": "assets/a179ad7e9f-c9a6ed_be5a47d054fc468a98000bd94c88798b~mv2.png",
+      "bytes": 216576,
+      "sha256": "814672973b1a7c0e15965fb631dfcfb33d8ab241494ad4955d647415761e610f"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_4d802435a7af49bcaa8b72e914474caf~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/lexushybrid"
+      ],
+      "path": "assets/b63984971a-c9a6ed_4d802435a7af49bcaa8b72e914474caf~mv2.png",
+      "bytes": 1225850,
+      "sha256": "0f4bae944209da373960c5426f737ef733a505c40a735b2460cc1ec25083f00f"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_146ff05a6f9d454b85cccd18b3bcb773~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/lexushybrid"
+      ],
+      "path": "assets/1b55f58107-c9a6ed_146ff05a6f9d454b85cccd18b3bcb773~mv2.png",
+      "bytes": 435421,
+      "sha256": "11b28fd904233d2f51dad924f7d3b4ac98412810bf5f33199b7f4fdfff45c51d"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_6fafc53e6ae34c6389f75325db038d63~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/lexushybrid"
+      ],
+      "path": "assets/3dab0f6d1b-c9a6ed_6fafc53e6ae34c6389f75325db038d63~mv2.png",
+      "bytes": 1244042,
+      "sha256": "2f62d315e08a7df814c391fd0ae78255b95aa9c4a02368da8ad022e697301217"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_f9c51b7391104e559b564a70aca63898~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/lexushybrid"
+      ],
+      "path": "assets/9bec9d6158-c9a6ed_f9c51b7391104e559b564a70aca63898~mv2.png",
+      "bytes": 448481,
+      "sha256": "12bc4dadbee2d25b92f4eb8e852b4840d2cede67f11d48c456ff64d4ce2986e9"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_9d8cdf9725134ad69b86245581190566~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/lexushybrid"
+      ],
+      "path": "assets/a6da5979f2-c9a6ed_9d8cdf9725134ad69b86245581190566~mv2.png",
+      "bytes": 419474,
+      "sha256": "7e4401e9fe70aae21e336124df8463afc84879a29d79ba6438970729c36993ef"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_ed95e637b87646c2a5a96c65a865d957~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/bigoil"
+      ],
+      "path": "assets/465005b382-c9a6ed_ed95e637b87646c2a5a96c65a865d957~mv2.jpg",
+      "bytes": 1411229,
+      "sha256": "51221b06f2f15eca83818d27b3e62aaa132955f2870b1e656b4ca0531aa52c3b"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_bb20420ba8904e24ab5604e9707be9ae~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/bigoil"
+      ],
+      "path": "assets/13c4e9b430-c9a6ed_bb20420ba8904e24ab5604e9707be9ae~mv2.webp",
+      "bytes": 576572,
+      "sha256": "26df2dd8504441f2d80b7b8f060e90a576d22f0a4fcf3317618429cb03dc1ab6"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_9e1e880d7363484aa3dc68ed02a57553~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/bigoil"
+      ],
+      "path": "assets/66fb8114d4-c9a6ed_9e1e880d7363484aa3dc68ed02a57553~mv2.webp",
+      "bytes": 395356,
+      "sha256": "19d729d0c18d7c101685ad1c2d52f1c898c40c69445f40dc6678cad8e2150afc"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_5b62ea024bda497aa19c8339ba2ad35c~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/bigoil"
+      ],
+      "path": "assets/90dee94acf-c9a6ed_5b62ea024bda497aa19c8339ba2ad35c~mv2.webp",
+      "bytes": 257678,
+      "sha256": "55be3fc798d1182e6aab7f6df2d007bbe9f47bb502041a39b84665199a579e23"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_a3d62e49953d4b8e9408452f23089c18~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/bigoil"
+      ],
+      "path": "assets/0052654b2c-c9a6ed_a3d62e49953d4b8e9408452f23089c18~mv2.webp",
+      "bytes": 444186,
+      "sha256": "6033a9949b476eb5cda407c630991f5f6e700afc3785523e25a4c075e3d127d0"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_ae93b4a6bb3d4baab1b034c0d7d9e8ea~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/bigoil"
+      ],
+      "path": "assets/b1c695079f-c9a6ed_ae93b4a6bb3d4baab1b034c0d7d9e8ea~mv2.webp",
+      "bytes": 351214,
+      "sha256": "f7f71b0b5ad7b5b96330e678e49fb01420a7267c9b0e08cc035ff72c7bf83274"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_981f71304db34f4499fee9d5f7d72128~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/bigoil"
+      ],
+      "path": "assets/6a12450def-c9a6ed_981f71304db34f4499fee9d5f7d72128~mv2.webp",
+      "bytes": 554038,
+      "sha256": "f57e12382db8fbbad267f7b37d0ad15959f900d4ad6e080a7efbd1286a1b37f5"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_e3fbecf1338e4b148e9df71904116d98~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/inspect"
+      ],
+      "path": "assets/1e4721b547-c9a6ed_e3fbecf1338e4b148e9df71904116d98~mv2.jpg",
+      "bytes": 439176,
+      "sha256": "aaaf80802398133f3001b4878e51be10e44ff49779070d13f63b3434e0bed83e"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_8e8cdd4390f0414fb0e0ea5c9a172dac~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/inspect"
+      ],
+      "path": "assets/14c59a84c9-c9a6ed_8e8cdd4390f0414fb0e0ea5c9a172dac~mv2.jpg",
+      "bytes": 664777,
+      "sha256": "3f3c618c6cd6f2dd50b1e336495b8976f869ce2f13c025c47d9148d7c1c4ae4b"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_4ee51fb3079b4dbbb77923a807ee5beb~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/inspect"
+      ],
+      "path": "assets/0c31792f6d-c9a6ed_4ee51fb3079b4dbbb77923a807ee5beb~mv2.png",
+      "bytes": 1287031,
+      "sha256": "5c4625d97d9a2fc73cd562ee5b3016172eb10fa9b2ceb0f98809d677eccb258c"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_a0148b719c5a4fe3a1c4b72b4e26ce17~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/inspect"
+      ],
+      "path": "assets/212fb0b38b-c9a6ed_a0148b719c5a4fe3a1c4b72b4e26ce17~mv2.jpg",
+      "bytes": 1270994,
+      "sha256": "a541e7e401417f359b2c8277385255542056984e7c69e60acf397d7520af549b"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_7c8d73cc59ca4bfb92fa463e7ff039e5~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/inspect"
+      ],
+      "path": "assets/403bfe6c78-c9a6ed_7c8d73cc59ca4bfb92fa463e7ff039e5~mv2.jpg",
+      "bytes": 340365,
+      "sha256": "976e2cdd5fbe074816b34095dbff9c272d3f951b30435348c10cb2152cb8a1c8"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_49c61b9320a7443cb1ce86e5771ab3bb~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/inspect"
+      ],
+      "path": "assets/bff1fd0499-c9a6ed_49c61b9320a7443cb1ce86e5771ab3bb~mv2.jpg",
+      "bytes": 503684,
+      "sha256": "b065dc55cb5580d72ca682fb82f94305b3848c66e8ed7d10f02a11fad3c3ad9c"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_d8f24eb39e604e9e818d24e3b5ed14e0~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/inspect"
+      ],
+      "path": "assets/eea9208855-c9a6ed_d8f24eb39e604e9e818d24e3b5ed14e0~mv2.jpg",
+      "bytes": 223744,
+      "sha256": "d8ebe5591e445d84e95c3f667824e529b3b9a94596e3cd04dc0cf10164d854e4"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_6620b14ca0864c8faba53b1ad5a77775~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/inspect"
+      ],
+      "path": "assets/c78b3c3c06-c9a6ed_6620b14ca0864c8faba53b1ad5a77775~mv2.jpg",
+      "bytes": 303183,
+      "sha256": "3d6d4f5a423a1c4cfc98978a2b904b040f4712657ccf9b0eb2d22ee2c4912d6c"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_624b6ce62be04523b9f6718f43fb890f~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/inspect"
+      ],
+      "path": "assets/b0590b6d55-c9a6ed_624b6ce62be04523b9f6718f43fb890f~mv2.jpg",
+      "bytes": 188003,
+      "sha256": "e99fd6975008520ce8adab3dbf316b52d3ab80d39ee414f21de5302c3f204cea"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_6f1a635b4d234c87963c727c1206483e~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/inspect"
+      ],
+      "path": "assets/4b941338e7-c9a6ed_6f1a635b4d234c87963c727c1206483e~mv2.png",
+      "bytes": 436661,
+      "sha256": "927ead6859d2af696ece046fe879c593aa1279862dcb8f41c63532d64e442b1b"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_6d8df92af79847caa746c5de0ad1655d~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/inspect"
+      ],
+      "path": "assets/251afafe95-c9a6ed_6d8df92af79847caa746c5de0ad1655d~mv2.png",
+      "bytes": 1020924,
+      "sha256": "2d2e2f3fb0976edde27049ef28ee5acd92710545d87218136b27bddda4b9d253"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_48c443611c02472ba1d760713c2d5832f001.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/0a1f35f852-c9a6ed_48c443611c02472ba1d760713c2d5832f001.jpg",
+      "bytes": 127341,
+      "sha256": "f93b9e6566d7a5b48a81a0d24aec5c8b389027d597e87e3c8b5a7c9127ed6124"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_b039b41449124245abad6a523f00a3ac~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/15a4c45b2c-c9a6ed_b039b41449124245abad6a523f00a3ac~mv2.jpg",
+      "bytes": 1666092,
+      "sha256": "a16bb170f7c803a4ceafb00132b6adee110dca40eac89622eab5ede0abd14bb5"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_04640b422a4e4f82b8d51fd0ac147d76~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/418744ccc2-c9a6ed_04640b422a4e4f82b8d51fd0ac147d76~mv2.jpg",
+      "bytes": 127116,
+      "sha256": "d20c1c6348b9d3c0b9e53a7d61097e55dfcf09d7b1746f14ba4ded7440def88e"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_f0ce0e4260df4cf59106e99595437602~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/2155e5f9c6-c9a6ed_f0ce0e4260df4cf59106e99595437602~mv2.png",
+      "bytes": 1622736,
+      "sha256": "85befdd46b63de422c97768167ecf34de4f5df7f5f4e62de869ba797aa761fae"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_e523b76fab074ce9a9c9431f5e0525fa~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/3d2f17982b-c9a6ed_e523b76fab074ce9a9c9431f5e0525fa~mv2.jpg",
+      "bytes": 558183,
+      "sha256": "67327df00b1d52d051a4ffc46d5a4ebb3f7e36381f76631a9b601555ba56fee8"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_dbbde266e55f4f75a61abfa39c75284f~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/139f11c92b-c9a6ed_dbbde266e55f4f75a61abfa39c75284f~mv2.jpg",
+      "bytes": 402231,
+      "sha256": "85185158e099bead4232709c03fe6a69b49a946aa0091de9d67b6f31f29ff9ce"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_839af49a0e264e169f07c6bd51e76e7b~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/b97fbe06a5-c9a6ed_839af49a0e264e169f07c6bd51e76e7b~mv2.jpg",
+      "bytes": 1692716,
+      "sha256": "eac4d9034933f3f8a79dd320e6fdbd0c98da762f286d7e41a2bf999cf238a582"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_bba0114b75e7428ca86fadcfb89ba97a~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/6d04af5504-c9a6ed_bba0114b75e7428ca86fadcfb89ba97a~mv2.jpg",
+      "bytes": 1832003,
+      "sha256": "f2ff6d1011861a2ce0ef34f8de790840711c61a25440c669b5cd512015ff1a9a"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_42b8dd33dd674bc3bb08951fef91a326~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/c769c19da7-c9a6ed_42b8dd33dd674bc3bb08951fef91a326~mv2.png",
+      "bytes": 1668662,
+      "sha256": "fa9a2084cd68163d911e78573aae6e5c0e6f130343e54b56286e74fd3a60aaf4"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_068b520436bf413491be1d0006c67fab~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/4d71db0a7b-c9a6ed_068b520436bf413491be1d0006c67fab~mv2.jpg",
+      "bytes": 79821,
+      "sha256": "c9ac0e0cd293bbf76f9684445a26a929be2bd9aaf431baf9e22285791daeae2a"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_8d79774de20747e28311573d557b7be0~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/e9dcf8c6d1-c9a6ed_8d79774de20747e28311573d557b7be0~mv2.jpg",
+      "bytes": 521098,
+      "sha256": "11a9893885969486cbe3e3e078c26897d8c152f4679bd5fd22cbb54796208e14"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_f245e383315141b683bdb2f7a9dc2971~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/b21874ca23-c9a6ed_f245e383315141b683bdb2f7a9dc2971~mv2.jpg",
+      "bytes": 1292144,
+      "sha256": "5b5e644ed96549264d4d556f5f8350e256cbeded4ebd2a9f059b2f0bf91f8ada"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_220c2e8748d84e4f90b43c6895c7ce26~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/d82921b984-c9a6ed_220c2e8748d84e4f90b43c6895c7ce26~mv2.jpg",
+      "bytes": 1512199,
+      "sha256": "462783655dac79bdd190732004aa09db888075f247c40b46d282c85656c52f76"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_ae8a5c7a61854788a4ff73e966aeb933~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/c159dd110b-c9a6ed_ae8a5c7a61854788a4ff73e966aeb933~mv2.png",
+      "bytes": 1677778,
+      "sha256": "2ae944c046b2e4f7bea74ae0aec52fe515c8886c94026508286a1bdfcdd23ed1"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_c046001c1e4f454e9f811e8d37a043c1~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/3dbf7aaa1f-c9a6ed_c046001c1e4f454e9f811e8d37a043c1~mv2.png",
+      "bytes": 1185008,
+      "sha256": "829b4dcf31ef12b052b94ab000ae67e516905fffab1a3e95c0d0cffbad50fe67"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_5a58600933d240f0ad2d6cc190b4415f~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/571b385609-c9a6ed_5a58600933d240f0ad2d6cc190b4415f~mv2.png",
+      "bytes": 1974106,
+      "sha256": "a4a4c2d857eacb48388fc5d834ff5b644575a23e06d5f533299bcd38541f08cf"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_5d534959d2c341fb8f25bdb660d6f7c7~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/97aece964a-c9a6ed_5d534959d2c341fb8f25bdb660d6f7c7~mv2.jpg",
+      "bytes": 575376,
+      "sha256": "d06776736d5ca6aebbc38115ae3107a1a59f9bf4fc91861ea28f1f0815cf6a6f"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_272b41e1d00c430a90d684b09ff66d3b~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/d22c5a7c77-c9a6ed_272b41e1d00c430a90d684b09ff66d3b~mv2.jpg",
+      "bytes": 460119,
+      "sha256": "bd556fb143f0c8ac9b4e1af7ed6df298c14c2da04eb2f4548b28ab85c9439071"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_e7fe3a97217e4c8d82170c417c91277c~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/260a6a57eb-c9a6ed_e7fe3a97217e4c8d82170c417c91277c~mv2.png",
+      "bytes": 1251233,
+      "sha256": "22c3c69ff5f862bb34b7a745eda17d7e7b7c3e24625d174d07cb2da70678c1e0"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_7f3fad1e2db447d4b6835b240330616d~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/7d5081ac3d-c9a6ed_7f3fad1e2db447d4b6835b240330616d~mv2.jpg",
+      "bytes": 1058716,
+      "sha256": "2557ec76645dd089e3f14e33955946501133099c7dff20d0a2e9bd60a68cf487"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_41377daa721f47498b3a53099498a7e2~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/86aaa52f84-c9a6ed_41377daa721f47498b3a53099498a7e2~mv2.png",
+      "bytes": 2156871,
+      "sha256": "64b84df462b5e769ea6d009cd0c41df5c7114b1900930bd7be67bfb5f71baf21"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_43eff9a1abd842fe9bc7c775435b031f~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/db20569f79-c9a6ed_43eff9a1abd842fe9bc7c775435b031f~mv2.png",
+      "bytes": 1602757,
+      "sha256": "dd04e66bc24721f05b8d9ff045297f74161911c197167898d90eb4a2774e4f94"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_6f600c936065464abf25907e389de882~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/5114744427-c9a6ed_6f600c936065464abf25907e389de882~mv2.webp",
+      "bytes": 1601514,
+      "sha256": "2ac8547e6cd2bd64ca895edc53a709caf3a878fa59cc59b4562e8c51adbd0672"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_c8882c511f634388bddccf878402088e~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/47840d6206-c9a6ed_c8882c511f634388bddccf878402088e~mv2.jpg",
+      "bytes": 84099,
+      "sha256": "5dfc50646e6e9d619967a6d2044cbcd33ddf26a5381932c828a95c04ea932800"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_f4f3690aed2f42e2b220a5e941e7caee~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/83532a594a-c9a6ed_f4f3690aed2f42e2b220a5e941e7caee~mv2.webp",
+      "bytes": 1549844,
+      "sha256": "c8d9053dafea91f922b42b63a6448733d9dba4415b2579bc5ff672cf5f87f026"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_b802651bdb57455d99e8d6342f506239f000.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/affdfd8058-c9a6ed_b802651bdb57455d99e8d6342f506239f000.jpg",
+      "bytes": 108404,
+      "sha256": "3275dcdd989eac95d885b38a8aedf01a277a10007a53423ac2aac2bfde429a86"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_ada82d6abe23405c97635b521fb6dd9c~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/82a8d1df84-c9a6ed_ada82d6abe23405c97635b521fb6dd9c~mv2.png",
+      "bytes": 1777693,
+      "sha256": "e5e15ef6990464f60a723593750dd87225dcda6e3dd1129b4106b4c96dc4552b"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_aba9e09308d84f2ebb7ef1de9ea0a450~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/ec2cb4597a-c9a6ed_aba9e09308d84f2ebb7ef1de9ea0a450~mv2.webp",
+      "bytes": 1455074,
+      "sha256": "ad175a35a3466b33622576dbc8b9fc32305aedf06a97dac491d0df5d059aff4c"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_dcb0546027c344049497c71c294c1602~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/fb2a6122fb-c9a6ed_dcb0546027c344049497c71c294c1602~mv2.png",
+      "bytes": 1537225,
+      "sha256": "294d49421534fd7fc0901c4640e494328331fcb34b6bb9f70df8db5c596ea96f"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_f2edb86438704b5b903cca6354ace6aa~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/cf389648a3-c9a6ed_f2edb86438704b5b903cca6354ace6aa~mv2.jpg",
+      "bytes": 1095399,
+      "sha256": "848d6569e27efd7c64e13b2da6cc061b92095405d2683f1595af065777f3a5b2"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_8e01b7e5d71b43ae9d97bcace8e80a94~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/a2126b90d2-c9a6ed_8e01b7e5d71b43ae9d97bcace8e80a94~mv2.webp",
+      "bytes": 465970,
+      "sha256": "69c8a79c379c19980339b86b9093e66aaa158eb488f2b345a762f7c9e116084c"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_2234b9492c8d441a9983642645a0a17b~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/bfab3c480b-c9a6ed_2234b9492c8d441a9983642645a0a17b~mv2.jpg",
+      "bytes": 151693,
+      "sha256": "06b4b3d381c3cd08b6c0608cedcf6ec0c4adcaed28e3266e043d9489a63db96f"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_1bfe7380123d497da1d62fc738c37d4a~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/4a15fc3f85-c9a6ed_1bfe7380123d497da1d62fc738c37d4a~mv2.png",
+      "bytes": 1725529,
+      "sha256": "50a4bb9190c0fa7859d66b589c9bc63e555361f99a8642767b00258faf528481"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_ca21d68680764e588cf0a1d9d0e2cca7~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/98003119f0-c9a6ed_ca21d68680764e588cf0a1d9d0e2cca7~mv2.png",
+      "bytes": 2393384,
+      "sha256": "c68bbd7cbc54f9a99e9db0fb871ef3a006c524a3c57079e8aa2ef5ae99b9d330"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_b2bfc1733c7844c3ba5204cb03997b8b~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/774d1885c9-c9a6ed_b2bfc1733c7844c3ba5204cb03997b8b~mv2.png",
+      "bytes": 1286761,
+      "sha256": "bc137bbabf8fed0b19f8b395f31133a6e630e57d5f71415b17b4194c53c8aed8"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_b971cc812151448bbdcf863ae3e3dc38~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/44b7bd6451-c9a6ed_b971cc812151448bbdcf863ae3e3dc38~mv2.png",
+      "bytes": 1530012,
+      "sha256": "69440c2eda810c0ef4f9f6fd7b9afe8b33d77795f2943a36a48f8cf7707ddba4"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_70f5eff1283e4b80a8b5564529e91b8c~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/d037a95e6a-c9a6ed_70f5eff1283e4b80a8b5564529e91b8c~mv2.webp",
+      "bytes": 1647308,
+      "sha256": "54e18fd47217171b86ea41023c95469be68b03f2129d97aaa856d9bc64cec286"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_0d66373509104d9590f5123a37903fe6~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/6b8bbb9523-c9a6ed_0d66373509104d9590f5123a37903fe6~mv2.jpg",
+      "bytes": 993655,
+      "sha256": "88262f0d1a70faf7edbff676e386bca05fcc1b165360f45f3e10fcfc6a64e830"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_30c176f3d516402d86c804855c084861~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/32b341138a-c9a6ed_30c176f3d516402d86c804855c084861~mv2.png",
+      "bytes": 1225782,
+      "sha256": "9d72d8eb159efe7f610d8a2c465b0def04a4a610a94287c71082ae4b210702c4"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_608a31b0687245c1a1f581af54277b3a~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/42e58bada8-c9a6ed_608a31b0687245c1a1f581af54277b3a~mv2.jpg",
+      "bytes": 693035,
+      "sha256": "29d3a87768c0d1fa8be9cd64c9d5682f063c067a8009202f4a5f8f2a9b9b0075"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_3e5d8db46a164edc852051df22e61f13~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/b1fdb474d1-c9a6ed_3e5d8db46a164edc852051df22e61f13~mv2.jpg",
+      "bytes": 451576,
+      "sha256": "8f6f7fa911098b358e2122d86f0f9f0693787e37694ace12e8e11e513888bd6f"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_2a99ad06b5ea49c9b8808d8f242f0f5f~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/7b04149eec-c9a6ed_2a99ad06b5ea49c9b8808d8f242f0f5f~mv2.jpg",
+      "bytes": 1069961,
+      "sha256": "0b74f17a9fb4856a11d03b774f80cace6451903b3c555848f7a610c53902eee8"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_4748ae3cfd3d4261923d40e87afd0cbd~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/52a282ae7d-c9a6ed_4748ae3cfd3d4261923d40e87afd0cbd~mv2.jpg",
+      "bytes": 497362,
+      "sha256": "bcf2b91701ecf12fd25d4fe82c010f1e6f194c0998cdab189bd090e76f93d2da"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_6ec0a7205e3b40569e5032b0bddd3452~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/6931cbb981-c9a6ed_6ec0a7205e3b40569e5032b0bddd3452~mv2.png",
+      "bytes": 1765962,
+      "sha256": "2ec98ca4bc64499709ec5e4da75efb597a8f2e55abe569a02775d6615d59fbae"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_5ebb12a6bb5249e8affd191d689222b1~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/fb96a88b97-c9a6ed_5ebb12a6bb5249e8affd191d689222b1~mv2.png",
+      "bytes": 1908007,
+      "sha256": "6eb7e6005362a18391687e16ef0fc9b8aa391280efdcb9506bb35a2e55b94c6d"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_452cb46a86f04365b5acd156ce55d39d~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/109b351c64-c9a6ed_452cb46a86f04365b5acd156ce55d39d~mv2.png",
+      "bytes": 1690551,
+      "sha256": "35cade9cde13baf886bf01bd90256819a543ac20b972e147c8977af162c519cb"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_b61ba41bc7d94974b81d6b3626add16f~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art",
+        "https://www.sandyux.com/heelstead"
+      ],
+      "path": "assets/f8a32050d0-c9a6ed_b61ba41bc7d94974b81d6b3626add16f~mv2.png",
+      "bytes": 13112,
+      "sha256": "682fddd03eeaa031fd0e44daad868e95ade0e2e16b4e1e6bbbe59bd8d86121ed"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_4df738ee708c48f09a66f3a65a78502a~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/art",
+        "https://www.sandyux.com/mvno"
+      ],
+      "path": "assets/4ba0b44e13-c9a6ed_4df738ee708c48f09a66f3a65a78502a~mv2.jpg",
+      "bytes": 305358,
+      "sha256": "f88ab8abc5d20575678bb2904cd3d858b4b695c239b70cb949ae64f73c2e6160"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_0d23c842309541e99f1aecc3991952bd~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/efab463378-c9a6ed_0d23c842309541e99f1aecc3991952bd~mv2.jpg",
+      "bytes": 76946,
+      "sha256": "6fbd680587ebb794ebc4ca6ed543c7dac34d2990336e3f877f5d3160136ebe73"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_5dbc2b0fa24246a3a15a73f253f8d5e8~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/403a45f4f9-c9a6ed_5dbc2b0fa24246a3a15a73f253f8d5e8~mv2.png",
+      "bytes": 1145769,
+      "sha256": "e61aad4db769595688237f7acf5e370625c213289a62f9c620ace8bfe110cd25"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_c261cc9d868349fc80f31ae7c464ceab~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/0171d99067-c9a6ed_c261cc9d868349fc80f31ae7c464ceab~mv2.png",
+      "bytes": 1642510,
+      "sha256": "90877d686d1180810743991cd3577136e76ffb6641648eb9c33e7cd1d98e4163"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_76804c0546bb40a4ba98b115c90b7e0a~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/2ed9229ccb-c9a6ed_76804c0546bb40a4ba98b115c90b7e0a~mv2.webp",
+      "bytes": 1305976,
+      "sha256": "7e9f3ae72d51ebbcb478ee784abd40a62c7447e2600240bb70c3d314a068e3a1"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_fdce8203065a4ec79854c2a42c7a4af1f001.jpg",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/5a8c73ac34-c9a6ed_fdce8203065a4ec79854c2a42c7a4af1f001.jpg",
+      "bytes": 113168,
+      "sha256": "cda723f97932c895f53553a969865c78e0543de9c5bd62fa94d9fb6439fa5db0"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_e8076c984562498b8e6961ced087577e~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/storytelling"
+      ],
+      "path": "assets/47abeee762-c9a6ed_e8076c984562498b8e6961ced087577e~mv2.jpg",
+      "bytes": 689433,
+      "sha256": "62f07b2fbb7f3367064161163bf642e932d41599d20783286cca704936fc997e"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_d0d8c36cff2343bb85b961c5ea24659bf002.jpg",
+      "sources": [
+        "https://www.sandyux.com/storytelling"
+      ],
+      "path": "assets/4d0dd6fa2e-c9a6ed_d0d8c36cff2343bb85b961c5ea24659bf002.jpg",
+      "bytes": 95342,
+      "sha256": "13e2b7642b0ff4a52373e29e81229fd923bf24fd68a9b6029977e9a5a4f0f887"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_e00f0da005ab4fd28d668d1702cc0b73~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/storytelling"
+      ],
+      "path": "assets/a8a904e93b-c9a6ed_e00f0da005ab4fd28d668d1702cc0b73~mv2.jpg",
+      "bytes": 273528,
+      "sha256": "28be65346dcbd6ef9fe9cdcae4a04f6995c6998caf51aed4d7eb2957fdfe919f"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_9361cc708a8344f0a7eaba6d2143ad5b~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/storytelling"
+      ],
+      "path": "assets/c5485eaa8a-c9a6ed_9361cc708a8344f0a7eaba6d2143ad5b~mv2.jpg",
+      "bytes": 376023,
+      "sha256": "a7028e316a8ae94f0793fc3f366cef33a28c832d3b4d21306bddb39da42e046a"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_91a6e13777d54b50bb8dd0949a437037~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/storytelling"
+      ],
+      "path": "assets/0a4bd4d1a3-c9a6ed_91a6e13777d54b50bb8dd0949a437037~mv2.jpg",
+      "bytes": 186210,
+      "sha256": "319ee5a3d83576e6cd42ae538364d5c8da9a90aee825c854847596dad2abe9f5"
+    },
+    {
+      "url": "https://c9a6ed89-1f43-4634-8b77-551497c96d31.usrfiles.com/ugd/c9a6ed_548bbb4e50d04e2f87d6df56c32e94e9.pdf",
+      "sources": [
+        "https://www.sandyux.com/storytelling"
+      ],
+      "path": "assets/37c6f314a1-c9a6ed_548bbb4e50d04e2f87d6df56c32e94e9.pdf",
+      "bytes": 813486,
+      "sha256": "9bad6d193c147fd5a5890e366b3a070871ea9655fdc9e566930905b4531afa8c"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_67b7206338bf4614acdd151040c032f9~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/mvno"
+      ],
+      "path": "assets/5b677b7df2-c9a6ed_67b7206338bf4614acdd151040c032f9~mv2.png",
+      "bytes": 109038,
+      "sha256": "4f5adf5e084a4b5722c22eaa166caecd751329cbdfb9392fe7f47b457955eb81"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_3ea45e61f0b64a21a3e424f56c0304ec~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/mvno"
+      ],
+      "path": "assets/14625fcb13-c9a6ed_3ea45e61f0b64a21a3e424f56c0304ec~mv2.png",
+      "bytes": 66612,
+      "sha256": "447a851d0578a4b6999513df0c02f079ab006f53d2f447f4f5caa61b6b4d7611"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_d97db63a47c743b8b98685ef500ac4e6~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/mvno"
+      ],
+      "path": "assets/d7e07cd6a2-c9a6ed_d97db63a47c743b8b98685ef500ac4e6~mv2.png",
+      "bytes": 53605,
+      "sha256": "a24fec036a852dbeac01e2cd327b94e66c892c4d4c161f14bdb1aad8d8990843"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_d29e1e31bab9456cb6001024d3b720f2~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/mvno"
+      ],
+      "path": "assets/a808d79f60-c9a6ed_d29e1e31bab9456cb6001024d3b720f2~mv2.jpg",
+      "bytes": 97826,
+      "sha256": "af0477d3b07fad57f20d9f85ae61ebf4e35c0b7e1a1f2dc6d61bf6146c5e526a"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_b567f8c817494338a2ae5778caed2780~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/mvno"
+      ],
+      "path": "assets/e4dd7d006a-c9a6ed_b567f8c817494338a2ae5778caed2780~mv2.png",
+      "bytes": 68317,
+      "sha256": "2bf981dfda53777e739ca5fb5f4191c47d723e3abc798252d295fda64fb71ef7"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_79ee9902aef94bfea0357d1d6121e98a~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/mvno"
+      ],
+      "path": "assets/981a03f4b8-c9a6ed_79ee9902aef94bfea0357d1d6121e98a~mv2.png",
+      "bytes": 271836,
+      "sha256": "a75580907731572571f5ad6af32818d271b3a5e7e291d8bae0e0b3069a243be4"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_97f220e051524fc38b8a597fe196cb6d~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/mvno"
+      ],
+      "path": "assets/2c25c421b0-c9a6ed_97f220e051524fc38b8a597fe196cb6d~mv2.png",
+      "bytes": 95235,
+      "sha256": "869c94f1d5a96c87876b772c247073cb29ef392215554672a6979a94b0bc36c3"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_a974787233034da9867a5982fdca888ef002.jpg",
+      "sources": [
+        "https://www.sandyux.com/mvno"
+      ],
+      "path": "assets/aefb1da555-c9a6ed_a974787233034da9867a5982fdca888ef002.jpg",
+      "bytes": 118833,
+      "sha256": "696d90a47cec32b8f22c71e3b5ba483e4b63197c9969d38154334def8794ef51"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_265a03f113194ee8be4f4f48984fa474~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses"
+      ],
+      "path": "assets/c289a68f75-c9a6ed_265a03f113194ee8be4f4f48984fa474~mv2.jpg",
+      "bytes": 494695,
+      "sha256": "d451cc06b0caae142b883d227f7489ba9546ce160e42466378ab0828934d2fcc"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_2a030abbe36e488f8f7a6f59c3446a2f~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses"
+      ],
+      "path": "assets/c83ecb3bbb-c9a6ed_2a030abbe36e488f8f7a6f59c3446a2f~mv2.jpg",
+      "bytes": 627349,
+      "sha256": "bd097de8a5e53feb33899489f64d0f0271bb789456daff8496e574f0dd41add9"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_9da93d02dbc14ec6a32ea0b43f6c229f~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses"
+      ],
+      "path": "assets/9cd3d90557-c9a6ed_9da93d02dbc14ec6a32ea0b43f6c229f~mv2.png",
+      "bytes": 87933,
+      "sha256": "ef3599bb7bb17acd0208431180a0c07de4f41ce7ce4728a258db7fa5b8ec08f0"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_468fe0bfd82149d88f4ee919739fcc73~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses"
+      ],
+      "path": "assets/5efae3f870-c9a6ed_468fe0bfd82149d88f4ee919739fcc73~mv2.jpg",
+      "bytes": 426183,
+      "sha256": "2b21cbe83702bf9e7e109d6b98317e484b6f36e15d97d4c87664254c7047e90b"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_ab0c54f720b44efaa2ee9b1d71d36ba1~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses"
+      ],
+      "path": "assets/b25c6ed5b7-c9a6ed_ab0c54f720b44efaa2ee9b1d71d36ba1~mv2.jpg",
+      "bytes": 331003,
+      "sha256": "dd83378ab26c44eeb0287c30006177e4b5328ba6ec0c12a83d72c386f0e73477"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_6dad8e2393b447fd8075683b2093a608~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses"
+      ],
+      "path": "assets/3e82b01eec-c9a6ed_6dad8e2393b447fd8075683b2093a608~mv2.jpg",
+      "bytes": 1985686,
+      "sha256": "3c5e5eaa8284b6a380af246cdaaae98c12df65620a303c7ef5a0ee20fa2b2bb4"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_104113d15613464686d240576b4871f6~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses"
+      ],
+      "path": "assets/1e56152e90-c9a6ed_104113d15613464686d240576b4871f6~mv2.jpg",
+      "bytes": 566879,
+      "sha256": "c64d7e4824c9c8d1d4af7467328b5a548a7adc6cb0b70ea80b318e3c5bc20da5"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_a2ab229a5ceb477085db5ec7447eb097f001.jpg",
+      "sources": [
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses"
+      ],
+      "path": "assets/b449f76866-c9a6ed_a2ab229a5ceb477085db5ec7447eb097f001.jpg",
+      "bytes": 266595,
+      "sha256": "c5b309611b48f21b60e7af6f869494c61db10a8540605f2b51aaa740c3d87ecd"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_2950d54f2311469f8277682bcdae41d5~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses"
+      ],
+      "path": "assets/9603b0c78d-c9a6ed_2950d54f2311469f8277682bcdae41d5~mv2.jpg",
+      "bytes": 694725,
+      "sha256": "864b3c2eb2de7c5140f949d73fbf79a7fa3e2ec945d4fc2d6a4f347458abadca"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_b0a5f3e346824b15899119f1b69c1aa2~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses"
+      ],
+      "path": "assets/b3fdf26595-c9a6ed_b0a5f3e346824b15899119f1b69c1aa2~mv2.jpg",
+      "bytes": 739772,
+      "sha256": "9fc84a98ded21ab34362e341ea07046248e4dc8170e96de14eb8de4fbc3dbe8f"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_7927030d256e4511936e345f1e908f41~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses"
+      ],
+      "path": "assets/43c896e238-c9a6ed_7927030d256e4511936e345f1e908f41~mv2.jpg",
+      "bytes": 1119706,
+      "sha256": "b75aaeb08d9cbe404702b854422aebeeab1c65551cd986c4f4d05705d74fd39f"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_3c89e8f7531040d1b70c2093176bded8~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses"
+      ],
+      "path": "assets/83aaacffed-c9a6ed_3c89e8f7531040d1b70c2093176bded8~mv2.png",
+      "bytes": 212604,
+      "sha256": "f3394fd5a5dbd57535b3f2b32b7d2f06fcd2e3f0c979e492aed5bf0e0d1e874f"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_4dcedc95cd34470a886e3d8eab9ff1a4~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses"
+      ],
+      "path": "assets/1d1d2f0d5f-c9a6ed_4dcedc95cd34470a886e3d8eab9ff1a4~mv2.png",
+      "bytes": 159359,
+      "sha256": "67141057d49c2b3bc2da50d40facbc86672550816a2cf26875dff6b2ebcde1d6"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_acdce1d380084e9b93bce6547599804b~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses"
+      ],
+      "path": "assets/d8359e2a46-c9a6ed_acdce1d380084e9b93bce6547599804b~mv2.jpg",
+      "bytes": 355658,
+      "sha256": "23331268cd6c4ed1ec68de4ae02de0bdbde3264137db0c5b59c7e89019c959fd"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_c149af3f1e6c4e7eaaf81d33c49abda8f000.jpg",
+      "sources": [
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses"
+      ],
+      "path": "assets/6ed8f89a89-c9a6ed_c149af3f1e6c4e7eaaf81d33c49abda8f000.jpg",
+      "bytes": 78000,
+      "sha256": "02f7a17b7cacc747c5606b395919cc3ada9b84a5ca7f96b29e53649843822d59"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_61a74f772afa49c4852c5e487aab65b2f000.jpg",
+      "sources": [
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses"
+      ],
+      "path": "assets/d1828b5d8c-c9a6ed_61a74f772afa49c4852c5e487aab65b2f000.jpg",
+      "bytes": 60212,
+      "sha256": "d55d81c3ece6047ef9547b408981c7e46b112d6ab9147668463bc9851820e0c6"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_08bdda238d854c919d59300d86d674b9~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/heelstead"
+      ],
+      "path": "assets/48c155cfce-c9a6ed_08bdda238d854c919d59300d86d674b9~mv2.jpg",
+      "bytes": 505652,
+      "sha256": "d3798eb8d9993814d14ad02a114e08df73c738881873eacbd165a26bb1044ff3"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_5249e019ad34449ead8af4d06caf8067~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/heelstead"
+      ],
+      "path": "assets/cf9e592ba3-c9a6ed_5249e019ad34449ead8af4d06caf8067~mv2.png",
+      "bytes": 2094633,
+      "sha256": "cac12802710e02cc98542d0ce5cf728fc151278388e86f71b051a80c95ac7a34"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_66840587d5d04e5fa38739bb17464534~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/heelstead"
+      ],
+      "path": "assets/89329ef670-c9a6ed_66840587d5d04e5fa38739bb17464534~mv2.jpg",
+      "bytes": 618235,
+      "sha256": "453c3acbe2e7c05c093917688916daa9f9e352259c2f027c6e8cd0b1dd5a94fe"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_43c62b815cf54120a16d6b317df85e9c~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/heelstead"
+      ],
+      "path": "assets/c93eb28957-c9a6ed_43c62b815cf54120a16d6b317df85e9c~mv2.jpg",
+      "bytes": 459805,
+      "sha256": "bc8cf5d7aa86fa738202495a142e4b839ab9ee93eb2a68defe4a93887c0d46c0"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_70a7f2844685483caf7bb573920c988f~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/heelstead"
+      ],
+      "path": "assets/12d95d9d40-c9a6ed_70a7f2844685483caf7bb573920c988f~mv2.jpg",
+      "bytes": 423390,
+      "sha256": "f80ca157212db4a3aceccdcb577f7a56fa8e49cf79887023e530ab06ab19b899"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_edad81cc959a4309b1ad7cd887b5c318~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/heelstead"
+      ],
+      "path": "assets/57ae821099-c9a6ed_edad81cc959a4309b1ad7cd887b5c318~mv2.jpg",
+      "bytes": 313729,
+      "sha256": "61913e6d7c6f0a4bc4e151a1ffb3a966e37b58870c558e4ea34d23279185c545"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_3e78b7a1ad7c490d80f9d7e772d1b720~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/heelstead"
+      ],
+      "path": "assets/867a1a1b96-c9a6ed_3e78b7a1ad7c490d80f9d7e772d1b720~mv2.jpg",
+      "bytes": 368887,
+      "sha256": "3af138223b7a1ff190ff4249eac1fb35058c2182e34c7423e5e3e1309c3fd78c"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_70f607966853462481cc8d9b9c5efd69~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/dh"
+      ],
+      "path": "assets/a711befacc-c9a6ed_70f607966853462481cc8d9b9c5efd69~mv2.webp",
+      "bytes": 299280,
+      "sha256": "dc51040d425e4a6a377bfa5b79178a3204a6dd0639e2c01d73767a58aef15b0c"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_1060255bb9f041fd954f694214a70733~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/dh"
+      ],
+      "path": "assets/ec62bc6c58-c9a6ed_1060255bb9f041fd954f694214a70733~mv2.jpg",
+      "bytes": 348385,
+      "sha256": "30d8c13a9ac73eaa036e970d915aa5792513ee613aa38aa6d9349b8b5a6c12b7"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_399cee06507842529aefe7e653f8c50b~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/dh"
+      ],
+      "path": "assets/72da011740-c9a6ed_399cee06507842529aefe7e653f8c50b~mv2.jpg",
+      "bytes": 627100,
+      "sha256": "4b8eaf1267ad8fbd4195faec57cd9e8614be5fe43a1df66af913ab407d864677"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_624613f86cc44d9f802941ddadff263c~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/dh"
+      ],
+      "path": "assets/6f189f9743-c9a6ed_624613f86cc44d9f802941ddadff263c~mv2.jpg",
+      "bytes": 2193446,
+      "sha256": "e1e97acd198b0f3b106b546dd6028c19d0ce78e7f5671b00460c41f34f052c0d"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_c4010e4ad4b9494d97ee2d64e17c30d1~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/dh"
+      ],
+      "path": "assets/4271079d98-c9a6ed_c4010e4ad4b9494d97ee2d64e17c30d1~mv2.jpg",
+      "bytes": 217900,
+      "sha256": "36066484cc30ad4917772c072847a484cbefde45df04e803f9b0ef66e4845376"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_947c76a819de45228287048fda899a19~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/dh"
+      ],
+      "path": "assets/ac3792f13f-c9a6ed_947c76a819de45228287048fda899a19~mv2.jpg",
+      "bytes": 394278,
+      "sha256": "b71b9052f6fc1121699cce218e04026aaa09ef78946c9a78fe46a5ca2c034959"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_2914c2f934f14e76848b420e277de386~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/dh"
+      ],
+      "path": "assets/355bb5fb34-c9a6ed_2914c2f934f14e76848b420e277de386~mv2.jpg",
+      "bytes": 762300,
+      "sha256": "b9c72fc1e7b9a3d8866d59936cbc8a76ae2639d9c04aacc0774144bba1a85229"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_d65b127311ae4c0695b134823a694a0c~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/dh"
+      ],
+      "path": "assets/067f7609bd-c9a6ed_d65b127311ae4c0695b134823a694a0c~mv2.jpg",
+      "bytes": 498153,
+      "sha256": "44d5e4f403dc0d195891e295f94dffb45160f7e1c4e91e13b6346bf9193157fa"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_a39362c21cba47e5902a89c32f77793df000.jpg",
+      "sources": [
+        "https://www.sandyux.com/dh"
+      ],
+      "path": "assets/5d0abaf80e-c9a6ed_a39362c21cba47e5902a89c32f77793df000.jpg",
+      "bytes": 311164,
+      "sha256": "287e20e50d9e46394bdd6dfaf66ce8661f0e269d95cc951fe98cd102e894c34a"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_a65b2468198b4a40a0a19e944f9507e0~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/dh"
+      ],
+      "path": "assets/873c3641cc-c9a6ed_a65b2468198b4a40a0a19e944f9507e0~mv2.jpg",
+      "bytes": 568066,
+      "sha256": "51f7d8126c225f73ffcbaed2a7f67b64ca99aa5d10c513f9ff92c4bcaf06eae3"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_2147367bb7ba4abaa763f4ff28abad73~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/dh"
+      ],
+      "path": "assets/5fab4c31c8-c9a6ed_2147367bb7ba4abaa763f4ff28abad73~mv2.jpg",
+      "bytes": 330060,
+      "sha256": "929ce94b10cfc5300d1b7a4acc42dfa26509373aeea67d96275886f2794d6923"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_867eb0ae7e4a423e8e18898ac1d3a419~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/dh"
+      ],
+      "path": "assets/f7294fab5a-c9a6ed_867eb0ae7e4a423e8e18898ac1d3a419~mv2.jpg",
+      "bytes": 2222000,
+      "sha256": "12a7c048eff05bfec2b7e6b2298f56677c4443664f60705873e92d2f3ac35c43"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_b8b60c24e2e048c4beb26dfa96141eab~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/dh"
+      ],
+      "path": "assets/63bf999535-c9a6ed_b8b60c24e2e048c4beb26dfa96141eab~mv2.png",
+      "bytes": 1193362,
+      "sha256": "33415848f9b60117de9f4fc57be1c29ab6715b8d224f5c05aebf95a0d1d2a5ec"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_c5c645eae1d744b7b80ffc48336b59ea~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/cognitive-verification-output-"
+      ],
+      "path": "assets/50f7413b6a-c9a6ed_c5c645eae1d744b7b80ffc48336b59ea~mv2.png",
+      "bytes": 1526245,
+      "sha256": "a006575c2e82a6127ba0e12c67d808699807fd6489a12569bdb755f6d79df445"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_cfa18b44df3245a782d19587a3e9192f~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/alternative-approaches",
+        "https://www.sandyux.com/projects/chain-of-thought",
+        "https://www.sandyux.com/projects/cognitive-verification-output-",
+        "https://www.sandyux.com/projects/cognitive-verifier",
+        "https://www.sandyux.com/projects/context-manager",
+        "https://www.sandyux.com/projects/fact-check-list",
+        "https://www.sandyux.com/projects/few-shots",
+        "https://www.sandyux.com/projects/flipped-interaction",
+        "https://www.sandyux.com/projects/meta-language",
+        "https://www.sandyux.com/projects/persona-and-audience-persona",
+        "https://www.sandyux.com/projects/question-refinement",
+        "https://www.sandyux.com/projects/recipe",
+        "https://www.sandyux.com/projects/reflection",
+        "https://www.sandyux.com/projects/semantic-filter",
+        "https://www.sandyux.com/projects/template"
+      ],
+      "path": "assets/6fc065a5d0-c9a6ed_cfa18b44df3245a782d19587a3e9192f~mv2.png",
+      "bytes": 7244,
+      "sha256": "ae902c90118974b4ef40051204ef88cffc52592a97ae7e50a83db880f9fc3354"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_8b3e166ce2504e908952b51147f7a324~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/cognitive-verification-output-"
+      ],
+      "path": "assets/e4a4997a53-c9a6ed_8b3e166ce2504e908952b51147f7a324~mv2.png",
+      "bytes": 2237500,
+      "sha256": "cecececa710afc337ec8baa001c738e4fd5189d7fba0ff26667857c5f6962358"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_00eaa2ee1e9f4d788614e0a9c7cd4adf~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/alternative-approaches",
+        "https://www.sandyux.com/projects/chain-of-thought",
+        "https://www.sandyux.com/projects/cognitive-verification-output-",
+        "https://www.sandyux.com/projects/cognitive-verifier",
+        "https://www.sandyux.com/projects/context-manager",
+        "https://www.sandyux.com/projects/fact-check-list",
+        "https://www.sandyux.com/projects/few-shots",
+        "https://www.sandyux.com/projects/flipped-interaction",
+        "https://www.sandyux.com/projects/meta-language",
+        "https://www.sandyux.com/projects/persona-and-audience-persona",
+        "https://www.sandyux.com/projects/question-refinement",
+        "https://www.sandyux.com/projects/recipe",
+        "https://www.sandyux.com/projects/reflection",
+        "https://www.sandyux.com/projects/semantic-filter",
+        "https://www.sandyux.com/projects/template"
+      ],
+      "path": "assets/223ff2e508-c9a6ed_00eaa2ee1e9f4d788614e0a9c7cd4adf~mv2.png",
+      "bytes": 285439,
+      "sha256": "054038764327dd0bb902e1dc7a85fcc8b5f9cca42dabd33b045e4f812c455b62"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_2f62d1bf643343aaa17cea7a1a446e65~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/persona-and-audience-persona"
+      ],
+      "path": "assets/1b096cb79c-c9a6ed_2f62d1bf643343aaa17cea7a1a446e65~mv2.png",
+      "bytes": 1580249,
+      "sha256": "1b65276b67e1c0c92c4e55747fe809c42b26ff6304a7e203882fff6cf1770cbb"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_a68fca52680b482fbadbb93cd809e242~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/persona-and-audience-persona"
+      ],
+      "path": "assets/4a2514723c-c9a6ed_a68fca52680b482fbadbb93cd809e242~mv2.png",
+      "bytes": 1609729,
+      "sha256": "aff7e1b3ce0efd4e59cddfcb780688579e61ca79eeb9db904d0b7299fd49b7e1"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_aa994caa0edf47668882fc1d02f44f8b~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/persona-and-audience-persona"
+      ],
+      "path": "assets/f6e48eada2-c9a6ed_aa994caa0edf47668882fc1d02f44f8b~mv2.png",
+      "bytes": 1707729,
+      "sha256": "50d9f8c2dca07a116e0000d3f6437d344c8eee3db0a579aa677cee2321683c07"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_c1fe2f1ab1ad4990ba82f269b482dbb1~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/persona-and-audience-persona"
+      ],
+      "path": "assets/1fb29f0a96-c9a6ed_c1fe2f1ab1ad4990ba82f269b482dbb1~mv2.png",
+      "bytes": 1593070,
+      "sha256": "30c03d824cd85dd62623d917abdfe113b879b3e2a0e1548eca94fdec340c7c99"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_adbcca335df24fe786da42f09494392e~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/persona-and-audience-persona"
+      ],
+      "path": "assets/05cfbc2b86-c9a6ed_adbcca335df24fe786da42f09494392e~mv2.png",
+      "bytes": 1677069,
+      "sha256": "08afba599850e744ccdacedfaf3869617f02b8d3ef9d582499c4d57dc03ae247"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_a16b97ca0fe6420791266236dbfeefae~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/semantic-filter"
+      ],
+      "path": "assets/3751e60063-c9a6ed_a16b97ca0fe6420791266236dbfeefae~mv2.png",
+      "bytes": 1552662,
+      "sha256": "df7c7a1ab6cb57e468e291331d117f947dd8db077a8d1ea0d126c127015ec6db"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_9fcbceb3ed6b4a0aac2f2239e30677a7~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/semantic-filter"
+      ],
+      "path": "assets/e71ae16936-c9a6ed_9fcbceb3ed6b4a0aac2f2239e30677a7~mv2.png",
+      "bytes": 1553580,
+      "sha256": "e3bab4e09004a080d29abc1849fb7b91943dffdd1cd7385cc478eeb69080202c"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_8a38ffdb297e4e29b66bf16523b53a6d~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/projects/semantic-filter"
+      ],
+      "path": "assets/579afa820d-c9a6ed_8a38ffdb297e4e29b66bf16523b53a6d~mv2.jpg",
+      "bytes": 193087,
+      "sha256": "b2f068587651db69847338e7d56161c7fa7015e3f1d274d2e59a7d9bec30a44c"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_b8450a327ec7408c9b5221d1aff66fcc~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/cognitive-verifier"
+      ],
+      "path": "assets/c2fb16d220-c9a6ed_b8450a327ec7408c9b5221d1aff66fcc~mv2.png",
+      "bytes": 2505783,
+      "sha256": "aa6c37a12adae592c08b53744170b5ab7109caaddd080f9e6a4a1ed5153918f1"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_e2ab420db02e4f9ab87f170f9f3a9fa4~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/cognitive-verifier"
+      ],
+      "path": "assets/778d3909ea-c9a6ed_e2ab420db02e4f9ab87f170f9f3a9fa4~mv2.png",
+      "bytes": 1307651,
+      "sha256": "efcd3e99ece52e493a17254f323c2af9586e8304e830a16c4f921cf08c7d585e"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_a4b3e3ec438548659ba620666d50c02f~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/cognitive-verifier"
+      ],
+      "path": "assets/4ec029d91e-c9a6ed_a4b3e3ec438548659ba620666d50c02f~mv2.png",
+      "bytes": 2046143,
+      "sha256": "6682f7e8b786c3287e39979e5212e37e90accef3d93ab81a5d7be39d4dedcd9b"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_acee7ee83eab4f749036aaa008bbc34c~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/alternative-approaches"
+      ],
+      "path": "assets/7756075b0f-c9a6ed_acee7ee83eab4f749036aaa008bbc34c~mv2.png",
+      "bytes": 883952,
+      "sha256": "2213b05b1d71d0cf1441af790c7580c8504f9e66f27caac91c34bfc5e2ca5492"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_826577a21a1a4428ad7f65dc3d2b61d6~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/alternative-approaches"
+      ],
+      "path": "assets/d207160808-c9a6ed_826577a21a1a4428ad7f65dc3d2b61d6~mv2.png",
+      "bytes": 1236520,
+      "sha256": "b0da558bd2e069ebf6039c6680ff16dc9360fdb213a160d8611071cee8efcf39"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_593c4fd74aed429bb9540cdd92392323~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/alternative-approaches"
+      ],
+      "path": "assets/fdbe7758c7-c9a6ed_593c4fd74aed429bb9540cdd92392323~mv2.png",
+      "bytes": 1432593,
+      "sha256": "9831ae2321887734188bec1290ca169bd1cfed5a059d59b5f7d2111e06369d9f"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_fa3bf39027f44720bcb55ac593e1f207~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/reflection"
+      ],
+      "path": "assets/6b5ecd6710-c9a6ed_fa3bf39027f44720bcb55ac593e1f207~mv2.png",
+      "bytes": 8251245,
+      "sha256": "f82ae159f16f977cd008a29e63d906613b40d704bfee87040d2feda674060021"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_b1d2218ac0644cb8bfd310c4dad6510f~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/recipe"
+      ],
+      "path": "assets/f0a7c2ffb6-c9a6ed_b1d2218ac0644cb8bfd310c4dad6510f~mv2.png",
+      "bytes": 1721956,
+      "sha256": "b5fdff6aaa8755ceaad76ace372ce825209bd1d0134b9ac7d02416055b27b41e"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_5810cb1ddb5148c09d8084a9894abbb6~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/recipe"
+      ],
+      "path": "assets/68caff7764-c9a6ed_5810cb1ddb5148c09d8084a9894abbb6~mv2.png",
+      "bytes": 1578982,
+      "sha256": "6db389d7868a4e06d59f26bb67c47201696e90d3483d64dbcfcf3dfd78f2443a"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_59509770318448788505674c25625940~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/fact-check-list"
+      ],
+      "path": "assets/7e02df17bf-c9a6ed_59509770318448788505674c25625940~mv2.png",
+      "bytes": 1653295,
+      "sha256": "240169fc086f5f910dd93fe7cf60592719cdcece5fdf8b590d1f20916ecb0c50"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_2cd7dabcfb4e4ec2ad886551265b5e87~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/projects/fact-check-list"
+      ],
+      "path": "assets/93f0cd472c-c9a6ed_2cd7dabcfb4e4ec2ad886551265b5e87~mv2.jpg",
+      "bytes": 246481,
+      "sha256": "4d67e9bc4a8b03716bd21ceebaa7e3b1665b6b543cfce40a99e7c44a0195627c"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_c1303bbdd46a4319ac9b436d8dad11b7~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/fact-check-list"
+      ],
+      "path": "assets/1b99486b0d-c9a6ed_c1303bbdd46a4319ac9b436d8dad11b7~mv2.png",
+      "bytes": 1979411,
+      "sha256": "3e1a3556b4c04011aec6b974d2bf236374a14b146c220adb3d38646e7d61d388"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_43e8d285d52c45bcb7e57811b46eceb9~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/fact-check-list"
+      ],
+      "path": "assets/6908ed1597-c9a6ed_43e8d285d52c45bcb7e57811b46eceb9~mv2.png",
+      "bytes": 1512373,
+      "sha256": "0925b04dff442a768e3f76149e7fce0618fafd5d8074fbbc847982945b56b76f"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_63cf8fcfdae346e3bfba78f1f3fee018~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/question-refinement"
+      ],
+      "path": "assets/c39146d5e9-c9a6ed_63cf8fcfdae346e3bfba78f1f3fee018~mv2.png",
+      "bytes": 1461409,
+      "sha256": "5ba50e2165430ff037410580bfa2a7d8d9c3ed5ca4667734f26b90798ea95fa3"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_27b1b10b994745489fc99e18ef33d9fe~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/question-refinement"
+      ],
+      "path": "assets/7edaddd6c0-c9a6ed_27b1b10b994745489fc99e18ef33d9fe~mv2.png",
+      "bytes": 2168554,
+      "sha256": "f416ff9490ff99d4148492a72770934b31b78f54da2adac4a4380041b2ed33c4"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_3a8590bf77fe40dab471652611c89237~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/question-refinement"
+      ],
+      "path": "assets/9ff174a5f6-c9a6ed_3a8590bf77fe40dab471652611c89237~mv2.png",
+      "bytes": 948376,
+      "sha256": "f2b983231ce13952b028484ef63420ce80a6669bd6184ae8d48308da354a2458"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_dcef582ba84f43688f14611de6bcda93~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/flipped-interaction"
+      ],
+      "path": "assets/49834f42a9-c9a6ed_dcef582ba84f43688f14611de6bcda93~mv2.png",
+      "bytes": 2069802,
+      "sha256": "30a5dd8d276015ddcaad2288f799b6e2acec7d5f898276410b0e7ab425ebb806"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_eedd1bb742b148ccaf43d2ee5f6b1f52~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/flipped-interaction"
+      ],
+      "path": "assets/16367a12ba-c9a6ed_eedd1bb742b148ccaf43d2ee5f6b1f52~mv2.png",
+      "bytes": 1573608,
+      "sha256": "a13e91a645eda2e95c5cc2b5e069f7e6a8da1d33f3255bd7974e71910014ee55"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_cd14213c47a047f6bbb0cdc62e1d272d~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/flipped-interaction"
+      ],
+      "path": "assets/46a42c9532-c9a6ed_cd14213c47a047f6bbb0cdc62e1d272d~mv2.png",
+      "bytes": 1675370,
+      "sha256": "c3de7998cf27e0a90cf9db0eb345f5bc0089fffc838e865f54800738f745d2dc"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_ef1818f566d0427986b556ab9e881109~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/flipped-interaction"
+      ],
+      "path": "assets/74ceee6f8c-c9a6ed_ef1818f566d0427986b556ab9e881109~mv2.png",
+      "bytes": 1783261,
+      "sha256": "d371406e3052587a52636515d0bbfd0afc19c23f19f286e5d6dac4b384964113"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_f723e68fbbc9492d97d888a994f3295b~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/flipped-interaction"
+      ],
+      "path": "assets/6e90da5f5a-c9a6ed_f723e68fbbc9492d97d888a994f3295b~mv2.png",
+      "bytes": 4545283,
+      "sha256": "d336094f46a0ca6034937ed051f4dad87f43868ebc5be15357ef6b8f43719a97"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_dfeef09c56884561b3c533debdd724a4~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/chain-of-thought"
+      ],
+      "path": "assets/09b5a89521-c9a6ed_dfeef09c56884561b3c533debdd724a4~mv2.png",
+      "bytes": 2139721,
+      "sha256": "5379e50d6913c7f555c79487a116c2fa4b049e6f5aa28816508e9f31b861e9ca"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_cf7d7df894884ade9b18b2eaa612b1a0~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/chain-of-thought"
+      ],
+      "path": "assets/fc1781ef8a-c9a6ed_cf7d7df894884ade9b18b2eaa612b1a0~mv2.png",
+      "bytes": 2956032,
+      "sha256": "cbf313c3f4914dd85e9cea9f6a98664a7731c26ef6b686bc1868a25465558e93"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_5c042aa3ea2b495b8522d273b35696ac~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/chain-of-thought"
+      ],
+      "path": "assets/5f0aeafea6-c9a6ed_5c042aa3ea2b495b8522d273b35696ac~mv2.png",
+      "bytes": 1795077,
+      "sha256": "c8a6e5d56e4471f6b9a98518527f2b2ff7a9c0897853e30fc4781281886bc30d"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_18a830bc275544d2a0dff99c8be94037~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/chain-of-thought"
+      ],
+      "path": "assets/5b41da9f7f-c9a6ed_18a830bc275544d2a0dff99c8be94037~mv2.png",
+      "bytes": 2213623,
+      "sha256": "09331fdf6dcc10d57233403ba1bc8429a3c7f99551d58eefcfdbcfc1e7ae699b"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_b4f08c74de1442629c14e741750a468c~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/meta-language"
+      ],
+      "path": "assets/93dc3c84c6-c9a6ed_b4f08c74de1442629c14e741750a468c~mv2.png",
+      "bytes": 2092676,
+      "sha256": "d240888d57caa936d45b4753d73e0f9ed71db485c8daf22168f97fd040fae381"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_b11484a8aed746e4ae9a09530bf23b2e~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/meta-language"
+      ],
+      "path": "assets/c09f61919d-c9a6ed_b11484a8aed746e4ae9a09530bf23b2e~mv2.png",
+      "bytes": 1604714,
+      "sha256": "6f756e1668e5195d336e8f688049dfd5119d6c0fa56b3f8ea7e16ea7fca9e3ef"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_821b8c5cddf0415dae3fd0277472e155~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/meta-language"
+      ],
+      "path": "assets/7688c2ef73-c9a6ed_821b8c5cddf0415dae3fd0277472e155~mv2.png",
+      "bytes": 1640771,
+      "sha256": "28531c1a9145cf40b46d50ab64751d948b77168ab4ef28c310c4b16f2b83d65f"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_5544bb774af94b689914a48a371ac5c5~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/meta-language"
+      ],
+      "path": "assets/0693311666-c9a6ed_5544bb774af94b689914a48a371ac5c5~mv2.png",
+      "bytes": 1745766,
+      "sha256": "97bc0dba83df89f5ac48af023d11fd73ea20c9d51ec890286ab6c801481a5960"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_4184e619e24d40399d481c26f352bec8~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/few-shots"
+      ],
+      "path": "assets/1f082e08fa-c9a6ed_4184e619e24d40399d481c26f352bec8~mv2.png",
+      "bytes": 1549189,
+      "sha256": "b468bd3f6fcd278938560e72b6abb83a41416444f1b596474c36103982e1e4ce"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_94a2d941e66c45838b9099f65ec8559f~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/projects/few-shots"
+      ],
+      "path": "assets/18e61a9250-c9a6ed_94a2d941e66c45838b9099f65ec8559f~mv2.jpg",
+      "bytes": 125702,
+      "sha256": "9e3f1cd357720f7795bb3794e8dd85427e62c8041529ec6c0e3d3c13fb3c7440"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_a7bcf23755a34676ac7d4f181a8f4ca8~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/few-shots"
+      ],
+      "path": "assets/c5f0da51e0-c9a6ed_a7bcf23755a34676ac7d4f181a8f4ca8~mv2.png",
+      "bytes": 1392933,
+      "sha256": "44e8af1224c9365906793ea0bc2988dd9866d50a37cd1eee00864bf60521ee26"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_6919ba7bbabc4365bf7008608bddf54d~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/few-shots"
+      ],
+      "path": "assets/a764980800-c9a6ed_6919ba7bbabc4365bf7008608bddf54d~mv2.png",
+      "bytes": 1738208,
+      "sha256": "96db0b4d06bfdeded3ae6dbb8de9159f189b11769c3fd95ac444acabae855ddc"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_07e3602395a54fb59be48b715a48d9f5~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/projects/template"
+      ],
+      "path": "assets/4e3a48c333-c9a6ed_07e3602395a54fb59be48b715a48d9f5~mv2.jpg",
+      "bytes": 176610,
+      "sha256": "70e884d0016d318d88dd36c4f051d131a67c9f18552864e17a2b57e52db66cae"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_188e88b333b44488b3cb933614d42793~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/template"
+      ],
+      "path": "assets/f33603c015-c9a6ed_188e88b333b44488b3cb933614d42793~mv2.png",
+      "bytes": 1342048,
+      "sha256": "df9690bfc4cab44001a769b1c12d043b3b33460fcb2eceaa8b32997156178c77"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_5dbea5e98c6c46d29b9f1f0a7c82b23d~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/template"
+      ],
+      "path": "assets/69f08aae22-c9a6ed_5dbea5e98c6c46d29b9f1f0a7c82b23d~mv2.png",
+      "bytes": 1633643,
+      "sha256": "b10867dec77092bc79987ef471c6e6473f1c9c720f4ec2679ca8d8393b3d44e8"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_c46b130653a44e46bda5a39c0df05548~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/template"
+      ],
+      "path": "assets/b31e57329c-c9a6ed_c46b130653a44e46bda5a39c0df05548~mv2.png",
+      "bytes": 1704037,
+      "sha256": "48b3e2d216a92b882a914d5a9410e36c35b34e6e042be286c71a5494d7eff62a"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_0f95d8f8bc2b49088e20f7e80c75b1f8~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/template"
+      ],
+      "path": "assets/3b24b8975c-c9a6ed_0f95d8f8bc2b49088e20f7e80c75b1f8~mv2.png",
+      "bytes": 1531983,
+      "sha256": "9857065cda0872959612f097e35220a62cb15c66ad99fbb3e4d99f2e2c01f525"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_2cfd49200e40454fa7a39864476ae000~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/context-manager"
+      ],
+      "path": "assets/d7fbe890d7-c9a6ed_2cfd49200e40454fa7a39864476ae000~mv2.png",
+      "bytes": 1329884,
+      "sha256": "ab1af4bf17b24948d3c6b0dfdb4ad39ab0080ced41ea9fc1fb81c8363e932aa1"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_48e07cbc316341bca208ba25765f46c8~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/context-manager"
+      ],
+      "path": "assets/fb6171c0f7-c9a6ed_48e07cbc316341bca208ba25765f46c8~mv2.png",
+      "bytes": 1325301,
+      "sha256": "b859ef71ac984550d41911e15952cdc551660f92b1245457766b2062c5fb880e"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_7860ac374cd54364bf33b92317a8097e~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/projects/context-manager"
+      ],
+      "path": "assets/619fabc086-c9a6ed_7860ac374cd54364bf33b92317a8097e~mv2.png",
+      "bytes": 913850,
+      "sha256": "fa67a80c848713b1431a3b1d71dd233d54ce88b50ef6c873cece99a628900b4f"
+    },
+    {
+      "url": "https://dv8uscaysasbq.cloudfront.net/panoramas/city/config/apartment.json",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/bf2a139e7d-apartment.json",
+      "error": "curl: (6) Could not resolve host: dv8uscaysasbq.cloudfront.net"
+    },
+    {
+      "url": "https://dv8uscaysasbq.cloudfront.net/panoramas/city/config/bar.json",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/3d8b9a064b-bar.json",
+      "error": "curl: (6) Could not resolve host: dv8uscaysasbq.cloudfront.net"
+    },
+    {
+      "url": "https://dv8uscaysasbq.cloudfront.net/panoramas/city/config/desert-night.json",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/c4c924418a-desert-night.json",
+      "error": "curl: (6) Could not resolve host: dv8uscaysasbq.cloudfront.net"
+    },
+    {
+      "url": "https://dv8uscaysasbq.cloudfront.net/panoramas/city/config/grocery.json",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/f88848ac46-grocery.json",
+      "error": "curl: (6) Could not resolve host: dv8uscaysasbq.cloudfront.net"
+    },
+    {
+      "url": "https://dv8uscaysasbq.cloudfront.net/panoramas/city/config/hotel.json",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/a59f4fd22f-hotel.json",
+      "error": "curl: (6) Could not resolve host: dv8uscaysasbq.cloudfront.net"
+    },
+    {
+      "url": "https://dv8uscaysasbq.cloudfront.net/panoramas/city/config/kitchen.json",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/d950e71297-kitchen.json",
+      "error": "curl: (6) Could not resolve host: dv8uscaysasbq.cloudfront.net"
+    },
+    {
+      "url": "https://dv8uscaysasbq.cloudfront.net/panoramas/city/config/panned.json",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/eaad250a22-panned.json",
+      "error": "curl: (6) Could not resolve host: dv8uscaysasbq.cloudfront.net"
+    },
+    {
+      "url": "https://dv8uscaysasbq.cloudfront.net/panoramas/city/config/squared.json",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/6d898a0d0a-squared.json",
+      "error": "curl: (6) Could not resolve host: dv8uscaysasbq.cloudfront.net"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_575fc57268b749ce9444bb04aa02d372~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/"
+      ],
+      "path": "assets/75d34c23c7-c9a6ed_575fc57268b749ce9444bb04aa02d372~mv2.jpg",
+      "bytes": 1539814,
+      "sha256": "4552fa62a42784059d5beb202728ec3884adada5b7ed1c2e0cb818deb5d2c648"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_711a39e33d3e49e5ade665de00c192c2~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/"
+      ],
+      "path": "assets/fadc0c732a-c9a6ed_711a39e33d3e49e5ade665de00c192c2~mv2.jpg",
+      "bytes": 2112661,
+      "sha256": "b269969499d7c185432f7ebaf5a7b647e65bf3b74135de9fa21137a775d49e70"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_ec3638f1b1a44ccf9ecad5bf1db62f4c~mv2_d_2352_1470_s_2.png/v1/crop/x_441,y_0,w_1470,h_1470/fill/w_137,h_137,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screen%20Shot%202018-02-19%20at%2012_58_07%20PM_pn.png",
+      "sources": [
+        "https://www.sandyux.com/dwellersgame"
+      ],
+      "path": "assets/f49e623cc2-Screen_20Shot_202018-02-19_20at_2012_58_07_20PM_pn.png",
+      "error": "curl: (56) The requested URL returned error: 403"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_ccd6a5fe82d043ff984651c081ed0353~mv2.png/v1/fill/w_40,h_42,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screen%2520Shot%25202020-08-29%2520at%25203_09_e.png",
+      "sources": [
+        "https://www.sandyux.com/dwellersgame"
+      ],
+      "path": "assets/2d49ebbf64-Screen_2520Shot_25202020-08-29_2520at_25203_09_e.png",
+      "error": "curl: (56) The requested URL returned error: 403"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_46b062851ef148afbc1fb42f780a7b3c~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/college-portal"
+      ],
+      "path": "assets/aa12129cc2-c9a6ed_46b062851ef148afbc1fb42f780a7b3c~mv2.jpg",
+      "bytes": 326374,
+      "sha256": "6bb6367c5acd22215d3b0445d13bb03afc579569aea8764bc0aef9fd3cb885f3"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/c9a6ed_1578bc82be324c5ea87bb31cac203323/1080p/mp4/file.mp4",
+      "sources": [
+        "https://www.sandyux.com/college-portal"
+      ],
+      "path": "assets/db405d7372-file.mp4",
+      "bytes": 13087265,
+      "sha256": "392d08b5c282eda399e96db511fa7c7cff95f1012010950444e7c2c2dfccc82b"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_8a837652537a4291be0bfb3916fce5e3~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/inspect"
+      ],
+      "path": "assets/ff4c713f47-c9a6ed_8a837652537a4291be0bfb3916fce5e3~mv2.png",
+      "bytes": 2058188,
+      "sha256": "e0f4300bca167a0b1a30f11ffa3994ee50d0ef6c7483f9c3787555d02b977d56"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_c6509b8648974beb9158d4fb7cdcb6bd~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/db8980cf85-c9a6ed_c6509b8648974beb9158d4fb7cdcb6bd~mv2.webp",
+      "bytes": 1486212,
+      "sha256": "21ded8bb3f2eef571a7bd7b07593eb913c7b76e308ccb928bf5a76691d2ab40c"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_6e5b71f53edc4278989a11f0b47b5cac~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/479ba7fd4b-c9a6ed_6e5b71f53edc4278989a11f0b47b5cac~mv2.png",
+      "bytes": 1397945,
+      "sha256": "265982c00ce7619e2cf18753a392736d02b25f2b2ccba4ab83613dfba5055dbf"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_f718310d70f44691831a2cc3589c1bc5~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/5776ec0b62-c9a6ed_f718310d70f44691831a2cc3589c1bc5~mv2.png",
+      "bytes": 1342385,
+      "sha256": "729c1a305c4ea6a3ded9b07f74a4da478e85d9b0128a47d1f2a82bf9726eb86a"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_13cbfe48c8cc406a9008f9be5d2d2813~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/96df6c7182-c9a6ed_13cbfe48c8cc406a9008f9be5d2d2813~mv2.webp",
+      "bytes": 1500322,
+      "sha256": "de2ec231a82482fbcf63bc0fab4a156b095cf77ee9291ae61b6fd2758f16c1a3"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_d7f4ff9211b044e991e1c15da8ad906a~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/19d8003fde-c9a6ed_d7f4ff9211b044e991e1c15da8ad906a~mv2.webp",
+      "bytes": 1522856,
+      "sha256": "f6117948159926e6647b2e1952e1997ce5df176ffb6c90ddb260b0cbd24bedf4"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_674921e8d7674664b9a45f39321ea16f~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/3f5dc67e15-c9a6ed_674921e8d7674664b9a45f39321ea16f~mv2.webp",
+      "bytes": 1341066,
+      "sha256": "be6df0c4bc01768697b30a3e772bc22b967bdebd008f0d8acead7b8b968989e4"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_c1ad26e75529452fbabbe64978854571~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/923c8be5e7-c9a6ed_c1ad26e75529452fbabbe64978854571~mv2.png",
+      "bytes": 1725233,
+      "sha256": "0a9283f9d41a143281b2b39de6f62f59bdd6683e7089adbe192bc9f21e8883c6"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_dc3bf5ff1af749b9832c7021bb89735c~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/eae84d0f73-c9a6ed_dc3bf5ff1af749b9832c7021bb89735c~mv2.png",
+      "bytes": 1907448,
+      "sha256": "3283494c82b56f987f8e222eeaba0d1f87523b258427a7b203ed6e93fbac39ca"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_003a706d874a45a3b9f8f8e5438a7fc3~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/4833e33e42-c9a6ed_003a706d874a45a3b9f8f8e5438a7fc3~mv2.png",
+      "bytes": 1721000,
+      "sha256": "c06b42e3593368a8ea37400814c47c94f5d528e0a68019e90f31d8e133e87e5d"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_bf5719d7b71e4927817ff39aad885396~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/9b0a0bed77-c9a6ed_bf5719d7b71e4927817ff39aad885396~mv2.png",
+      "bytes": 1373041,
+      "sha256": "c898baf946583342a1539c75487ed30f002916e73f287d7d7788ad264b39f14a"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_e98499a521be4a08a699337c64a7af63~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/2c5bb05ff3-c9a6ed_e98499a521be4a08a699337c64a7af63~mv2.png",
+      "bytes": 1923407,
+      "sha256": "e3812254fefa080fa21638c65cdb6cb0ec790f602840a66bb1ec3d80bf60e82f"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_007568ad8d6c4c6ca0abef837621e710~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/609949558a-c9a6ed_007568ad8d6c4c6ca0abef837621e710~mv2.webp",
+      "bytes": 1669486,
+      "sha256": "4476629c85ae523187d0ff7cae1a3becd64481408ed5241847b32b0a1b70a740"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_e94c1656c2054536abcf0e8b2adc513a~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/746adf776e-c9a6ed_e94c1656c2054536abcf0e8b2adc513a~mv2.png",
+      "bytes": 1480134,
+      "sha256": "088b6c0b4663103c7819808a35e79638139c6efe670de0fde3b6fdd3a997b9bd"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_0800b4d463624ce0b98fe265bf71d5b7~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/8f2744908d-c9a6ed_0800b4d463624ce0b98fe265bf71d5b7~mv2.png",
+      "bytes": 1668396,
+      "sha256": "9e601266a90728e2cdc32a18aa0b3b6eb220ac96cc5bf79c63f21d5ceaae3686"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_e7d5978d5f0f47abaf49a7307e4599f5~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/5f6e996d19-c9a6ed_e7d5978d5f0f47abaf49a7307e4599f5~mv2.png",
+      "bytes": 1448926,
+      "sha256": "bd8fba142572523a6c8d3e68a86f63759effc1f1d0cf143e37bd2fad6541515d"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_fc87bca28d574c25a49cdc319868a14d~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/9acf82edc9-c9a6ed_fc87bca28d574c25a49cdc319868a14d~mv2.webp",
+      "bytes": 1694802,
+      "sha256": "5a90780afdb8ae45c6fefd43de27c2ec6f994bc7a43b3236148a8686c35e9699"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_591f67037aca49f980a0a7ba725b1521~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/1701e6bd20-c9a6ed_591f67037aca49f980a0a7ba725b1521~mv2.webp",
+      "bytes": 1174676,
+      "sha256": "d6482696abd0380145876f2551dfcb730f9d123c0a781411e9a9d11668a16c30"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_0ffa7838a330447790834a2ff2814368~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/44cc4b17ea-c9a6ed_0ffa7838a330447790834a2ff2814368~mv2.png",
+      "bytes": 1905156,
+      "sha256": "7f12e2f08e4b37413010bd9c85f2ad31982ecc2ff6e6734f79271ec6ea510527"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_7bc7a7db37e042de9c8789a171da8308~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/e0ac20f727-c9a6ed_7bc7a7db37e042de9c8789a171da8308~mv2.webp",
+      "bytes": 1159472,
+      "sha256": "a68a13efff2f4c96c0450c79b62b201d30af7f574c297cfbcc29bb5bb89dae42"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_16879eeb529140e6850968ad10ddf706~mv2.png",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/6a14214045-c9a6ed_16879eeb529140e6850968ad10ddf706~mv2.png",
+      "bytes": 1558886,
+      "sha256": "54fc8783efc6d343209ecc1e255f5b51afd1fede29353d14a790cd4f142a44d7"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/c9a6ed_fdce8203065a4ec79854c2a42c7a4af1/480p/mp4/file.mp4",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/7055d4fd3e-file.mp4",
+      "bytes": 8140212,
+      "sha256": "7c708ac5051b3fe1fd13d54f6585adc9905bb801edcea8dff7f912781a721ddc"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/c9a6ed_b802651bdb57455d99e8d6342f506239/480p/mp4/file.mp4",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/ede1a70729-file.mp4",
+      "bytes": 6657688,
+      "sha256": "c52b85724d795eff67faa8862432cca2476bbe3ebc9e0b5fdd6fefeac2d8b385"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/c9a6ed_48c443611c02472ba1d760713c2d5832/720p/mp4/file.mp4",
+      "sources": [
+        "https://www.sandyux.com/art"
+      ],
+      "path": "assets/68cdba9657-file.mp4",
+      "bytes": 16301580,
+      "sha256": "645b62858da5a2e41dc7d8578fc94d4d4ee3cef137c302290cd566dad8d7b93b"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/c9a6ed_ed6b157a838941b986fd84d191aa84c3/720p/mp4/file.mp4",
+      "sources": [
+        "https://www.sandyux.com/storytelling"
+      ],
+      "path": "assets/043443289c-file.mp4",
+      "bytes": 25401938,
+      "sha256": "20c89405072e489b0e591a61d303079323c6adcfec7a4c34571bf32e99159078"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/c9a6ed_8a28d54f3b254aa080cd1044ea0518d7/1080p/mp4/file.mp4",
+      "sources": [
+        "https://www.sandyux.com/storytelling"
+      ],
+      "path": "assets/1cc22e64d0-file.mp4",
+      "bytes": 7620296,
+      "sha256": "900e1534e0602948dc1c2a5a065fb1253bf497e593ba4f16227dcea22f67230b"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/c9a6ed_889f7d312d704822bbb729bdfd24980c/1080p/mp4/file.mp4",
+      "sources": [
+        "https://www.sandyux.com/storytelling"
+      ],
+      "path": "assets/c3f7d3f5aa-file.mp4",
+      "bytes": 14329779,
+      "sha256": "041f891e6178acf273ba2c003570c128f8d8b25c0755cc54e4f7f2ff9f0a8ac9"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/c9a6ed_d0d8c36cff2343bb85b961c5ea24659b/720p/mp4/file.mp4",
+      "sources": [
+        "https://www.sandyux.com/storytelling"
+      ],
+      "path": "assets/2e66e20f82-file.mp4",
+      "bytes": 6294618,
+      "sha256": "cb33d300e90604834bbb748e4123396517575194a7db762610ae96e8fcb38582"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/c9a6ed_a974787233034da9867a5982fdca888e/480p/mp4/file.mp4",
+      "sources": [
+        "https://www.sandyux.com/mvno"
+      ],
+      "path": "assets/3a58176e55-file.mp4",
+      "bytes": 1882290,
+      "sha256": "6d28f9889b1143b517f073a4f96e443101393a1fee6a345ddccc21d2feb48487"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/c9a6ed_2347a5bc48c44911965d0c1bbfb56e8d/480p/mp4/file.mp4",
+      "sources": [
+        "https://www.sandyux.com/mvno"
+      ],
+      "path": "assets/be9fba5f08-file.mp4",
+      "bytes": 3130533,
+      "sha256": "670fb616c93bbd522f96cbde9e2cd59c7122fe99ec42198d96bd5da940e90282"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_f2812883c95d493ba762abd865255674~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses"
+      ],
+      "path": "assets/9720cf91cb-c9a6ed_f2812883c95d493ba762abd865255674~mv2.jpg",
+      "bytes": 459025,
+      "sha256": "f8d37dc65a5139096571fdb6a601284232c8c1fbdd46e39ce55efc10655de0ea"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/c9a6ed_61a74f772afa49c4852c5e487aab65b2/480p/mp4/file.mp4",
+      "sources": [
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses"
+      ],
+      "path": "assets/7e890ff326-file.mp4",
+      "bytes": 1517797,
+      "sha256": "af94e156c2284bb6f502e463cafce77fbfb7f6f04e28814cb755c940b1660537"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/c9a6ed_a2ab229a5ceb477085db5ec7447eb097/1080p/mp4/file.mp4",
+      "sources": [
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses"
+      ],
+      "path": "assets/412cdb88f8-file.mp4",
+      "bytes": 15995303,
+      "sha256": "5654703f4e16d87952c7884ca1b9ec657da420cca9d6bec8df76ed9c5ad5c269"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/c9a6ed_c149af3f1e6c4e7eaaf81d33c49abda8/480p/mp4/file.mp4",
+      "sources": [
+        "https://www.sandyux.com/frey",
+        "https://www.sandyux.com/glasses"
+      ],
+      "path": "assets/76f9f81d33-file.mp4",
+      "bytes": 2478681,
+      "sha256": "0c7c912ce8df5e62bd7cd5bbd21272efaec486537341365f1e29c7356e7964b9"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_1c756a0529f34298ab8c5c2fa5c7b305~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/heelstead"
+      ],
+      "path": "assets/50783390c6-c9a6ed_1c756a0529f34298ab8c5c2fa5c7b305~mv2.jpg",
+      "bytes": 461654,
+      "sha256": "b71b354cf74513c97a922af3b8d2ca9f3e7c1078e501a05063b95e79c2c0fb70"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_3daa0ab7679040a6a41ca311f85c6969~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/heelstead"
+      ],
+      "path": "assets/b45c22e972-c9a6ed_3daa0ab7679040a6a41ca311f85c6969~mv2.jpg",
+      "bytes": 245137,
+      "sha256": "fba31d1164c4af1624529a46eb0fd774eccba5cb367d7a9969a763d7e61b9b54"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_1e286998255e4b439dbde817fd37d673~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/heelstead"
+      ],
+      "path": "assets/40c6bee531-c9a6ed_1e286998255e4b439dbde817fd37d673~mv2.jpg",
+      "bytes": 545790,
+      "sha256": "5d7e30e326aa7d8eadac86b3d9b764291c49b8fb27fa16d7c6655bce9c148653"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_226a90689c2a4518b8cc5785647457ac~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/heelstead"
+      ],
+      "path": "assets/b26f3cc38a-c9a6ed_226a90689c2a4518b8cc5785647457ac~mv2.jpg",
+      "bytes": 540203,
+      "sha256": "173303d3ad4daba8e8655de6966b03feeebd1db916590329bee9b4cfa79c05e1"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_e6dc99768e27488da8aa68766141ba65~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/heelstead"
+      ],
+      "path": "assets/2843204a68-c9a6ed_e6dc99768e27488da8aa68766141ba65~mv2.jpg",
+      "bytes": 523364,
+      "sha256": "51e735b5aa4de06922b6270944f0be2b8c0c33139afe21655f3d2ed0f60da439"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_6c9015f2fef64d6c924c9394d3e8699d~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/heelstead"
+      ],
+      "path": "assets/ca0622f40d-c9a6ed_6c9015f2fef64d6c924c9394d3e8699d~mv2.jpg",
+      "bytes": 279368,
+      "sha256": "1ba1c3897708d951582bee5a01340a07ecf0fc5f67e4f4ee2c03d9845b1099bc"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_45c02f1e0760425995996bd822e3948d~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/dh"
+      ],
+      "path": "assets/9f5e14e3be-c9a6ed_45c02f1e0760425995996bd822e3948d~mv2.jpg",
+      "bytes": 261157,
+      "sha256": "bce1701ffa033fd1a290581e884c753aa09df7b9795c89f6aec94c533d8efe0c"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_b7b7b67070604a26a037c1550756cbed~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/dh"
+      ],
+      "path": "assets/ade7a398d6-c9a6ed_b7b7b67070604a26a037c1550756cbed~mv2.jpg",
+      "bytes": 491250,
+      "sha256": "40a762c5f588e14a7541c0997e1ebc0db5d6f489b5375efabe58343920105a75"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_adac86618d344f409736bf02e5f11ae8~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/dh"
+      ],
+      "path": "assets/9a92c79c72-c9a6ed_adac86618d344f409736bf02e5f11ae8~mv2.jpg",
+      "bytes": 319558,
+      "sha256": "3bcec6a9429de0aedd91928ce1285b9284c8431b4496136d18e29e5fef417d29"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_ca295ce7665241d88edea1f100aefbd6~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/dh"
+      ],
+      "path": "assets/8793583476-c9a6ed_ca295ce7665241d88edea1f100aefbd6~mv2.jpg",
+      "bytes": 1028554,
+      "sha256": "dc5a07e39792076397effb5f00c4b199b06a1b778b710d91203071c38316bbb2"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_e8af2116c4004fb994bbe43eaf40ab0d~mv2.jpg",
+      "sources": [
+        "https://www.sandyux.com/dh"
+      ],
+      "path": "assets/553a502ca6-c9a6ed_e8af2116c4004fb994bbe43eaf40ab0d~mv2.jpg",
+      "bytes": 322959,
+      "sha256": "d736558ec872b6b40bf83374a805873e0901723929096111669ba715b47b30b7"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/c9a6ed_d3617f6e490c4cd3ac4f01fb97d83422~mv2.webp",
+      "sources": [
+        "https://www.sandyux.com/dh"
+      ],
+      "path": "assets/4205e15fa8-c9a6ed_d3617f6e490c4cd3ac4f01fb97d83422~mv2.webp",
+      "error": "curl: (56) The requested URL returned error: 403"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/c9a6ed_a39362c21cba47e5902a89c32f77793d/1080p/mp4/file.mp4",
+      "sources": [
+        "https://www.sandyux.com/dh"
+      ],
+      "path": "assets/e313d2dbeb-file.mp4",
+      "bytes": 7059022,
+      "sha256": "4ff2a50802957e35dcc11baca637f16ffb7f8be5d6608e6c3c07317312a77a82"
+    }
+  ],
+  "external_links": [
+    "https://c9a6ed89-1f43-4634-8b77-551497c96d31.usrfiles.com/ugd/c9a6ed_4545f8b8a4c74aa4a8e6568bb8775d5f.pdf",
+    "https://c9a6ed89-1f43-4634-8b77-551497c96d31.usrfiles.com/ugd/c9a6ed_548bbb4e50d04e2f87d6df56c32e94e9.pdf",
+    "https://c9a6ed89-1f43-4634-8b77-551497c96d31.usrfiles.com/ugd/c9a6ed_a4608c4b6ad44c8098ee304ca94ff439.pdf",
+    "https://c9a6ed89-1f43-4634-8b77-551497c96d31.usrfiles.com/ugd/c9a6ed_cc60d087cb3d4589a1478e279f9c24d2.pdf",
+    "https://dv8uscaysasbq.cloudfront.net/panoramas/pannellum/pannellum.htm#config=https://dv8uscaysasbq.cloudfront.net/panoramas/city/config/apartment.json",
+    "https://dv8uscaysasbq.cloudfront.net/panoramas/pannellum/pannellum.htm#config=https://dv8uscaysasbq.cloudfront.net/panoramas/city/config/bar.json",
+    "https://dv8uscaysasbq.cloudfront.net/panoramas/pannellum/pannellum.htm#config=https://dv8uscaysasbq.cloudfront.net/panoramas/city/config/desert-night.json",
+    "https://dv8uscaysasbq.cloudfront.net/panoramas/pannellum/pannellum.htm#config=https://dv8uscaysasbq.cloudfront.net/panoramas/city/config/grocery.json",
+    "https://dv8uscaysasbq.cloudfront.net/panoramas/pannellum/pannellum.htm#config=https://dv8uscaysasbq.cloudfront.net/panoramas/city/config/hotel.json",
+    "https://dv8uscaysasbq.cloudfront.net/panoramas/pannellum/pannellum.htm#config=https://dv8uscaysasbq.cloudfront.net/panoramas/city/config/kitchen.json",
+    "https://dv8uscaysasbq.cloudfront.net/panoramas/pannellum/pannellum.htm#config=https://dv8uscaysasbq.cloudfront.net/panoramas/city/config/panned.json",
+    "https://dv8uscaysasbq.cloudfront.net/panoramas/pannellum/pannellum.htm#config=https://dv8uscaysasbq.cloudfront.net/panoramas/city/config/squared.json",
+    "https://medium.com/@alexandra.tayts/ai-design-shoemaker-company-f1e19dfa4c9d",
+    "https://medium.com/@alexandra.tayts/down-the-rabbit-hole-building-the-world-in-midjourney-7176eb4b79c1",
+    "https://www.figma.com/proto/6MvkbDEBWeSGZ8nXOWzXPK/DISH-buyflow?page-id=0%3A1&type=design&node-id=342-1973&viewport=2129%2C702%2C0.25&t=5CjTOff9f2W01cxb-8&scaling=scale-down&starting-point-node-id=342%3A1973&hide-ui=1",
+    "https://www.figma.com/proto/9PESfS0BN4ocsI9JtLC0UE/FREY-Glasses?page-id=4%3A194&type=design&node-id=4-751&viewport=2297%2C-6467%2C0.5&t=k3ECElCJaxszHR6C-8&scaling=scale-down&starting-point-node-id=4%3A751&disable-default-keyboard-nav=1&hide-ui=1",
+    "https://www.figma.com/proto/9PESfS0BN4ocsI9JtLC0UE/FREY-Glasses?page-id=590%3A2943&type=design&node-id=450-878&viewport=747%2C1021%2C0.13&t=iV3YX7m0pQteVvQv-8&scaling=scale-down&starting-point-node-id=493%3A1251&hide-ui=1",
+    "https://www.inkpromptu.com",
+    "https://www.inkpromptu.com/",
+    "mailto:sandy@tayts.com?subject=Sandy%2C%20I%20have%20a%20question."
+  ]
+}

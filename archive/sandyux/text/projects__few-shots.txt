@@ -1,0 +1,28 @@
+Few Shots | Portfolio
+top of page
+Sandy Tayts
+Work
+Prompt Methods
+AI-Art
+Resume
+Email
+More
+Use tab to navigate through the menu items.
+All Prompts
+Previous
+Next
+Few Shots
+Giving LLM few use cases in a certain format, then giving the input. LLM will process it in the same format. It yields great results when used with fact checking and tail generation.
+Give me 3 of those:
+Adventure: Lost in a dense jungle
+Prompt: Explore the mysterious jungle as you search for a way back to civilization, encountering hidden creatures and ancient ruins.
+Adventure: Journey to a distant planet
+Prompt: Embark on a perilous space mission to an unknown planet, where alien landscapes and unexpected challenges await.
+"Adventure: Climbing the Snow-Capped Peak
+Prompt: Battle against fierce winds and freezing temperatures as you ascend a mysterious mountain, seeking the ancient temple rumored to be at its pinnacle.
+Adventure: Delving into the Abyssal Depths
+Prompt: Dive into the darkest parts of the ocean, where strange creatures and glowing plants guide your path to the lost city submerged for millennia.
+Adventure: Roaming the Enchanted Forest
+Prompt: Wander through a mystical forest where trees whisper secrets, magical creatures guide or mislead, and a legendary artifact waits to be discovered."
+Inkpromptu Design 2024
+bottom of page

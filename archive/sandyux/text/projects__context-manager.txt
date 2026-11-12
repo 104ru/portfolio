@@ -1,0 +1,21 @@
+Context Manager | Portfolio
+top of page
+Sandy Tayts
+Work
+Prompt Methods
+AI-Art
+Resume
+Email
+More
+Use tab to navigate through the menu items.
+All Prompts
+Previous
+Next
+Context Manager
+Specify a particular context or theme for the conversation, ensuring topic consistency.
+"Explain me the office romance between the boss and his secretary. Focus on secretary actions only, ignore the boss."
+"The secretary frequently initiates casual conversations that venture beyond work topics, aiming to create a deeper personal bond. She openly shares details about her personal life, from hobbies to weekend plans, constructing a multifaceted rapport. Her genuine inquiries about his well-being, from health to handling work-related pressures, further illustrate her intent to understand and connect on a personal level.
+Subtle flirtations become a part of their interactions, with the secretary occasionally giving compliments or employing suggestive body language. She might also subtly adjust her appearance, either through clothing choices or a hairstyle change, with an underlying hope to capture his attention. This allure is furthered by small yet thoughtful gestures, such as fetching him a coffee just the way he likes or leaving an encouraging note on a challenging day.
+Balancing the budding personal connection with the existing professional relationship is crucial. The secretary might suggest casual meet-ups outside the office environment, subtly blurring the lines between work and personal life. Concurrently, she highlights the significance of discretion, ensuring their growing closeness remains confidential. As the dynamics shift, she actively sets boundaries to ensure their professional roles and responsibilities remain uncompromised."
+Inkpromptu Design 2024
+bottom of page

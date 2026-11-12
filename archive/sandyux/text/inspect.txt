@@ -1,0 +1,54 @@
+Virtual Inspection | Portfolio
+top of page
+Sandy Tayts
+Work
+Prompt Methods
+AI-Art
+Resume
+Email
+More
+Use tab to navigate through the menu items.
+Electrical Inspection Reimagined
+Con Edison aims to revolutionize the electric inspection experience for both customers and inspectors. They've tasked our team with conducting a discovery phase to identify challenges and opportunities, and to ultimately propose a solution that improves the process.
+Discovery
+Roles, Goals and Challenges
+Roles and challenges in field inspections: Customers expect punctuality, inspectors aim for efficiency, hindered by regulatory confusion and logistical issues. Secondary actors like customer service bridge communication, while ConEd's leadership focuses on quality and efficiency, with an overall goal of process improvement.
+Main Persona, Contractor
+Persona analysis reveals pain points in the inspection process, suggesting interventions like improved communication tools, logistics organization, virtual inspections, and better information exchange to streamline his experience and enhance efficiency and satisfaction.
+As Is Inspection Journey
+The 'as is' journey diagram details the current field inspection process, highlighting issues like customer disruptions, long waits, communication gaps, logistical hurdles, and inefficiencies that affect inspectors, customers, and the business, signaling a need for process optimization.
+Blockers Summary
+​
+​
+​Long Waits
+Delays in t
+he process, marked by extended waiting periods, disrupt the efficiency of the inspection workflow
+Siloed Processes
+The lack of interconnected steps creates isolated proc
+edures, resulting in inefficiencies and disjoint
+ed communication.
+No Historic Data
+Absence of historical information hinders decision-making and prevents the utilization of past insights.
+No Communication
+G
+aps in communication channe
+ls lead to misunderst
+andings, delays, and a lack of coordination among stakeholders.
+Extra Travel
+Excessive travel or redundant steps contribute
+to unnec
+essary time and resource consumption.
+Synthesis
+Workshop in session
+We held multiple workshop and brainstorming sessions with various stakeholders and our internal team to identify opportunities for digital transformation, ensuring a comprehensive approach to enhancing the inspection process.
+Opportunities
+The Opportunity Map for the inspection process was developed following a brainstorming workshop, aimed at identifying areas for improvement and innovation within the current workflow.
+Valuable Opportunities
+Following stakeholder alignment, we honed in on the most valuable opportunities, concentrating our efforts on enhancements that promise the greatest impact and value.
+Proposed Solution
+Our proposal centers on a Virtual Inspection application designed to enable inspections to be carried out remotely, eliminating the need for travel and extensive scheduling, thereby streamlining the entire inspection process.
+Wireframing in progress
+Proposed Inspection Flow
+Benefits Summary
+Inkpromptu Design 2024
+bottom of page

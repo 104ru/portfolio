@@ -1,0 +1,31 @@
+Cognitive verification output  | Portfolio
+top of page
+Sandy Tayts
+Work
+Prompt Methods
+AI-Art
+Resume
+Email
+More
+Use tab to navigate through the menu items.
+All Prompts
+Previous
+Next
+Cognitive verification output
+After Cognitive verifier is presented, User will supply the necessary information and LLM will output the actual usable result
+"1. i need you to tell me But i love Game of thrones!  And I love everything medieval too.
+2. Early Fall, for 10 days
+3. I am traveling with my mom, she is 40, I am 16.
+4. I hoped you will advice on this.
+5. 3to 5 K
+6. I love hotels!"
+"Destination: Europe. Travel Dates: Early Fall, for 10 days. Travel Companions: You and your mom (ages 16 and 40)". Budget: $3000 - $5000. Accommodation Preference: Hotels",
+Itinerary:
+Medieval Magic in Edinburgh, Scotland (3 days).
+Explore the historic Edinburgh Castle and its medieval architecture. Wander through the Royal Mile, lined with medieval buildings and charming shops
+Game of Thrones Experience in Dubrovnik, Croatia (4 days).
+Visit Dubrovnik's Old Town, which served as the filming location for King's Landing in Game of Thrones. Walk the city walls for stunning views of the Adriatic Sea.
+Medieval Elegance in Prague, Czech Republic (3 days).
+Stroll through Prague Castle and admire its medieval architecture. Wander around the charming streets of Old Town Square and enjoy its medieval atmosphere."
+Inkpromptu Design 2024
+bottom of page

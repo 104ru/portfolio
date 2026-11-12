@@ -1,0 +1,57 @@
+Digital Hub | Portfolio
+top of page
+Sandy Tayts
+Work
+Prompt Methods
+AI-Art
+Resume
+Email
+More
+Use tab to navigate through the menu items.
+Omnichannel IT Support Experience
+Client Brief
+Provide "Invisible IT Support", where everything just works. Most of IT support should become proactive and preventive. EY Employees should have seamless personalized omnichannel IT support based on customer data analysis.
+What We Delivered as a Team
+Discovery, Synthesis, Design for MVP Journeys
+Detailed Proposal for the 5-year implementation
+Delivery Plan
+Resource Plan
+Projected Outcomes
+40% reduction in back-office support costs (reduced tickets & calls)
+50% employee NPS and -25% opex (reduction in back-office support costs)
+40%+ productivity improvement (increased employee efficiency)
+What I did as a Digital Hub Lead
+High Level Solution and Service Design Planning
+Our solution is built on the concept of preventive and proactive IT. As illustrated in the enclosed diagram, most IT cases will be resolved before users even notice them. A smaller portion of users will use support for specific requests (e.g., installations), while those with issues will be empowered by a robust self-help system, driven by an AI bot. The smallest portion of issues and requests will be ticketed and routed to actual IT and desktop support. At every stage, user data is collected and utilized to enhance the experience, personalize support, and automate solutions.
+Solution and Teams
+Affinity map, high level.  Teams are listed on the right. Digital Hub team effectively was driving the full solution from experience POV
+Proactive / Preventive Support
+Data-driven IT refresh process, monitoring real-time performance, evaluating existing data, analyzing trends, and preparing hardware refresh schedules and recommendations
+Data Driven Refresh Process
+Data-driven IT refresh process, monitoring real-time performance, evaluating existing data, analyzing trends, and preparing hardware refresh schedules and recommendations
+User Segments Discovery and Synthesis
+We started  our UX project by aligning with the company's business needs and gathering expert insights through stakeholder discussions and workshops. Understanding these goals, we then explore user needs through various methods: conducting over 30 surveys, engaging in interviews, analyzing past incidents, and researching industry trends to understand diverse user groups within the company.
+​
+Customer Segments
+Summary of work profiles across various company roles, detailing their seasonal work patterns, travel flexibility, technical skills, knowledge needs, support priorities, and urgency. Each role from Advisory to Tax shares a personal insight reflecting their commitment and work approach.
+Full Persona Analysis
+Summary of work profiles across various company roles, detailing their seasonal work patterns, travel flexibility, technical skills, knowledge needs, support priorities, and urgency. Each role from Advisory to Tax shares a personal insight reflecting their commitment and work approach.
+Overall, our users have these traits in common:
+Extremely high pace of work
+Client faced and have urgent demands
+Most of them have a busy season
+Flexible  schedule and location
+Are "spoiled" --  used to enjoyable environment
+Wireframes
+After defining main service journeys, I quickly composed wireframes for each and demoed them to stakeholders. Each journey was UX-tested in a focus group from each customer segment and refined them through successive versions, all while maintaining a consistent design approach.
+Medium Fidelity Wireframes set
+For each path, I made  wireframes to demonstrate the feature and give an early impression of the app. Each feature was  UX tested..
+Application Map
+The wireframes were then organized into a UX map for a clear overview, ensuring uniformity across common journey segments.
+User Interface
+Design for Digital Hub followed Material Design guidelines with minimal customizations.
+Standard Elements
+Custom Elements
+HiFi Prototype
+Inkpromptu Design 2024
+bottom of page

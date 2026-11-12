@@ -1,0 +1,28 @@
+Dish | Portfolio
+top of page
+Sandy Tayts
+Work
+Prompt Methods
+AI-Art
+Resume
+Email
+More
+Use tab to navigate through the menu items.
+Mobile Provider Buy In and Onboarding
+Dish Mobile was rolling out an MVNO (Mobile Virtual Network Operator) plan that is simple and based on phone leasing. Their goal is to deliver an affordable, transparently priced service without unnecessary extras, specifically designed to appeal to the single urban dwellers aged 25 to 35
+Clickable Prototype
+Discovery sessions with the client resulted in the following list of requirements:
+Onboarding should be very straightforward.
+No outside devices allowed
+Devices are leased, not sold
+Simple plan structure
+Transparent pricing, no hidden fees
+Don't be too serious
+​
+On your right is the prototype created with these requirements in mind.
+Interactive Prototype
+* This button opens presentation in Figma in the new window. Opening external links might take time and is not quaranteed
+Key Screens
+The UI design exhibits a modern, user-centric interface with the company's red and grey color scheme. It features a minimalist aesthetic with clear, readable fonts and straightforward navigation elements, facilitating a seamless user experience. The use of icons and graphics adds to the intuitive layout. The cartoon adds playful note into the app's modern interface.
+Inkpromptu Design 2024
+bottom of page
