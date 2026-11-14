@@ -26,3 +26,8 @@ For the redesign, distinguish projected outcomes from achieved results. Digital 
 
 Private GitHub repository: https://github.com/liza-bam/portfolio
 Default branch: `main`.
+
+## Dwellers
+
+- [Case Study](https://dwellers-little-machines.sandy-tayts.chatgpt.site/) — motivation, player profiles, rules and wireframes, final designs and interactive phone.
+- [Prototype](https://dwellers-little-machines.sandy-tayts.chatgpt.site/prototype.html) — playable app only.
