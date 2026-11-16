@@ -635,3 +635,9 @@ body.portfolio-template .chart-panel .case-diagram{min-width:0}
 /* Icon-only reset next to the filter pills. */
 body.portfolio-template .portfolio-filter-reset{padding:var(--space-2);width:36px;display:inline-flex;align-items:center;justify-content:center}
 body.portfolio-template .portfolio-filter-reset svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+body.portfolio-template .baseline-grid.cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:600px){body.portfolio-template .baseline-grid.cols-3{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* Optional link beside the accordion's Expand/Wrap control. */
+body.portfolio-template .portfolio-accordion-link{display:inline-flex;align-items:center;flex:0 0 auto;margin-right:var(--space-2);text-decoration:none}
+body.portfolio-template .portfolio-accordion-summary:has(.portfolio-accordion-link){grid-template-columns:minmax(0,1fr) auto auto}
+@media(max-width:600px){body.portfolio-template .portfolio-accordion-summary:has(.portfolio-accordion-link){grid-template-columns:minmax(0,1fr) auto}body.portfolio-template .portfolio-accordion-link{grid-column:1/-1;justify-self:start;margin:0}}

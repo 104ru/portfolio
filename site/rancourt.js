@@ -53,3 +53,5 @@ revealAccordionTarget();
  document.addEventListener('portfolio:reset-contribution',()=>apply(null));
  new ResizeObserver(()=>document.documentElement.style.setProperty('--portfolio-header-height',header.getBoundingClientRect().height+'px')).observe(header);
 })();
+// Links inside an accordion summary open normally instead of toggling the accordion.
+document.querySelectorAll('summary a').forEach(a=>a.addEventListener('click',e=>e.stopPropagation()));
