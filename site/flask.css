@@ -1,0 +1,131 @@
+/* Homepage preview: bold header with the flask logo, pills, Work and Lab card grids on the dotted canvas. */
+body.portfolio-template.flask-home{background:radial-gradient(var(--dot,#b9c7cc) 1.3px,transparent 1.6px) 0 0/28px 28px,var(--canvas,#f1f5f6)}
+.flask-nav{position:absolute;top:28px;left:50%;transform:translateX(-50%);z-index:1;display:flex;justify-content:flex-end;gap:32px;width:min(1040px,calc(100% - 96px))}
+.flask-nav a{font:500 15px/1.4 var(--font-body);color:var(--text-primary);text-decoration:none}
+.flask-nav a:hover{color:var(--accent)}
+
+/* Header */
+.flask-home .profile{position:relative;width:100%;padding:184px 24px 40px;border:0;margin:0;text-align:center}
+.flask-home .profile canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.flask{position:relative;display:block;width:168px;margin:0 auto 28px;cursor:pointer}
+.flask.bubbling{animation:flask-wobble .28s ease-in-out infinite}
+@keyframes flask-wobble{0%,100%{rotate:-3deg}50%{rotate:3deg}}
+body.flask-home .profile h1{position:relative;font-size:clamp(48px,8vw,88px);margin:0 0 16px}
+.flask-home .flask-lede{position:relative;font:500 clamp(22px,3vw,28px)/1.3 var(--font-heading);letter-spacing:-.015em;color:var(--text-primary);max-width:none;margin:0 auto}
+.flask-home .profile>p:not(.flask-lede){position:relative;font-size:17px;line-height:1.6;color:var(--text-secondary);max-width:46ch;margin:24px auto 0}
+.flask-home .profile address{position:relative;justify-content:center}
+
+/* Pills */
+.flask-home main{padding-bottom:96px}
+.flask-home main>.filters{align-items:center;margin:0 0 40px}
+.flask-home .filters button{border:1px solid var(--rule);border-radius:999px;background:var(--surface);font-size:13px;letter-spacing:0;padding:8px 16px}
+.flask-home .filters button[aria-pressed=true]{border-color:var(--accent);background:var(--accent);color:#fff}
+.filters-gap{width:1px;height:24px;margin-inline:8px;background:var(--rule)}
+
+/* Card grids */
+.group:not(:has(.card:not([hidden]))){display:none}
+.group h2{font-size:28px;margin:0 0 20px}
+.group+.group{margin-top:72px}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.card{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--rule);border-radius:0;overflow:hidden;color:var(--text-primary);text-decoration:none}
+.card[hidden]{display:none}
+.card:has(.card-main):hover{border-color:var(--accent)}
+.card{position:relative}
+.card-main{color:inherit;text-decoration:none}
+.card-main::after{content:"";position:absolute;inset:0;z-index:1}
+.card-links{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.card-image{display:block;width:100%;aspect-ratio:1;object-fit:cover;object-position:top;border-bottom:1px solid var(--rule);background:var(--panel)}
+.card-image.empty{display:grid;place-items:center;color:var(--text-secondary);font-size:14px;background:radial-gradient(var(--dot,#b9c7cc) 1.3px,transparent 1.6px) 0 0/14px 14px,var(--panel)}
+.card-body{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding:16px 20px 20px}
+.card-title{font:600 20px/1.3 var(--font-heading);letter-spacing:-.015em}
+.card-year{font-size:14px;line-height:26px;color:var(--text-secondary)}
+.card-line,.card-role{grid-column:1/-1;font-size:15px;line-height:1.5}
+.card-role{color:var(--text-secondary)}
+.ai-mark{display:inline-block;vertical-align:3px;margin-left:6px;padding:0 6px;border:1px solid var(--accent);border-radius:999px;font:600 11px/16px var(--font-body);letter-spacing:0;color:var(--accent)}
+
+/* Work cards are drawn like a blueprint: the outline traces itself, a greyscale draft appears, then the final card. */
+.work .card{position:relative;background:transparent;border-color:transparent;transition:background-color .5s ease calc(var(--s,0s) + 1.5s),border-color .4s ease calc(var(--s,0s) + 1.5s)}
+.work .card .outline{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}
+.work .card .outline rect{fill:none;stroke:var(--text-primary);stroke-width:1;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset .8s cubic-bezier(.6,0,.3,1) var(--s,0s),opacity .5s ease calc(var(--s,0s) + 1.5s)}
+.work .card .card-image{border-bottom-color:transparent;opacity:0}
+.work .card .card-body{background:linear-gradient(var(--text-primary),var(--text-primary)) no-repeat 0 0/0 1px;transition:background-size .5s ease calc(var(--s,0s) + .45s)}
+.work .card .card-body>*{opacity:0}
+.work .card.in{background:var(--surface);border-color:var(--rule)}
+.work .card.in .outline rect{stroke-dashoffset:0;opacity:0}
+.work .card.in .card-body{background-size:100% 1px}
+.work .card.in .card-image{animation:draft-image 1.3s ease calc(var(--s,0s) + .6s) both}
+.work .card.in .card-body>*{animation:draft-text 1.3s ease calc(var(--s,0s) + .7s) both}
+@keyframes draft-image{0%{opacity:0;filter:grayscale(1) contrast(.7) brightness(1.2)}35%,60%{opacity:.55;filter:grayscale(1) contrast(.7) brightness(1.2)}100%{opacity:1;filter:none}}
+@keyframes draft-text{0%{opacity:0}35%,60%{opacity:.4}100%{opacity:1}}
+
+/* Lab cards are flopped on the canvas: tilted, overlapping, dropped in. Hover straightens one and brings it forward. */
+.cards.lab{grid-template-columns:repeat(4,minmax(0,1fr));gap:0;padding:16px 24px 32px}
+.lab .card{position:relative;border-top:6px solid var(--c);box-shadow:0 6px 18px rgba(34,54,64,.12);transition:rotate .25s ease,translate .25s ease,scale .25s ease}
+.lab .card:nth-child(4n+1){--c:#f2a035;rotate:-6deg;translate:14px 18px}
+.lab .card:nth-child(4n+2){--c:#82b747;rotate:4deg;translate:-8px -12px;z-index:1}
+.lab .card:nth-child(4n+3){--c:#e8647c;rotate:-3deg;translate:-18px 26px}
+.lab .card:nth-child(4n+4){--c:#87b9d4;rotate:7deg;translate:-28px -4px}
+.lab .card:hover{scale:1.06;z-index:3}
+.lab .card{opacity:0}
+.lab .card.in{animation:lab-drop .7s cubic-bezier(.3,1.4,.5,1) var(--s,0s) both}
+@keyframes lab-drop{0%{opacity:0;transform:translateY(-140px) rotate(-14deg) scale(1.1)}100%{opacity:1;transform:none}}
+@media(max-width:900px){.cards.lab{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:12px}}
+
+@media(max-width:900px){.cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}}
+@media(max-width:600px){.flask-nav{gap:20px;justify-content:center;width:calc(100% - 40px)}.flask-nav a{font-size:14px}.flask{width:132px}.flask-home .profile{padding:136px 20px 32px}.cards{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.flask.bubbling{animation:none}.cards .card,.cards .card *,.cards .card .card-body{background-size:100% 1px!important}.work .card .outline{display:none}}
+
+/* Load sequence: the flask fills and pops in the middle of the screen, rises, then name, copy, pills, cards. */
+.seq{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .7s cubic-bezier(.2,.8,.2,1)}
+.loaded .seq{opacity:1;transform:none}
+.loaded .seq-3{transition-delay:1.3s}
+.loaded .seq-4{transition-delay:1.8s}
+.flask.intro{opacity:0;transform:translateY(var(--rise,0)) scale(0)}
+.flask.intro.shown{opacity:1;transform:translateY(var(--rise,0)) scale(1);transition:opacity .12s ease,transform .4s cubic-bezier(.3,1.7,.5,1)}
+.flask.intro.up{transform:none;transition:transform .7s cubic-bezier(.5,0,.2,1)}
+
+/* Name and line slide up from behind a mask, one line at a time. */
+.reveal span{color:inherit}
+.reveal>span{display:block;overflow:hidden;padding-bottom:.14em;margin-bottom:-.14em}
+.reveal>span>span{display:block;transform:translateY(105%);transition:transform .9s cubic-bezier(.2,.8,.2,1) var(--d,0s)}
+.loaded .reveal>span>span{transform:none}
+@media(prefers-reduced-motion:reduce){.reveal>span>span{transform:none;transition:none}}
+
+/* Centred, matching the header. */
+.flask-home main>.filters{justify-content:center}
+.group h2{text-align:center}
+@media(prefers-reduced-motion:reduce){.seq,.flask.intro{opacity:1;transform:none;transition:none}}
+
+/* Pills share one width so the row reads evenly. */
+.flask-home .filters{gap:8px}.flask-home .filters button{min-width:120px;text-align:center;padding-inline:10px}
+@media(max-width:600px){.flask-home .filters button{min-width:0;flex:1 1 30%}}
+
+/* Hover: cards stay put and answer with colour and size. */
+.work .card.drawn{transition:transform .2s ease,box-shadow .2s ease,border-color .15s ease}
+.work .card.drawn .card-image{transition:transform .4s ease}
+.work .card.drawn:is(:hover,:has(:focus-visible)){transform:scale(1.03);border-color:var(--accent);outline:2px solid var(--accent);outline-offset:-1px;z-index:2}
+.work .card.drawn:is(:hover,:has(:focus-visible)) .card-image{transform:scale(1.04)}
+.card:is(:hover,:has(:focus-visible)) .card-main{color:var(--accent)}
+.card-main:focus-visible{outline:none}
+.lab .card:is(:hover,:has(:focus-visible)){scale:1.06;z-index:3;outline:2px solid var(--accent);outline-offset:-1px}
+
+
+/* Every clickable thing answers: hover lifts or fills, a press pushes in. */
+.card-links a{position:relative;z-index:2;display:inline-block;padding:8px 14px;border:1px solid var(--accent);background:var(--surface);color:var(--accent);font:600 13px/1.2 var(--font-body);text-decoration:none;transition:background-color .15s ease,color .15s ease,transform .15s ease,box-shadow .15s ease}
+.card-links a:first-child{background:var(--accent);color:#fff}
+.card-links a:hover{background:var(--accent-tint);transform:scale(1.06)}
+.card-links a:first-child:hover{background:var(--accent-dark);color:#fff}
+.card-links a:active,.flask-home .filters button:active{transform:scale(.96)}
+.card-links a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+.flask-home .filters button{transition:background-color .15s ease,border-color .15s ease,color .15s ease,transform .15s ease,box-shadow .15s ease}
+.flask-home .filters button:not([aria-pressed=true]):hover{border-color:var(--accent);color:var(--accent);background:var(--accent-tint);transform:scale(1.06)}
+
+.flask-nav a{position:relative;padding-bottom:4px;transition:color .15s ease}
+.flask-nav a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform .2s ease}
+.flask-nav a:hover::after,.flask-nav a:focus-visible::after{transform:scaleX(1)}
+
+.flask.intro.up{transition:transform .7s cubic-bezier(.5,0,.2,1),scale .2s ease}
+.flask:hover{scale:1.06}
+.flask:active{scale:.95}
+@media(prefers-reduced-motion:reduce){.card-links a,.flask-home .filters button,.flask-nav a::after{transition:none}.card-links a:hover,.flask-home .filters button:hover{transform:none}}
