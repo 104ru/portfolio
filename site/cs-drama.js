@@ -12,4 +12,4 @@ const io = new IntersectionObserver(es => es.forEach(e => {
  if (still) return;
  e.isIntersecting ? v.play().catch(() => {}) : v.pause();
 }), {threshold: .4});
-document.querySelectorAll('.drama-loop video').forEach(v => io.observe(v));
+document.querySelectorAll('.drama-loop video, .drama-phones video').forEach(v => io.observe(v));
