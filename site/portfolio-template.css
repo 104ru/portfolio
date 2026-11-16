@@ -630,3 +630,4 @@ body.portfolio-template.case-study .masthead.shell{width:100%;max-width:none;bor
 body.portfolio-template .chart-panel .chart-body{grid-template-columns:minmax(0,1fr)}
 body.portfolio-template .chart-panel .case-diagram{min-width:0}
 .case-panorama{height:auto;--panorama-height:auto}.case-panorama .case-diagram{flex:none;width:1640px;max-width:none;height:auto}
+.nowrap{white-space:nowrap}
