@@ -1,0 +1,632 @@
+/* Shared portfolio design system. Load after page-specific layout styles. */
+:root {
+  --font-heading: 'Inter Tight', 'Inter', sans-serif;
+  --font-diagram: 'Abel', sans-serif;
+  --heading-weight: 600; --heading-tracking: -0.025em;
+  --font-body: 'Inter', sans-serif;
+  --text-primary: #223640;
+  --text-secondary: #5d6b72;
+  --brand-blue: #2c6e7e;
+  --accent: #2c6e7e; --accent-text: #2c6e7e; --accent-dark: #1f5260; --accent-tint: #e3eef1;
+  --font-mono: var(--font-body); --rule: #cfd9dd; --panel: #f7fafb; --grid: #e9edef;
+  --surface-2: #f4f7f8; --border-subtle: #dce4e7;
+  --surface: #fff;
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
+  --space-5: 20px; --space-6: 24px; --space-8: 32px; --space-10: 40px;
+  --space-12: 48px; --space-16: 64px;
+  --type-h1: 72px; --type-h2: 40px; --type-h3: 28px; --type-h4: 22px; --type-h5: 18px;
+  --type-body: 17px; --type-subtitle: 19px; --type-small: 14px; --type-eyebrow: 12px; --type-label: calc(var(--type-body) - 2px);
+  --card-padding: 24px; --card-gap: 24px; --card-radius: 8px;
+  --section-gap: 64px; --reading-width: 78ch;
+  --list-item-gap:var(--space-1); --list-line-height:1.5;
+}
+body.portfolio-template { font:400 var(--type-body)/1.65 var(--font-body); color:var(--text-primary); background:var(--surface); }
+body.portfolio-template :is(h1,h2,h3,h4,h5,.type-h1,.type-h2,.type-h3,.type-h4,.type-h5) {
+  font-family:var(--font-heading); font-weight:var(--heading-weight); font-style:normal; font-optical-sizing:auto;
+  color:var(--text-primary); letter-spacing:var(--heading-tracking); text-transform:none; text-wrap:balance;
+}
+body.portfolio-template :is(h1,.type-h1) { font-size:var(--type-h1); line-height:1.02; letter-spacing:-0.035em; font-weight:var(--heading-weight); }
+body.portfolio-template :is(h2,.type-h2) { font-size:var(--type-h2); line-height:1.15; letter-spacing:-0.025em; }
+body.portfolio-template :is(h3,.type-h3) { font-size:var(--type-h3); line-height:1.25; }
+body.portfolio-template :is(h4,.type-h4) { font-size:var(--type-h4); line-height:1.35; }
+body.portfolio-template :is(h5,.type-h5) { font-size:var(--type-h5); line-height:1.4; }
+body.portfolio-template :is(.original-study,.source-body,.stage-note,.findings,.type-body) { font:400 var(--type-body)/1.65 var(--font-body); }
+body.portfolio-template :is(.original-study p,.original-study ul,.original-study ol,.stage-note ul,.stage-note .concise-points) { font-family:var(--font-body); font-size:var(--type-body); font-weight:400; font-style:normal; line-height:1.65; }
+body.portfolio-template :is(strong,b,.type-emphasis) { font-weight:600; }
+body.portfolio-template :is(em,i,.type-italic) { font-style:italic; }
+body.portfolio-template :is(.subtitle,.lead,.type-subtitle) { font:400 var(--type-subtitle)/1.5 var(--font-body); color:var(--text-secondary); }
+body.portfolio-template :is(blockquote,.type-quote) { margin:var(--space-6) 0; padding:var(--space-2) 0 var(--space-2) var(--space-6); border-left:3px solid var(--brand-blue); font:italic 400 20px/1.6 var(--font-body); color:var(--text-primary); }
+body.portfolio-template :is(figcaption,.source-note,.type-caption) { font:400 var(--type-small)/1.5 var(--font-body); color:var(--text-secondary); }
+body.portfolio-template :is(.eyebrow,.stage-label) { font:600 var(--type-eyebrow)/1.5 var(--font-body); letter-spacing:.08em; text-transform:uppercase; }
+body.portfolio-template :is(button,input,select,textarea) { font-family:var(--font-body); }
+body.portfolio-template :is(a,button,input,select,textarea,summary):focus-visible { outline:3px solid var(--brand-blue); outline-offset:4px; }
+/* Structural areas: title, section header, subheader, reading content, evidence. */
+.portfolio-section { padding-block:var(--section-gap); }
+.portfolio-section-header { display:flex; flex-direction:column; align-items:flex-start; gap:var(--space-4); margin-bottom:var(--space-8); }
+.portfolio-section-header :is(h1,h2,h3,p) { margin:0; }
+.portfolio-subheader { margin:var(--space-10) 0 var(--space-4); }
+.portfolio-reading { max-width:var(--reading-width); }
+.portfolio-reading p { margin:0 0 var(--space-6); }
+.portfolio-reading :is(ul,ol) { padding-left:22px; margin:0; }
+/* One global prose-list style. Component lists retain their own row layout. */
+body.portfolio-template :is(ul,ol) > li { margin-block:0 var(--list-item-gap); line-height:var(--list-line-height); }
+body.portfolio-template :is(ul,ol) > li:last-child { margin-bottom:0; }
+.portfolio-reading li { padding-left:6px; }
+/* Explicitly preserved content keeps its previous list rhythm. */
+.portfolio-preserved-lists { --list-item-gap:var(--space-2); --list-line-height:1.5; }
+.portfolio-evidence { margin-block:var(--space-8); }
+.portfolio-evidence img { display:block; max-width:100%; height:auto; }
+/* Metric cards and general cards share one inset and gutter system. */
+body.portfolio-template :is(.portfolio-card-grid,.concise-results) { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr)); gap:var(--card-gap); align-items:stretch; }
+body.portfolio-template :is(.portfolio-card,.concise-results .result-card) { padding:var(--card-padding); border-radius:var(--card-radius); min-width:0; }
+body.portfolio-template .concise-results .result-card { display:grid; grid-template-rows:28px 64px minmax(48px,auto); gap:var(--space-6); }
+body.portfolio-template :is(.portfolio-card-title,.concise-results .result-card h2) { font:500 19px/1.4 var(--font-body); margin:0; letter-spacing:0; }
+body.portfolio-template .concise-results .card-value strong { font:600 56px/1.1 var(--font-body); letter-spacing:-2px; font-variant-numeric:tabular-nums; }
+body.portfolio-template .concise-results .card-value .result-direction { font:500 21px/1.4 var(--font-body); }
+body.portfolio-template .concise-results .card-caption { font:400 15px/1.6 var(--font-body); }
+/* Existing section headers use the template's vertical title grouping. */
+body.portfolio-template .stage-header { grid-template-columns:1fr; gap:var(--space-6); }
+body.portfolio-template .stage-header h2 { margin:var(--space-3) 0 0; }
+body.portfolio-template .stage-header .subtitle { margin:var(--space-3) 0 0; }
+body.portfolio-template .original-study .source-body h3 { margin-bottom:var(--space-4); }
+body.portfolio-template .original-study .source-body h3:not(:first-child) { margin-top:var(--space-10); }
+body.portfolio-template .measurement :is(table,th,td) { font-family:var(--font-body); font-size:var(--type-small); line-height:1.5; }
+@media (max-width:1100px) and (min-width:901px) {
+  body.portfolio-template .concise-results .card-value strong { font-size:48px; }
+  body.portfolio-template .concise-results .card-value .result-direction { font-size:18px; }
+  body.portfolio-template .concise-results .result-card { grid-template-rows:28px 64px minmax(72px,auto); }
+}
+@media (max-width:900px) {
+  body.portfolio-template :is(.portfolio-card-grid,.concise-results) { grid-auto-rows:1fr; }
+  body.portfolio-template .concise-results .result-card { grid-template-rows:28px 84px minmax(72px,auto); }
+}
+@media (max-width:700px) {
+  :root { --type-h1:48px; --type-h2:34px; --type-h3:26px; --type-h4:21px; --type-h5:18px; --type-body:16px; --type-subtitle:18px; --section-gap:48px; --card-padding:16px; --card-gap:16px; }
+}
+/* Explicit adapters for legacy page selectors; token values remain authoritative. */
+body.portfolio-template :is(.opening .opening-title h1,.profile h1){font:var(--heading-weight) var(--type-h1)/1.02 var(--font-heading);letter-spacing:-0.035em}
+body.portfolio-template :is(.original-study .situation h2,.original-study .stage-header h2){font:var(--heading-weight) var(--type-h2)/1.15 var(--font-heading);letter-spacing:-0.025em}
+body.portfolio-template :is(.project h3,.original-study h3){font:var(--heading-weight) var(--type-h3)/1.25 var(--font-heading);text-transform:none;letter-spacing:var(--heading-tracking)}
+body.portfolio-template :is(.opening .opening-title .lead,.stage-header .subtitle){font:400 var(--type-subtitle)/1.5 var(--font-body)}
+body.portfolio-template .original-study .situation{font:400 var(--type-body)/1.65 var(--font-body)}
+
+/* Subheader 1: primary subtitle beneath a page title. */
+body.portfolio-template .subheader-1,
+body.portfolio-template .opening .opening-title .lead.subheader-1{font:400 24px/1.5 var(--font-body);color:var(--text-secondary)}
+@media(max-width:700px){body.portfolio-template .subheader-1,body.portfolio-template .opening .opening-title .lead.subheader-1{font-size:21px}}
+
+/* Navigation uses labels without decorative arrows. */
+body.portfolio-template .brand-logo{display:inline-flex;align-items:center}
+body.portfolio-template .brand-logo img{display:block;width:48px;height:48px;object-fit:contain;filter:invert(1) grayscale(1) brightness(1.2);opacity:.45;mix-blend-mode:multiply}
+
+/* Numbered subtitles pair with the matching heading level. */
+:root{--type-subheader-1:24px;--type-subheader-2:20px;--type-subheader-3:18px;--type-subheader-4:16px;--type-subheader-5:14px}
+body.portfolio-template.case-study :is(.opening,.original-study) p.subheader-1{font:400 var(--type-subheader-1)/1.5 var(--font-body);color:var(--text-secondary)}
+body.portfolio-template.case-study :is(.opening,.original-study) p.subheader-2{font:400 var(--type-subheader-2)/1.5 var(--font-body);color:var(--text-secondary)}
+body.portfolio-template.case-study :is(.opening,.original-study) p.subheader-3{font:400 var(--type-subheader-3)/1.5 var(--font-body);color:var(--text-secondary)}
+body.portfolio-template.case-study :is(.opening,.original-study) p.subheader-4{font:400 var(--type-subheader-4)/1.5 var(--font-body);color:var(--text-secondary)}
+body.portfolio-template.case-study :is(.opening,.original-study) p.subheader-5{font:400 var(--type-subheader-5)/1.5 var(--font-body);color:var(--text-secondary)}
+@media(max-width:700px){:root{--type-subheader-1:21px;--type-subheader-2:18px;--type-subheader-3:17px}}
+
+/* Process controls and painpoint drawer share the figure's type and spacing. */
+.bp-actions{display:flex;gap:12px;align-items:center;justify-content:flex-end;flex-shrink:0}
+body.portfolio-template .bp-actions button{min-height:44px;padding:10px 14px;border-radius:5px;font:500 16px/1.5 var(--font-body);white-space:nowrap;cursor:pointer}
+.bp-list-open{border:1px solid #bb3446;background:#bb3446;color:#fff}
+.bp-list-open:hover{background:#a02b3b;border-color:#a02b3b}
+.bp-list-open:focus-visible,.painpoints-close:focus-visible{outline:2px solid #bb3446;outline-offset:4px}
+/* Drawers are scoped to their owning figure, never the page viewport. */
+.figure-workspace{position:relative;display:grid;grid-template-columns:minmax(0,1fr);align-items:stretch;overflow:hidden}
+.figure-workspace.has-open-drawer{grid-template-columns:minmax(0,1fr)}
+.figure-workspace > .bp-scroll{min-width:0}
+body.portfolio-template .painpoints-drawer{position:absolute;z-index:10;inset:0 0 0 auto;margin:0;width:min(380px,45%);max-width:100%;height:100%;max-height:100%;padding:0;border:0;border-left:1px solid var(--border-subtle);border-radius:0;background:#fff;color:var(--text-primary);overflow-y:auto;overscroll-behavior:contain;font:400 16px/1.5 var(--font-body)}
+.painpoints-drawer[hidden]{display:none}
+body.portfolio-template .painpoints-header{position:sticky;top:0;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:28px;background:#fff;z-index:1}
+body.portfolio-template .figure-title{margin:0;color:var(--text-primary);font:var(--figure-title-font)}
+.painpoints-close{display:grid;place-items:center;flex:0 0 44px;width:44px;height:44px;border:1px solid var(--border-subtle);border-radius:5px;background:#fff;color:var(--text-secondary);cursor:pointer}
+.painpoints-close:hover{background:#f4f7f8}
+.painpoints-close svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round}
+body.portfolio-template .painpoints-items{list-style:none;margin:0;padding:0 28px 28px;display:grid;gap:8px}
+body.portfolio-template .painpoints-items li{display:grid;grid-template-columns:28px 1fr;gap:16px;align-items:start;margin:0;padding:12px 0;font:400 16px/1.5 var(--font-body)}
+.painpoints-number{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:#bb3446;color:#fff;font:400 14px/1 var(--font-body)}
+.blueprint-svg .bp-actor image{filter:none}
+.blueprint-svg .bp-actor-name{font-size:14px}
+@media(prefers-reduced-motion:no-preference){@keyframes painpoints-enter{from{transform:translateX(100%)}to{transform:translateX(0)}}}
+@media(max-width:700px){body.portfolio-template .painpoints-header{padding:20px}body.portfolio-template .painpoints-items{padding:0 20px 20px}.bp-actions{gap:8px;flex-wrap:wrap}body.portfolio-template .bp-actions button{font-size:16px;padding:10px 16px}}
+
+:root{--figure-title-font:500 18px/1.5 var(--font-body)}
+@media(max-width:700px){
+ .figure-workspace.has-open-drawer{grid-template-columns:minmax(0,1fr)}
+ body.portfolio-template .figure-workspace .painpoints-drawer{position:absolute;inset:0;width:100%;height:100%;border-left:0}
+}
+
+/* Artwork fits its shared figure container. */
+body.portfolio-template .workshop-viewport a{display:block;width:100%}
+.figure-artwork-native{display:block;width:100%;height:auto;overflow:hidden}
+body.portfolio-template .original-study .figure-title{margin:0;color:var(--text-primary);font:var(--figure-title-font)}
+
+/* Process playback and frozen actor rail. */
+.bp-frozen-actors{position:sticky;left:0;display:block;width:112px;height:1040px;margin-bottom:-1040px;z-index:6;background:#fff;overflow:hidden}
+.bp-frozen-actors .bp-actor-name{font-family:var(--font-diagram);font-size:14px;font-weight:400;fill:var(--text-primary)}
+.bp-edge-label{font:400 17px var(--font-diagram);fill:var(--text-primary);paint-order:stroke;stroke:#fff;stroke-width:7px;stroke-linejoin:round}
+body.portfolio-template .bp-sequenced :is(.bp-step,.bp-connector,.bp-pain,.bp-edge-label){animation:none;opacity:0}
+.bp-sequenced .bp-connector{stroke-dasharray:1;stroke-dashoffset:1}
+
+/* Original ecosystem artwork, revealed in semantic layers. */
+.ecosystem-diagram{display:block;width:100%;height:auto;background:#fff}
+.ecosystem-diagram.eco-ready :is(.eco-center,.eco-areas,.eco-axis-dot,.eco-axis-label,.eco-population,.eco-area-label,.eco-complete){opacity:0}
+.ecosystem-diagram.eco-ready .eco-axis-reveal{stroke-dasharray:1;stroke-dashoffset:1}
+.ecosystem-diagram .eco-center{transform-box:fill-box;transform-origin:center}
+@media(prefers-reduced-motion:reduce){
+ .ecosystem-diagram.eco-ready :is(.eco-center,.eco-areas,.eco-axis-dot,.eco-axis-label,.eco-population,.eco-area-label,.eco-complete){opacity:1}
+ .ecosystem-diagram.eco-ready .eco-axis-reveal{stroke-dashoffset:0}
+}
+
+.bp-sequenced .bp-connector:not([data-line-complete]){marker-end:none}
+
+/* Shared figure controls, profile summaries, tips and detail dialogs. */
+body.portfolio-template .figure-button{min-height:44px;padding:10px 14px;border:1px solid #dce4e7;border-radius:5px;background:#fff;color:var(--text-primary);font:500 16px/1.5 var(--font-body);cursor:pointer}
+body.portfolio-template .figure-button:hover{background:#f4f7f8;border-color:#2c6e7e}
+.figure-button:focus-visible,.profile-info:focus-visible{outline:2px solid #2c6e7e;outline-offset:3px}
+body.case-study .figure-panel > .figure-caption{display:flex;align-items:flex-start;justify-content:space-between;gap:24px}
+.figure-panel .bp-actions{flex-wrap:wrap}
+.ecosystem-workspace{overflow:visible}
+.ecosystem-canvas{position:relative;min-width:0}
+.profile-info{position:absolute;left:var(--profile-x);top:var(--profile-y);transform:translate(-50%,-50%);display:grid;place-items:center;width:18px;height:18px;padding:0;border:1px solid #2c6e7e;border-radius:50%;background:#fff;color:#2c6e7e;font:500 12px/1 var(--font-body);cursor:help;z-index:2}
+.profile-info::before{content:"";position:absolute;inset:-3px}
+.profile-info[hidden]{display:none}
+body.portfolio-template .profile-tip{position:absolute;z-index:12;box-sizing:border-box;width:240px;max-width:calc(100% - 16px);padding:16px;border:1px solid var(--border-subtle);border-radius:8px;background:#fff;color:var(--text-primary);box-shadow:0 4px 16px #173a2b1a;font:400 14px/1.5 var(--font-body);pointer-events:none}
+.profile-tip strong{display:block;margin-bottom:4px;font-weight:500}
+body.portfolio-template .ecosystem-figure .profiles-drawer{position:relative;inset:auto;grid-area:1/1/3/2;width:min(100%,520px);height:auto;min-height:0;max-height:none;overflow:visible;border-left:1px solid var(--border-subtle);padding-left:var(--card-padding);align-self:stretch;justify-self:end}
+.ecosystem-workspace.has-open-drawer{aspect-ratio:auto;min-height:0}
+.ecosystem-workspace > .ecosystem-scroll{grid-area:1/1}
+
+body.portfolio-template .profiles-drawer > .painpoints-header{position:static;padding:var(--space-2) 0;gap:var(--space-3)}
+.profiles-content{padding:0 0 var(--space-3)}
+.profile-group+.profile-group{margin-top:var(--space-2)}
+body.portfolio-template .profile-summary{display:grid;grid-template-columns:32px minmax(0,1fr) auto;align-items:center;gap:var(--space-3);padding:var(--space-1) 0;border-bottom:1px solid var(--border-subtle)}
+.profile-avatar{display:block;width:32px;height:32px;border-radius:50%}
+body.portfolio-template .profile-name{display:inline;margin:0 var(--space-2) 0 0;font:500 16px/1.5 var(--font-body);color:var(--text-primary)}
+body.portfolio-template .profile-description{margin:0;font:400 14px/1.5 var(--font-body);color:var(--text-secondary)}
+body.portfolio-template .profile-summary .profile-line{margin:0;font:400 14px/1.5 var(--font-body);min-width:0}
+.profile-summary .profile-full{display:flex;align-items:center;align-self:stretch;margin:0;font:400 14px/1.5 var(--font-body);color:var(--brand-blue);text-underline-offset:3px}
+.profile-group > .figure-title{padding-block:var(--space-1)}
+.profile-original{display:block;cursor:zoom-in}
+.profile-full-image{display:block;width:100%;height:auto}
+@media(max-width:700px){
+ body.case-study .figure-panel>.figure-caption{flex-direction:column;gap:16px}
+ .ecosystem-workspace{width:100%}
+ body.portfolio-template .ecosystem-figure .profiles-drawer{border-left:0;padding-left:0}
+ .profile-info{width:14px;height:14px;font-size:10px}
+}
+.figure-span-all{grid-column:1/-1}
+/* Figure layout and profile text use the shared frame and type hierarchy. */
+body.portfolio-template.case-study .original-study .figure-panel{margin:0}
+body.portfolio-template.case-study .original-study .figure-panel>.figure-caption{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;margin-bottom:var(--space-4)}
+body.portfolio-template.case-study .original-study .profile-name{margin:0 var(--space-2) 0 0;font:500 16px/1.5 var(--font-body)}
+body.portfolio-template.case-study .original-study .profile-description{margin:0;font:400 14px/1.5 var(--font-body)}
+body.portfolio-template.case-study .original-study .profile-group>.figure-title{margin:0;font:var(--figure-title-font)}
+.ecosystem-workspace{aspect-ratio:2048/1099;overflow:hidden;min-height:350px}
+.ecosystem-scroll{min-width:0;overflow:auto;align-self:start}
+.ecosystem-canvas{width:100%;min-width:640px}
+@media(max-width:700px){
+ body.portfolio-template.case-study .original-study .figure-panel>.figure-caption{flex-direction:column;gap:16px}
+ .profile-info{width:18px;height:18px;font-size:12px}
+}
+.profile-devices{display:flex;gap:6px;margin-top:10px;color:var(--text-secondary)}
+.profile-devices svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.5}
+.profile-devices .device-inactive{opacity:.2}
+
+.figure-workspace{grid-template-columns:minmax(0,1fr);min-width:0}
+.figure-workspace.has-open-drawer{grid-template-columns:minmax(0,1fr)}
+@media(max-width:700px){.figure-workspace.has-open-drawer{grid-template-columns:minmax(0,1fr)}}
+
+body.portfolio-template .figure-button.figure-button-primary{background:#2c6e7e;border-color:#2c6e7e;color:#fff}
+body.portfolio-template .figure-button.figure-button-primary:hover{background:#1f5260;border-color:#1f5260;color:#fff}
+
+/* Evidence panels inherit the shared card inset at every breakpoint. */
+body.portfolio-template.case-study .business-card{padding:var(--card-padding);border-radius:var(--card-radius)}
+/* Shared charts: content-sized rows and consistent label geometry at every width. */
+body.portfolio-template .chart-panel{display:grid;grid-template-rows:auto auto;align-content:start;gap:var(--space-4)}
+body.portfolio-template .chart-panel .chart-legend{align-content:start;align-items:flex-start;gap:var(--space-2) var(--space-4);font:400 var(--type-small)/1.5 var(--font-body)}
+body.portfolio-template .chart-panel{container-type:inline-size}
+.chart-body{display:grid;gap:var(--space-4);min-width:0;align-items:start}
+.chart-viewport{min-width:0;max-width:540px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-color:var(--brand-blue) #f4f7f8}
+.chart-viewport:focus-visible{outline:3px solid var(--brand-blue);outline-offset:4px}
+body.portfolio-template .chart-panel .sales-chart{width:100%;min-width:480px;height:auto;aspect-ratio:540/390;cursor:default}
+@container(min-width:640px){
+ .chart-body{grid-template-columns:minmax(0,1fr) 144px;gap:var(--space-6)}
+ body.portfolio-template .chart-panel .chart-legend{flex-direction:column;padding-top:var(--space-6)}
+}
+body.portfolio-template .chart-panel :is(.chart-tick,.chart-value,.chart-market){font-size:14px}
+body.portfolio-template .chart-panel .chart-bar.is-muted{opacity:.15}
+body.portfolio-template.case-study .chart-panel > figcaption{margin:0;min-height:0}
+body.portfolio-template .chart-panel .diagram-caption > :first-child{min-width:0;flex:1 1 0}
+body.portfolio-template .chart-panel .diagram-caption > .bp-actions{flex:0 0 auto}
+
+/* Six benchmarks stay balanced: six across, then two rows of three, then pairs. */
+body.portfolio-template .baseline-grid{grid-template-columns:repeat(6,minmax(0,1fr));gap:var(--card-gap);align-items:stretch}
+body.portfolio-template .baseline-grid .baseline-metric{min-height:0;padding:var(--space-6) var(--space-3)}
+@media(max-width:1100px){body.portfolio-template .baseline-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){body.portfolio-template .baseline-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.portfolio-card-grid{margin-bottom:var(--space-10)}
+body.portfolio-template .baseline-metric{aspect-ratio:auto;width:100%;min-width:0}
+body.portfolio-template .portfolio-card-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media(max-width:600px){body.portfolio-template .portfolio-card-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-4)}}
+
+
+/* Shared content-section spacing: avoid stacked trailing margins and padding. */
+body.portfolio-template.case-study .original-study .source-body{padding-bottom:var(--space-6)}
+body.portfolio-template.case-study .original-study .source-body > :last-child{margin-bottom:0}
+
+/* Shared process geometry and controls for original and end-state maps. */
+body.portfolio-template .bp-canvas{width:max(100%,var(--diagram-width,2800px));height:var(--diagram-height,1040px);aspect-ratio:auto}
+body.portfolio-template .blueprint-svg{height:var(--diagram-height,1040px)}
+body.portfolio-template .bp-frozen-actors{height:var(--diagram-height,1040px);margin-bottom:calc(-1 * var(--diagram-height,1040px))}
+.bp-action-label{font:400 15px var(--font-diagram);fill:var(--brand-blue)}
+body.portfolio-template.case-study .bp-actions .bp-list-open{background:#bb3446;color:white;border:1px solid #bb3446}
+body.portfolio-template :is(.diagram-image-header,.blueprint-dialog-header) > :is(h2,h3,.figure-title){margin:0;color:var(--text-primary);font:var(--figure-title-font)}
+body.portfolio-template.case-study .bp-actions button{margin:0}
+
+/* Diagram annotations and full-diagram previews share the figure controls. */
+.bp-solved{background:#278454;box-shadow:0 2px 8px #173a2b22}
+.bp-solved:hover,.bp-solved:focus-visible,.bp-solved[aria-expanded="true"]{background:#1d6842;outline-color:#27845444}
+.bp-solution-tooltip:not([hidden]){display:block;z-index:12;top:var(--tip-top);left:var(--tip-left);width:min(280px,calc(100% - 16px));box-sizing:border-box;border-color:var(--border-subtle);pointer-events:none}
+.bp-solution-tooltip[hidden]{display:none}
+body.portfolio-template .diagram-caption{display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-4)}
+.diagram-image-dialog{width:calc(100vw - 48px);max-width:none;max-height:calc(100dvh - 48px);box-sizing:border-box;padding:var(--space-6);border:1px solid var(--border-subtle);border-radius:8px;background:#fff;color:var(--text-primary)}
+.diagram-image-dialog::backdrop{background:#173a2bb3}
+.diagram-image-header{display:flex;align-items:center;justify-content:space-between;gap:var(--space-4);margin-bottom:var(--space-4)}
+body.portfolio-template .diagram-image-header h3{margin:0}
+.diagram-full-image{display:block;width:100%;height:auto;max-height:calc(100dvh - 170px);object-fit:contain;object-position:center}
+@media(max-width:700px){body.portfolio-template .diagram-caption{flex-direction:column}.diagram-image-dialog{width:calc(100vw - 24px);max-height:calc(100dvh - 24px);padding:var(--space-4)}.diagram-image-header{align-items:flex-start}.diagram-full-image{max-height:calc(100dvh - 210px)}}
+
+/* Heading/subheader pairs share one spacing rule, in flow and in section headers. */
+:root { --heading-subheader-gap: var(--space-3); --subheader-content-gap: var(--space-6); }
+body.portfolio-template.case-study .original-study :is(h2,h3,h4,h5,h3.findings-heading):has(+ :is(.subheader-2,.subheader-3,.subheader-4,.subheader-5)) { margin-bottom:0; padding-bottom:0; }
+body.portfolio-template.case-study .original-study :is(h2,h3,h4,h5) + :is(.subheader-2,.subheader-3,.subheader-4,.subheader-5) { margin:var(--heading-subheader-gap) 0 var(--subheader-content-gap); padding:0; }
+body.portfolio-template.case-study .original-study .stage-header > div { gap:0; }
+body.portfolio-template.case-study .original-study .stage-header > div > :is(.subheader-2,.subheader-3,.subheader-4,.subheader-5):last-child { margin-bottom:0; }
+body.portfolio-template.case-study .bp-solved { background:#278454; }
+body.portfolio-template.case-study .bp-solved:is(:hover,:focus-visible,[aria-expanded="true"]) { background:#1d6842;outline-color:#27845444; }
+body.portfolio-template.case-study :is(.chart-panel,.workshop-results) > figcaption.diagram-caption { display:flex;align-items:flex-start;justify-content:space-between;gap:var(--space-4); }
+@media(max-width:700px){body.portfolio-template.case-study :is(.chart-panel,.workshop-results) > figcaption.diagram-caption { flex-direction:column; }}
+/* Figure actions stay intact while their captions can wrap naturally. */
+body.portfolio-template .diagram-caption > .bp-actions { flex-shrink:0; }
+
+/* Shared delivery-plan artwork: aligned stage headers, effort modules and legend. */
+.delivery-plan-diagram .plan-stage{fill:#f4f7f8}
+.delivery-plan-diagram .plan-stage-label{font:400 18px var(--font-diagram);fill:var(--text-primary);text-anchor:middle}
+.delivery-plan-diagram .plan-module{stroke:#173a2b18;stroke-width:1}
+.delivery-plan-diagram .plan-module-label{font:400 15.5px var(--font-body);fill:var(--text-primary);text-anchor:middle}
+.delivery-plan-diagram .plan-legend-label{font:400 15.5px var(--font-body);fill:var(--text-secondary)}
+
+/* Fit static artwork without enlarging it beyond its container or viewport. */
+.figure-artwork-fit{display:block;width:auto;max-width:100%;height:auto;max-height:65vh;object-fit:contain;margin-inline:auto}
+
+/* Shared spacing between consecutive figure cards. */
+body.portfolio-template.case-study .original-study .figure-panel + .figure-panel{margin-top:var(--space-8)}
+
+/* Page accordion: prominent H2 titles below full-page dividers. */
+:root{--type-accordion-title:48px}
+.portfolio-accordion{min-width:0}
+body.portfolio-template .portfolio-accordion-summary{display:flex;align-items:center;justify-content:space-between;gap:var(--space-6);padding-block:var(--space-6);list-style:none;cursor:pointer;border:0;border-top:1px solid var(--border-subtle);border-image:linear-gradient(var(--border-subtle),var(--border-subtle)) 1 / 1px 0 0 / 0 100vw}
+.portfolio-accordion-summary::-webkit-details-marker{display:none}
+body.portfolio-template .portfolio-accordion-summary > h2,
+body.portfolio-template .portfolio-accordion-heading > h2{margin:0;font:var(--heading-weight) var(--type-accordion-title)/1.12 var(--font-heading);letter-spacing:-0.025em;overflow-wrap:break-word;min-width:0}
+body.portfolio-template .portfolio-accordion-action{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;transform:none}
+.portfolio-accordion-wrap{display:none}
+.portfolio-accordion[open] > summary .portfolio-accordion-expand{display:none}
+.portfolio-accordion[open] > summary .portfolio-accordion-wrap{display:inline}
+.portfolio-accordion-summary:focus-visible{outline:3px solid var(--brand-blue);outline-offset:4px}
+.portfolio-accordion-heading{min-width:0}
+body.portfolio-template .portfolio-accordion-summary .portfolio-accordion-heading > p:is(.subheader-2,.subheader-3,.subheader-4,.subheader-5){margin:var(--heading-subheader-gap) 0 0}
+.portfolio-accordion-body{padding-block:0 var(--space-6);min-width:0}
+body.portfolio-template.case-study .portfolio-accordion-body > .source-body:first-child,
+body.portfolio-template.case-study .portfolio-accordion-body > section > .source-body:first-child{padding-top:0}
+@media(max-width:700px){
+ :root{--type-accordion-title:40px}
+ body.portfolio-template .portfolio-accordion-summary{padding-block:var(--space-5);gap:var(--space-4)}
+}
+
+/* Role statements pair a shared H3 with the existing reading-list treatment. */
+.portfolio-role{margin:0}
+body.portfolio-template .portfolio-role > h3{margin:0 0 var(--space-4)}
+.portfolio-role ul{list-style:none}
+
+/* Full-view controls are absent when the whole visual already fits. */
+body.portfolio-template :is(.diagram-show-all,.bp-actions)[hidden]{display:none}
+
+/* Profile browsing uses compact text tabs and the existing modal frame. */
+.profile-navigation{display:flex;gap:var(--space-4);padding:0 var(--card-padding) var(--space-3);border-bottom:1px solid var(--border-subtle)}
+body.portfolio-template .profile-navigation button{padding:var(--space-2) 0;border:0;background:transparent;color:var(--text-secondary);font:400 14px/1.5 var(--font-body);cursor:pointer}
+body.portfolio-template .profile-navigation button[aria-selected="true"]{color:var(--brand-blue);font-weight:500;text-decoration:underline;text-underline-offset:6px}
+
+body.portfolio-template :is(.blueprint-dialog-header,.blueprint-dialog-content){padding:var(--card-padding)}
+
+/* Shared drawers span the complete figure, including its caption. */
+body.portfolio-template figure:has(> .painpoints-drawer){display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr);isolation:isolate}
+figure:has(> .painpoints-drawer) > :is(figcaption,.figure-caption){grid-area:1/1}
+figure:has(> .painpoints-drawer) > .figure-workspace{grid-area:2/1}
+body.portfolio-template figure > .painpoints-drawer{position:relative;inset:auto;grid-area:1/1/3/2;justify-self:end;align-self:stretch;height:auto;max-height:none;min-height:0;z-index:10}
+
+body.portfolio-template .type-label,
+body.portfolio-template .original-study .type-label {margin:0;font:italic 400 var(--type-label)/1.5 var(--font-body);color:var(--text-secondary);letter-spacing:0;text-transform:none}
+.profile-group > .type-label{margin:0;padding-block:var(--space-1)}
+
+/* Colored picture actions always end the shared controls row. */
+.bp-actions > :is(.figure-button-primary,.bp-list-open){order:1}
+
+/* Shared icon-only picture controls. */
+body.portfolio-template.case-study .bp-actions .figure-icon-button{display:inline-grid;place-items:center;flex:0 0 44px;width:44px;min-width:44px;min-height:44px;height:44px;padding:0}
+.figure-icon-button svg{display:block;width:20px;height:20px}
+body.portfolio-template.case-study .bp-actions > .figure-icon-button[hidden]{display:none}
+
+/* Complete original diagrams fit smaller breakpoints without reauthoring. */
+.fitted-diagram{display:none;position:relative}
+body.portfolio-template .bp-pain:not(.bp-solved),body.portfolio-template .bp-pain:not(.bp-solved)>span:first-child{color:#fff}
+body.portfolio-template .fitted-notes-drawer{width:min(100%,520px);padding:0 0 0 var(--card-padding);overflow:visible}
+body.portfolio-template .fitted-notes-drawer > .painpoints-header{position:static;padding:var(--space-2) 0 var(--space-4)}
+.figure-note-select{display:block;width:100%;min-width:0;min-height:44px;margin:var(--space-2) 0 var(--space-4);padding:var(--space-2);border:1px solid var(--border-subtle);border-radius:var(--card-radius);background:var(--surface);color:var(--text-primary);font:400 var(--type-small)/1.5 var(--font-body)}
+@media(max-width:1100px){
+ .has-fitted-diagram > .figure-workspace{display:none}
+ .has-fitted-diagram > .fitted-diagram{display:block;grid-area:2/1;min-width:0;align-self:start}
+ .fitted-diagram > img{display:block;width:100%;max-width:100%;height:auto}
+ body.portfolio-template.case-study .has-fitted-diagram .bp-actions > .bp-replay:not(.diagram-show-all){display:none}
+}
+@media(max-width:700px){body.portfolio-template .fitted-notes-drawer{padding-left:0;border-left:0}}
+@media(max-width:700px){.bp-actions{align-self:flex-end}}
+@media(max-width:700px){body.portfolio-template figure > .painpoints-drawer{width:100%;border-left:0}}
+
+/* Shared static, sliding maps preserve their source artwork. */
+:root{--panorama-height:min(32.5svh,320px)}
+.figure-panorama-scroll{display:flex;max-width:100%;min-width:0;height:var(--panorama-height);overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain;touch-action:pan-x pan-y;cursor:grab;scrollbar-width:thin;scrollbar-color:var(--brand-blue) var(--border-subtle)}
+.figure-panorama-scroll.is-dragging{cursor:grabbing;user-select:none}
+body.portfolio-template .figure-panorama-scroll > img{display:block;flex:none;width:auto;max-width:none;height:100%;filter:none;opacity:1}
+.figure-panorama-scroll:focus-visible{outline:3px solid var(--brand-blue);outline-offset:4px}
+@media(max-width:700px){:root{--panorama-height:25svh}}
+
+/* Shared artwork highlights identify a contributor’s scope without altering the source. */
+.figure-highlight{fill:var(--brand-blue);fill-opacity:.04;stroke:var(--brand-blue);stroke-opacity:.4;stroke-width:1;vector-effect:non-scaling-stroke;pointer-events:none}
+
+/* Shared measures table: quiet rules, compact comparisons and no fixed minimum width. */
+body.portfolio-template .portfolio-table{width:100%;min-width:0;max-width:100%;border-collapse:collapse;border-spacing:0;table-layout:fixed;text-align:left;font:400 var(--type-small)/1.5 var(--font-body);color:var(--text-primary)}
+body.portfolio-template .portfolio-table thead{display:table-header-group;position:static;width:auto;height:auto;overflow:visible;clip-path:none}
+body.portfolio-template .portfolio-table tbody{display:table-row-group}
+body.portfolio-template .portfolio-table tr{display:table-row;padding:0;margin:0;background:transparent}
+body.portfolio-template .portfolio-table :is(th,td){padding:var(--space-4) var(--space-3);border:0;border-bottom:1px solid var(--border-subtle);vertical-align:top;font:inherit;overflow-wrap:normal;background:transparent;color:var(--text-primary);text-transform:none;letter-spacing:0}
+body.portfolio-template .portfolio-table thead th{font-weight:500;color:var(--text-secondary);background:color-mix(in srgb,var(--brand-blue) 4%,var(--surface))}
+body.portfolio-template .portfolio-table thead th:first-child{width:20%}
+body.portfolio-template .portfolio-table thead th:nth-child(2),body.portfolio-template .portfolio-table thead th:nth-child(3){width:14%}
+body.portfolio-template .portfolio-table thead th:nth-child(4){width:52%}
+body.portfolio-template .portfolio-table tbody th{width:auto;font-weight:500}
+body.portfolio-template .portfolio-table tbody td{font-variant-numeric:tabular-nums}
+body.portfolio-template .portfolio-table tbody td:nth-child(3){color:var(--deep);font-weight:600}
+body.portfolio-template .portfolio-table tbody td::before{content:none}
+body.portfolio-template .portfolio-table tbody tr:last-child :is(th,td){border-bottom:0}
+@media(max-width:900px){
+ body.portfolio-template .portfolio-table{table-layout:auto}
+ body.portfolio-template .portfolio-table thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+ body.portfolio-template .portfolio-table tbody{display:block}
+ body.portfolio-template .portfolio-table tbody tr{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:var(--space-3) var(--space-4);padding:var(--space-4) 0;border-bottom:1px solid var(--border-subtle)}
+ body.portfolio-template .portfolio-table tbody tr:first-child{padding-top:0}
+ body.portfolio-template .portfolio-table tbody tr:last-child{padding-bottom:0;border-bottom:0}
+ body.portfolio-template .portfolio-table tbody :is(th,td){display:block;width:auto;min-width:0;padding:0;border:0}
+ body.portfolio-template .portfolio-table tbody th{grid-column:1/-1;font-size:var(--type-body)}
+ body.portfolio-template .portfolio-table tbody td:nth-child(n+4){grid-column:1/-1}
+ body.portfolio-template .portfolio-table tbody td::before{content:attr(data-label);display:block;margin-bottom:var(--space-1);font:italic 400 var(--type-label)/1.5 var(--font-body);color:var(--text-secondary)}
+}
+
+@media(max-width:600px){body.portfolio-template .portfolio-table tbody td:nth-child(n+4){grid-column:1/-1}}
+
+/* Shared screenshot gallery: complete artwork, equal viewing areas and existing figure captions. */
+.portfolio-evidence-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--card-gap);align-items:stretch}
+body.portfolio-template.case-study .portfolio-evidence-grid > .figure-panel + .figure-panel{margin-top:0}
+.portfolio-evidence-grid > .figure-panel{display:flex;flex-direction:column;min-width:0}
+.portfolio-evidence-link{display:block;cursor:zoom-in;min-width:0}
+.portfolio-evidence-grid .portfolio-evidence-link{margin-top:auto}
+body.portfolio-template .portfolio-evidence-grid .figure-artwork-fit{width:100%;height:320px;max-height:none;object-fit:contain;filter:none;opacity:1}
+@media(max-width:700px){.portfolio-evidence-grid{grid-template-columns:minmax(0,1fr)}body.portfolio-template .portfolio-evidence-grid .figure-artwork-fit{height:280px}}
+
+/* Shared sticky portfolio header and contribution filter pills. */
+body.portfolio-template .masthead.shell{position:sticky;top:0;z-index:30;display:grid;grid-template-columns:48px minmax(0,1fr) 44px;align-items:center;gap:var(--space-4);width:min(1520px,calc(100% - 32px));height:64px;background:var(--surface);box-shadow:0 5px 16px #173a2b0a;border-bottom:1px solid var(--border-subtle)}
+body.portfolio-template .masthead > .back{grid-column:3;justify-self:end;display:grid;place-items:center;width:44px;height:44px}
+.portfolio-filter-pills{display:flex;align-items:center;gap:var(--space-2);flex-wrap:wrap;min-width:0;margin:0 0 var(--space-6)}
+body.portfolio-template .portfolio-filter-pill{flex:0 0 auto;min-height:36px;padding:var(--space-2) var(--space-3);border-radius:999px;font:400 var(--type-small)/1.4 var(--font-body);white-space:nowrap}
+body.portfolio-template .portfolio-filter-pill[aria-pressed="true"]{background:var(--deep);border-color:var(--deep);color:var(--surface)}
+.portfolio-header-pills{grid-column:2;grid-row:1;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin;margin:0;padding:var(--space-1);overscroll-behavior-x:contain}
+.portfolio-header-pills[hidden],.portfolio-contribution-hidden{display:none!important}
+body.portfolio-template .portfolio-accordion,body.portfolio-template .original-study [id]{scroll-margin-top:calc(var(--portfolio-header-height,80px) + 24px)}
+@media(max-width:700px){body.portfolio-template .masthead.shell{width:calc(100% - 24px);grid-template-columns:40px minmax(0,1fr) 36px;gap:var(--space-2);height:64px}body.portfolio-template .masthead > .back{width:36px;height:36px}body.portfolio-template .masthead .brand-logo img{width:40px;height:40px}.portfolio-header-pills{padding-block:var(--space-2)}}
+
+/* Platform logo families preserve their native proportions. */
+.platform-logos{flex-wrap:wrap}
+.platform-logos img.platform-logo-wordmark{width:140px;height:36px}
+.platform-logos img.platform-logo-mark{width:48px;height:48px}
+@media(max-width:700px){.platform-logos{gap:var(--space-4)}.platform-logos img{width:80px;height:48px}.platform-logos img.platform-logo-wordmark{width:112px;height:36px}.platform-logos img.platform-logo-mark{width:40px;height:40px}}
+
+/* Closed accordion overview: the same full-width heading, subtitle and original description. */
+body.portfolio-template .portfolio-accordion-summary{display:grid;grid-template-columns:minmax(0,1fr) auto}
+.portfolio-accordion-description{grid-column:1/-1;min-width:0}
+body.portfolio-template .portfolio-accordion-description p{margin:0;font:400 var(--type-body)/1.65 var(--font-body);color:var(--text-primary)}
+.portfolio-accordion-pills{grid-column:1/-1;margin:0}
+.portfolio-accordion[open] > summary .portfolio-accordion-pills{display:none}
+.figure-video{display:block;width:100%;max-height:65svh;object-fit:contain;background:var(--surface)}
+/* Four section names replace the sticky header's overflowing role-filter row. */
+.portfolio-section-nav{grid-column:2;grid-row:1;justify-self:center;display:flex;gap:var(--space-2);min-width:0}
+.portfolio-section-link{border:0;border-radius:5px;background:transparent;color:var(--text-primary);padding:var(--space-2) var(--space-3);min-height:36px;font:400 var(--type-small)/1.4 var(--font-body);cursor:pointer}
+.portfolio-section-link:hover{background:color-mix(in srgb,var(--brand-blue) 7%,var(--surface));color:var(--deep)}
+.portfolio-section-link:focus-visible{outline:3px solid var(--brand-blue);outline-offset:2px}
+@media(max-width:700px){
+ body.portfolio-template .masthead.shell{height:88px;grid-template-rows:40px 36px;row-gap:var(--space-1);padding-block:var(--space-1)}
+ body.portfolio-template .masthead > .brand-logo,body.portfolio-template .masthead > .back{grid-row:1}
+ .portfolio-section-nav{grid-column:1/-1;grid-row:2;justify-self:stretch;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--space-1)}
+ .portfolio-section-link{padding:var(--space-2) var(--space-1)}
+}
+.portfolio-filter-pill[hidden]{display:none!important}
+
+/* Compact case-study overview uses the established body typography. */
+.portfolio-summary{margin-bottom:var(--space-6)}
+body.portfolio-template .portfolio-summary p{margin:0 0 var(--space-2);font:400 var(--type-body)/1.65 var(--font-body)}
+body.portfolio-template .portfolio-summary p:last-child{margin-bottom:0}
+
+/* Case-study header: title, video story, facts, contributions, platforms. */
+body.portfolio-template .opening-title.case-header{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(300px,.75fr);grid-template-areas:"title video" "facts facts" "did did" "logos logos";gap:var(--space-8) var(--space-12);align-items:start;margin-bottom:var(--space-12)}
+body.portfolio-template .case-header > h1{grid-area:title;margin:0;max-width:14ch}
+body.portfolio-template .case-header .video-open{grid-area:video;position:relative;display:block;width:100%;aspect-ratio:16/9;padding:0;border:0;border-radius:16px;overflow:hidden;background:#223640;color:#fff;cursor:pointer;text-align:left;box-shadow:0 16px 40px #173a2b26;transition:transform .25s ease,box-shadow .25s ease}
+body.portfolio-template .case-header .video-open:hover{transform:translateY(-2px);box-shadow:0 22px 48px #173a2b33}
+body.portfolio-template .case-header .video-open:focus-visible{outline:3px solid var(--brand-blue);outline-offset:4px}
+.video-open-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.92;transition:transform .6s ease}
+.video-open:hover .video-open-poster{transform:scale(1.03)}
+.video-open::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#173a2b00 35%,#173a2bd9 100%)}
+.video-open-play{position:absolute;left:50%;top:42%;translate:-50% -50%;z-index:1;display:grid;place-items:center;width:64px;height:64px;border-radius:50%;background:#fff;color:#2c6e7e;box-shadow:0 8px 24px #0006;transition:transform .25s ease}
+.video-open:hover .video-open-play{transform:scale(1.08)}
+.video-open-play svg{width:28px;height:28px;fill:currentColor;margin-left:3px}
+.video-open-label{position:absolute;left:0;right:0;bottom:0;z-index:1;display:grid;gap:2px;padding:var(--space-4) var(--space-5)}
+.video-open-label strong{font:600 18px/1.3 var(--font-body);color:#fff}
+.video-open-label span{font:400 14px/1.4 var(--font-body);color:#f4f7f8}
+body.portfolio-template .case-facts{grid-area:facts;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-6);margin:0;padding:var(--space-6) 0;border-top:1px solid var(--border-subtle);border-bottom:1px solid var(--border-subtle)}
+body.portfolio-template .case-facts > div{display:grid;gap:var(--space-1);padding-left:var(--space-4);border-left:3px solid #2c6e7e}
+body.portfolio-template .case-facts dt{margin:0;font:600 var(--type-eyebrow)/1.5 var(--font-body);letter-spacing:.08em;text-transform:uppercase;color:#2c6e7e}
+body.portfolio-template .case-facts dd{margin:0;font:500 var(--type-body)/1.5 var(--font-body);color:var(--text-primary)}
+body.portfolio-template .case-did{grid-area:did;display:grid;gap:var(--space-3)}
+body.portfolio-template .case-did .portfolio-filter-pills{margin:0}
+body.portfolio-template h3.case-label{margin:0;font:600 var(--type-eyebrow)/1.5 var(--font-body);letter-spacing:.08em;text-transform:uppercase;color:#2c6e7e}
+body.portfolio-template .case-header .platform-logos{grid-area:logos;margin:0}
+.video-dialog{width:min(1280px,calc(100vw - 48px))}
+.video-dialog-content{padding:0!important;background:#223640}
+.case-video{display:block;width:100%;max-height:min(80dvh,720px);aspect-ratio:16/9;background:#223640}
+@media(max-width:900px){body.portfolio-template .opening-title.case-header{grid-template-columns:1fr;grid-template-areas:"title" "video" "facts" "did" "logos";gap:var(--space-6)}body.portfolio-template .case-header > h1{max-width:none}}
+@media(max-width:700px){body.portfolio-template .case-facts{grid-template-columns:1fr;gap:var(--space-4);padding:var(--space-4) 0}.video-open-play{width:56px;height:56px}.video-dialog{width:calc(100vw - 20px)}}
+@media(prefers-reduced-motion:reduce){.video-open,.video-open-poster,.video-open-play{transition:none}.video-open:hover{transform:none}.video-open:hover .video-open-poster{transform:none}}
+
+/* Ink + electric accent palette: headings in ink, one accent for actions. */
+body.portfolio-template :is(h1,h2,h3,h4,h5){color:var(--text-primary)}
+body.portfolio-template.case-study .original-study .situation h2{color:var(--text-primary)}
+body.portfolio-template h3.case-label,body.portfolio-template .case-facts dt{color:var(--accent)}
+body.portfolio-template .case-facts > div{border-left-color:var(--accent)}
+body.portfolio-template .figure-button:hover{background:var(--accent-tint);border-color:var(--accent)}
+body.portfolio-template .portfolio-filter-pill[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.video-open-play{color:var(--accent)}
+.video-open-label span{color:var(--light,#c7d3d8)}
+body.portfolio-template .portfolio-card-grid .baseline-metric{background:var(--surface-2);border:0;border-top:3px solid var(--accent);border-radius:var(--card-radius)}
+body.portfolio-template .portfolio-card-grid .baseline-metric .baseline-icon{color:var(--accent)}
+body.portfolio-template a:hover{color:var(--accent-dark)}
+
+/* Drafting-sheet treatment: paper, hairlines, mono numerals, BP green markers. */
+body.portfolio-template .opening.shell{position:relative;padding-top:var(--space-12)}
+.case-num{display:inline-block;margin-right:var(--space-2);font:500 11px/1 var(--font-mono);letter-spacing:.06em;color:var(--accent-text)}
+body.portfolio-template .case-facts{grid-template-columns:repeat(3,minmax(0,1fr));gap:0;padding:0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+body.portfolio-template .case-facts > div{padding:var(--space-5) var(--space-5) var(--space-5) 0;border-left:0;gap:var(--space-2)}
+body.portfolio-template .case-facts > div + div{padding-left:var(--space-5);border-left:1px solid var(--border-subtle)}
+body.portfolio-template .case-facts dt{font:500 11px/1.4 var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--text-secondary)}
+body.portfolio-template .case-facts dd{font:500 var(--type-body)/1.5 var(--font-body);color:var(--text-primary)}
+body.portfolio-template h3.case-label{font:500 11px/1.4 var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--text-secondary)}
+body.portfolio-template .portfolio-filter-pill{border-radius:4px;border-color:var(--rule);font:500 13px/1.4 var(--font-body)}
+body.portfolio-template .portfolio-filter-pill[aria-pressed="true"]{background:var(--rule);border-color:var(--rule);color:#fff}
+body.portfolio-template .figure-button:hover{background:var(--accent-tint);border-color:var(--accent-text)}
+/* video figure */
+body.portfolio-template .case-header .video-open{border-radius:0;border:1px solid var(--rule);background:#fff;box-shadow:none;transition:none}
+body.portfolio-template .case-header .video-open:hover{transform:none;box-shadow:none;outline:1px solid var(--rule);outline-offset:0}
+.video-open-poster{opacity:1;filter:saturate(.2) contrast(1.02);transition:filter .3s ease}
+.video-open:hover .video-open-poster{transform:none;filter:saturate(1)}
+.video-open::after{background:linear-gradient(180deg,#ffffff00 50%,#ffffffe6 100%)}
+.video-open-play{left:auto;top:auto;right:var(--space-4);bottom:var(--space-4);translate:0;width:56px;height:56px;border-radius:0;background:var(--accent);color:var(--rule);box-shadow:none}
+.video-open:hover .video-open-play{transform:none;background:var(--accent-text);color:#fff}
+.video-open-label{left:var(--space-4);right:88px;bottom:var(--space-4);padding:0;gap:4px}
+.video-open-label strong{color:var(--text-primary);font:600 17px/1.3 var(--font-body)}
+.video-open-label span{color:var(--text-secondary);font:400 12px/1.4 var(--font-mono)}
+.video-open-label .case-num{color:var(--accent-text)}
+/* results: ruled blocks, mono numerals */
+body.portfolio-template .portfolio-card-grid .baseline-metric,body.portfolio-template.case-study .baseline-metric{background:transparent;border:0;border-top:2px solid var(--rule);border-radius:0;box-shadow:none;align-items:flex-start;text-align:left;padding:var(--space-4) 0 var(--space-2);min-height:0;gap:var(--space-3)}
+body.portfolio-template .portfolio-card-grid .baseline-metric .baseline-icon,body.portfolio-template.case-study .baseline-metric .baseline-icon{color:var(--accent-text);width:22px;height:22px}
+body.portfolio-template.case-study .baseline-metric strong{font:500 30px/1.15 var(--font-mono);letter-spacing:-.02em;color:var(--text-primary)}
+body.portfolio-template.case-study .baseline-metric span{font:400 14px/1.5 var(--font-body);color:var(--text-secondary)}
+body.portfolio-template .portfolio-card-grid{gap:var(--space-8)}
+/* numbered section titles */
+body.portfolio-template .portfolio-accordion{counter-increment:section}
+/* captions and figure titles in mono */
+body.portfolio-template .case-header .platform-logos{padding-top:var(--space-6);border-top:1px solid var(--border-subtle)}
+@media(max-width:700px){body.portfolio-template .case-facts > div + div{padding-left:0;border-left:0;border-top:1px solid var(--border-subtle)}body.portfolio-template .case-facts > div{padding:var(--space-4) 0}}
+
+/* Refinements: full-bleed rules, split numerals, video figure with caption bar. */
+body.portfolio-template .case-facts,body.portfolio-template .case-header .platform-logos{margin-inline:calc(50% - 50vw);padding-inline:max(var(--space-10),calc(50vw - 560px))}
+body.portfolio-template .case-facts{border-color:var(--rule)}
+body.portfolio-template .case-header .platform-logos{border-top:1px solid var(--rule);padding-top:var(--space-8)}
+body.portfolio-template.case-study .baseline-metric strong{display:grid;gap:var(--space-1);font:inherit}
+.metric-n{display:block;font:600 56px/1 var(--font-body);letter-spacing:-.03em;color:var(--text-primary)}
+.metric-t{display:block;font:600 16px/1.35 var(--font-body);color:var(--text-primary)}
+@media(max-width:1100px){.metric-n{font-size:44px}}
+body.portfolio-template .case-header .video-open{aspect-ratio:auto;display:grid;grid-template-rows:auto auto;border:1px solid var(--rule)}
+.video-open-poster{position:static;display:block;width:100%;aspect-ratio:16/9;object-fit:cover;filter:none;border-bottom:1px solid var(--rule)}
+.video-open::after{content:none}
+.video-open-label{position:static;display:flex;align-items:center;gap:var(--space-3);padding:var(--space-3) var(--space-3) var(--space-3) var(--space-4)}
+.video-open-play{position:static;translate:0;flex:0 0 40px;width:40px;height:40px;border-radius:0;background:var(--accent);color:var(--rule);display:grid;place-items:center}
+.video-open-play svg{width:20px;height:20px;margin-left:2px}
+.video-open-text{display:grid;gap:2px;min-width:0}
+.video-open-text strong{color:var(--text-primary);font:600 16px/1.3 var(--font-body)}
+.video-open-text span{color:var(--text-secondary);font:400 12px/1.4 var(--font-mono);letter-spacing:.02em}
+body.portfolio-template .case-header .video-open:hover .video-open-poster{filter:none}
+body.portfolio-template.case-study .baseline-metric,body.portfolio-template.case-study .baseline-metric strong{text-align:left;align-items:stretch;justify-items:start}
+body.portfolio-template.case-study .baseline-metric .baseline-icon{margin:0}
+.video-open-play{color:#fff}
+
+/* Quiet treatment (Looped In reference): hairlines, soft panels, one slate-teal accent. */
+body.portfolio-template :is(h1,.type-h1){letter-spacing:-0.035em}
+body.portfolio-template .case-facts{background:var(--panel);border-color:var(--border-subtle);padding-block:var(--space-2)}
+body.portfolio-template .case-facts > div{padding-block:var(--space-5)}
+body.portfolio-template .case-facts dt,body.portfolio-template h3.case-label{color:var(--text-secondary);letter-spacing:.06em;font-weight:600}
+body.portfolio-template .case-header .platform-logos{border-top-color:var(--border-subtle)}
+body.portfolio-template .portfolio-filter-pill{border-radius:8px;border-color:var(--border-subtle);background:#fff;color:var(--text-primary)}
+body.portfolio-template .portfolio-filter-pill[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+body.portfolio-template .figure-button:hover{background:var(--accent-tint);border-color:#b9d6dd}
+body.portfolio-template .case-header .video-open{border:1px solid var(--border-subtle);border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 1px 2px #22364014}
+body.portfolio-template .case-header .video-open:hover{outline:0;border-color:#b9d6dd;box-shadow:0 6px 20px #22364014}
+.video-open-poster{border-bottom:1px solid var(--border-subtle)}
+.video-open-label{background:var(--panel)}
+.video-open-play{border-radius:8px;background:var(--accent);color:#fff}
+.video-open:hover .video-open-play{background:var(--accent-dark)}
+.video-open-text span{font-family:var(--font-body);letter-spacing:0}
+body.portfolio-template .portfolio-card-grid .baseline-metric,body.portfolio-template.case-study .baseline-metric{border:1px solid var(--border-subtle);border-radius:12px;background:var(--panel);padding:var(--space-5) var(--space-5) var(--space-4)}
+body.portfolio-template .portfolio-card-grid{gap:var(--space-5)}
+body.portfolio-template .portfolio-card-grid .baseline-metric .baseline-icon,body.portfolio-template.case-study .baseline-metric .baseline-icon{color:var(--accent)}
+.metric-n{font-weight:600;color:var(--text-primary)}
+.metric-t{font-weight:500}
+
+/* Animated diagram layers wait with their steps until viewport playback begins. */
+body.portfolio-template .bp-sequenced:not(.bp-running) :is(.bp-lane,.bp-actor){opacity:0}
+/* Looped In vibe: cool-grey dotted canvas, white content column, hairlines. Layout untouched. */
+:root{--canvas:#f1f5f6;--panel:#fff;--dot:#b9c7cc}
+body.portfolio-template.case-study{background:var(--canvas) radial-gradient(var(--dot) 1.3px,transparent 1.6px) 0 0/28px 28px}
+body.portfolio-template .masthead.shell{background:#fff;border-bottom:1px solid var(--border-subtle);box-shadow:none}
+/* The content column reads as one white sheet on the canvas: painted with a spread shadow so no box moves. */
+body.portfolio-template.case-study main{background:transparent;padding-bottom:var(--space-10)}
+body.portfolio-template.case-study :is(.opening.shell,.original-study){background:#fff;box-shadow:0 0 0 40px #fff,0 0 0 41px var(--border-subtle)}
+body.portfolio-template.case-study .opening.shell{border-radius:16px 16px 0 0}
+body.portfolio-template.case-study .original-study{border-radius:0 0 16px 16px}
+body.portfolio-template.case-study .case-facts{margin-inline:-40px;padding-inline:40px}
+body.portfolio-template.case-study .case-header .platform-logos{margin-inline:0;padding-inline:0}
+@media(max-width:900px){body.portfolio-template.case-study :is(.opening.shell,.original-study){box-shadow:0 0 0 16px #fff,0 0 0 17px var(--border-subtle)}body.portfolio-template.case-study .case-facts{margin-inline:-16px;padding-inline:16px}}
+body.portfolio-template .case-facts{background:var(--canvas)}
+body.portfolio-template .portfolio-card-grid .baseline-metric,body.portfolio-template.case-study .baseline-metric{background:#fff;border-color:var(--border-subtle)}
+.video-open-label{background:#fff}
+body.portfolio-template :is(.business-card,.sales-panel,.baseline-panel,.workshop-results,.blueprint-recreated,.figure-panel,.portfolio-card){background:#fff;border:1px solid var(--border-subtle);border-radius:12px}
+body.portfolio-template .figure-button{border-radius:8px;border-color:var(--border-subtle)}
+body.portfolio-template .case-header > h1{font-size:64px}
+@media(max-width:900px){body.portfolio-template .case-header > h1{font-size:48px}}
+/* Anything on the teal accent is white. */
+body.portfolio-template .video-open-play,body.portfolio-template .video-open-play svg{color:#fff!important;fill:#fff!important}
+body.portfolio-template .video-open-play svg path{fill:#fff}
+body.portfolio-template .portfolio-filter-pill[aria-pressed="true"],body.portfolio-template .portfolio-section-link[aria-current],body.portfolio-template .case-link,body.portfolio-template .blueprint-open.is-active{color:#fff!important}
+body.portfolio-template .portfolio-filter-pill[aria-pressed="true"] *{color:#fff}
+/* Metric cards: stack from the top so icons sit on one line across cards. */
+body.portfolio-template .portfolio-card-grid .baseline-metric,body.portfolio-template.case-study .baseline-metric{align-content:start;grid-template-rows:22px auto auto}
+/* Masthead runs edge to edge; its contents align with the page column. */
+body.portfolio-template.case-study .masthead.shell{width:100%;max-width:none;border-radius:0;padding-inline:max(40px,calc((100% - 1120px)/2))}
+@media(max-width:700px){body.portfolio-template.case-study .masthead.shell{padding-inline:20px}}
+/* Inline SVG diagrams and wide panorama panels (shared by case studies). */
+.case-diagram{display:block;width:100%;height:auto}
+.case-diagram text{font-family:var(--font-body)}
+.case-diagram text[font-family*="Inter Tight"]{font-family:var(--font-heading)}
+body.portfolio-template .chart-panel .chart-body{grid-template-columns:minmax(0,1fr)}
+body.portfolio-template .chart-panel .case-diagram{min-width:0}
+.case-panorama{height:auto;--panorama-height:auto}.case-panorama .case-diagram{flex:none;width:1640px;max-width:none;height:auto}

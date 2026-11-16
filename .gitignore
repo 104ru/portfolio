@@ -7,3 +7,9 @@ dist/
 .next/
 __pycache__/
 *.pyc
+# backups and scratch
+site/*.bak*
+site/_backup-*/
+site/_to_delete/
+tmp/
+output/
