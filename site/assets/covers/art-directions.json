@@ -1,0 +1,50 @@
+[
+  {
+    "id": "rancourt",
+    "title": "Rancourt & Co.",
+    "art_direction": "Fashion macro: handsewn craft at monumental scale.",
+    "source": "https://liza-bam.github.io/portfolio/rancourt.html"
+  },
+  {
+    "id": "lazy",
+    "title": "Lazy",
+    "art_direction": "Architectural travel editorial: one home, one open door.",
+    "source": "https://liza-bam.github.io/portfolio/lazy.html"
+  },
+  {
+    "id": "pleasant-street",
+    "title": "Pleasant Street",
+    "art_direction": "Paper architecture: independent homes on a welcoming street.",
+    "source": "https://pleasant.vacations"
+  },
+  {
+    "id": "looped-in",
+    "title": "Looped In",
+    "art_direction": "Kinetic campus photography: shared participation and rewarded habits.",
+    "source": "https://liza-bam.github.io/portfolio/looped-in.html"
+  },
+  {
+    "id": "digital-hub",
+    "title": "Digital Hub",
+    "art_direction": "Conceptual set photography: invisible support keeps people moving.",
+    "source": "https://liza-bam.github.io/portfolio/dh.html"
+  },
+  {
+    "id": "dwellers",
+    "title": "Dwellers",
+    "art_direction": "Urban creature macro: wonder hiding in ordinary city spaces.",
+    "source": "https://dwellers-little-machines.sandy-tayts.chatgpt.site/"
+  },
+  {
+    "id": "noah",
+    "title": "Noah Fixes the Rainbow",
+    "art_direction": "Expressive color illustration: drawing brings imagination to life.",
+    "source": "https://liza-bam.github.io/portfolio/assets/noah-cover.webp"
+  },
+  {
+    "id": "panic",
+    "title": "No Grounds for Panic",
+    "art_direction": "Literary surrealism: monumental stipple, city geometry, signal red.",
+    "source": "https://liza-bam.github.io/portfolio/assets/panic-cover.webp"
+  }
+]
