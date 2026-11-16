@@ -72,7 +72,7 @@ body.flask-home .profile h1{position:relative;font-size:clamp(48px,8vw,88px);mar
 @media(max-width:900px){.cards.lab{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:12px}}
 
 @media(max-width:900px){.cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}}
-@media(max-width:600px){.flask-nav{gap:20px;justify-content:center;width:calc(100% - 40px)}.flask-nav a{font-size:14px}.flask{width:132px}.flask-home .profile{padding:136px 20px 32px}.cards{grid-template-columns:1fr}}
+@media(max-width:600px){.flask-nav{gap:20px;justify-content:center;width:calc(100% - 40px)}.flask-nav a{font-size:14px}.flask{width:132px}.flask-home .profile{padding:136px 20px 32px}.cards{grid-template-columns:1fr}.cards.lab{grid-template-columns:1fr;row-gap:24px}.lab .card:nth-child(n){translate:0 0}}
 @media(prefers-reduced-motion:reduce){.flask.bubbling{animation:none}.cards .card,.cards .card *,.cards .card .card-body{background-size:100% 1px!important}.work .card .outline{display:none}}
 
 /* Load sequence: the flask fills and pops in the middle of the screen, rises, then name, copy, pills, cards. */
