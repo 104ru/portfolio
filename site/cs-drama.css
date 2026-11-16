@@ -46,3 +46,5 @@ body.case-study .original-study .drama-cover p.drama-cover-sub{margin:16px 0 0;c
 .drama-strip img{display:block;width:100%;height:auto;border-radius:10px;border:1px solid #dce4e7}
 body.case-study .original-study .drama-strip figcaption{margin-top:10px;font:600 15px/1.4 "Inter Tight",sans-serif;color:#223640}
 body.case-study .original-study .drama-strip figcaption span{display:block;font:400 14px/1.4 "Inter",sans-serif;color:#5d6b72}
+.opening>.drama-embed{margin:0 0 56px}
+.opening>.drama-stats+.drama-embed{margin-top:-24px}
