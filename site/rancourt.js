@@ -55,3 +55,5 @@ revealAccordionTarget();
 })();
 // Links inside an accordion summary open normally instead of toggling the accordion.
 document.querySelectorAll('summary a').forEach(a=>a.addEventListener('click',e=>e.stopPropagation()));
+
+(()=>{const mq=matchMedia('(max-width:700px)');const pills=[...document.querySelectorAll('.portfolio-filter-pill[data-short]')];const swap=()=>pills.forEach(p=>{p.textContent=mq.matches?p.dataset.short:p.dataset.full;});swap();mq.addEventListener('change',swap);})();

@@ -645,3 +645,5 @@ body.portfolio-template .portfolio-accordion-summary:has(.portfolio-accordion-li
 /* Page tint per case study: the sheet and canvas take the client's color; cards, type and charts stay shared. */
 body.case-study.tint-rancourt{--sheet:#f4f3ef;--canvas:#e8e4da;--dot:#c6bca7;--accent:#8a6540;--accent-text:#8a6540;--accent-dark:#6e4f31;--accent-tint:#efe6da;--border-subtle:#cdc5b6;--rule:#c2b9a8;--band:#edeae2}
 body.case-study.tint-bp{--sheet:#f1f7f2;--canvas:#dfeae1;--dot:#afc5b4;--accent:#2f7a4f;--accent-text:#2f7a4f;--accent-dark:#245f3d;--accent-tint:#e2efe5;--border-subtle:#c0d2c5;--rule:#b2c7b8;--band:#e8f0ea}
+
+@media(max-width:700px){body.portfolio-template .portfolio-filter-pills{gap:6px}body.portfolio-template .portfolio-filter-pill{min-height:30px;padding:5px 10px;font:500 12px/1.3 var(--font-body);width:auto;flex:0 0 auto;max-width:none}body.portfolio-template .portfolio-filter-reset{min-width:30px;padding:5px}}

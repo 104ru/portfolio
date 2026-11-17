@@ -39,3 +39,5 @@
  document.addEventListener('portfolio:reset-contribution',()=>apply(null));
  new ResizeObserver(()=>document.documentElement.style.setProperty('--portfolio-header-height',header.getBoundingClientRect().height+'px')).observe(header);
 })();
+
+(()=>{const mq=matchMedia('(max-width:700px)');const pills=[...document.querySelectorAll('.portfolio-filter-pill[data-short]')];const swap=()=>pills.forEach(p=>{p.textContent=mq.matches?p.dataset.short:p.dataset.full;});swap();mq.addEventListener('change',swap);})();
