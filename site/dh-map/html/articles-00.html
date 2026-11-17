@@ -1,0 +1,46 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=375"><title>Article</title><link rel="stylesheet" href="../proto/dh.css">
+<style>
+.hero{flex:none;height:96px;position:relative;display:flex;align-items:flex-end;justify-content:center;padding-bottom:14px;background:linear-gradient(135deg,#7048e8,#e64980)}
+.hero .back{position:absolute;left:14px;bottom:12px;width:26px;height:26px;border-radius:50%;background:rgba(255,255,255,.9);display:grid;place-items:center;color:var(--ink)}
+.hero .back .ic{width:16px;height:16px}
+.hero .ttl{font:700 17px/1 'Roboto Condensed',Roboto,sans-serif;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.45)}
+.meta{display:flex;align-items:flex-start;gap:14px;padding:12px 18px;border-bottom:1px solid var(--line)}
+.meta p{flex:1;font-size:12px;line-height:1.45;color:var(--ink-2)}
+.meta .score{text-align:right;font-weight:700;font-size:18px;line-height:1;padding-top:2px}
+.meta .score small{display:block;font-size:8px;font-weight:400;color:var(--hint);letter-spacing:.5px;text-transform:uppercase;margin-top:4px}
+.article{padding:18px 18px 24px;gap:12px}
+.article h2{font-size:21px;line-height:1.25;font-weight:700}
+.article h2.sub{margin-top:14px}
+.article p{font-size:15px;line-height:1.7;color:var(--ink-2)}
+.article svg{width:100%;height:auto;margin:4px 0 6px}
+.helpful{display:flex;align-items:center;gap:10px;margin-top:22px;padding-top:16px;border-top:1px solid var(--line);font-size:13px}
+.helpful span{flex:1}
+</style></head><body>
+<header class="hero"><span class="back"><i data-icon="back"></i></span><span class="ttl">VPN Connection</span></header>
+<div class="meta"><p>When to connect to the EY network through VPN, and when it is better to leave it off.</p><div class="score">4.8<small>out of 5</small></div></div>
+<main class="content article">
+  <h2>Current State: Secure VPN Connection</h2>
+  <svg viewBox="0 0 340 200" xmlns="http://www.w3.org/2000/svg" aria-label="Devices connect through a VPN shield to the cloud; the shield also guards the file server, blocks attackers and reaches the bank" font-family="Roboto,Arial,sans-serif">
+    <g stroke="#4a8fe0" stroke-width="2" stroke-dasharray="4 4" fill="none">
+      <line x1="72" y1="48" x2="142" y2="48"/><line x1="198" y1="48" x2="266" y2="48"/>
+      <line x1="156" y1="86" x2="78" y2="128"/><line x1="170" y1="86" x2="170" y2="128"/><line x1="184" y1="86" x2="262" y2="128"/>
+    </g>
+    <g fill="#4a8fe0"><rect x="30" y="30" width="34" height="26" rx="3"/><rect x="40" y="58" width="14" height="3"/><rect x="16" y="38" width="12" height="20" rx="2"/></g>
+    <path d="M170 12 l28 10 v22 c0 18-12 33-28 40 -16-7-28-22-28-40 v-22z" fill="#2f6fd1"/>
+    <path d="M170 22 l18 7 v14 c0 12-8 22-18 27 -10-5-18-15-18-27 v-14z" fill="#4a8fe0"/>
+    <text x="170" y="56" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">VPN</text>
+    <g fill="#4a8fe0"><ellipse cx="294" cy="50" rx="26" ry="13"/><circle cx="284" cy="42" r="11"/><circle cx="300" cy="38" r="14"/></g>
+    <g fill="#2f6fd1"><rect x="56" y="132" width="40" height="12" rx="2"/><rect x="56" y="146" width="40" height="12" rx="2"/><rect x="56" y="160" width="40" height="12" rx="2"/></g>
+    <g fill="#2f6fd1"><circle cx="170" cy="146" r="12"/><path d="M150 174 c0-14 9-22 20-22 s20 8 20 22z"/></g>
+    <g fill="#2f6fd1"><path d="M242 146 l24-14 24 14z"/><rect x="246" y="148" width="4" height="20"/><rect x="256" y="148" width="4" height="20"/><rect x="266" y="148" width="4" height="20"/><rect x="276" y="148" width="4" height="20"/><rect x="242" y="168" width="48" height="5"/></g>
+    <g font-size="8" fill="#6a6a6a" text-anchor="middle"><text x="76" y="188">File server</text><text x="170" y="188">Attackers</text><text x="266" y="188">Bank</text><text x="40" y="76">Your devices</text><text x="294" y="76">EY cloud</text></g>
+  </svg>
+  <p>A virtual private network (VPN) creates an encrypted tunnel between your device and the EY network. Use it whenever you work outside an EY office and need internal resources: file shares, intranet sites, on-premise applications or a remote desktop. Traffic inside the tunnel cannot be read on the public Wi-Fi you are connected to.</p>
+  <p>Connect before you open the application you need, not after. If the VPN client reports a certificate or time-out error, check your internet connection first, then restart the client. Most connection problems are solved by signing out and back in once.</p>
+  <h2 class="sub">When VPN is Not an Answer</h2>
+  <p>Cloud services such as Microsoft 365, Teams and SharePoint Online are reachable without VPN and are faster without it. Routing them through the tunnel adds latency and takes bandwidth from colleagues who need it for internal systems.</p>
+  <p>VPN also does not fix a slow home connection, a locked account or a device that is out of compliance. For those, use Reset Password, My Device is Not Compliant or Raise an Issue from the Home screen.</p>
+  <div class="helpful"><span>Was this helpful?</span><button class="btn outline small">Yes</button><button class="btn outline small">No</button></div>
+</main>
+<nav class="bottomnav"></nav>
+<script src="../proto/dh.js"></script></body></html>

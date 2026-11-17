@@ -1,0 +1,36 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=375"><title>Raise an Issue · Describe it</title><link rel="stylesheet" href="../proto/dh.css">
+<style>
+.flabel{font-size:13px;color:var(--hint);margin-top:10px}
+.field.box{margin-top:0;min-height:46px;padding:12px 12px;border-radius:3px}
+.field.box.area{min-height:168px;line-height:1.45}
+.field.box .trail{right:10px;bottom:12px}
+.attach{display:flex;align-items:center;gap:16px;min-height:72px;padding:4px 10px;font-size:13px}
+.attach .thumb{width:44px;height:52px;flex:none;border:1px solid var(--line);background:linear-gradient(#f4f6f8,#f4f6f8) 0 0/100% 12px no-repeat,repeating-linear-gradient(0deg,#fff 0 3px,#e3e8ee 3px 5px,#fff 5px 9px);background-color:#fff}
+.attach .x{margin-left:auto;width:28px;height:28px;border:1.5px solid var(--muted);border-radius:50%;display:grid;place-items:center;color:var(--muted)}
+.sheet{position:absolute;left:0;right:0;bottom:0;background:#fff;border-radius:14px 14px 0 0;z-index:5;padding-top:10px;box-shadow:0 -4px 20px rgba(0,0,0,.2)}
+.sheet .strip{display:flex;gap:4px;padding:0 10px 8px;overflow:hidden}
+.sheet .strip .photo{flex:none;width:112px;height:104px;border-radius:4px}
+.sheet .opt{display:flex;align-items:center;gap:14px;padding:16px 18px;border-top:1px solid var(--line);font-size:17px}
+.sheet .opt .ic{color:var(--ink-2)}
+.dialog.ios{left:50%;right:auto;top:40%;width:270px;transform:translate(-50%,-50%);border-radius:14px;padding:0;background:#f7f7f7;text-align:center}
+.dialog.ios .body{padding:20px 16px 18px}
+.dialog.ios h3{font-weight:700}
+.dialog.ios p{color:var(--ink-2)}
+.dialog.ios .acts{display:flex;border-top:1px solid #cdcdcd}
+.dialog.ios .acts span{flex:1;padding:12px 6px;color:#1a73e8;font-size:14px;font-weight:500}
+.dialog.ios .acts span+span{border-left:1px solid #cdcdcd}
+</style></head><body>
+<header class="appbar" data-title="Raise an Issue"></header>
+<main class="content tight">
+  <p class="flabel">Subject</p>
+  <div class="field box filled">I am unable to connect to VPN</div>
+  <p class="flabel">Description</p>
+  <div class="field box area filled">I need to connect to EY server through VPN, but I keep getting the error</div>
+  <button class="btn outline">Attach file</button>
+  <div style="height:72px"></div>
+  <p class="flabel">Priority</p>
+  <div class="field box filled">Normal<i class="trail" data-icon="down"></i></div>
+  <button class="btn grey">Raise a ticket</button>
+</main>
+<nav class="bottomnav"></nav>
+<script src="../proto/dh.js"></script></body></html>

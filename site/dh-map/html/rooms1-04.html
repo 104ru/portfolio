@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=375"><title>Meeting in progress</title><link rel="stylesheet" href="../proto/dh.css">
+<style>
+body{background:#2b3035}
+.dark{flex:1;display:flex;flex-direction:column;align-items:center;color:#fff;padding:90px 24px 24px;gap:22px}
+.dark h1{font-size:16px;font-weight:500}
+.panel{width:100%;background:#3d4348;padding:26px 16px 22px;display:flex;flex-direction:column;align-items:center;gap:14px}
+.panel .photo{width:160px;height:160px;border-radius:50%;background:radial-gradient(circle at 50% 30%,#f3f0e8 0 14%,transparent 15%),linear-gradient(180deg,#cfd3d6 0 52%,#6c7a5c 52% 100%)}
+.panel .photo.ring{box-shadow:0 0 0 4px var(--yellow-2)}
+.panel .name{font-size:15px}
+.todo{display:flex;flex-direction:column;gap:14px;align-self:flex-start;padding-left:30px}
+.todo .radio{font-size:13px;color:#fff;gap:16px}
+.todo .radio i{width:24px;height:24px;border-color:#fff}
+.todo .radio.on i{background:#fff;border-color:#fff;position:relative}
+.todo .radio.on i:after{content:"";width:6px;height:11px;border:solid #2b3035;border-width:0 3px 3px 0;border-radius:0;background:none;transform:translateY(-1px) rotate(45deg)}
+.dark .btn{width:200px;min-height:46px;font:700 14px Roboto,sans-serif;text-transform:none;border-radius:2px}
+.dark .btn.white{background:#fff;color:var(--ink)}
+</style></head><body>
+<main class="dark">
+  <h1>Technical Review: in progress</h1>
+  <div class="panel"><div class="photo ring"></div><div class="name">Beta Room</div></div>
+  <div style="height:90px"></div>
+  <button class="btn white">Cancel and Check Out</button>
+</main>
+<script src="../proto/dh.js"></script></body></html>

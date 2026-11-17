@@ -1,0 +1,61 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=375"><title>Filters</title><link rel="stylesheet" href="../proto/dh.css">
+<style>
+.ftop{display:flex;align-items:center;gap:10px;padding:14px 16px 8px}
+.ftop svg{width:28px;height:28px;fill:none;stroke:var(--ink);stroke-width:2}
+.ftop span{flex:1;font-size:13px;color:var(--ink-2)}
+.ftop .btn{width:80px;min-height:40px;font:700 13px Roboto,sans-serif;text-transform:none;border-radius:4px}
+.fh{font-size:17px;font-weight:700;padding:14px 16px 6px;margin:0 0 10px;border-bottom:1px solid var(--line)}
+.kvg{display:grid;grid-template-columns:80px 1fr;gap:6px 8px;padding:0 16px;font-size:17px}
+.kvg .k{font-size:13px;color:var(--muted);padding-top:3px}
+.durs{display:flex;gap:8px;padding:16px 0 10px 16px;overflow:hidden}
+.durs span{flex:none;width:68px;padding:12px 4px;text-align:center;font-size:11px;background:#ececec;color:var(--ink-2);border-radius:2px}
+.durs span.on{background:#1f3a52;color:#fff}
+.cap{padding:0 16px;font-size:12px;color:var(--ink-2)}
+.caps{display:flex;gap:8px;padding:8px 16px 14px}
+.caps span{width:42px;height:42px;border:2px solid #555;border-radius:3px;display:grid;place-items:center;font-size:11px;font-weight:700}
+.dist{display:flex;align-items:center;gap:12px;padding:0 16px 6px;font-size:13px;color:var(--ink-2)}
+.dist b{font-size:16px;font-weight:400;color:var(--ink);margin-left:14px}
+.dist .toggle{margin-left:auto}
+.dist .toggle i{width:52px;height:26px;border-radius:13px}
+.dist .toggle i:after{width:20px;height:20px;top:3px}
+.dist .toggle.on i{background:#1a1a1a}
+.dist .toggle.on i:after{left:29px;background:#fff}
+.feats{display:flex;flex-direction:column;gap:12px;padding:6px 16px 20px}
+.feats .check{font-size:12px;color:var(--ink-2)}
+.feats .check i{width:18px;height:18px;border:1px solid #6a6a6a;border-radius:2px;background:#d9d9d9}
+</style></head><body>
+<header class="appbar" data-title="My Meeting Rooms"></header>
+<div class="ftop"><svg viewBox="0 0 24 24"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2zM9 4v14M15 6v14"/></svg><span>Facilities Map</span><button class="btn primary">Done</button></div>
+<div class="fh">Availability</div>
+<div class="kvg"><span class="k">Date</span><span>May 13 2020</span><span class="k">Start</span><span>13:00</span></div>
+<div class="durs"><span>15 min</span><span class="on">30 min</span><span>1 hr</span><span>2 hrs</span><span>4 hrs</span><span>8 hrs</span></div>
+<div class="fh">Capacity</div>
+<div class="cap">Select the minimal number of attendees</div>
+<div class="caps"><span>1+</span><span>2+</span><span>3+</span><span>5+</span><span>9+</span><span>15+</span></div>
+<div class="fh">Distance</div>
+<div class="dist">Walking Distance<b>10 minutes</b></div>
+<div class="dist">Show only accessible rooms<span class="toggle on"><i></i></span></div>
+<div class="fh">Features</div>
+<div class="feats">
+  <div class="check"><i></i>Cable/Sat TV</div>
+  <div class="check"><i></i>Camera/Microphone</div>
+  <div class="check"><i></i>Cisco Touch</div>
+  <div class="check"><i></i>Conference Phone</div>
+  <div class="check"><i></i>Display - Other</div>
+  <div class="check"><i></i>HDMI</div>
+  <div class="check"><i></i>Microphone</div>
+  <div class="check"><i></i>Monitor</div>
+  <div class="check"><i></i>Presentation Monitor</div>
+  <div class="check"><i></i>Projector</div>
+  <div class="check"><i></i>Tablet - Other</div>
+  <div class="check"><i></i>Telepresence</div>
+  <div class="check"><i></i>TV/ Projector</div>
+  <div class="check"><i></i>VGA + Audio</div>
+  <div class="check"><i></i>Video Conference</div>
+  <div class="check"><i></i>Whiteboard</div>
+  <div class="check"><i></i>Wireless Display</div>
+  <div class="check"><i></i>Wireless Screen Sharing</div>
+</div>
+<div style="height:30px"></div>
+<nav class="bottomnav"></nav>
+<script src="../proto/dh.js"></script></body></html>

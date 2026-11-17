@@ -1,0 +1,44 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=375"><title>Find another room</title><link rel="stylesheet" href="../proto/dh.css">
+<style>
+.subtabs{display:flex;border-bottom:1px solid var(--line)}
+.subtabs span{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;padding:8px 4px 6px;font-size:10px;color:var(--hint);border-bottom:3px solid transparent}
+.subtabs span svg{width:26px;height:26px;fill:#b5b5b5}
+.subtabs span.on{color:var(--ink);font-weight:500;border-bottom-color:var(--ink)}
+.subtabs span.on svg{fill:var(--ink)}
+.filterbar{display:flex;align-items:flex-end;justify-content:space-between;gap:10px;padding:8px 14px 10px;border-bottom:1px solid var(--line)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;flex:1}
+.chips span{display:inline-flex;align-items:center;gap:8px;padding:3px 8px;background:#ececec;border-radius:2px;font-size:10px;color:var(--ink-2)}
+.chips span .ic{width:10px;height:10px}
+.chips .ln{display:flex;gap:6px;flex-basis:100%}
+.tools{display:flex;gap:16px;color:var(--ink)}
+.tools svg{width:28px;height:28px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px 14px;padding:14px 14px 20px}
+.rcard{display:flex;flex-direction:column}
+.rcard .img{position:relative;height:104px;background:#e6ebef;border-radius:3px;overflow:hidden}
+.rcard .img .photo{position:absolute;inset:0;border-radius:3px}
+.rcard .pill{position:absolute;left:0;top:0;padding:4px 10px;border-radius:3px;font-size:12px;color:#fff;background:var(--green)}
+.rcard .pill.red{background:var(--red)}
+.rcard .away{text-align:right;font-size:10px;color:var(--muted);margin-top:3px}
+.rcard b{font-size:14px;font-weight:700;margin-top:2px}
+.rcard .addr{font-size:9px;color:var(--muted);line-height:1.3;margin:3px 0 6px}
+.rcard .spec{font-size:12px;color:var(--ink);line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+</style></head><body>
+<header class="appbar" data-title="My Meeting Rooms"></header>
+<div class="tabs"><span>My Events</span><span class="on">Available Rooms</span></div>
+<div class="subtabs">
+  <span class="on"><svg viewBox="0 0 24 24"><path d="M12 2a5 5 0 0 1 5 5c0 3.5-5 9-5 9S7 10.5 7 7a5 5 0 0 1 5-5zm0 3a2 2 0 1 0 0 4 2 2 0 0 0 0-4zM5 19c0-1.7 3.1-3 7-3s7 1.3 7 3-3.1 3-7 3-7-1.3-7-3z"/></svg>Nearby</span>
+  <span><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 1.6a8.4 8.4 0 0 0-1.4.1c-1.2 1.4-2 4-2.1 7.5h7c-.1-3.5-.9-6.1-2.1-7.5a8.4 8.4 0 0 0-1.4-.1zm-3.3.7A8.5 8.5 0 0 0 3.7 11.2h3.2c.1-2.9.7-5.2 1.8-6.9zm6.6 0c1.1 1.7 1.7 4 1.8 6.9h3.2a8.5 8.5 0 0 0-5-6.9zM3.7 12.8a8.5 8.5 0 0 0 5 6.9c-1.1-1.7-1.7-4-1.8-6.9zm4.8 0c.1 3.5.9 6.1 2.1 7.5a8.4 8.4 0 0 0 2.8 0c1.2-1.4 2-4 2.1-7.5zm8.6 0c-.1 2.9-.7 5.2-1.8 6.9a8.5 8.5 0 0 0 5-6.9z"/></svg>Search location</span>
+  <span><svg viewBox="0 0 24 24"><path d="M12 21s-8-5.3-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.7-8 11-8 11z"/></svg>My Favorites</span>
+</div>
+<div class="filterbar">
+  <div class="chips"><div class="ln"><span>Nearby <i data-icon="close"></i></span></div><div class="ln"><span>Accessible <i data-icon="close"></i></span><span>Amenities <i data-icon="close"></i></span><span>Time <i data-icon="close"></i></span></div></div>
+  <div class="tools"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/><circle cx="9" cy="7" r="2" fill="#fff"/><circle cx="15" cy="12" r="2" fill="#fff"/><circle cx="8" cy="17" r="2" fill="#fff"/></svg><svg viewBox="0 0 24 24"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2zM9 4v14M15 6v14"/></svg></div>
+</div>
+<div class="grid">
+  <div class="rcard"><div class="img"><div class="photo" style="background:linear-gradient(180deg,#f3f4f2 0 55%,#2f8a5a 55% 100%)"><svg viewBox="0 0 200 120" width="100%" height="100%"><rect x="40" y="48" width="120" height="30" rx="3" fill="#fff" stroke="#c9ccc6"/><rect x="92" y="54" width="24" height="16" fill="#3a3a3a"/><path d="M50 78v24M150 78v24" stroke="#c9ccc6" stroke-width="3"/><rect x="60" y="86" width="30" height="22" rx="6" fill="#f2f2f2" stroke="#b5b5b5"/><rect x="110" y="86" width="30" height="22" rx="6" fill="#f2f2f2" stroke="#b5b5b5"/></svg></div><span class="pill ">Available</span></div><div class="away">10 min away</div><b>Beta Room</b><div class="addr">Bishop's, London<br>SE1 7NA</div><div class="spec">6 People - Camera/Microphone…</div></div>
+  <div class="rcard"><div class="img"><svg viewBox="0 0 200 120" width="100%" height="100%" fill="none" stroke="#9aa7b3" stroke-width="1.5"><rect x="62" y="22" width="76" height="40" rx="2"/><rect x="68" y="27" width="64" height="30"/><path d="M8 98h184"/><ellipse cx="100" cy="86" rx="34" ry="8"/><path d="M100 94v8M66 86v12M134 86v12"/><rect x="56" y="70" width="12" height="18" rx="4"/><rect x="132" y="70" width="12" height="18" rx="4"/><rect x="92" y="66" width="16" height="16" rx="5"/><path d="M28 98v-14c-6-4-8-10-4-16 4 6 8 8 10 14M28 84c4-6 8-8 12-10-2 8-6 10-12 10M172 98v-14c-6-4-8-10-4-16 4 6 8 8 10 14M172 84c4-6 8-8 12-10-2 8-6 10-12 10"/><rect x="20" y="96" width="16" height="10"/><rect x="164" y="96" width="16" height="10"/></svg><span class="pill ">Available</span></div><div class="away">12 min away</div><b>Alpha Room</b><div class="addr">Bishop's, London<br>SE1 7NA</div><div class="spec">6 People - Display - Other, HDMI, Monitor…</div></div>
+  <div class="rcard"><div class="img"><svg viewBox="0 0 200 120" width="100%" height="100%" fill="none" stroke="#9aa7b3" stroke-width="1.5"><rect x="62" y="22" width="76" height="40" rx="2"/><rect x="68" y="27" width="64" height="30"/><path d="M8 98h184"/><ellipse cx="100" cy="86" rx="34" ry="8"/><path d="M100 94v8M66 86v12M134 86v12"/><rect x="56" y="70" width="12" height="18" rx="4"/><rect x="132" y="70" width="12" height="18" rx="4"/><rect x="92" y="66" width="16" height="16" rx="5"/><path d="M28 98v-14c-6-4-8-10-4-16 4 6 8 8 10 14M28 84c4-6 8-8 12-10-2 8-6 10-12 10M172 98v-14c-6-4-8-10-4-16 4 6 8 8 10 14M172 84c4-6 8-8 12-10-2 8-6 10-12 10"/><rect x="20" y="96" width="16" height="10"/><rect x="164" y="96" width="16" height="10"/></svg><span class="pill ">Available</span></div><div class="away">15 min away</div><b>Tallis Room</b><div class="addr">Bishop's, London<br>SE1 7NA</div><div class="spec">6 People - Camera/Microphone…</div></div>
+</div>
+<div class="spacer"></div>
+<nav class="bottomnav"></nav>
+<script src="../proto/dh.js"></script></body></html>

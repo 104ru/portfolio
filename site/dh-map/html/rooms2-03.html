@@ -1,0 +1,37 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=375"><title>Room changed</title><link rel="stylesheet" href="../proto/dh.css">
+<style>
+.upcoming{background:#ececec;padding:12px;display:flex;flex-direction:column;gap:10px}
+.upcoming.yellow{background:var(--yellow)}
+.upcoming .top{display:flex;align-items:center;gap:10px}
+.upcoming .ttl{flex:1;font-weight:700;font-size:14px}
+.upcoming .ttl small{display:block;font-weight:400;font-size:12px;color:var(--muted)}
+.upcoming .away{font-size:12px;color:var(--ink-2);white-space:nowrap}
+.upcoming .btn.primary{width:104px;min-height:44px;font:700 14px Roboto,sans-serif;text-transform:none}
+.upcoming.yellow .top .btn{width:104px;min-height:40px;font:700 14px Roboto,sans-serif;text-transform:none;border-color:#fff}
+.upcoming .sub{display:flex;gap:8px}
+.upcoming .sub .btn{flex:1;min-height:30px;font:500 12px Roboto,sans-serif;text-transform:none;padding:6px}
+.daylbl{font-size:13px;color:var(--hint);padding:4px 0 0}
+.ev{display:flex;align-items:center;gap:8px}
+.ev .time{width:56px;height:52px;flex:none;border:1px solid var(--line-2);border-radius:3px;background:#fff;display:grid;place-items:center;font-size:13px}
+.ev .body{flex:1;display:flex;align-items:center;gap:8px;min-height:52px;padding:8px 10px;background:#ececec;border-radius:3px}
+.ev .body .t{flex:1;font-weight:700;font-size:14px}
+.ev .body .t small{display:block;font-weight:400;font-size:12px;color:var(--hint)}
+.ev .body .dur{font-size:11px;color:var(--hint)}
+.more{text-align:center;color:var(--hint);font-size:12px;padding:6px 0}
+.more .ic{width:18px;height:18px;margin:0 auto;color:var(--line-2)}
+</style></head><body>
+<header class="appbar" data-title="My Meeting Rooms"></header>
+<div class="tabs"><span class="on">My Events</span><span>Available Rooms</span></div>
+<main class="content tight">
+  <div class="upcoming"><div class="top"><span class="ttl">Technical Review<small>Alpha Room</small></span><span class="away">10 min away</span><button class="btn primary">Start</button></div><div class="sub"><button class="btn outline">Cancel</button><button class="btn outline">Change</button><button class="btn outline">Issue</button></div></div>
+  <div class="segment" style="margin:8px 0 4px"><span class="on">Events with Rooms</span><span>All Events</span></div>
+  <div class="daylbl">Today</div>
+  <div class="ev"><span class="time">13:40</span><span class="body"><span class="t">Team Meeting<small>Ormen Room</small></span><span class="dur">1h</span></span></div>
+  <div class="daylbl">Wednesday - May 3</div>
+  <div class="ev"><span class="time">08:00</span><span class="body"><span class="t">Review CREW<small>Tallis Room</small></span><span class="dur">30m</span></span></div>
+  <div class="ev"><span class="time">09:00</span><span class="body"><span class="t">Corporate Overlook<small>Alpha 1 Room</small></span><span class="dur">30m</span></span></div>
+  <div class="more">Show More<i data-icon="down"></i></div>
+  <div class="spacer"></div>
+</main>
+<nav class="bottomnav"></nav>
+<script src="../proto/dh.js"></script></body></html>
