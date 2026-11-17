@@ -48,7 +48,7 @@ const icon=n=>ICONS[n]||ICONS.grid;
 document.querySelectorAll('[data-icon]').forEach(el=>{el.classList.add('ic');el.innerHTML=icon(el.dataset.icon);});
 document.querySelectorAll('.appbar[data-title]').forEach(bar=>{
   const title=bar.dataset.title, avatar=bar.hasAttribute('data-avatar');
-  bar.innerHTML=(avatar?'<span class="avatar"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#e9eef3"/><path d="M8 44c2-9 8-13 16-13s14 4 16 13z" fill="#3b6fb6"/><path d="M17 21c0-7 3-11 7-11s7 4 7 11v3c0 5-3 8-7 8s-7-3-7-8z" fill="#f1c9a8"/><path d="M15 19c1-9 5-12 9-12s8 3 9 12c-2-3-4-4-9-4s-7 1-9 4z" fill="#4a3b31"/><circle cx="20.5" cy="23" r="3.2" fill="none" stroke="#333" stroke-width="1.3"/><circle cx="27.5" cy="23" r="3.2" fill="none" stroke="#333" stroke-width="1.3"/><path d="M23.7 23h.6" stroke="#333" stroke-width="1.3"/><path d="M21 28.5c1.5 1.5 4.5 1.5 6 0" fill="none" stroke="#9c6b55" stroke-width="1.2" stroke-linecap="round"/></svg></span>':'')+(bar.dataset.back!==undefined?'<span class="leading ic">'+ICONS.back+'</span>':'')+'<span class="title">'+title+'</span><span class="ey" aria-hidden="true"><span class="wedge"></span><span class="beam"></span><span class="word">EY</span></span>';
+  bar.innerHTML=(avatar?'<span class="avatar pic img-avatar"></span>':'')+(bar.dataset.back!==undefined?'<span class="leading ic">'+ICONS.back+'</span>':'')+'<span class="title">'+title+'</span><span class="ey" aria-hidden="true"><span class="wedge"></span><span class="beam"></span><span class="word">EY</span></span>';
 });
 document.querySelectorAll('.appbar.plain[data-close]').forEach(bar=>{bar.innerHTML='<span class="close ic">'+ICONS.close+'</span>';});
 document.querySelectorAll('.bottomnav').forEach(nav=>{

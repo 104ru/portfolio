@@ -182,3 +182,14 @@ h2.h{font-size:17px;font-weight:700}
 .ios-grid span.ey{background:#333;color:#fff;font:700 22px/58px Roboto,sans-serif;text-align:center}
 .ios-dock{position:absolute;left:10px;right:10px;bottom:10px;height:76px;border-radius:24px;background:rgba(255,255,255,.3);display:flex;align-items:center;justify-content:space-around}
 .ios-dock span{width:58px;height:58px;border-radius:14px;background:#fff}
+/* real images */
+.pic{background-size:cover;background-position:center;background-repeat:no-repeat}
+.pic.fit{background-size:contain;background-color:#fff}
+.pic.img-macbook{background-image:url(img/macbook.jpg)}.pic.img-latitude{background-image:url(img/latitude.jpg)}.pic.img-mouse-white{background-image:url(img/mouse-white.jpg)}.pic.img-mouse-hp{background-image:url(img/mouse-hp.jpg)}.pic.img-mouse-adx{background-image:url(img/mouse-adx.jpg)}.pic.img-hub{background-image:url(img/hub.jpg)}
+.pic.img-map-london{background-image:url(img/map-london.jpg)}.pic.img-map-airport{background-image:url(img/map-airport.jpg)}.pic.img-floorplan{background-image:url(img/floorplan.jpg)}
+.pic.img-ill-desktops{background-image:url(img/ill-desktops.jpg)}.pic.img-ill-people{background-image:url(img/ill-people.jpg)}.pic.img-ill-vpn{background-image:url(img/ill-vpn.jpg)}.pic.img-ill-island{background-image:url(img/ill-island.jpg)}
+.pic.img-room-a{background-image:url(img/room-a.jpg)}.pic.img-room-b{background-image:url(img/room-b.jpg)}.pic.img-lockers{background-image:url(img/lockers.jpg)}.pic.img-avatar{background-image:url(img/avatar.jpg)}
+.map.pic .pin{display:none}.floorplan.pic:before{display:none}.floorplan.pic span{display:none}.photo.pic>.ic{display:none}
+.pic>svg{display:none}
+.appbar .avatar.pic{background-color:#fff;background-image:url(img/avatar.jpg)}.map.pic:before{display:none}
+.appbar .avatar.pic{background-size:cover;background-position:center}.photo.pic>span{display:none}
