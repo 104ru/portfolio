@@ -7,7 +7,10 @@
   const body = document.body, stage = document.querySelector('.profile');
   const canvas = stage.querySelector('canvas'), ctx = canvas.getContext('2d');
   const flask = stage.querySelector('.flask'), liquid = stage.querySelector('.liquid');
-  const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const nav = performance.getEntriesByType('navigation')[0];
+  const returning = (nav && nav.type === 'back_forward') || sessionStorage.getItem('flask-intro') === 'done';
+  if (returning) body.classList.add('returning');
+  const still = matchMedia('(prefers-reduced-motion: reduce)').matches || returning;
   const rnd = (a, b) => a + Math.random() * (b - a);
   const pick = () => COLORS[Math.random() * COLORS.length | 0];
   let dots = [], sparks = [], mouth, start, phase = 'idle', hover = false, intro = !still, running = false;
@@ -89,8 +92,10 @@
   // Each step waits for the one before: the flask lifts into the header, then the page follows.
   function rise() {
     intro = false;
+    try { sessionStorage.setItem('flask-intro', 'done'); } catch (e) {}
     flask.classList.add('up');
     setTimeout(() => body.classList.add('loaded'), still ? 0 : 450);
+    if (returning) { document.querySelectorAll('.card').forEach(card => card.classList.add('in', 'drawn')); return; }
     setTimeout(() => document.querySelectorAll('.card').forEach(card => enter.observe(card)), still ? 0 : 2200);
   }
 

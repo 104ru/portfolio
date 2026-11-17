@@ -57,3 +57,6 @@ revealAccordionTarget();
 document.querySelectorAll('summary a').forEach(a=>a.addEventListener('click',e=>e.stopPropagation()));
 
 (()=>{const mq=matchMedia('(max-width:700px) and (pointer:coarse)');const pills=[...document.querySelectorAll('.portfolio-filter-pill[data-short]')];const swap=()=>pills.forEach(p=>{p.textContent=mq.matches?p.dataset.short:p.dataset.full;});swap();mq.addEventListener('change',swap);})();
+
+// The close X returns to the homepage exactly where it was left.
+document.querySelectorAll('a.back[href="index.html"]').forEach(a=>a.addEventListener('click',e=>{const ref=document.referrer;if(history.length>1&&ref&&new URL(ref).origin===location.origin&&/\/(index\.html)?$/.test(new URL(ref).pathname)){e.preventDefault();history.back();}}));

@@ -129,3 +129,6 @@ body.flask-home .profile h1{position:relative;font-size:clamp(48px,8vw,88px);mar
 .flask:hover{scale:1.06}
 .flask:active{scale:.95}
 @media(prefers-reduced-motion:reduce){.card-links a,.flask-home .filters button,.flask-nav a::after{transition:none}.card-links a:hover,.flask-home .filters button:hover{transform:none}}
+/* Returning from a case study: everything is already in place, nothing animates. */
+.returning .seq,.returning .flask.intro{opacity:1;transform:none;transition:none}.returning .reveal>span>span{transform:none;transition:none}.returning .flask.bubbling{animation:none}.returning .work .card.in .card-image,.returning .work .card.in .card-body>*,.returning .lab .card.in{animation:none}.returning .lab .card{opacity:1}.returning .work .card .outline{display:none}.returning .cards .card,.returning .cards .card *,.returning .cards .card .card-body{background-size:100% 1px!important}
+.returning .work .card .card-image,.returning .work .card .card-body>*{opacity:1;filter:none}.returning .work .card{background:var(--surface);border-color:var(--rule);transition:none}
