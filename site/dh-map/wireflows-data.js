@@ -53,7 +53,8 @@ const wireflows=[
  ['Step 2: change password','Protect company data first.','lost-03','Go to the next step'],
  ['New password','Existing and new password.','lost-04','Go to password reset'],
  ['Password set','Ready to reset.','lost-05','Type passwords'],
- ['Step 3: security forms','Three forms to fill in.','lost-06','Reset password'],
+ ['Password reset','Success: the new password is set.','lost-05b','Reset password'],
+ ['Step 3: security forms','Three forms to fill in.','lost-06','Done'],
  ['Forms done','All three checked.','lost-07','Fill the forms'],
  ['Step 4: where and when','Last seen location on a map, date and time.','lost-08','Submit security forms'],
  ['Step 5: police report','Nearest police station; file and attach the receipt.','lost-09','Submit location and time'],
@@ -63,7 +64,8 @@ const wireflows=[
  ['My EY','Replacement in progress; locker pickup ready.','lost-12','Open Digital Hub'],
  ['Office map','Where the vending-machine locker is.','lost-13','Office map'],
  ['Locker','Locker number and code.','lost-14','View key'],
- ['Open locker','Tap to open; the new laptop is inside.','lost-15','Open locker']])},
+ ['Open locker','Tap to open; the new laptop is inside.','lost-15','Open locker'],
+ ['Done','New laptop collected; rate the experience.','lost-16','Take the laptop']])},
 {id:'rooms',title:'Meeting rooms',summary:'Check in, start the meeting, report a broken TV, find another room.',root:step('m0','My meeting rooms','Today’s meetings with their rooms; start, cancel, change or report an issue.','rooms1-00',[
  step('m1','Technical review','Check in, remind invitees, start.','rooms1-01',[
   step('m2','Checked in','Room checked, invitees reminded.','rooms1-02',[
@@ -72,7 +74,8 @@ const wireflows=[
  step('m5','Report an issue','“TV is not working in the Ormen room.”','rooms2-00',[
   step('m6','Find another room','Nearby rooms with what is available.','rooms2-01',[
    step('m7','Alpha room','Features, time, capacity; book it.','rooms2-02',[
-    step('m8','Room changed','The meeting moves to Alpha room.','rooms2-03',[],'Book this room')],'Choose Alpha room'),
+    step('m8a','Alpha room booked','The booking is in the calendar.','rooms2-04',[
+     step('m8','Room changed','The meeting moves to Alpha room.','rooms2-03',[],'Back to rooms')],'Book this room')],'Choose Alpha room'),
    step('m9','All rooms','Available and in use, with distance.','rooms3-00',[
     step('m10','Filters','Time, capacity, distance, features.','rooms3-01',[],'Filter')],'Show all')],'Find another room')],'Issue')])},
 {id:'articles',title:'Knowledge articles',summary:'Best practices from Home, then one article.',root:chain('k',[
