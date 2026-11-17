@@ -647,3 +647,9 @@ body.case-study.tint-rancourt{--sheet:#f4f3ef;--canvas:#e8e4da;--dot:#c6bca7;--a
 body.case-study.tint-bp{--sheet:#f1f7f2;--canvas:#dfeae1;--dot:#afc5b4;--accent:#2f7a4f;--accent-text:#2f7a4f;--accent-dark:#245f3d;--accent-tint:#e2efe5;--border-subtle:#c0d2c5;--rule:#b2c7b8;--band:#e8f0ea}
 
 @media(max-width:700px) and (pointer:coarse){body.portfolio-template .portfolio-filter-pills{gap:6px}body.portfolio-template .portfolio-filter-pill{min-height:30px;padding:5px 10px;font:500 12px/1.3 var(--font-body);width:auto;flex:0 0 auto;max-width:none}body.portfolio-template .portfolio-filter-reset{min-width:30px;padding:5px}}
+
+/* Lazy page tint: mint sheet, lagoon-tinted canvas, teal accent. */
+body.case-study.tint-lazy{--sheet:#eefaf6;--canvas:#d7f1ea;--dot:#9fd6c9;--accent:#068b88;--accent-text:#077a78;--accent-dark:#05605e;--accent-tint:#dff5ef;--border-subtle:#bfe0d7;--rule:#b0d8cd;--band:#e4f6f1}
+/* Live embed inside a figure panel (wireframes, prototypes). */
+body.portfolio-template .case-embed{border-top:1px solid var(--border-subtle);background:#fff}
+body.portfolio-template .case-embed iframe{display:block;width:100%;height:min(78vh,760px);border:0}

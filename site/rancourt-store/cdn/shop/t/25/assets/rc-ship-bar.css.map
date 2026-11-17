@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["/cdn/shop/t/25/assets/rc-ship-bar.css"],
+  "sourcesContent": ["/* Base free-shipping progress bar.\n   Loaded by the `free-shipping-bar` snippet \u2014 shared across cart drawer,\n   cart page, and product page. Surface-specific overrides live inside\n   the wrapper class the caller passes (e.g. .rc-cart-drawer__free-ship-msg). */\n\n[data-rc-free-ship] {\n  --rc-fill-pct: 0%;\n}\n\n/* Base \u2014 inherit typography from the calling surface (PDP .pdtl-block,\n   cart page summary, etc.) so the message sits flush with its siblings.\n   Drawer-specific centring / sizing lives in rc-cart-drawer.css. */\n.rc-ship-bar__msg {\n  margin: 0 0 6px;\n}\n\n.rc-ship-bar {\n  width: 100%;\n  height: 4px;\n  background: var(--rc-img-overlay);\n  overflow: hidden;\n}\n\n.rc-ship-bar__fill {\n  width: var(--rc-fill-pct);\n  height: 100%;\n  background: var(--button_primary_background);\n  transition: width 0.32s ease;\n}\n"],
+  "mappings": "AAKA,CAAC,mBACC,eAAe,EACjB,CAKA,CAAC,iBAZD,OAaU,EAAE,EAAE,GACd,CAEA,CAAC,YACC,MAAO,KACP,OAAQ,IACR,WAAY,IAAI,kBAChB,SAAU,MACZ,CAEA,CAAC,kBACC,MAAO,IAAI,eACX,OAAQ,KACR,WAAY,IAAI,6BAChB,WAAY,MAAM,KAAM,IAC1B",
+  "names": []
+}

@@ -1,0 +1,8 @@
+/* Demo notice for the switched-off store features (checkout, accounts, forms). */
+#rc-demo-notice{position:fixed;inset:0;z-index:2147483000;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,.45);padding:16px}
+#rc-demo-notice.is-open{display:flex}
+.rc-demo-notice__card{background:var(--color-bg,#fff);color:var(--color-body-text,#222);max-width:420px;width:100%;padding:32px 28px;text-align:center;box-shadow:0 12px 40px rgba(0,0,0,.25)}
+.rc-demo-notice__card h3{margin:0 0 12px}
+.rc-demo-notice__card p{margin:0 0 24px;line-height:1.5}
+/* Portfolio copy: smaller logo on phones. */
+@media (max-width: 767px){.rc-hdr__mobile-logo{--rc-hdr-logo-safe:44vw}}

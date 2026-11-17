@@ -1,0 +1,39 @@
+/* Lazy design-system tokens, exported from the Claude Design "Lazy" system (tokens.json). Scoped to .lz so they never leak into the portfolio template. */
+.lz{
+  --font-display:Lobster,cursive;
+  --font-serif:"Noto Serif",Georgia,serif;
+  --lagoon:#74e3d1;
+  --mint:#eafaf6;
+  --mint-line:#d3ede6;
+  --white:#ffffff;
+  --teal:#068b88;
+  --ink:#17363c;
+  --ink-soft:#1d3c42;
+  --muted:#8fa3a4;
+  --flamingo:#f9426f;
+  --ribbon-red:#c73e42;
+  --ribbon-red-fold:#a93036;
+  --ribbon-coral:#f0544f;
+  --ribbon-gold:#f4c04b;
+  --ribbon-gold-fold:#b5821e;
+  --ribbon-gold-mid:#d99e2b;
+  --glass:rgba(255, 255, 255, 0.85);
+  --space-1:4px;
+  --space-2:8px;
+  --space-3:12px;
+  --space-4:16px;
+  --space-5:20px;
+  --space-6:24px;
+  --space-8:32px;
+  --space-12:48px;
+  --space-20:80px;
+  --radius-xs:3px;
+  --radius-sm:8px;
+  --radius-md:12px;
+  --radius-lg:32px;
+  --radius-pill:999px;
+  --shadow-button:0 6px 18px 0 rgba(13, 43, 46, 0.1);
+  --shadow-card:0 12px 26px 0 rgba(13, 43, 46, 0.18);
+  --shadow-ribbon:inset 0 1px 0 0 rgba(255, 255, 255, 0.26), inset 0 -2px 0 0 rgba(0, 0, 0, 0.08);
+  --shadow-nav-text:0 2px 3px rgba(6, 32, 34, 0.45);
+}

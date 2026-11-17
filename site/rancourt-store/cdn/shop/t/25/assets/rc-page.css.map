@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["/cdn/shop/t/25/assets/rc-page.css"],
+  "sourcesContent": ["/* ============================================================================\n   RC PAGE \u2014 custom styles for Shopify Page content (page body).\n   Apply class names below to elements via the page editor Code view.\n   ============================================================================ */\n\n/* Thin border around an image \u2014 matches the theme's global border color. */\n.rc-blog-img--border {\n  border: 1px solid var(--line_color);\n}\n"],
+  "mappings": "AAMA,CAAC,oBACC,OAAQ,IAAI,MAAM,IAAI,aACxB",
+  "names": []
+}
