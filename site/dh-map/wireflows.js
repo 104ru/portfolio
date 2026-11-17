@@ -1,5 +1,5 @@
 'use strict';
-const $=id=>document.getElementById(id)||document.createElement('span'),walk=(node,fn,parent=null)=>{fn(node,parent);(node.children||[]).forEach(n=>walk(n,fn,node));};
+const _stub={},$=id=>document.getElementById(id)||(_stub[id]||(_stub[id]=document.createElement('span'))),walk=(node,fn,parent=null)=>{fn(node,parent);(node.children||[]).forEach(n=>walk(n,fn,node));};
 let currentFlow=wireflows[0],selected=currentFlow.root,expanded=new Set(),zoom=1,nodeMap=new Map(),parentMap=new Map();
 const screenUrl=node=>'screens/'+node.img+'.webp';
 const makeFrame=node=>{const img=document.createElement('img');img.src=screenUrl(node);img.alt=node.title+' wireframe';img.loading='lazy';img.decoding='async';img.className='wire-img';return img;};
