@@ -12,3 +12,4 @@
 .detail-preview.live{height:509px;max-height:none;overflow:hidden}.detail-preview.live iframe{width:375px;height:667px;border:0;display:block;transform:scale(.7626667);transform-origin:top left;pointer-events:none;background:#fff}.mini-screen iframe.wire-live{width:375px;height:667px;transform:scale(.4693333)}
 .node .node-title,.node .node-note{display:none}.screen-button{padding-bottom:12px}
 .screen-button{padding:0}.node{border-radius:8px}.mini-screen,.node.selected .mini-screen{width:200px;height:356px;border:0;border-radius:0;box-shadow:none}.mini-screen iframe,.mini-screen iframe.wire-live,.node.selected .mini-screen iframe{transform:scale(.5333333)}.node.selected{border-width:1px}
+.detail-preview.live{max-height:none}

@@ -56,4 +56,8 @@ document.querySelectorAll('.bottomnav').forEach(nav=>{
   nav.innerHTML='<span class="home"><span class="ic">'+ICONS.grid+'</span></span><span class="ic">'+ICONS.gauge+'</span><span class="ic">'+ICONS.face+'</span><span class="ic">'+ICONS.bell+'</span><span class="ic">'+ICONS.bookmark+'</span>';
 });
 document.querySelectorAll('.steps[data-step]').forEach(s=>{const [a,b]=s.dataset.step.split('/').map(Number);s.innerHTML='<i style="width:'+(100*a/b)+'%"></i>';});
+
+// Tell the explorer how tall this screen is, so its card can grow to fit.
+const report=()=>{try{parent.postMessage({dh:'height',h:Math.max(667,document.documentElement.scrollHeight)},'*');}catch(e){}};
+report();window.addEventListener('load',report);if(window.ResizeObserver)new ResizeObserver(report).observe(document.body);
 })();
