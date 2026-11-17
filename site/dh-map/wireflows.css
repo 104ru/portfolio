@@ -7,3 +7,4 @@
 .brand-mark{background:#ffe600;color:#23373e;font-weight:700;font-size:15px}
 
 .flow-name{flex:1;min-width:0;font-size:15px;font-weight:600;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.topbar{gap:16px}.journeys{padding-top:12px}.inspector{position:relative}#inspector-close{position:absolute;top:10px;right:10px;z-index:2}#fullscreen[hidden]{display:none}@media(max-width:700px){.flow-name{display:none}.top-actions{flex-wrap:wrap;justify-content:flex-end}}
+.top-actions .icon-tool{width:40px;height:40px;padding:0}.top-actions .icon-tool svg{display:block}
