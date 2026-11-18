@@ -175,3 +175,5 @@ body.flask-home.contact-page .contact-form h2{font:600 18px/1.3 var(--font-body)
 /* The Work link stops below the sticky header */
 .flask-home #work{scroll-margin-top:88px}
 @media(max-width:600px){.flask-home #work{scroll-margin-top:72px}}
+/* Lab cards: title, then one free-form description */
+.lab .card-title{grid-column:1/-1}
