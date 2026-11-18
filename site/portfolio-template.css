@@ -762,7 +762,7 @@ body.portfolio-template .case-facts > div.case-brief:nth-child(3n+1){padding-lef
 body.portfolio-template .case-facts > div.case-brief dd{font-weight:400}
 body.portfolio-template .case-owned{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-3) var(--space-6);margin:0;padding:0;list-style:none;font:400 var(--type-body)/1.5 var(--font-body);color:var(--text-primary)}
 body.portfolio-template .case-owned b{display:block;font-weight:600}
-body.portfolio-template .case-measured{margin:var(--space-3) 0 0;font:400 var(--type-body)/1.5 var(--font-body);color:var(--text-secondary)}
+body.portfolio-template .case-measured{margin:-20px 0 40px;font:400 var(--type-body)/1.5 var(--font-body);color:var(--text-secondary)}
 body.portfolio-template .video-transcript{max-height:32dvh;overflow:auto;padding:var(--space-4) var(--space-6);background:#fff;color:var(--text-primary);font:400 var(--type-body)/1.6 var(--font-body)}
 body.portfolio-template .video-transcript summary{cursor:pointer;font-weight:600}
 body.portfolio-template .video-transcript p{margin:var(--space-3) 0 0}
