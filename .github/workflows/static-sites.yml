@@ -1,0 +1,59 @@
+name: Publish sandy.tayts.com
+
+# Push to main -> assume this site's deploy role via OIDC (no stored keys) -> mirror site/
+# to the site's prefix in the static-sites bucket -> invalidate this site's tenant.
+# Runs beside pages.yml (GitHub Pages); the two don't interact.
+#
+# The role is defined in 104ru/static-sites (infra/github.tf) and can write ONLY
+# s3://<bucket>/sandy/ and invalidate ONLY this site's tenant.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+concurrency:
+  group: static-sites-publish
+  cancel-in-progress: false
+
+permissions:
+  id-token: write   # required for OIDC
+  contents: read
+
+env:
+  # Not secrets: `terraform -chdir=infra output sites` / `output bucket` in static-sites.
+  AWS_REGION: us-west-2
+  DEPLOY_ROLE_ARN: arn:aws:iam::583057901773:role/static-sites-sandy-deploy
+  BUCKET: static-sites-583057901773
+  SITE: sandy
+  TENANT_ID: dt_3MHxvwmOLfnlBzDSIJfucmDaRdt
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      # Only site/ is published, so only site/ is checked out (the archive is most of the repo).
+      - uses: actions/checkout@v5
+        with:
+          sparse-checkout: site
+
+      - uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: ${{ env.DEPLOY_ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      # --delete removes from the site whatever was removed from site/.
+      # Dotfiles and Markdown notes (README.md, STYLE-GUIDE.md) stay out.
+      - name: Sync site/ to S3
+        run: |
+          set -euo pipefail
+          aws s3 sync site/ "s3://$BUCKET/$SITE/" --delete \
+            --exclude '.*' --exclude '*/.*' --exclude '*.md'
+
+      - name: Invalidate this site's tenant
+        run: |
+          set -euo pipefail
+          id=$(aws cloudfront create-invalidation-for-distribution-tenant \
+            --id "$TENANT_ID" \
+            --invalidation-batch "Paths={Quantity=1,Items=[/*]},CallerReference=$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT" \
+            --query Invalidation.Id --output text)
+          echo "Invalidation: $id"
