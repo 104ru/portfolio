@@ -988,3 +988,6 @@ body.portfolio-template .rc7-card p{margin:0;font:400 15px/1.5 var(--font-body);
 .rc7-pay-on i{border:1.5px solid #6db8ad;color:#223640;text-decoration:none}
 .rc7-four .rc7-bar i::after{background:#6db8ad}
 .rc7-four .rc7-bar:first-child i::after{background:#f0a048}
+/* About page: smaller section titles */
+body.portfolio-template.about-page h2{font-size:32px!important}
+@media(max-width:700px){body.portfolio-template.about-page h2{font-size:26px!important}}
