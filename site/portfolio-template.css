@@ -1005,3 +1005,6 @@ body.portfolio-template.case-study .portfolio-accordion-heading h2{font-size:32p
  body.portfolio-template .portfolio-table tbody td::before{margin:0;font-style:normal}
  body.portfolio-template .portfolio-table tbody th{margin-bottom:2px}
 }
+/* Certification names in the body font, not the title font */
+body.portfolio-template .original-study .cert-name{font:600 17px/1.35 var(--font-body);letter-spacing:0}
+@media(max-width:700px){body.about-page .portfolio-section-nav .portfolio-section-link{font-size:12px;padding-inline:3px}}
