@@ -59,7 +59,7 @@ document.querySelectorAll('summary a').forEach(a=>a.addEventListener('click',e=>
 (()=>{const mq=matchMedia('(max-width:700px) and (pointer:coarse)');const pills=[...document.querySelectorAll('.portfolio-filter-pill[data-short]')];const swap=()=>pills.forEach(p=>{p.textContent=mq.matches?p.dataset.short:p.dataset.full;});swap();mq.addEventListener('change',swap);})();
 
 // The close X returns to the homepage exactly where it was left.
-document.querySelectorAll('a.back[href="index.html"]').forEach(a=>a.addEventListener('click',e=>{const ref=document.referrer;if(history.length>1&&ref&&new URL(ref).origin===location.origin&&/\/(index\.html)?$/.test(new URL(ref).pathname)){e.preventDefault();history.back();}}));
+// The close button is a plain link to the homepage, so it always opens at the top of the page.
 
 // Any button with data-dialog-open opens the dialog with that id.
 (() => {
