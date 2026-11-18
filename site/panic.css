@@ -1,0 +1,52 @@
+/* No Grounds for Panic: the book on a dark stage, paged through in spreads. */
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{display:grid;grid-template-rows:auto 1fr auto;overflow:hidden;background:radial-gradient(ellipse at 50% 38%,#4a2a26 0%,#231a19 45%,#0e0b0b 100%);color:#f3ece4;font:400 15px/1.4 Inter,sans-serif}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 28px}
+.title{margin:0;display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.title b{font:400 26px/1 "Bebas Neue",Inter,sans-serif;letter-spacing:.06em;color:#fff}
+.title span{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#e2352f}
+.close{display:grid;place-items:center;width:40px;height:40px;border:1px solid #ffffff33;border-radius:50%;color:#f3ece4;transition:background-color .15s ease,transform .15s ease}
+.close:hover{background:#ffffff1a;transform:rotate(90deg)}
+.stage{position:relative;display:flex;align-items:center;justify-content:center;perspective:2600px;perspective-origin:50% 40%;overflow:hidden;touch-action:pan-y}
+.book{--pw:300px;--ph:450px;--t:28px;--tl:0px;--tr:28px;position:relative;flex:0 0 auto;width:calc(var(--pw)*2);height:var(--ph);transform-style:preserve-3d;transition:transform 1s cubic-bezier(.3,.1,.2,1);cursor:pointer}
+.book::after{content:"";position:absolute;inset:6% 4% -3%;transform:translateZ(calc(var(--t)*-1 - 2px));box-shadow:0 50px 70px 10px #000000b3;border-radius:50%;opacity:.75;pointer-events:none}
+.book.at-front::after{inset:6% 4% -3% 52%}.book.at-back::after{inset:6% 52% -3% 4%}
+.leaf{position:absolute;top:0;left:50%;width:50%;height:100%;transform-origin:left center;transform-style:preserve-3d;transition:transform .95s cubic-bezier(.35,.05,.2,1)}
+.book.jump .leaf{transition:none}
+.face{position:absolute;inset:0;overflow:hidden;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:#f7f2e8}
+.face img{display:block;width:100%;height:100%;object-fit:cover;user-select:none;-webkit-user-drag:none}
+.face.back{transform:rotateY(180deg)}
+.face::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,#00000038 0,#0000000f 5%,#0000 14%,#0000 96%,#0000000d 100%)}
+.face.back::after{background:linear-gradient(270deg,#00000038 0,#0000000f 5%,#0000 14%,#0000 96%,#0000000d 100%)}
+.face.cover::after{background:linear-gradient(90deg,#ffffff2e 0,#0000 3%,#00000026 4.5%,#0000 7%)}
+.face.back.cover::after{background:linear-gradient(270deg,#ffffff2e 0,#0000 3%,#00000026 4.5%,#0000 7%)}
+.leaf.turning .face::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,#0000 30%,#ffffff40 60%,#00000030 100%);animation:sheen .95s ease both}
+@keyframes sheen{0%,100%{opacity:0}45%{opacity:1}}
+/* Page blocks under each side, so the book has thickness. */
+.block{position:absolute;top:0;height:100%;width:50%;transform-style:preserve-3d;pointer-events:none}
+.block-l{left:0}.block-r{left:50%}
+.block i{position:absolute;display:block;background:repeating-linear-gradient(0deg,#efe7d8 0 1px,#d9cfbd 1px 2px)}
+.edge-bottom{left:0;top:100%;width:100%;transform-origin:top;transform:rotateX(-90deg);background:repeating-linear-gradient(0deg,#f1e9da 0 1px,#d6ccb9 1px 2px)!important}
+.block-l .edge-bottom{height:var(--tl)}.block-r .edge-bottom{height:var(--tr)}
+.edge-side{top:0;height:100%;background:repeating-linear-gradient(90deg,#efe7d8 0 1px,#d9cfbd 1px 2px)!important}
+.block-l .edge-side{left:calc(var(--tl)*-1);width:var(--tl);transform-origin:right;transform:rotateY(-90deg)}
+.block-r .edge-side{left:100%;width:var(--tr);transform-origin:left;transform:rotateY(90deg)}
+.spine,.spine-in{position:absolute;top:0;left:calc(50% - var(--t));width:var(--t);height:100%;transform-origin:right;transform:rotateY(-90deg);backface-visibility:hidden;-webkit-backface-visibility:hidden;background:#e2352f url(panic-book/spine.webp) center/100% 100%;transition:opacity .4s ease}
+.spine-in{transform:rotateY(-90deg) rotateY(180deg);background:#141111}
+.book.open .spine,.book.open .spine-in{opacity:0}
+.hint{position:absolute;left:0;right:0;bottom:10px;margin:0;text-align:center;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#f3ece499;transition:opacity .4s ease;pointer-events:none}
+.hint.gone{opacity:0}
+.controls{display:flex;align-items:center;gap:16px;width:min(760px,calc(100% - 40px));margin:0 auto;padding:14px 0 22px}
+.controls button{display:grid;place-items:center;flex:0 0 44px;width:44px;height:44px;border:1px solid #ffffff33;border-radius:50%;background:none;color:#f3ece4;cursor:pointer;transition:background-color .15s ease,transform .15s ease}
+@media(hover:hover){.controls button:hover{background:#e2352f;border-color:#e2352f}}
+.controls button:active{transform:scale(.94)}
+.controls button:disabled{opacity:.3;cursor:default;background:none;border-color:#ffffff33}
+.controls svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.controls input{flex:1;min-width:0;height:4px;appearance:none;-webkit-appearance:none;border-radius:2px;background:linear-gradient(90deg,#e2352f var(--p,0%),#ffffff2e var(--p,0%));cursor:pointer}
+.controls input::-webkit-slider-thumb{-webkit-appearance:none;width:16px;height:16px;border-radius:50%;background:#fff;border:0;box-shadow:0 1px 4px #0008}
+.controls input::-moz-range-thumb{width:16px;height:16px;border-radius:50%;background:#fff;border:0}
+.controls output{flex:0 0 168px;white-space:nowrap;text-align:center;font-size:13px;letter-spacing:.06em;color:#f3ece4cc;font-variant-numeric:tabular-nums}
+:focus-visible{outline:2px solid #e2352f;outline-offset:3px}
+@media(max-width:700px){.bar{padding:14px 18px}.title b{font-size:22px}.title span{font-size:11px;width:100%}.controls{gap:10px;padding-bottom:16px}.controls output{flex-basis:118px;font-size:12px}}
+@media(prefers-reduced-motion:reduce){.leaf,.book{transition:none}.leaf.turning .face::before{animation:none}}

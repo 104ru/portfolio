@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>No Grounds for Panic · Alex Kartashov and Sandy Tayts</title>
+<meta name="description" content="No Grounds for Panic, urban fantasy short stories by Alex Kartashov and Sandy Tayts. Page through the book."/>
+<meta name="robots" content="noindex"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Bebas+Neue&amp;display=swap" rel="stylesheet"/>
+<link href="panic.css?v=20261118-b1" rel="stylesheet"/>
+</head><body>
+<header class="bar">
+<p class="title"><b>No Grounds for Panic</b><span>Alex Kartashov · Sandy Tayts</span></p>
+<a class="close" href="index.html" aria-label="Close the book"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 3L17 17M17 3L3 17" stroke="currentColor" stroke-width="1.5"/></svg></a>
+</header>
+<main class="stage" id="stage">
+<div class="book" id="book" aria-live="polite">
+<div class="block block-l"><i class="edge-bottom"></i><i class="edge-side"></i></div>
+<div class="block block-r"><i class="edge-bottom"></i><i class="edge-side"></i></div>
+<i class="spine"></i><i class="spine-in"></i>
+</div>
+<p class="hint" id="hint">Click the cover to open</p>
+</main>
+<footer class="controls">
+<button type="button" id="prev" aria-label="Previous page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+<input type="range" id="scrub" min="0" max="102" value="0" aria-label="Page"/>
+<output id="where">Cover</output>
+<button type="button" id="next" aria-label="Next page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+</footer>
+<script src="panic.js?v=20261118-b1"></script>
+</body></html>
