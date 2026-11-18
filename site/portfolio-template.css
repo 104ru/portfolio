@@ -753,3 +753,15 @@ body.tint-lazy .lzm i.off{border:2px dashed #b9d6cf}
 @media(max-width:900px){body.tint-lazy .lzt,body.tint-lazy .lzt.lzt-3{grid-template-columns:repeat(2,minmax(0,1fr))}body.tint-lazy .lzr li{grid-template-columns:30px minmax(0,1fr);width:100%}body.tint-lazy .lzr span{grid-column:2}}
 @media(max-width:560px){body.tint-lazy .lzt,body.tint-lazy .lzt.lzt-3{grid-template-columns:minmax(0,1fr)}}
 @media(prefers-reduced-motion:reduce){body.tint-lazy :is(.lzt>div,.lzr li,.lzb-row i::after,.lzm i){animation:none}}
+
+/* Case brief: Problem, Actions, Outcome as a second row of the case facts; BP roles; measurement notes; video transcripts */
+body.portfolio-template .case-facts > div.case-brief{border-top:1px solid var(--border-subtle)}
+body.portfolio-template .case-facts > div.case-brief:nth-child(3n+1){padding-left:0;border-left:0}
+body.portfolio-template .case-facts > div.case-brief dd{font-weight:400}
+body.portfolio-template .case-owned{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-3) var(--space-6);margin:0;padding:0;list-style:none;font:400 var(--type-body)/1.5 var(--font-body);color:var(--text-primary)}
+body.portfolio-template .case-owned b{display:block;font-weight:600}
+body.portfolio-template .case-measured{margin:var(--space-3) 0 0;font:400 var(--type-body)/1.5 var(--font-body);color:var(--text-secondary)}
+body.portfolio-template .video-transcript{max-height:32dvh;overflow:auto;padding:var(--space-4) var(--space-6);background:#fff;color:var(--text-primary);font:400 var(--type-body)/1.6 var(--font-body)}
+body.portfolio-template .video-transcript summary{cursor:pointer;font-weight:600}
+body.portfolio-template .video-transcript p{margin:var(--space-3) 0 0}
+@media(max-width:700px){body.portfolio-template .case-owned{grid-template-columns:1fr}body.portfolio-template .case-facts > div.case-brief{grid-column:1/-1;padding-left:0;border-left:0;border-top:1px solid var(--border-subtle)}}
