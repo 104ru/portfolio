@@ -887,3 +887,9 @@ body.portfolio-template .original-study .cert-list li span{font-weight:400;font-
 @media(max-width:1024px){.cert-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:700px){.cert-grid{grid-template-columns:1fr;gap:var(--space-4)}.cert-card{padding:var(--space-4)}}
 @media(max-width:600px){.li-recs-head{padding:var(--space-4) var(--space-4) 0}.li-grid{padding:var(--space-1) var(--space-4)}.li-card:target{box-shadow:-16px 0 0 #ebf4fd,16px 0 0 #ebf4fd}}
+
+/* Lazy: the four parts of the offer, in the result-card slot */
+body.tint-lazy .lazy-parts .metric-n{font-size:34px;line-height:1.1}
+body.tint-lazy .lazy-parts .metric-t{display:block;margin-top:8px}
+body.tint-lazy #lazy-viewer .case-embed{border:1px solid var(--border-subtle);border-radius:12px;overflow:hidden;margin-top:var(--space-3)}
+body.tint-lazy #lazy-viewer .case-embed iframe{height:min(82vh,820px)}
