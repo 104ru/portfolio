@@ -164,3 +164,11 @@ body:not(.loaded) .reveal{visibility:hidden}
 .contact-form button:active{transform:scale(.96)}
 .contact-note{margin:0;font:400 13px/1.4 var(--font-body);color:var(--text-secondary)}
 @media(max-width:700px){.contact{grid-template-columns:1fr}.contact-page .flask{width:104px}}
+/* Contact page: calmer type sizes */
+body.flask-home.contact-page .profile h1{font-size:clamp(34px,4.5vw,48px);margin-bottom:10px}
+.flask-home.contact-page .flask-lede{font-size:clamp(17px,2vw,20px)}
+body.flask-home.contact-page .contact-form h2{font:600 18px/1.3 var(--font-body);letter-spacing:0}
+.contact-page .contact-list a,.contact-page .contact-list li>span:not(.contact-label){font-size:17px}
+.contact-page .contact-list .contact-now{font-size:14px!important}
+.contact-page .contact-list li{padding:16px 20px}
+.contact-page .contact-form{padding:20px}
