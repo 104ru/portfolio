@@ -135,3 +135,8 @@ body:not(.loaded) .reveal{visibility:hidden}
 /* Returning from a case study: everything is already in place, nothing animates. */
 .returning .seq,.returning .flask.intro{opacity:1;transform:none;transition:none}.returning .reveal>span>span{transform:none;transition:none}.returning .flask.bubbling{animation:none}.returning .work .card.in .card-image,.returning .work .card.in .card-body>*,.returning .lab .card.in{animation:none}.returning .lab .card{opacity:1}.returning .work .card .outline{display:none}.returning .cards .card,.returning .cards .card *,.returning .cards .card .card-body{background-size:100% 1px!important}
 .returning .work .card .card-image,.returning .work .card .card-body>*{opacity:1;filter:none}.returning .work .card{background:var(--surface);border-color:var(--rule);transition:none}
+
+/* Sticky header: the menu stays at the top while the page scrolls. */
+.flask-nav{position:fixed;top:0;left:0;right:0;transform:none;width:auto;z-index:20;padding:20px max(48px,calc((100% - 1040px)/2));background:rgb(241 245 246/.92);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.flask-nav a{font-size:17px}
+@media(max-width:600px){.flask-nav{width:auto;padding:16px 20px}.flask-nav a{font-size:16px}}
