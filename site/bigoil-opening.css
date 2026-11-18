@@ -13,9 +13,9 @@
 .opening .outcomes>div:nth-child(3){background:#f4f7f8;border-color:#dce4e7;border-top-color:#2c6e7e}
 .opening .metric-label{font-size:14px;font-weight:500;line-height:1.45;margin:0;max-width:220px;color:#223640}
 .opening .metric{display:flex;align-items:baseline;gap:10px;line-height:1;margin:0;align-self:center;font-family:'Abel',sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-1.5px;font-size:38px}
-.opening .metric strong{font-size:72px;font-weight:400;color:#2c6e7e;line-height:1}
+.opening .metric strong{font-size:72px;font-weight:var(--body-weight,400);color:#2c6e7e;line-height:1}
 .opening .metric .arrow{font-size:24px;color:#5d6b72;letter-spacing:0}
-.opening .metric .unit{font-size:16px;font-weight:400;letter-spacing:0;color:#5d6b72}
+.opening .metric .unit{font-size:16px;font-weight:var(--body-weight,400);letter-spacing:0;color:#5d6b72}
 .opening .outcomes>div>p:last-child{font-size:13px;line-height:1.6;color:#5d6b72;margin:0;align-self:start;max-width:245px}
 .results-caption{display:flex;align-items:flex-start;justify-content:space-between;gap:35px;padding:19px 0 28px}
 .results-caption .source-note{margin:0;font-size:12px;line-height:1.7;max-width:650px}
@@ -38,7 +38,7 @@
 .opening .outcomes>div>.result-detail:last-child{border-top:1px solid #dce4e7;padding-top:14px;margin-top:18px;max-width:none;font-size:13px;line-height:1.5;color:#5d6b72}
 @media(min-width:701px) and (max-width:1000px){.opening .outcomes>div,.opening .outcomes>div:nth-child(3){padding:22px 18px;grid-template-rows:42px 86px 28px 40px auto}.opening .result-number{font-size:64px}.opening .result-comparison{font-size:12px;gap:8px}}
 @media(max-width:700px){.opening .outcomes>div,.opening .outcomes>div:nth-child(3){padding:24px;grid-template-rows:34px 90px 28px 38px auto}.opening .result-number{font-size:72px}.opening .result-comparison{font-size:14px;gap:12px}}
-.opening-kpis{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:24px;list-style:none;padding:26px 0;margin:24px 0 0;border-block:1px solid #dce4e7}.opening-kpis li{display:flex;flex-direction:column;gap:10px;margin:0;min-width:0}.opening-kpis strong{font:500 32px/1.2 'Inter',sans-serif;letter-spacing:-1px;color:#2c6e7e;white-space:nowrap}.opening-kpis span{font:400 13px/1.5 'Inter',sans-serif;color:#5d6b72;max-width:150px}@media(max-width:1000px){.opening-kpis{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:26px}.opening-kpis strong{font-size:28px}}@media(max-width:700px){.opening-kpis{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 18px}.opening-kpis strong{font-size:27px}.opening-kpis span{font-size:13px}}
+.opening-kpis{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:24px;list-style:none;padding:26px 0;margin:24px 0 0;border-block:1px solid #dce4e7}.opening-kpis li{display:flex;flex-direction:column;gap:10px;margin:0;min-width:0}.opening-kpis strong{font:500 32px/1.2 'Inter',sans-serif;letter-spacing:-1px;color:#2c6e7e;white-space:nowrap}.opening-kpis span{font:var(--body-weight,400) 13px/1.5 'Inter',sans-serif;color:#5d6b72;max-width:150px}@media(max-width:1000px){.opening-kpis{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:26px}.opening-kpis strong{font-size:28px}}@media(max-width:700px){.opening-kpis{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 18px}.opening-kpis strong{font-size:27px}.opening-kpis span{font-size:13px}}
 
 /* Approved concise opening. */
 .opening .opening-title{display:flex;flex-direction:column;align-items:flex-start;gap:16px;margin-bottom:36px}
@@ -51,7 +51,7 @@
 .result-card:nth-child(2){background:#f4f7f8;border-color:#2c6e7e}
 .result-card:nth-child(3){background:#f4f7f8;border-color:#2c6e7e}
 .result-card h2{font:500 19px/1.45 'Inter',sans-serif;letter-spacing:0;margin:0}
-.result-card p{font:400 17px/1.6 'Inter',sans-serif;margin:0}
+.result-card p{font:var(--body-weight,400) 17px/1.6 'Inter',sans-serif;margin:0}
 .result-card strong{color:#2c6e7e;font-weight:600;white-space:nowrap}
 .result-card .primary-result strong{font-size:48px;line-height:1.15;letter-spacing:-1.5px;margin-right:6px}
 @media(max-width:900px){.concise-results{grid-template-columns:1fr}.result-card{padding:24px;gap:12px}}
@@ -66,7 +66,7 @@
 .concise-results .card-value strong{font-size:56px;font-weight:600;letter-spacing:-2px;font-variant-numeric:lining-nums tabular-nums;line-height:1.1}
 .concise-results .card-value strong>span{font-size:.65em;letter-spacing:-1px}
 .concise-results .card-value .result-direction{font-size:21px;font-weight:500;letter-spacing:0;color:#223640}
-.concise-results .result-card .card-caption{font:400 15px/1.6 'Inter',sans-serif;margin:0;color:#5d6b72}
+.concise-results .result-card .card-caption{font:var(--body-weight,400) 15px/1.6 'Inter',sans-serif;margin:0;color:#5d6b72}
 @media(min-width:901px) and (max-width:1100px){.concise-results{gap:20px}.concise-results .result-card{padding:26px;gap:24px;grid-template-rows:auto auto 72px}.concise-results .card-value strong{font-size:48px}.concise-results .card-value .result-direction{font-size:18px}}
 @media(max-width:900px){.concise-results{grid-template-columns:1fr;gap:16px}.concise-results .result-card{grid-template-rows:auto auto auto;padding:28px;gap:20px}}
 
@@ -79,7 +79,7 @@
 @media(max-width:480px){.concise-results{gap:16px}.concise-results .result-card{padding:24px;gap:20px}}
 
 /* Situation and responsibilities: shared left edge and readable text rhythm. */
-.original-study .situation{position:relative;left:50%;transform:translateX(-50%);width:min(1120px,calc(100vw - 80px));box-sizing:border-box;padding:48px 0 64px;color:#223640;font:400 17px/1.65 'Inter',sans-serif}
+.original-study .situation{position:relative;left:50%;transform:translateX(-50%);width:min(1120px,calc(100vw - 80px));box-sizing:border-box;padding:48px 0 64px;color:#223640;font:var(--body-weight,400) 17px/1.65 'Inter',sans-serif}
 .original-study .situation h2{font:600 40px/1.15 var(--font-heading);letter-spacing:-0.025em;color:#223640;margin:0 0 20px}
 .original-study .situation p{max-width:78ch;font:inherit;margin:0 0 24px}
 .original-study .situation strong{font-weight:600}
