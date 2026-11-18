@@ -113,23 +113,25 @@
   if (still) {
     liquid.setAttribute('y', FULL);
     rise();
-    return;
+    if (!returning || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    // Coming back from a case study: no intro, but the flask still bursts on hover and click.
+    phase = 'rest';
+  } else {
+    // The intro always starts at the top of the page, even on reload.
+    history.scrollRestoration = 'manual';
+    scrollTo(0, 0);
+    const r = flask.getBoundingClientRect();
+    flask.style.setProperty('--rise', `${innerHeight / 2 - (r.top + r.height / 2)}px`);
+    requestAnimationFrame(() => requestAnimationFrame(() => { flask.classList.add('shown'); setTimeout(play, 250); }));
   }
-
-  // The intro always starts at the top of the page, even on reload.
-  history.scrollRestoration = 'manual';
-  scrollTo(0, 0);
-  const r = flask.getBoundingClientRect();
-  flask.style.setProperty('--rise', `${innerHeight / 2 - (r.top + r.height / 2)}px`);
-  requestAnimationFrame(() => requestAnimationFrame(() => { flask.classList.add('shown'); setTimeout(play, 250); }));
 
   // Only a pointer that actually moves counts, so the flask passing under a resting cursor doesn't fire a burst.
   let last = 0, px, py;
   flask.addEventListener('pointermove', ev => {
     if (ev.clientX === px && ev.clientY === py) return;
     px = ev.clientX; py = ev.clientY; hover = true;
-    if (phase === 'rest' && performance.now() - last > 700) { last = performance.now(); burst(16); run(); }
+    if (phase === 'rest' && performance.now() - last > 700) { last = performance.now(); size(); burst(16); run(); }
   });
   flask.addEventListener('pointerleave', () => { hover = false; });
-  flask.addEventListener('click', () => { if (phase === 'rest') { burst(30); run(); } });
+  flask.addEventListener('click', () => { if (phase === 'rest') { size(); burst(30); run(); } });
 })();
