@@ -808,6 +808,13 @@ body.portfolio-template .original-study .tl-person{padding-left:4px}
 body.portfolio-template .original-study .tl-person .li-avatar{width:24px;height:24px;font-size:10px}
 html.tl-animate .tl-item{opacity:0;transform:translateY(16px);transition:opacity .5s ease,transform .5s ease}
 html.tl-animate .tl-item.is-in{opacity:1;transform:none}
+html.tl-animate .tl-card > :is(.tl-points,.tl-trust){max-height:0;opacity:0;overflow:hidden;transition:max-height .9s ease,opacity .5s ease .25s,margin .5s ease,padding .5s ease}
+html.tl-animate .tl-card > .tl-trust{margin-top:0;padding-top:0;border-top-color:transparent;transition-delay:.3s,.55s,.3s,.3s}
+html.tl-animate .tl-item.is-in .tl-card > :is(.tl-points,.tl-trust){max-height:1400px;opacity:1}
+html.tl-animate .tl-item.is-in .tl-card > .tl-trust{margin-top:var(--space-5);padding-top:var(--space-4);border-top-color:var(--border-subtle)}
+html.tl-animate .tl-role{transition:margin .5s ease}
+html.tl-animate .tl-item:not(.is-in) .tl-role{margin-bottom:0}
+html.tl-animate .tl::before{bottom:auto;height:calc(var(--tl-end,0px) - var(--space-6));transition:height .9s ease}
 @media(max-width:700px){
  body.portfolio-template .original-study .tl{--tl-when:0px;--tl-rail:28px}
  .tl::before{left:13px}

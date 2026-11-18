@@ -24,11 +24,19 @@
  measure();
 })();
 
-// Timeline: reveal each entry as it scrolls into view.
+// Timeline: unwrap one entry at a time, in order, as the reader reaches it; the rail grows with it.
 (() => {
- const items=[...document.querySelectorAll('.tl-item')];
- if(!items.length||matchMedia('(prefers-reduced-motion: reduce)').matches||!('IntersectionObserver' in window))return;
+ const tl=document.querySelector('.tl'),items=[...document.querySelectorAll('.tl-item')];
+ if(!tl||!items.length||matchMedia('(prefers-reduced-motion: reduce)').matches||!('IntersectionObserver' in window))return;
  document.documentElement.classList.add('tl-animate');
- const io=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('is-in');io.unobserve(e.target);}}),{rootMargin:'0px 0px -8% 0px'});
- items.forEach(i=>io.observe(i));
+ let last=null;
+ const rail=()=>{if(last)tl.style.setProperty('--tl-end',(last.offsetTop+last.offsetHeight)+'px');};
+ new ResizeObserver(rail).observe(tl);
+ const io=new IntersectionObserver(entries=>entries.forEach(e=>{
+  if(!e.isIntersecting)return;
+  io.unobserve(e.target);e.target.classList.add('is-in');last=e.target;rail();
+  const next=items[items.indexOf(e.target)+1];
+  if(next)setTimeout(()=>io.observe(next),600);
+ }),{rootMargin:'0px 0px -12% 0px'});
+ io.observe(items[0]);
 })();
