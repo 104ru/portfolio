@@ -8,7 +8,7 @@
   const canvas = stage.querySelector('canvas'), ctx = canvas.getContext('2d');
   const flask = stage.querySelector('.flask'), liquid = stage.querySelector('.liquid');
   const nav = performance.getEntriesByType('navigation')[0];
-  const returning = (nav && nav.type === 'back_forward') || sessionStorage.getItem('flask-intro') === 'done';
+  const returning = (nav && nav.type === 'back_forward') || sessionStorage.getItem('flask-intro') === 'done' || body.hasAttribute('data-flask-still');
   if (returning) body.classList.add('returning');
   const still = matchMedia('(prefers-reduced-motion: reduce)').matches || returning;
   const rnd = (a, b) => a + Math.random() * (b - a);
