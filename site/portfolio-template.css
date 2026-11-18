@@ -967,3 +967,9 @@ body.portfolio-template .original-study .rc-areas li{padding:8px 14px;border-rad
 
 .guide-dialog{width:min(820px,calc(100vw - 48px))}
 .guide-dialog .blueprint-dialog-content{padding:var(--space-5)}
+
+/* Rancourt: three screenshots in a row */
+body.portfolio-template.tint-rancourt .portfolio-evidence-grid.rc-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+body.portfolio-template.tint-rancourt .portfolio-evidence-grid.rc-3 > .figure-panel{padding:16px}
+body.portfolio-template.tint-rancourt .portfolio-evidence-grid.rc-3 img{width:100%;height:auto}
+@media(max-width:900px){body.portfolio-template.tint-rancourt .portfolio-evidence-grid.rc-3{grid-template-columns:minmax(0,1fr)}}
