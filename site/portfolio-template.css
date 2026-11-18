@@ -973,3 +973,8 @@ body.portfolio-template.tint-rancourt .portfolio-evidence-grid.rc-3{grid-templat
 body.portfolio-template.tint-rancourt .portfolio-evidence-grid.rc-3 > .figure-panel{padding:16px}
 body.portfolio-template.tint-rancourt .portfolio-evidence-grid.rc-3 img{width:100%;height:auto}
 @media(max-width:900px){body.portfolio-template.tint-rancourt .portfolio-evidence-grid.rc-3{grid-template-columns:minmax(0,1fr)}}
+
+/* Rancourt: eight measure cards, 4 x 2 on larger screens */
+body.portfolio-template .portfolio-card-grid.rc-measures{grid-template-columns:repeat(4,minmax(0,1fr));row-gap:var(--space-6)}
+body.portfolio-template .rc-measures .rc-word .metric-n{font-size:40px}
+@media(max-width:900px){body.portfolio-template .portfolio-card-grid.rc-measures{grid-template-columns:repeat(2,minmax(0,1fr))}}
