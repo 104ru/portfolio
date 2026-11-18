@@ -903,3 +903,25 @@ body.tint-lazy .lzm-key i{width:14px;height:14px;animation:none;margin-left:14px
 body.tint-lazy .lzm-key i:first-child{margin-left:0}
 body.tint-lazy .lzm-key i.na{width:8px;height:8px}
 @media(max-width:900px){body.tint-lazy .lzr-head{display:none}body.tint-lazy .lzm.lzm-5{font-size:13px}body.tint-lazy .lzm.lzm-5 em{font-size:11px}}
+
+/* Lazy case study in the look of the Lazy marketing website */
+body.case-study.tint-lazy{--sheet:#fff;--canvas:#eafaf6;--dot:#bfe6dc;--band:#eafaf6;--font-heading:Lobster,cursive;--font-body:"Noto Serif",Georgia,serif;--heading-weight:400;--heading-tracking:0;--accent:#068b88;--accent-text:#068b88;--accent-dark:#05605e}
+body.tint-lazy :is(h1,h2,.original-study h3){font-family:Lobster,cursive;font-weight:400;letter-spacing:0;color:#17363c}
+body.tint-lazy .opening h1{font-size:clamp(64px,8vw,104px);line-height:1}
+body.tint-lazy .original-study h2{font-size:clamp(44px,5vw,60px)}
+body.tint-lazy .original-study h3{font-size:32px;line-height:1.15}
+body.tint-lazy :is(.subheader-1,.subheader-2,.portfolio-reading,.case-facts dd){font-family:"Noto Serif",Georgia,serif}
+body.portfolio-template.case-study.tint-lazy .masthead.shell{background:#74e3d1;border-bottom:0}
+body.tint-lazy .case-header .case-links a{border-radius:8px;border:0;background:#fff;color:#17363c;font:700 13px/1 "Noto Serif",Georgia,serif;letter-spacing:.06em;text-transform:uppercase;box-shadow:0 6px 18px rgba(13,43,46,.1)}
+body.tint-lazy .case-header .case-links a:first-child{background:#068b88;color:#fff}
+body.tint-lazy .case-header .case-links a:hover{background:#17363c;color:#fff}
+body.tint-lazy .lzsvc{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin:var(--space-6) 0 var(--space-10)}
+body.tint-lazy .lzsvc>div{position:relative;background:#eafaf6;border-radius:12px;padding:30px 20px 20px}
+body.tint-lazy .lzsvc-n{position:absolute;top:-16px;left:18px;width:36px;height:36px;border-radius:50%;background:#74e3d1;color:#17363c;display:grid;place-items:center;font:400 20px/1 Lobster,cursive}
+body.tint-lazy .lzsvc .lzsvc-t{margin:0 0 8px;font:400 30px/1.1 Lobster,cursive;color:#17363c;letter-spacing:0}
+body.tint-lazy .lzsvc p{margin:0 0 12px;font:400 15px/1.5 "Noto Serif",Georgia,serif;color:#17363c}
+body.tint-lazy .lzsvc ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+body.tint-lazy .lzsvc li{position:relative;padding-left:16px;font:400 13.5px/1.4 "Noto Serif",Georgia,serif;color:#48646a}
+body.tint-lazy .lzsvc li::before{content:"";position:absolute;left:0;top:.5em;width:7px;height:7px;border-radius:50%;background:#068b88}
+@media(max-width:900px){body.tint-lazy .lzsvc{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 16px}}
+@media(max-width:560px){body.tint-lazy .lzsvc{grid-template-columns:minmax(0,1fr)}}
