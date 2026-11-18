@@ -988,6 +988,20 @@ body.portfolio-template .rc7-card p{margin:0;font:400 15px/1.5 var(--font-body);
 .rc7-pay-on i{border:1.5px solid #6db8ad;color:#223640;text-decoration:none}
 .rc7-four .rc7-bar i::after{background:#6db8ad}
 .rc7-four .rc7-bar:first-child i::after{background:#f0a048}
-/* About page: smaller section titles */
-body.portfolio-template.about-page h2{font-size:32px!important}
-@media(max-width:700px){body.portfolio-template.about-page h2{font-size:26px!important}}
+/* Smaller section titles (Situation, Task, Action, Result and the About sections) */
+body.portfolio-template.case-study .portfolio-accordion-heading h2{font-size:32px!important}
+@media(max-width:700px){body.portfolio-template.case-study .portfolio-accordion-heading h2{font-size:26px!important}}
+/* Phone sweep: full-width sheet with no side bands, stacked facts, compact popup headers, tidy tables */
+@media(max-width:700px){
+ body.portfolio-template.case-study :is(.opening.shell,.original-study){width:100%;max-width:none;margin-inline:0;padding-inline:20px;box-sizing:border-box;box-shadow:none;border-inline:0}
+ body.portfolio-template.case-study .case-facts{grid-template-columns:minmax(0,1fr);margin-inline:-20px;padding-inline:20px}
+ body.portfolio-template.case-study .case-facts > div{padding:var(--space-3) 0}
+ body.portfolio-template .blueprint-dialog-header,body.case-study .blueprint-dialog-header{padding:10px 12px 10px 16px;gap:12px;align-items:center}
+ body.portfolio-template .blueprint-dialog-header > :is(h2,h3,.figure-title){font:600 15px/1.3 var(--font-body);letter-spacing:0}
+ body.portfolio-template .blueprint-dialog-header .painpoints-close{flex-basis:36px;width:36px;height:36px}
+ body.portfolio-template .blueprint-dialog-content{padding:16px}
+ body.portfolio-template .portfolio-table tbody tr{grid-template-columns:minmax(0,1fr);gap:6px}
+ body.portfolio-template .portfolio-table tbody td{display:grid;grid-template-columns:96px minmax(0,1fr);gap:12px;grid-column:1/-1;align-items:baseline}
+ body.portfolio-template .portfolio-table tbody td::before{margin:0;font-style:normal}
+ body.portfolio-template .portfolio-table tbody th{margin-bottom:2px}
+}
