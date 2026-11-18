@@ -1015,3 +1015,6 @@ body.case-study.tint-lazy{--body-weight:400}
 /* About page: smaller name title */
 body.portfolio-template.about-page .case-title h1{font-size:40px!important;line-height:1.1;margin-bottom:8px}
 @media(max-width:700px){body.portfolio-template.about-page .case-title h1{font-size:30px!important}}
+/* Case studies: smaller main title */
+body.portfolio-template.case-study:not(.tint-lazy):not(.about-page) :is(.case-header > h1,.case-title h1){font-size:44px!important;line-height:1.08}
+@media(max-width:700px){body.portfolio-template.case-study:not(.tint-lazy):not(.about-page) :is(.case-header > h1,.case-title h1){font-size:32px!important}}
