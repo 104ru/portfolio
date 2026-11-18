@@ -978,3 +978,5 @@ body.portfolio-template.tint-rancourt .portfolio-evidence-grid.rc-3 img{width:10
 body.portfolio-template .portfolio-card-grid.rc-measures{grid-template-columns:repeat(4,minmax(0,1fr));row-gap:var(--space-6)}
 body.portfolio-template .rc-measures .rc-word .metric-n{font-size:40px}
 @media(max-width:900px){body.portfolio-template .portfolio-card-grid.rc-measures{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* Rancourt: straight corners everywhere except pills */
+body.tint-rancourt *:not(.portfolio-filter-pill):not(.portfolio-section-link):not(.case-links a):not(.rc7-tags i),body.tint-rancourt *::before,body.tint-rancourt *::after{border-radius:0!important}
