@@ -87,8 +87,11 @@ body.flask-home .profile h1{position:relative;font-size:clamp(48px,8vw,88px);mar
 /* Name and line slide up from behind a mask, one line at a time. */
 .reveal span{color:inherit}
 .reveal>span{display:block;overflow:hidden;padding-bottom:.14em;margin-bottom:-.14em}
-.reveal>span>span{display:block;transform:translateY(105%);transition:transform .9s cubic-bezier(.2,.8,.2,1) var(--d,0s)}
+.reveal>span>span{display:block;transform:translateY(140%);transition:transform .9s cubic-bezier(.2,.8,.2,1) var(--d,0s)}
 .loaded .reveal>span>span{transform:none}
+/* Nothing of the name shows before the intro: the masked line used to leave a sliver. */
+body:not(.loaded) .reveal{visibility:hidden}
+@media(prefers-reduced-motion:reduce){body:not(.loaded) .reveal{visibility:visible}}
 @media(prefers-reduced-motion:reduce){.reveal>span>span{transform:none;transition:none}}
 
 /* Centred, matching the header. */
