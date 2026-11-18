@@ -65,9 +65,10 @@
       }
       level = EMPTY - (EMPTY - FULL) * absorbed / dots.filter(p => !p.stay).length;
       if (e >= POP) {
-        // The intro goes straight up once full; the confetti burst is kept for hover.
+        // Once full the flask bursts, and only after the burst does it go up.
         dots = dots.filter(p => p.stay); start = now;
-        if (intro) { phase = 'settle'; rise(); } else { burst(46); phase = 'full'; }
+        burst(46);
+        if (intro) { phase = 'settle'; setTimeout(rise, 900); } else { phase = 'full'; }
       }
     } else if (phase === 'settle') {
       const k = Math.min(1, e / DRAIN);

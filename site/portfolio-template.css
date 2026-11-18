@@ -459,8 +459,10 @@ body.portfolio-template .portfolio-accordion-description p{margin:0;font:400 var
 @media(max-width:700px){
  body.portfolio-template .masthead.shell{height:88px;grid-template-rows:40px 36px;row-gap:var(--space-1);padding-block:var(--space-1)}
  body.portfolio-template .masthead > .brand-logo,body.portfolio-template .masthead > .back{grid-row:1}
- .portfolio-section-nav{grid-column:1/-1;grid-row:2;justify-self:stretch;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--space-1)}
+ .portfolio-section-nav{grid-column:1/-1;grid-row:2;justify-self:stretch;display:grid;grid-auto-flow:column;grid-auto-columns:auto;justify-content:space-between;gap:var(--space-1)}
  .portfolio-section-link{padding:var(--space-2) var(--space-1)}
+ .portfolio-section-nav:has(> :nth-child(5)){gap:0;overflow-x:auto;scrollbar-width:none}
+ .portfolio-section-nav:has(> :nth-child(5)) .portfolio-section-link{padding-inline:2px}
 }
 .portfolio-filter-pill[hidden]{display:none!important}
 
@@ -765,3 +767,112 @@ body.portfolio-template .video-transcript{max-height:32dvh;overflow:auto;padding
 body.portfolio-template .video-transcript summary{cursor:pointer;font-weight:600}
 body.portfolio-template .video-transcript p{margin:var(--space-3) 0 0}
 @media(max-width:700px){body.portfolio-template .case-owned{grid-template-columns:1fr}body.portfolio-template .case-facts > div.case-brief{grid-column:1/-1;padding-left:0;border-left:0;border-top:1px solid var(--border-subtle)}}
+
+/* Text-only case header (no video tile): title, then section pills. */
+body.portfolio-template .opening-title.case-header.case-header-text{grid-template-columns:1fr;grid-template-areas:"title" "intro" "ai" "did";margin-bottom:0;padding-bottom:var(--space-12)}
+body.portfolio-template.case-study .opening.shell:has(.case-header-text){clip-path:inset(-41px -41px 0 -41px)}
+body.portfolio-template .case-header-text .case-intro{grid-area:intro}
+body.portfolio-template .case-header-text .case-intro p{margin:0}
+body.portfolio-template .case-header-text .case-ai{grid-area:ai}
+body.portfolio-template .case-ai-list{display:flex;flex-wrap:wrap;gap:var(--space-2);margin:var(--space-3) 0 0;padding:0;list-style:none}
+body.portfolio-template .case-ai-list li{margin:0;padding:6px 12px;border-radius:999px;background:var(--accent-tint);color:var(--accent-dark);font:500 13px/1.4 var(--font-body)}
+body.portfolio-template .case-header-text .case-title{grid-area:title}
+body.portfolio-template .case-header-text .case-did{grid-area:did}
+
+/* Timeline: years on the left, a teal rail, cards with trust links on the right. */
+body.portfolio-template .original-study .tl{--tl-when:168px;--tl-rail:40px;position:relative;list-style:none;margin:0;padding:var(--space-4) 0 var(--space-8)}
+.tl::before{content:"";position:absolute;top:var(--space-6);bottom:var(--space-8);left:calc(var(--tl-when) + var(--tl-rail)/2 - 1px);width:2px;border-radius:2px;background:linear-gradient(to bottom,var(--accent) 0%,color-mix(in srgb,var(--accent) 35%,transparent) 100%)}
+body.portfolio-template .original-study .tl-item{padding:0}
+.tl-item{position:relative;display:grid;grid-template-columns:var(--tl-when) var(--tl-rail) minmax(0,1fr);align-items:start;margin:0 0 var(--space-6)}
+.tl-when{display:flex;flex-direction:column;align-items:flex-end;gap:2px;padding-top:var(--space-5);text-align:right}
+.tl-year{font:600 32px/1 var(--font-heading);letter-spacing:-0.03em;color:var(--accent)}
+.tl-range{font:500 var(--type-small)/1.4 var(--font-body);color:var(--text-secondary);white-space:nowrap}
+.tl-dot{justify-self:center;position:relative;z-index:1;width:16px;height:16px;margin-top:calc(var(--space-5) + 8px);border-radius:50%;background:var(--surface);border:3px solid var(--accent);box-shadow:0 0 0 5px var(--surface)}
+.tl-job .tl-dot{width:20px;height:20px;margin-top:calc(var(--space-5) + 6px);background:var(--accent);border-color:var(--surface);box-shadow:0 0 0 2px var(--accent),0 0 0 7px var(--surface)}
+.tl-card{background:var(--surface);border:1px solid var(--border-subtle);border-radius:12px;padding:var(--space-6);box-shadow:0 1px 2px #22364014,0 8px 24px #2236400d;transition:box-shadow .2s ease,border-color .2s ease}
+.tl-card:hover{border-color:color-mix(in srgb,var(--accent) 35%,var(--border-subtle));box-shadow:0 2px 4px #2236401a,0 14px 32px #22364014}
+body.portfolio-template .original-study .tl-org{margin:0 0 var(--space-1);font:600 var(--type-eyebrow)/1.4 var(--font-body);letter-spacing:.08em;text-transform:uppercase;color:var(--accent-text)}
+body.portfolio-template .original-study .tl-role{margin:0 0 var(--space-4);font:var(--heading-weight) var(--type-h4)/1.3 var(--font-heading);letter-spacing:var(--heading-tracking);color:var(--text-primary)}
+body.portfolio-template .original-study .tl-points{margin:0;padding-left:1.1em;list-style:disc;font:400 15px/var(--list-line-height) var(--font-body);color:var(--text-primary)}
+body.portfolio-template .original-study .tl-points li + li{margin-top:var(--space-2)}
+body.portfolio-template .original-study .tl-points li::marker{color:var(--accent)}
+.tl-trust{margin-top:var(--space-5);padding-top:var(--space-4);border-top:1px dashed var(--border-subtle);display:grid;gap:var(--space-3)}
+body.portfolio-template .original-study .tl-trust-label{margin:0;font:600 var(--type-eyebrow)/1.4 var(--font-body);letter-spacing:.08em;text-transform:uppercase;color:var(--text-secondary)}
+.tl-trust-row{position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-2);padding-left:128px}
+.tl-trust-kind{position:absolute;left:0;top:7px;width:120px;font:400 13px/1.4 var(--font-body);color:var(--text-secondary)}
+body.portfolio-template .original-study :is(.tl-chip,.tl-person){display:inline-flex;align-items:center;gap:6px;min-height:32px;padding:4px 12px;border:1px solid var(--border-subtle);border-radius:999px;background:var(--surface);color:var(--text-primary);font:500 13px/1.3 var(--font-body);text-decoration:none;transition:background .15s ease,border-color .15s ease}
+body.portfolio-template .original-study :is(.tl-chip,.tl-person):hover{background:var(--accent-tint);border-color:var(--accent);color:var(--accent-dark)}
+body.portfolio-template .original-study :is(.tl-chip,.tl-person):focus-visible{outline:3px solid var(--brand-blue);outline-offset:2px}
+body.portfolio-template .original-study .tl-chip-case{background:var(--accent-tint);border-color:transparent;color:var(--accent-dark)}
+body.portfolio-template .original-study .tl-person{padding-left:4px}
+body.portfolio-template .original-study .tl-person .li-avatar{width:24px;height:24px;font-size:10px}
+html.tl-animate .tl-item{opacity:0;transform:translateY(16px);transition:opacity .5s ease,transform .5s ease}
+html.tl-animate .tl-item.is-in{opacity:1;transform:none}
+@media(max-width:700px){
+ body.portfolio-template .original-study .tl{--tl-when:0px;--tl-rail:28px}
+ .tl::before{left:13px}
+ .tl-item{grid-template-columns:var(--tl-rail) minmax(0,1fr);grid-template-areas:". when" "dot body"}
+ .tl-when{grid-area:when;flex-direction:row;align-items:baseline;gap:var(--space-2);padding:0 0 var(--space-2);text-align:left}
+ .tl-year{font-size:24px}
+ .tl-dot,.tl-job .tl-dot{grid-area:dot;margin-top:var(--space-5)}
+ .tl-item > .tl-card{grid-area:body}
+ .tl-card{padding:var(--space-4)}
+ .tl-trust-row{padding-left:0}
+ .tl-trust-kind{position:static;flex-basis:100%;width:auto}
+}
+
+/* LinkedIn recommendations, laid out like the Recommendations section on a LinkedIn profile:
+   one white card, a list of entries, avatar left, name / headline / date on top, text below. */
+.li-recs{--li-blue:#0a66c2;--li-text:rgba(0,0,0,.9);--li-muted:rgba(0,0,0,.6);--li-line:#e8e8e8;--li-font:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;max-width:800px;margin:var(--space-4) 0 var(--space-8);background:#fff;border:1px solid #dcdcdc;border-radius:8px;box-shadow:0 0 0 1px rgba(0,0,0,.02);font-family:var(--li-font)}
+.li-recs-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:var(--space-3);padding:var(--space-5) var(--space-6) 0}
+body.portfolio-template .original-study .li-recs-title{display:flex;align-items:center;gap:var(--space-3);margin:0;font:600 20px/1.25 var(--li-font);color:var(--li-text)}
+body.portfolio-template .original-study .li-profile{display:inline-flex;align-items:center;min-height:32px;padding:4px 16px;border:1px solid var(--li-blue);border-radius:999px;background:#fff;color:var(--li-blue);font:600 16px/1.25 var(--li-font);text-decoration:none;transition:background .15s ease,box-shadow .15s ease}
+body.portfolio-template .original-study .li-profile:hover{background:#ebf4fd;box-shadow:inset 0 0 0 1px var(--li-blue);color:var(--li-blue)}
+body.portfolio-template .original-study .li-profile:focus-visible{outline:3px solid var(--li-blue);outline-offset:3px}
+.li-grid{display:block;padding:var(--space-2) var(--space-6) var(--space-2)}
+.li-card{display:grid;grid-template-columns:48px minmax(0,1fr);column-gap:var(--space-3);padding:var(--space-4) 0;border-top:1px solid var(--li-line);text-align:left;scroll-margin-top:calc(var(--portfolio-header-height,72px) + var(--space-4))}
+.li-card:first-child{border-top:0}
+.li-card:target{background:linear-gradient(#ebf4fd,#ebf4fd) padding-box;box-shadow:-24px 0 0 #ebf4fd,24px 0 0 #ebf4fd}
+body.portfolio-template .original-study .li-badge{display:none}
+.li-author{display:contents}
+.li-avatar-link{grid-column:1;grid-row:1/span 3;align-self:start}
+body.portfolio-template .original-study .li-name{grid-column:2;grid-row:1;justify-self:start;color:var(--li-text);font:600 16px/1.5 var(--li-font);text-decoration:none}
+body.portfolio-template .original-study .li-name:hover{color:var(--li-blue);text-decoration:underline}
+body.portfolio-template .original-study .li-meta{grid-column:2;grid-row:2;margin:0;font:400 14px/1.43 var(--li-font);color:var(--li-text)}
+body.portfolio-template .original-study .li-rel{grid-column:2;grid-row:3;margin:0;font:400 14px/1.43 var(--li-font);color:var(--li-muted)}
+.li-text{grid-column:2;grid-row:4;margin-top:var(--space-2);max-height:calc(1.43em * 3);overflow:hidden;font:400 14px/1.43 var(--li-font);color:var(--li-text)}
+.li-card.is-open .li-text{max-height:none}
+body.portfolio-template .original-study .li-text p{margin:0;font:inherit;color:inherit}
+body.portfolio-template .original-study .li-text p + p{margin-top:1.43em}
+body.portfolio-template .original-study .li-more{grid-column:2;grid-row:5;justify-self:end;margin:0;padding:0 2px;border:0;border-radius:2px;background:none;color:var(--li-muted);font:600 14px/1.43 var(--li-font);cursor:pointer}
+body.portfolio-template .original-study .li-more:hover{color:var(--li-blue);text-decoration:underline}
+body.portfolio-template .original-study .li-more:focus-visible{outline:2px solid var(--li-blue);outline-offset:2px}
+.li-avatar{display:inline-grid;place-items:center;flex:0 0 auto;width:48px;height:48px;border-radius:50%;font:600 16px/1 var(--li-font,var(--font-body));letter-spacing:.02em}
+.li-av-1{background:#dce6f1;color:#30475e}.li-av-2{background:#e6e0f2;color:#4a3d6b}.li-av-3{background:#dcefe6;color:#2d5444}.li-av-4{background:#dfe9ec;color:#2f4f58}.li-av-5{background:#e2e8ec;color:#38434f}
+.li-in{display:none}
+
+/* Tools: grouped chip cards, the lead group full width. */
+.tool-groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--card-gap);padding:var(--space-4) 0 var(--space-8)}
+.tool-group{padding:var(--card-padding);background:var(--surface);border:1px solid var(--border-subtle);border-radius:12px;box-shadow:0 1px 2px #22364014}
+.tool-group-lead ~ .tool-group:last-child:nth-child(even){grid-column:1/-1}
+.tool-group-lead{grid-column:1/-1;border-top:3px solid var(--accent);background:color-mix(in srgb,var(--accent-tint) 40%,var(--surface))}
+body.portfolio-template .original-study .tool-group-title{margin:0 0 var(--space-4);font:var(--heading-weight) var(--type-h5)/1.3 var(--font-heading);letter-spacing:var(--heading-tracking);color:var(--text-primary)}
+body.portfolio-template .original-study .tool-group-lead .tool-group-title{font-size:var(--type-h4)}
+body.portfolio-template .original-study .tool-chips{display:flex;flex-wrap:wrap;gap:var(--space-2);margin:0;padding:0;list-style:none}
+body.portfolio-template .original-study .tool-chips li{margin:0;padding:6px 12px;border:1px solid var(--border-subtle);border-radius:999px;background:var(--surface);color:var(--text-primary);font:500 14px/1.3 var(--font-body)}
+body.portfolio-template .original-study .tool-group-lead .tool-chips li{padding:8px 14px;border-color:transparent;background:var(--surface);color:var(--accent-dark);font-size:15px;box-shadow:0 1px 2px #22364014}
+@media(max-width:700px){.tool-groups{grid-template-columns:1fr;gap:var(--space-4)}.tool-group{padding:var(--space-4)}}
+
+/* Certifications: the same card as a tool group, three across, Salesforce full width. */
+.cert-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-flow:row dense;gap:var(--card-gap);padding:var(--space-4) 0 var(--space-8)}
+.cert-card{display:flex;flex-direction:column;padding:var(--card-padding);background:var(--surface);border:1px solid var(--border-subtle);border-radius:12px;box-shadow:0 1px 2px #22364014}
+.cert-card-wide{grid-column:1/-1}
+body.portfolio-template .original-study .cert-issuer{margin:0 0 var(--space-1);font:600 var(--type-eyebrow)/1.4 var(--font-body);letter-spacing:.08em;text-transform:uppercase;color:var(--accent-text)}
+body.portfolio-template .original-study .cert-name{margin:0;font:var(--heading-weight) var(--type-h5)/1.3 var(--font-heading);letter-spacing:var(--heading-tracking);color:var(--text-primary)}
+body.portfolio-template .original-study .cert-date{margin:var(--space-2) 0 0;font:400 13px/1.4 var(--font-body);color:var(--text-secondary)}
+body.portfolio-template .original-study .cert-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:var(--space-2) var(--space-6);margin:var(--space-4) 0 0;padding:0;list-style:none}
+body.portfolio-template .original-study .cert-list li{display:flex;justify-content:space-between;gap:var(--space-3);margin:0;padding:var(--space-2) 0 0;border-top:1px solid var(--border-subtle);font:500 15px/1.4 var(--font-body);color:var(--text-primary)}
+body.portfolio-template .original-study .cert-list li span{font-weight:400;font-size:13px;color:var(--text-secondary);white-space:nowrap}
+@media(max-width:1024px){.cert-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.cert-grid{grid-template-columns:1fr;gap:var(--space-4)}.cert-card{padding:var(--space-4)}}
+@media(max-width:600px){.li-recs-head{padding:var(--space-4) var(--space-4) 0}.li-grid{padding:var(--space-1) var(--space-4)}.li-card:target{box-shadow:-16px 0 0 #ebf4fd,16px 0 0 #ebf4fd}}
