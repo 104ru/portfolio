@@ -653,3 +653,12 @@ body.case-study.tint-lazy{--sheet:#eefaf6;--canvas:#d7f1ea;--dot:#9fd6c9;--accen
 /* Live embed inside a figure panel (wireframes, prototypes). */
 body.portfolio-template .case-embed{border-top:1px solid var(--border-subtle);background:#fff}
 body.portfolio-template .case-embed iframe{display:block;width:100%;height:min(78vh,760px);border:0}
+body.portfolio-template.tint-lazy .portfolio-evidence-grid .figure-artwork-fit{height:auto;max-height:none;width:100%;object-fit:contain;border-radius:8px}
+body.portfolio-template.tint-lazy .portfolio-evidence-grid .figure-video{max-height:none;border-radius:8px}
+body.portfolio-template.tint-lazy .portfolio-evidence-grid .portfolio-evidence-link{margin-top:0}
+body.portfolio-template.tint-lazy .portfolio-evidence-grid.cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+body.portfolio-template.tint-lazy .portfolio-evidence-grid.cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}
+body.portfolio-template.tint-lazy .portfolio-evidence-grid.cols-3 > .figure-panel,body.portfolio-template.tint-lazy .portfolio-evidence-grid.cols-4 > .figure-panel{padding:16px}
+body.portfolio-template.tint-lazy .portfolio-evidence > .figure-panel > .figure-artwork-fit,body.portfolio-template.tint-lazy .portfolio-evidence > .figure-panel > a > .figure-artwork-fit{width:100%;max-height:none}
+@media(max-width:900px){body.portfolio-template.tint-lazy .portfolio-evidence-grid.cols-3,body.portfolio-template.tint-lazy .portfolio-evidence-grid.cols-4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){body.portfolio-template.tint-lazy .portfolio-evidence-grid.cols-3,body.portfolio-template.tint-lazy .portfolio-evidence-grid.cols-4{grid-template-columns:minmax(0,1fr)}}
