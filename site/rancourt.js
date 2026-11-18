@@ -60,3 +60,14 @@ document.querySelectorAll('summary a').forEach(a=>a.addEventListener('click',e=>
 
 // The close X returns to the homepage exactly where it was left.
 document.querySelectorAll('a.back[href="index.html"]').forEach(a=>a.addEventListener('click',e=>{const ref=document.referrer;if(history.length>1&&ref&&new URL(ref).origin===location.origin&&/\/(index\.html)?$/.test(new URL(ref).pathname)){e.preventDefault();history.back();}}));
+
+// Any button with data-dialog-open opens the dialog with that id.
+(() => {
+ document.querySelectorAll('[data-dialog-open]').forEach(btn=>{
+  const dialog=document.getElementById(btn.dataset.dialogOpen);
+  if(!dialog)return;
+  btn.addEventListener('click',()=>dialog.showModal());
+  dialog.querySelectorAll('[data-dialog-close]').forEach(c=>c.addEventListener('click',()=>dialog.close()));
+  dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close();});
+ });
+})();
