@@ -13,3 +13,4 @@
 .node .node-title,.node .node-note{display:none}.screen-button{padding-bottom:12px}
 .screen-button{padding:0}.node{border-radius:8px}.mini-screen,.node.selected .mini-screen{width:200px;height:356px;border:0;border-radius:0;box-shadow:none}.mini-screen iframe,.mini-screen iframe.wire-live,.node.selected .mini-screen iframe{transform:scale(.5333333)}.node.selected{border-width:1px}
 .detail-preview.live{max-height:none}
+.mini-screen,.node.selected .mini-screen,.detail-preview,.detail-preview.live{overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin}.mini-screen,.node.selected .mini-screen{height:356px}.detail-preview,.detail-preview.live{height:509px;max-height:none}.mini-screen iframe.wire-live,.node.selected .mini-screen iframe.wire-live{transform:none;zoom:.5333333}.detail-preview.live iframe{transform:none;zoom:.7626667}.mini-screen img.wire-img{height:auto}

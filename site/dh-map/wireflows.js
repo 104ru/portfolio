@@ -24,4 +24,4 @@ $('journey-search').oninput=navigation;$('expand-all').onclick=()=>{walk(current
 
 (function(){const t=$('tools'),insp=$('inspector'),main=document.querySelector('.flow-main');const mq=matchMedia('(max-width:1100px)');const place=()=>{if(mq.matches)main.prepend(t);else insp.prepend(t);};place();mq.addEventListener('change',place);})();
 
-window.addEventListener('message',e=>{if(!e.data||e.data.dh!=='height')return;const h=e.data.h;document.querySelectorAll('iframe.wire-live').forEach(f=>{if(f.contentWindow!==e.source)return;f.style.height=h+'px';const box=f.parentElement;if(box.classList.contains('mini-screen'))box.style.height=Math.round(h*.5333333)+'px';else if(box.classList.contains('detail-preview'))box.style.height=Math.round(h*.7626667)+'px';});requestAnimationFrame(updateLines);});
+window.addEventListener('message',e=>{if(!e.data||e.data.dh!=='height')return;const h=e.data.h;document.querySelectorAll('iframe.wire-live').forEach(f=>{if(f.contentWindow!==e.source)return;f.style.height=h+'px';});requestAnimationFrame(updateLines);});
