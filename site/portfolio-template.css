@@ -823,16 +823,18 @@ html.tl-animate .tl-item.is-in{opacity:1;transform:none}
 
 /* LinkedIn recommendations, laid out like the Recommendations section on a LinkedIn profile:
    one white card, a list of entries, avatar left, name / headline / date on top, text below. */
-.li-recs{--li-blue:#0a66c2;--li-text:rgba(0,0,0,.9);--li-muted:rgba(0,0,0,.6);--li-line:#e8e8e8;--li-font:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;max-width:800px;margin:var(--space-4) 0 var(--space-8);background:#fff;border:1px solid #dcdcdc;border-radius:8px;box-shadow:0 0 0 1px rgba(0,0,0,.02);font-family:var(--li-font)}
-.li-recs-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:var(--space-3);padding:var(--space-5) var(--space-6) 0}
+.li-recs{--li-blue:#0a66c2;--li-text:rgba(0,0,0,.9);--li-muted:rgba(0,0,0,.6);--li-line:#e8e8e8;--li-font:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;margin:var(--space-4) 0 var(--space-8);font-family:var(--li-font)}
+.li-recs-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:var(--space-3);padding:0 0 var(--space-5)}
 body.portfolio-template .original-study .li-recs-title{display:flex;align-items:center;gap:var(--space-3);margin:0;font:600 20px/1.25 var(--li-font);color:var(--li-text)}
 body.portfolio-template .original-study .li-profile{display:inline-flex;align-items:center;min-height:32px;padding:4px 16px;border:1px solid var(--li-blue);border-radius:999px;background:#fff;color:var(--li-blue);font:600 16px/1.25 var(--li-font);text-decoration:none;transition:background .15s ease,box-shadow .15s ease}
 body.portfolio-template .original-study .li-profile:hover{background:#ebf4fd;box-shadow:inset 0 0 0 1px var(--li-blue);color:var(--li-blue)}
 body.portfolio-template .original-study .li-profile:focus-visible{outline:3px solid var(--li-blue);outline-offset:3px}
-.li-grid{display:block;padding:var(--space-2) var(--space-6) var(--space-2)}
-.li-card{display:grid;grid-template-columns:48px minmax(0,1fr);column-gap:var(--space-3);padding:var(--space-4) 0;border-top:1px solid var(--li-line);text-align:left;scroll-margin-top:calc(var(--portfolio-header-height,72px) + var(--space-4))}
-.li-card:first-child{border-top:0}
-.li-card:target{background:linear-gradient(#ebf4fd,#ebf4fd) padding-box;box-shadow:-24px 0 0 #ebf4fd,24px 0 0 #ebf4fd}
+/* Each recommendation is its own card, the same card as Certifications and Tools. */
+.li-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--card-gap);align-items:stretch}
+.li-card{display:grid;grid-template-columns:48px minmax(0,1fr);grid-template-rows:auto auto auto auto 1fr;column-gap:var(--space-3);padding:var(--card-padding);background:var(--surface);border:1px solid var(--border-subtle);border-radius:12px;box-shadow:0 1px 2px #22364014;text-align:left;scroll-margin-top:calc(var(--portfolio-header-height,72px) + var(--space-4))}
+.li-card:target{border-color:var(--li-blue);box-shadow:0 0 0 2px #ebf4fd,0 1px 2px #22364014}
+@media(max-width:1024px){.li-grid{grid-template-columns:1fr}}
+@media(max-width:700px){.li-grid{gap:var(--space-4)}.li-card{padding:var(--space-4)}}
 body.portfolio-template .original-study .li-badge{display:none}
 .li-author{display:contents}
 .li-avatar-link{grid-column:1;grid-row:1/span 3;align-self:start}
@@ -844,10 +846,11 @@ body.portfolio-template .original-study .li-rel{grid-column:2;grid-row:3;margin:
 .li-card.is-open .li-text{max-height:none}
 body.portfolio-template .original-study .li-text p{margin:0;font:inherit;color:inherit}
 body.portfolio-template .original-study .li-text p + p{margin-top:1.43em}
-body.portfolio-template .original-study .li-more{grid-column:2;grid-row:5;justify-self:end;margin:0;padding:0 2px;border:0;border-radius:2px;background:none;color:var(--li-muted);font:600 14px/1.43 var(--li-font);cursor:pointer}
+body.portfolio-template .original-study .li-more{grid-column:2;grid-row:5;justify-self:end;align-self:end;margin:0;padding:0 2px;border:0;border-radius:2px;background:none;color:var(--li-muted);font:600 14px/1.43 var(--li-font);cursor:pointer}
 body.portfolio-template .original-study .li-more:hover{color:var(--li-blue);text-decoration:underline}
 body.portfolio-template .original-study .li-more:focus-visible{outline:2px solid var(--li-blue);outline-offset:2px}
-.li-avatar{display:inline-grid;place-items:center;flex:0 0 auto;width:48px;height:48px;border-radius:50%;font:600 16px/1 var(--li-font,var(--font-body));letter-spacing:.02em}
+.li-avatar{display:inline-grid;place-items:center;flex:0 0 auto;width:48px;height:48px;overflow:hidden;border-radius:50%;font:600 16px/1 var(--li-font,var(--font-body));letter-spacing:.02em}
+.li-avatar img{display:block;width:100%;height:100%;object-fit:cover}
 .li-av-1{background:#dce6f1;color:#30475e}.li-av-2{background:#e6e0f2;color:#4a3d6b}.li-av-3{background:#dcefe6;color:#2d5444}.li-av-4{background:#dfe9ec;color:#2f4f58}.li-av-5{background:#e2e8ec;color:#38434f}
 .li-in{display:none}
 
