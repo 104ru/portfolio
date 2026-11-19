@@ -453,9 +453,12 @@ body.portfolio-template .portfolio-accordion,body.portfolio-template .original-s
 @media(max-width:700px){.platform-logos{gap:var(--space-4)}.platform-logos img{width:80px;height:48px}.platform-logos img.platform-logo-wordmark{width:112px;height:36px}.platform-logos img.platform-logo-mark{width:40px;height:40px}}
 
 /* Closed accordion overview: the same full-width heading, subtitle and original description. */
-body.portfolio-template .portfolio-accordion-summary{display:grid;grid-template-columns:minmax(0,1fr) auto}
+body.portfolio-template .portfolio-accordion-summary{display:grid;grid-template-columns:minmax(0,1fr) auto;row-gap:var(--space-2,8px)}
 .portfolio-accordion-description{grid-column:1/-1;min-width:0}
-body.portfolio-template .portfolio-accordion-description p{margin:0;font:var(--body-weight,400) var(--type-body)/1.65 var(--font-body);color:var(--text-primary)}
+/* With a summary line, the buttons don't stretch the heading row, so the line sits close under the heading. */
+body.portfolio-template .portfolio-accordion-summary:has(.portfolio-accordion-description) > .portfolio-accordion-action{margin-block:-8px}
+@media(min-width:601px){body.portfolio-template .portfolio-accordion-summary:has(.portfolio-accordion-description) > .portfolio-accordion-link{margin-block:-8px}}
+body.portfolio-template .portfolio-accordion-summary .portfolio-accordion-description p{margin:0;font:var(--body-weight,400) 15px/1.5 var(--font-body);color:var(--text-primary)}
 .portfolio-accordion-pills{grid-column:1/-1;margin:0}
 .portfolio-accordion[open] > summary .portfolio-accordion-pills{display:none}
 .figure-video{display:block;width:100%;max-height:65svh;object-fit:contain;background:var(--surface)}

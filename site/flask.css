@@ -101,7 +101,7 @@ body:not(.loaded) .reveal{visibility:hidden}
 
 /* Pills share one width so the row reads evenly. */
 .flask-home .filters{gap:8px}.flask-home .filters button{min-width:120px;text-align:center;padding-inline:10px}
-@media(max-width:600px){.flask-home .filters button{min-width:0;flex:1 1 30%}}
+@media(max-width:600px){.flask-home .filters button{min-width:0;flex:0 0 calc((100% - 16px)/3)}}
 
 /* Hover: cards stay put and answer with colour and size. */
 .work .card.drawn{transition:transform .2s ease,box-shadow .2s ease,border-color .15s ease}
