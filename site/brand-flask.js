@@ -3,7 +3,8 @@
 (() => {
   const logo = document.querySelector('.masthead .brand-logo');
   if (!logo) return;
-  logo.insertAdjacentHTML('beforeend', '<img class="brand-logo-flask" src="assets/inkpromptu-flask.svg" alt="" aria-hidden="true" width="48" height="48"/>');
+  const flaskAsset = new URL('assets/inkpromptu-flask.svg', document.currentScript.src).href;
+  logo.insertAdjacentHTML('beforeend', '<img class="brand-logo-flask" src="'+flaskAsset+'" alt="" aria-hidden="true" width="48" height="48"/>');
   if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
   const COLORS = ['#f2a035', '#82b747', '#69b8aa', '#b598be', '#87b9d4', '#e8647c', '#f4c84a', '#2c6e7e'];
