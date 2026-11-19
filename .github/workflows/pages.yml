@@ -20,6 +20,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      # The Rancourt demo uses root paths (/rancourt-store/) for sandy.tayts.com.
+      # GitHub Pages serves this repo under /portfolio/, so add that prefix to its copy only.
+      - name: Prefix Rancourt demo paths for GitHub Pages
+        run: grep -rl --null '/rancourt-store' site/rancourt-store | xargs -0 perl -pi -e 's#/rancourt-store#/portfolio/rancourt-store#g'
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
