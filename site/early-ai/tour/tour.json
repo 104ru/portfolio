@@ -1,0 +1,225 @@
+{
+  "default": {
+    "firstScene": "night",
+    "author": "InkPromptu",
+    "sceneFadeDuration": 500,
+    "autoLoad": true,
+    "yaw": 210,
+    "friction": 0.1,
+    "showFullscreenCtrl": false,
+    "showControls": true,
+    "keyboardZoom": false
+  },
+  "scenes": {
+    "night": {
+      "title": "Welcome to Zan Ha Adim",
+      "minPitch": -60,
+      "maxPitch": 60,
+      "type": "equirectangular",
+      "hfov": 110,
+      "panorama": "night.jpg",
+      "hotSpots": [
+        {
+          "pitch": -8,
+          "yaw": -104.5,
+          "type": "scene",
+          "text": "Cogswash Residence. Your home away from home",
+          "sceneId": "entry"
+        },
+        {
+          "pitch": -10,
+          "yaw": 40,
+          "type": "scene",
+          "text": "Motel-404. Digs for less fortunate",
+          "sceneId": "hotel"
+        },
+        {
+          "pitch": -6,
+          "yaw": -173.5,
+          "type": "scene",
+          "text": "Clockwork Caravaserai. Eat, drink and be reasonably merry",
+          "sceneId": "bar"
+        },
+        {
+          "pitch": -2,
+          "yaw": -157,
+          "type": "scene",
+          "text": "Mechaniker Grocery. Milk, Veg, Machine Oil. Since 3056 A.D.",
+          "sceneId": "grocery"
+        }
+      ]
+    },
+    "entry": {
+      "title": "Cogwash Residence. Foyer.",
+      "hfov": 95,
+      "yaw": -1,
+      "pitch": -4,
+      "haov": 260,
+      "vaov": 125,
+      "minPitch": -60,
+      "maxPitch": 60,
+      "maxYaw": 90,
+      "minYaw": -80,
+      "type": "equirectangular",
+      "panorama": "entry.jpg",
+      "hotSpots": [
+        {
+          "pitch": -1.5,
+          "yaw": 50.8,
+          "type": "scene",
+          "text": "Go back to the Desert",
+          "sceneId": "night",
+          "targetYaw": 70
+        },
+        {
+          "pitch": -4,
+          "yaw": 25,
+          "type": "scene",
+          "text": "Upstairs to the Living Quarters",
+          "sceneId": "apartment"
+        },
+        {
+          "pitch": 4,
+          "yaw": -37,
+          "type": "scene",
+          "text": "To the Kitchen",
+          "sceneId": "kitchen"
+        }
+      ]
+    },
+    "bar": {
+      "title": "Clockwork Caravanserai",
+      "hfov": 110,
+      "yaw": -116,
+      "pitch": 7,
+      "type": "equirectangular",
+      "panorama": "bar.jpg",
+      "hotSpots": [
+        {
+          "pitch": -2,
+          "yaw": 16.1,
+          "type": "scene",
+          "text": "Go back to the Desert",
+          "sceneId": "night",
+          "targetYaw": -23,
+          "targetPitch": 2
+        }
+      ]
+    },
+    "hotel": {
+      "title": "Motel-404",
+      "hfov": 110,
+      "yaw": 10,
+      "pitch": 0,
+      "minHfov": 100,
+      "minPitch": -60,
+      "maxPitch": 60,
+      "maxYaw": 140,
+      "minYaw": -100,
+      "type": "equirectangular",
+      "panorama": "hotel.jpg",
+      "hotSpots": [
+        {
+          "pitch": -17,
+          "yaw": -73,
+          "type": "scene",
+          "text": "Back to the Desert",
+          "sceneId": "night",
+          "targetYaw": 180,
+          "targetPitch": 2
+        }
+      ]
+    },
+    "apartment": {
+      "panorama": "apartment.jpg",
+      "title": "Cogswash Residence Living Quarters",
+      "hfov": 110,
+      "pitch": 2,
+      "yaw": 87,
+      "minPitch": -60,
+      "maxPitch": 60,
+      "type": "equirectangular",
+      "hotSpots": [
+        {
+          "pitch": 7,
+          "yaw": 88,
+          "type": "scene",
+          "text": "Look from the window",
+          "sceneId": "window"
+        },
+        {
+          "pitch": 0.6,
+          "yaw": -148,
+          "type": "scene",
+          "text": "Back to the Cogswash Foyer",
+          "sceneId": "entry"
+        }
+      ]
+    },
+    "grocery": {
+      "title": "Mechaniker Grocery",
+      "hfov": 110,
+      "minPitch": -60,
+      "maxPitch": 60,
+      "pitch": -10,
+      "yaw": 1.7,
+      "type": "equirectangular",
+      "panorama": "grocery.jpg",
+      "hotSpots": [
+        {
+          "pitch": -9,
+          "yaw": 131,
+          "type": "scene",
+          "text": "Back to the Desert",
+          "sceneId": "night",
+          "targetYaw": -23,
+          "targetPitch": 2
+        }
+      ]
+    },
+    "window": {
+      "title": "View of the Zan Ha Adim Valley",
+      "hfov": 110,
+      "yaw": -48,
+      "pitch": 7,
+      "minPitch": -40,
+      "maxYaw": 180,
+      "minYaw": -120,
+      "maxPitch": 60,
+      "type": "equirectangular",
+      "panorama": "window.jpg",
+      "hotSpots": [
+        {
+          "pitch": 4,
+          "yaw": 124,
+          "type": "scene",
+          "text": "Get back inside",
+          "sceneId": "apartment",
+          "targetYaw": 180,
+          "targetPitch": 2
+        }
+      ]
+    },
+    "kitchen": {
+      "title": "Cogwash Kitchen",
+      "hfov": 110,
+      "yaw": -76,
+      "pitch": 0.6,
+      "minPitch": -60,
+      "maxPitch": 60,
+      "type": "equirectangular",
+      "panorama": "kitchen.jpg",
+      "hotSpots": [
+        {
+          "pitch": -15,
+          "yaw": -154,
+          "type": "scene",
+          "text": "Back to Foyer",
+          "sceneId": "entry",
+          "targetYaw": 45,
+          "targetPitch": -2
+        }
+      ]
+    }
+  }
+}

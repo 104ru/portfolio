@@ -1,0 +1,74 @@
+{
+  "dragons": [
+    {
+      "src": "assets/dragon-sunflower.webp",
+      "caption": "Sunflower dragon"
+    },
+    {
+      "src": "assets/dragon-poppy.webp",
+      "caption": "Poppy dragon"
+    },
+    {
+      "src": "assets/dragon-dandelion.webp",
+      "caption": "Dandelion dragon"
+    },
+    {
+      "src": "assets/dragon-04.webp",
+      "caption": "Botanical dragon 4"
+    },
+    {
+      "src": "assets/dragon-05.webp",
+      "caption": "Botanical dragon 5"
+    },
+    {
+      "src": "assets/dragon-06.webp",
+      "caption": "Botanical dragon 6"
+    },
+    {
+      "src": "assets/dragon-07.webp",
+      "caption": "Botanical dragon 7"
+    },
+    {
+      "src": "assets/dragon-08.webp",
+      "caption": "Botanical dragon 8"
+    },
+    {
+      "src": "assets/dragon-09.webp",
+      "caption": "Botanical dragon 9"
+    },
+    {
+      "src": "assets/dragon-10.webp",
+      "caption": "Botanical dragon 10"
+    },
+    {
+      "src": "assets/dragon-11.webp",
+      "caption": "Botanical dragon 11"
+    },
+    {
+      "src": "assets/dragon-12.webp",
+      "caption": "Botanical dragon 12"
+    }
+  ],
+  "boroughs": [
+    {
+      "src": "assets/brighton.webp",
+      "caption": "Brighton"
+    },
+    {
+      "src": "assets/greenwich.webp",
+      "caption": "Greenwich"
+    },
+    {
+      "src": "assets/bronx.webp",
+      "caption": "Bronx"
+    },
+    {
+      "src": "assets/manhattan.webp",
+      "caption": "Manhattan"
+    },
+    {
+      "src": "assets/staten-island.webp",
+      "caption": "Staten Island"
+    }
+  ]
+}
