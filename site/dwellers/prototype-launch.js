@@ -1,5 +1,5 @@
 (() => {
- const links = [...document.querySelectorAll('a[href="prototype.html"],a[href="dwellers/prototype.html"]')];
+ const links = [...document.querySelectorAll('a[href^="prototype.html"],a[href^="dwellers/prototype.html"]')];
  if (!links.length) return;
  const popup = document.createElement('dialog');
  popup.className = 'prototype-popup';

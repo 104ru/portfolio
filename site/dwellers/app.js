@@ -161,7 +161,7 @@ function posesFor(creature) {
 }
 
 function partImage(part, className = '') {
-  return `<g class="${className}"><g transform="translate(${part.x} ${part.y}) scale(${part.mirrored ? -1 : 1} 1) rotate(${part.rotation})"><image href="assets/parts/${file(part.category, part.variant)}.webp" x="${-part.width / 2}" y="${-part.height / 2}" width="${part.width}" height="${part.height}"/></g></g>`;
+  return `<g class="${className}"><g transform="translate(${part.x} ${part.y}) scale(${part.mirrored ? -1 : 1} 1) rotate(${part.rotation})"><image href="assets/parts/${file(part.category, part.variant)}.webp?v=035" x="${-part.width / 2}" y="${-part.height / 2}" width="${part.width}" height="${part.height}"/></g></g>`;
 }
 
 function creatureSVG(creature, options = {}) {
@@ -262,7 +262,7 @@ function renderBuilder() {
       <div class="category-tabs" role="tablist" aria-label="Part categories">${categories.map((category, index) => `<button role="tab" aria-selected="${category === activeCategory}" aria-controls="parts-tray" data-category="${category}" aria-label="${categoryNames[category]}" title="${categoryNames[category]}" class="${category === activeCategory ? 'active' : ''}" ${index > progress ? 'disabled' : ''}>${icon(category)}</button>`).join('')}</div>
       <div class="parts-tray" id="parts-tray" role="tabpanel" aria-label="${categoryNames[activeCategory]}">${options.map(key => {
         const variant = Number(key.replace(activeCategory, ''));
-        return `<button data-part="${variant}" ${activeCategory === 'hand' ? 'data-hand-part="true"' : ''} class="${activeVariant === variant ? 'selected' : ''}" aria-label="${categoryNames[activeCategory]} option ${variant}" aria-pressed="${activeVariant === variant}"><img src="assets/parts/${key}.webp" alt="" draggable="false" loading="lazy"></button>`;
+        return `<button data-part="${variant}" ${activeCategory === 'hand' ? 'data-hand-part="true"' : ''} class="${activeVariant === variant ? 'selected' : ''}" aria-label="${categoryNames[activeCategory]} option ${variant}" aria-pressed="${activeVariant === variant}"><img src="assets/parts/${key}.webp?v=035" alt="" draggable="false" loading="lazy"></button>`;
       }).join('')}</div>
       <div class="drawer-bottom" aria-label="Metal finish">${['brass', 'copper', 'sage'].map(finish => `<button class="finish-swatch ${draft.finish === finish ? 'active' : ''}" data-finish="${finish}" aria-label="${finish} finish" aria-pressed="${draft.finish === finish}"></button>`).join('')}</div>
     </div>
@@ -576,7 +576,7 @@ window.addEventListener('pointermove', event => {
     game.querySelector('.builder-character')?.classList.remove('powered');
     drag.element.classList.add('dragging');
     ghost = document.createElement('img');
-    ghost.src = `assets/parts/${file('hand', drag.variant)}.webp`;
+    ghost.src = `assets/parts/${file('hand', drag.variant)}.webp?v=035`;
     ghost.alt = '';
     Object.assign(ghost.style, { position: 'fixed', width: '65px', height: '65px', objectFit: 'contain', pointerEvents: 'none', zIndex: '100', opacity: '.85' });
     document.body.append(ghost);
@@ -660,7 +660,7 @@ document.querySelector('#parts-collection').innerHTML = [
   ['antenna', 7], ['frame', 3], ['hand', 11],
   ['sensor', 1], ['frame', 9], ['antenna', 13],
   ['legs', 9], ['detail', 1], ['hand', 3]
-].map(([category, variant]) => `<img src="assets/parts/${file(category, variant)}.webp" alt="${categoryNames[category]} from the Dwellers part collection" loading="lazy">`).join('');
+].map(([category, variant]) => `<img src="assets/parts/${file(category, variant)}.webp?v=035" alt="${categoryNames[category]} from the Dwellers part collection" loading="lazy">`).join('');
 
 geometry = dwellerPartGeometry;
 render();
