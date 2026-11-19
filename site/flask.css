@@ -60,21 +60,18 @@ body.flask-home .profile h1{position:relative;font-size:clamp(48px,8vw,88px);mar
 
 /* Lab cards are flopped on the canvas: tilted, overlapping, dropped in. Hover straightens one and brings it forward. */
 .cards.lab{grid-template-columns:repeat(4,minmax(0,1fr));gap:0;padding:16px 24px 32px}
-.lab .card{position:relative;border-top:6px solid var(--c);box-shadow:0 6px 18px rgba(34,54,64,.12);transition:rotate .25s ease,translate .25s ease,scale .25s ease}
-.lab .card:nth-child(4n+1){--c:#f2a035;rotate:-6deg;translate:14px 18px}
-.lab .card:nth-child(4n+2){--c:#82b747;rotate:4deg;translate:-8px -12px;z-index:1}
-.lab .card:nth-child(4n+3){--c:#e8647c;rotate:-3deg;translate:-18px 26px}
-.lab .card:nth-child(4n+4){--c:#87b9d4;rotate:7deg;translate:-28px -4px}
+.lab .card{position:relative;border-top:6px solid var(--c);box-shadow:0 3px 10px rgba(34,54,64,.07);transition:rotate .25s ease,translate .25s ease,scale .25s ease}
+.lab .card:nth-child(4n+1){--c:#f2a035;rotate:-3deg;translate:7px 9px}
+.lab .card:nth-child(4n+2){--c:#82b747;rotate:2deg;translate:-4px -6px;z-index:1}
+.lab .card:nth-child(4n+3){--c:#e8647c;rotate:-1.5deg;translate:-9px 13px}
+.lab .card:nth-child(4n+4){--c:#87b9d4;rotate:3.5deg;translate:-14px -2px}
 .lab .card:hover{scale:1.06;z-index:3}
 .lab .card{opacity:0}
 .lab .card.in{animation:lab-drop .7s cubic-bezier(.3,1.4,.5,1) var(--s,0s) both}
 @keyframes lab-drop{0%{opacity:0;transform:translateY(-140px) rotate(-14deg) scale(1.1)}100%{opacity:1;transform:none}}
-/* Lab title: a scrap of ruled notebook paper taped to the canvas, dropped in with the cards. */
-.group h2.lab-note{position:relative;width:fit-content;margin:0 auto 36px;padding:16px 40px 14px 48px;background:linear-gradient(90deg,transparent 30px,rgba(232,100,124,.55) 30px 31.5px,transparent 31.5px),repeating-linear-gradient(transparent 0 23px,rgba(135,185,212,.5) 23px 24px) 0 8px,var(--surface,#fff);box-shadow:0 6px 18px rgba(34,54,64,.12);font:var(--heading-weight,600) 30px/1.2 var(--font-heading);letter-spacing:.02em;color:var(--text-primary);rotate:-2deg;opacity:0;transition:rotate .25s ease}
-.group h2.lab-note::before{content:"";position:absolute;top:-11px;left:50%;width:88px;height:24px;margin-left:-44px;background:rgba(105,184,170,.55);box-shadow:0 1px 2px rgba(34,54,64,.08);rotate:3deg}
-.group h2.lab-note:hover{rotate:0deg}
-#lab:has(.card.in) .lab-note{animation:lab-drop .7s cubic-bezier(.3,1.4,.5,1) both}
-.returning .group h2.lab-note{opacity:1;animation:none!important}
+/* A simple section heading lets the project artwork carry the personality. */
+.group h2.section-title{margin:0 0 32px;padding:0;font:var(--heading-weight,600) clamp(28px,4vw,38px)/1.2 var(--font-heading);letter-spacing:0;color:var(--text-primary);text-align:center;text-wrap:balance}
+@media(max-width:600px){.flask-home .filters button[data-filter="Experimental Projects"]{flex-basis:auto;min-width:190px}.group h2.section-title{margin-bottom:24px}}
 @media(prefers-reduced-motion:reduce){.group h2.lab-note{opacity:1;transition:none}#lab .lab-note{animation:none}}
 @media(max-width:900px){.cards.lab{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:12px}}
 
