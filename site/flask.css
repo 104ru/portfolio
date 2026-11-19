@@ -58,25 +58,31 @@ body.flask-home .profile h1{position:relative;font-size:clamp(48px,8vw,88px);mar
 @keyframes draft-image{0%{opacity:0;filter:grayscale(1) contrast(.7) brightness(1.2)}35%,60%{opacity:.55;filter:grayscale(1) contrast(.7) brightness(1.2)}100%{opacity:1;filter:none}}
 @keyframes draft-text{0%{opacity:0}35%,60%{opacity:.4}100%{opacity:1}}
 
-/* Lab cards are flopped on the canvas: tilted, overlapping, dropped in. Hover straightens one and brings it forward. */
-.cards.lab{grid-template-columns:repeat(4,minmax(0,1fr));gap:0;padding:16px 24px 32px}
-.lab .card{position:relative;border-top:6px solid var(--c);box-shadow:0 3px 10px rgba(34,54,64,.07);transition:rotate .25s ease,translate .25s ease,scale .25s ease}
-.lab .card:nth-child(4n+1){--c:#f2a035;rotate:-3deg;translate:7px 9px}
-.lab .card:nth-child(4n+2){--c:#82b747;rotate:2deg;translate:-4px -6px;z-index:1}
-.lab .card:nth-child(4n+3){--c:#e8647c;rotate:-1.5deg;translate:-9px 13px}
-.lab .card:nth-child(4n+4){--c:#87b9d4;rotate:3.5deg;translate:-14px -2px}
-.lab .card:hover{scale:1.06;z-index:3}
+/* Experimental projects: generous photographic prints with quiet white borders. */
+.flask-home #lab{position:relative;left:50%;transform:translateX(-50%);width:min(1800px,calc(100vw - 96px));scroll-margin-top:96px}
+.cards.lab{grid-template-columns:repeat(4,minmax(0,1fr));gap:36px;padding:20px 20px 36px;align-items:stretch}
+.lab .card{position:relative;border:1px solid var(--rule);padding:14px 14px 0;background:#fff;box-shadow:0 4px 12px rgba(34,54,64,.09);transition:rotate .25s ease,scale .25s ease}
+.lab .card:nth-child(4n+1){rotate:-1.5deg}
+.lab .card:nth-child(4n+2){rotate:1deg}
+.lab .card:nth-child(4n+3){rotate:-.8deg}
+.lab .card:nth-child(4n+4){rotate:1.5deg}
+.lab .card .card-image{border:0;aspect-ratio:1;object-fit:cover}
+.lab .card .card-body{display:flex;flex:1;flex-direction:column;gap:8px;padding:20px 4px 24px}
+.lab .card .card-links{margin-top:auto;padding-top:12px}
+.lab .card:hover{scale:1.025;z-index:3}
 .lab .card{opacity:0}
 .lab .card.in{animation:lab-drop .7s cubic-bezier(.3,1.4,.5,1) var(--s,0s) both}
-@keyframes lab-drop{0%{opacity:0;transform:translateY(-140px) rotate(-14deg) scale(1.1)}100%{opacity:1;transform:none}}
+@keyframes lab-drop{0%{opacity:0;transform:translateY(-50px) rotate(-4deg)}100%{opacity:1;transform:none}}
+@media(max-width:1500px){.cards.lab{grid-template-columns:repeat(2,minmax(0,1fr));max-width:1120px;margin-inline:auto;gap:40px}}
+@media(max-width:780px){.flask-home #lab{width:calc(100vw - 40px)}.cards.lab{grid-template-columns:1fr;max-width:500px;gap:32px;padding:16px 8px 28px}.lab .card{padding:12px 12px 0}.lab .card .card-body{padding:18px 4px 22px}}
 /* A simple section heading lets the project artwork carry the personality. */
 .group h2.section-title{margin:0 0 32px;padding:0;font:600 clamp(28px,4vw,38px)/1.2 "Grandstander",var(--font-heading);letter-spacing:0;color:var(--text-primary);text-align:center;text-wrap:balance}
-@media(max-width:600px){.flask-home .filters button[data-filter="Experimental Projects"]{flex-basis:auto;min-width:190px}.group h2.section-title{margin-bottom:24px}}
+@media(max-width:600px){.group h2.section-title{margin-bottom:24px}}
 @media(prefers-reduced-motion:reduce){.group h2.lab-note{opacity:1;transition:none}#lab .lab-note{animation:none}}
-@media(max-width:900px){.cards.lab{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:12px}}
+
 
 @media(max-width:900px){.cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}}
-@media(max-width:600px){.flask-nav{gap:20px;justify-content:center;width:calc(100% - 40px)}.flask-nav a{font-size:14px}.flask{width:132px}.flask-home .profile{padding:136px 20px 32px}.cards{grid-template-columns:1fr}.cards.lab{grid-template-columns:1fr;row-gap:24px}.lab .card:nth-child(n){translate:0 0}}
+@media(max-width:600px){.flask-nav{gap:20px;justify-content:center;width:calc(100% - 40px)}.flask-nav a{font-size:14px}.flask{width:132px}.flask-home .profile{padding:136px 20px 32px}.cards{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.flask.bubbling{animation:none}.cards .card,.cards .card *,.cards .card .card-body{background-size:100% 1px!important}.work .card .outline{display:none}}
 
 /* Load sequence: the flask fills and pops in the middle of the screen, rises, then name, copy, pills, cards. */
@@ -114,7 +120,7 @@ body:not(.loaded) .reveal{visibility:hidden}
 .work .card.drawn:is(:hover,:has(:focus-visible)) .card-image{transform:scale(1.04)}
 .card:is(:hover,:has(:focus-visible)) .card-main{color:var(--accent)}
 .card-main:focus-visible{outline:none}
-.lab .card:is(:hover,:has(:focus-visible)){scale:1.06;z-index:3;outline:2px solid var(--accent);outline-offset:-1px}
+.lab .card:is(:hover,:has(:focus-visible)){scale:1.025;z-index:3;outline:2px solid var(--accent);outline-offset:-1px}
 
 
 /* Every clickable thing answers: hover lifts or fills, a press pushes in. */
