@@ -1,0 +1,62 @@
+Sandy (Alexandra) Tayts
+UX Designer
+San Francisco, CA | sandy.tayts.com | linkedin.com/in/atayts
+
+SUMMARY
+I turn many moving parts into one thing that works.
+
+EXPERIENCE
+
+Service Design Consultant
+InkPromptu | Oct 2023 – Present
+- LAZY: ideation, product design, and go-to-market for a templated app enabling rental hosts to launch direct-booking sites — opening a new customer segment underserved by Airbnb-type platforms.
+- Rancourt (retail e-commerce): led digital transformation for a heritage Maine footwear brand. Designed the customer loyalty experience and implemented the Okendo third-party loyalty widget; delivered full Shopify product-base redesign, eliminated 1,440+ broken links, and reached Lighthouse scores of 95–100 across performance, accessibility, best practices, and SEO. Automated the Monday.com production base.
+- Loomik (AI startup): UX and UI for an AI-driven sales platform surfacing client needs, guiding managers in real time, and driving upsell/conversion.
+
+Managing Consultant — Product Owner & Designer
+Wipro Digital | Mar 2019 – Aug 2023
+- Owned personalization and audience-targeting product for Connected Employee (award-winning SaaS): delivered content dynamically tailored to each user by role and by the real-time state of their equipment and software — the core of the product. Won the GCG Team Award (Best Consulting Asset Solution) as Lead Designer.
+- Led the roadmap and delivery of AI-assisted, human-centric B2B SaaS platforms from conception to launch; established KPIs achieving 30% ticket deflection on the IT Automation product.
+- Built segmented, role-based transactional messaging and notification flows in Salesforce; integrated Salesforce with DocuSign CLM/e-signature via APIs (OAuth 2), eliminating up to 95% of repeated user entry and reaching 100% data accuracy.
+- PO, Service Designer, and Scrum Master for the largest DocuSign CLM implementation in the US (as of 2023); collapsed 4 processes into 1 with 25% fewer steps and 70% manual-effort savings.
+- Led cross-functional delivery across product, engineering, sales, and integration teams up to 40 across 7 time zones; ran sprint planning, backlog grooming, UAT, and QA regressions.
+- Clients: BP, Humana, EY, Warner Bros., Estée Lauder.
+
+Product Owner & UX Designer
+CAFEX | Sep 2015 – Sep 2018
+- PO for an omnichannel MS Dynamics CRM application (B2B SaaS): defined role-based customer journeys, process flows, and full specifications; secured Microsoft approval on first handoff and Microsoft-preferred product status within 4 months of release.
+- Owned product roadmap and execution with engineering; designed the Angular front end and design system integrated across desktop CRM platforms.
+
+Design Consultant (Product & UX)
+Various Clients | Sep 2012 – Jun 2015
+- LoopedIn: led design of a points-based loyalty, incentives, and payments platform for higher education (payments, store, rewards, communication, knowledge base, calendar); built a customizable interactive prototype and won proposals across 15 clients. Section 508 compliant.
+- Vecna: led digital transformation of workforce-management software — user research, roadmap, delivery plan, and prototype. Careport: designed and front-end-built an ADA-compliant medical web app now used across Massachusetts hospitals.
+
+Product Owner
+Adobe | Jan 2008 – Aug 2012
+- Product Owner for localized Flash (Animate): led an 18-person vendor team, proposed and shipped 20+ features, and set localization/terminology standards adopted across the Adobe suite.
+
+SKILLS
+Core skills: Service design, Service blueprinting, Customer journey mapping, Process redesign, Digital transformation, Product ownership, Product roadmaps, KPIs and outcome metrics, Agile and Scrum delivery, Cross-functional team leadership, Stakeholder management, Workshop facilitation, UX and UI design, Salesforce solution design, API and systems integration, Shopify e-commerce, Personalization and audience targeting
+AI knowledge: AI prototyping, Generative AI video and imagery, Human–agent service design, LLM product design, System prompts and context engineering, AI coding agents: Claude Code, Codex
+Tools: Generative design: Midjourney, Runway, Kling, ChatGPT, Claude, DeepSeek, Topaz, Photoshop, Illustrator, Adobe Creative Cloud, Filmora, CapCut, Camtasia
+Tools: UX design: Figma, Sketch, InVision, Maze, Lovable, Webflow, Wix, Squarespace, CSS
+Tools: Service design: Lucidchart, Miro, MURAL, Smaply
+Tools: AI build and automation: Claude Code, Codex, Zapier, Twilio, Lighthouse
+Tools: Product delivery: Jira, Azure DevOps, monday.com, Smartsheet, Notion, ServiceNow, Google Workspace, SharePoint, PowerPoint
+Tools: CRM and commerce: Salesforce, Microsoft Dynamics, DocuSign CLM, Shopify, Klaviyo, Okendo, Loop, Rivo
+
+CERTIFICATIONS
+- Project Management Professional (PMP)® — Project Management Institute, Oct 2023
+- Professional Scrum Product Owner I and II — Scrum.org, Sep 2023
+- CLM Technical Architect — DocuSign
+- AI Associate — Salesforce, May 2025
+- Strategy Designer — Salesforce, Sep 2024
+- Platform App Builder — Salesforce, Aug 2024
+- User Experience Designer — Salesforce, Aug 2024
+- Business Analyst — Salesforce, Jun 2024
+- Administrator — Salesforce, May 2024
+- Platform Developer — Salesforce
+- Service Designer — Cooper Professional Education
+- Project Management Professional Certificate — Google
+- Prompt Engineering for ChatGPT — Vanderbilt University, Jul 2023
