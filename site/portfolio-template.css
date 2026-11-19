@@ -95,8 +95,17 @@ body.portfolio-template .subheader-1,
 body.portfolio-template .opening .opening-title .lead.subheader-1{font:var(--body-weight,400) var(--type-subheader-1)/1.4 var(--font-body);color:var(--text-secondary)}
 
 /* Navigation uses labels without decorative arrows. */
-body.portfolio-template .brand-logo{display:inline-flex;align-items:center}
+body.portfolio-template .brand-logo{position:relative;display:inline-flex;align-items:center}
 body.portfolio-template .brand-logo img{display:block;width:48px;height:48px;object-fit:contain;filter:invert(1) grayscale(1) brightness(1.2);opacity:.45;mix-blend-mode:multiply}
+/* Header logo on hover: the homepage flask with its rainbow liquid; brand-flask.js adds the homepage burst. */
+body.portfolio-template .masthead .brand-logo{transition:scale .2s ease}
+body.portfolio-template .masthead .brand-logo .brand-logo-flask{position:absolute;inset:0;width:100%;height:100%;filter:none;mix-blend-mode:normal;opacity:0}
+body.portfolio-template .masthead .brand-logo:is(:hover,:focus-visible){scale:1.06}
+body.portfolio-template .masthead .brand-logo:is(:hover,:focus-visible) img{opacity:0}
+body.portfolio-template .masthead .brand-logo:is(:hover,:focus-visible) .brand-logo-flask{opacity:1}
+body.portfolio-template .masthead .brand-logo:active{scale:.95}
+.brand-burst{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:100}
+@media(prefers-reduced-motion:reduce){body.portfolio-template .masthead .brand-logo{transition:none}}
 
 /* Numbered subtitles pair with the matching heading level. */
 :root{--type-subheader-1:18px;--type-subheader-2:20px;--type-subheader-3:18px;--type-subheader-4:16px;--type-subheader-5:14px}
