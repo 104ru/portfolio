@@ -85,7 +85,7 @@
     { "name": "Prompt Engineering for ChatGPT", "issuer": "Vanderbilt University", "date": "2023-07" }
   ],
   "skills": [
-    { "name": "Core skills", "keywords": ["Service design", "Service blueprinting", "Customer journey mapping", "Process redesign", "Digital transformation", "Product ownership", "Product roadmaps", "KPIs and outcome metrics", "Agile and Scrum delivery", "Cross-functional team leadership", "Stakeholder management", "Workshop facilitation", "UX and UI design", "Salesforce solution design", "API and systems integration", "Shopify e-commerce", "Personalization and audience targeting"] },
+    { "name": "Core skills", "keywords": ["UX and UI design", "Service design", "Customer journey mapping", "Service blueprinting", "Product ownership", "KPIs and outcome metrics", "Workshop facilitation", "Cross-functional team leadership"] },
     { "name": "AI knowledge", "keywords": ["AI prototyping", "Generative AI video and imagery", "Human–agent service design", "LLM product design", "System prompts and context engineering", "AI coding agents: Claude Code, Codex"] },
     { "name": "Tools: Generative design", "keywords": ["Midjourney", "Runway", "Kling", "ChatGPT", "Claude", "DeepSeek", "Topaz", "Photoshop", "Illustrator", "Adobe Creative Cloud", "Filmora", "CapCut", "Camtasia"] },
     { "name": "Tools: UX design", "keywords": ["Figma", "Sketch", "InVision", "Maze", "Lovable", "Webflow", "Wix", "Squarespace", "CSS"] },

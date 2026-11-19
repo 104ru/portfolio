@@ -37,7 +37,7 @@ Adobe | Jan 2008 – Aug 2012
 - Product Owner for localized Flash (Animate): led an 18-person vendor team, proposed and shipped 20+ features, and set localization/terminology standards adopted across the Adobe suite.
 
 SKILLS
-Core skills: Service design, Service blueprinting, Customer journey mapping, Process redesign, Digital transformation, Product ownership, Product roadmaps, KPIs and outcome metrics, Agile and Scrum delivery, Cross-functional team leadership, Stakeholder management, Workshop facilitation, UX and UI design, Salesforce solution design, API and systems integration, Shopify e-commerce, Personalization and audience targeting
+Core skills: UX and UI design, Service design, Customer journey mapping, Service blueprinting, Product ownership, KPIs and outcome metrics, Workshop facilitation, Cross-functional team leadership
 AI knowledge: AI prototyping, Generative AI video and imagery, Human–agent service design, LLM product design, System prompts and context engineering, AI coding agents: Claude Code, Codex
 Tools: Generative design: Midjourney, Runway, Kling, ChatGPT, Claude, DeepSeek, Topaz, Photoshop, Illustrator, Adobe Creative Cloud, Filmora, CapCut, Camtasia
 Tools: UX design: Figma, Sketch, InVision, Maze, Lovable, Webflow, Wix, Squarespace, CSS
