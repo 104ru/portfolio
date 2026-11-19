@@ -7,7 +7,9 @@
   const where = document.getElementById('where'), hint = document.getElementById('hint'), strip = document.getElementById('illustration-strip');
   const tabs = [...reader.querySelectorAll('[data-mode]')], expand = reader.querySelector('[data-expand]');
   const leaves = new Map();
-  let mode = 'illustrations', L = 1, side = 'L', single = false, expanded = false, previousOverflow = '';
+  let mode = 'illustrations', L = 1, side = 'L', single = false, expanded = false, previousOverflow = '', illustrationPosition = 1, illustrationSide = 'L', selectedArt = 0;
+  const backdrop = document.createElement('div'); backdrop.className = 'book-backdrop'; backdrop.hidden = true; document.body.append(backdrop);
+  const outside = [...document.querySelectorAll('.case-header,.case-intro,.skip')];
   const count = () => mode === 'full' ? config.pages : config.selections.length;
   const totalLeaves = () => mode === 'full' ? Math.ceil(config.pages / 2) + 2 : Math.ceil(count() / 2) + 1;
   const pad = n => String(n).padStart(3, '0');
@@ -59,8 +61,10 @@
     }
     const pages = visiblePages(), unit = mode === 'full' ? 'Page' : 'Illustration';
     where.textContent = L === 0 ? 'Cover' : L === N ? 'Back cover' : pages.length > 1 ? `${unit}s ${pages[0]}–${pages[1]} of ${count()}` : `${unit} ${pages[0] || count()} of ${count()}`;
-    scrub.max = N; scrub.value = L;
-    prev.disabled = L === 0; next.disabled = L === N;
+    if(mode === 'illustrations' && !pages.includes(selectedArt+1)) selectedArt = Math.max(0,(pages[0] || 1)-1);
+    scrub.min = 0; scrub.max = mode === 'illustrations' ? count() - 1 : N; scrub.value = mode === 'illustrations' ? selectedArt : L;
+    scrub.setAttribute('aria-label', mode === 'illustrations' ? 'Illustration position' : 'Book position');
+    prev.disabled = mode === 'illustrations' ? pages[0] === 1 : L === 0; next.disabled = mode === 'illustrations' ? pages.at(-1) === count() : L === N;
     hint.textContent = L === 0 ? 'Click the cover to open.' : 'Turn the pages or choose an illustration below.';
     for (const [i, button] of [...strip.children].entries()) {
       const p = mode === 'illustrations' ? i + 1 : config.selections[i].page;
@@ -81,13 +85,14 @@
     view();
   }
   function go(to, requestedSide = 'R') {
-    to = Math.max(0, Math.min(totalLeaves(), to));
+    to = mode === 'illustrations' ? Math.max(1,Math.min(totalLeaves()-1,to)) : Math.max(0, Math.min(totalLeaves(), to));
     const d = to - L;
     if (Math.abs(d) === 1) { leaves.get(d > 0 ? L : to)?.classList.add('turning'); book.classList.remove('jump'); }
     else if (d) book.classList.add('jump');
     L = to; side = requestedSide; render();
   }
   function step(d) {
+    if(mode === 'illustrations' && (d < 0 && visiblePages()[0] === 1 || d > 0 && visiblePages().at(-1) === count())) return;
     const N = totalLeaves();
     if (!single) return go(L + d);
     if (d > 0) {
@@ -106,11 +111,12 @@
   function size() {
     const w = stage.clientWidth, h = stage.clientHeight, aspect = mode === 'illustrations' ? 1 : config.aspect;
     single = w < 700;
-    const pw = Math.max(80, Math.floor(Math.min(w * (single ? .86 : .43), (h - (single ? 45 : 70)) * aspect)));
+    const pw = Math.max(80, Math.floor(Math.min(w * (single ? .86 : .43), (h - (expanded ? 42 : 20)) * aspect)));
     book.style.setProperty('--pw', pw + 'px'); book.style.setProperty('--ph', pw / aspect + 'px');
     book.style.setProperty('--t', Math.round(pw * config.thickness) + 'px'); book.classList.add('jump'); view();
   }
   function choose(index) {
+    selectedArt = index;
     if (mode === 'illustrations') go(Math.floor(index / 2) + 1, index % 2 ? 'R' : 'L');
     else { const p = config.selections[index].page; go(Math.floor(p / 2) + 1, p % 2 ? 'R' : 'L'); }
   }
@@ -132,18 +138,27 @@
     else if (single) step(1); else { const r = stage.getBoundingClientRect(); step(ev.clientX > r.left + r.width / 2 ? 1 : -1); }
   });
   prev.addEventListener('click', () => step(-1)); next.addEventListener('click', () => step(1));
-  scrub.addEventListener('input', () => go(+scrub.value));
-  reader.querySelector('[data-shuffle]').addEventListener('click', () => {
+  scrub.addEventListener('input', () => mode === 'illustrations' ? choose(+scrub.value) : go(+scrub.value));
+  reader.querySelector('[data-shuffle]')?.addEventListener('click', () => {
     const current = visiblePages(), candidates = config.selections.map((s, i) => i).filter(i => !current.includes(mode === 'illustrations' ? i + 1 : config.selections[i].page));
     choose(candidates[Math.floor(Math.random() * candidates.length)] ?? 0);
   });
   function expandReader(value) {
-    expanded = value; reader.classList.toggle('expanded', expanded);
-    expand.textContent = expanded ? 'Close' : 'Expand'; expand.title = expanded ? 'Close expanded book' : 'Expand book'; expand.setAttribute('aria-expanded', String(expanded));
-    if (expanded) { previousOverflow = document.body.style.overflow; document.body.style.overflow = 'hidden'; reader.setAttribute('role', 'dialog'); reader.setAttribute('aria-modal', 'true'); }
-    else { document.body.style.overflow = previousOverflow; reader.removeAttribute('role'); reader.removeAttribute('aria-modal'); }
-    size(); expand.focus();
+    if (value === expanded) return;
+    expanded = value;
+    if (expanded) {
+      illustrationPosition = L; illustrationSide = side;
+      const selected = config.selections[selectedArt] || config.selections[0];
+      mode = 'full'; L = Math.floor(selected.page / 2) + 1; side = selected.page % 2 ? 'R' : 'L';
+    } else { mode = 'illustrations'; L = illustrationPosition; side = illustrationSide; }
+    for (const el of leaves.values()) el.remove(); leaves.clear();
+    reader.classList.toggle('expanded', expanded); backdrop.hidden = !expanded;
+    expand.textContent = expanded ? 'Close' : 'Expand'; expand.title = expanded ? 'Close large book' : 'Open large book'; expand.setAttribute('aria-expanded', String(expanded));
+    if (expanded) { previousOverflow = document.body.style.overflow; document.body.style.overflow = 'hidden'; reader.setAttribute('role', 'dialog'); reader.setAttribute('aria-modal', 'true'); outside.forEach(el => el.inert = true); }
+    else { document.body.style.overflow = previousOverflow; reader.removeAttribute('role'); reader.removeAttribute('aria-modal'); outside.forEach(el => el.inert = false); }
+    size(); render(); expand.focus();
   }
+  backdrop.addEventListener('click', () => expandReader(false));
   expand.setAttribute('aria-expanded', 'false'); expand.addEventListener('click', () => expandReader(!expanded));
   reader.addEventListener('keydown', ev => {
     if (ev.key === 'Escape' && expanded) { expandReader(false); return; }
@@ -156,8 +171,8 @@
     if (ev.target.closest('button,input')) return;
     if (ev.key === 'ArrowRight' || ev.key === ' ') { ev.preventDefault(); step(1); }
     if (ev.key === 'ArrowLeft') { ev.preventDefault(); step(-1); }
-    if (ev.key === 'Home') { ev.preventDefault(); go(0); }
-    if (ev.key === 'End') { ev.preventDefault(); go(totalLeaves()); }
+    if (ev.key === 'Home') { ev.preventDefault(); mode === 'illustrations' ? choose(0) : go(0); }
+    if (ev.key === 'End') { ev.preventDefault(); mode === 'illustrations' ? choose(count()-1) : go(totalLeaves()); }
   });
   let touch = null;
   stage.addEventListener('touchstart', ev => { touch = { x: ev.touches[0].clientX, y: ev.touches[0].clientY }; }, { passive: true });
