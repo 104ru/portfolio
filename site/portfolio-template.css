@@ -2,7 +2,7 @@
 :root {
   --font-heading: 'Inter Tight', 'Inter', sans-serif;
   --font-diagram: 'Abel', sans-serif;
-  --heading-weight: 600; --heading-tracking: -0.025em;
+  --heading-weight: 600; --heading-tracking: 0;
   --font-body: 'Inter', sans-serif;
   --text-primary: #223640;
   --text-secondary: #5d6b72;
@@ -25,8 +25,8 @@ body.portfolio-template :is(h1,h2,h3,h4,h5,.type-h1,.type-h2,.type-h3,.type-h4,.
   font-family:var(--font-heading); font-weight:var(--heading-weight); font-style:normal; font-optical-sizing:auto;
   color:var(--text-primary); letter-spacing:var(--heading-tracking); text-transform:none; text-wrap:balance;
 }
-body.portfolio-template :is(h1,.type-h1) { font-size:var(--type-h1); line-height:1.02; letter-spacing:-0.035em; font-weight:var(--heading-weight); }
-body.portfolio-template :is(h2,.type-h2) { font-size:var(--type-h2); line-height:1.15; letter-spacing:-0.025em; }
+body.portfolio-template :is(h1,.type-h1) { font-size:var(--type-h1); line-height:1.02; letter-spacing:0; font-weight:var(--heading-weight); }
+body.portfolio-template :is(h2,.type-h2) { font-size:var(--type-h2); line-height:1.15; letter-spacing:0; }
 body.portfolio-template :is(h3,.type-h3) { font-size:var(--type-h3); line-height:1.25; }
 body.portfolio-template :is(h4,.type-h4) { font-size:var(--type-h4); line-height:1.35; }
 body.portfolio-template :is(h5,.type-h5) { font-size:var(--type-h5); line-height:1.4; }
@@ -84,8 +84,8 @@ body.portfolio-template .measurement :is(table,th,td) { font-family:var(--font-b
   :root { --type-h1:48px; --type-h2:34px; --type-h3:26px; --type-h4:21px; --type-h5:18px; --type-body:16px; --type-subtitle:18px; --section-gap:48px; --card-padding:16px; --card-gap:16px; }
 }
 /* Explicit adapters for legacy page selectors; token values remain authoritative. */
-body.portfolio-template :is(.opening .opening-title h1,.profile h1){font:var(--heading-weight) var(--type-h1)/1.02 var(--font-heading);letter-spacing:-0.035em}
-body.portfolio-template :is(.original-study .situation h2,.original-study .stage-header h2){font:var(--heading-weight) var(--type-h2)/1.15 var(--font-heading);letter-spacing:-0.025em}
+body.portfolio-template :is(.opening .opening-title h1,.profile h1){font:var(--heading-weight) var(--type-h1)/1.02 var(--font-heading);letter-spacing:0}
+body.portfolio-template :is(.original-study .situation h2,.original-study .stage-header h2){font:var(--heading-weight) var(--type-h2)/1.15 var(--font-heading);letter-spacing:0}
 body.portfolio-template :is(.project h3,.original-study h3){font:var(--heading-weight) var(--type-h3)/1.25 var(--font-heading);text-transform:none;letter-spacing:var(--heading-tracking)}
 body.portfolio-template :is(.opening .opening-title .lead,.stage-header .subtitle){font:var(--body-weight,400) var(--type-subtitle)/1.5 var(--font-body)}
 body.portfolio-template .original-study .situation{font:var(--body-weight,400) var(--type-body)/1.65 var(--font-body)}
@@ -312,7 +312,7 @@ body.portfolio-template.case-study .original-study .figure-panel + .figure-panel
 body.portfolio-template .portfolio-accordion-summary{display:flex;align-items:center;justify-content:space-between;gap:var(--space-6);padding-block:var(--space-6);list-style:none;cursor:pointer;border:0;border-top:1px solid var(--border-subtle);border-image:linear-gradient(var(--border-subtle),var(--border-subtle)) 1 / 1px 0 0 / 0 100vw}
 .portfolio-accordion-summary::-webkit-details-marker{display:none}
 body.portfolio-template .portfolio-accordion-summary > h2,
-body.portfolio-template .portfolio-accordion-heading > h2{margin:0;font:var(--heading-weight) var(--type-accordion-title)/1.12 var(--font-heading);letter-spacing:-0.025em;overflow-wrap:break-word;min-width:0}
+body.portfolio-template .portfolio-accordion-heading > h2{margin:0;font:var(--heading-weight) var(--type-accordion-title)/1.12 var(--font-heading);letter-spacing:0;overflow-wrap:break-word;min-width:0}
 body.portfolio-template .portfolio-accordion-action{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;transform:none}
 .portfolio-accordion-wrap{display:none}
 .portfolio-accordion[open] > summary .portfolio-accordion-expand{display:none}
@@ -573,7 +573,7 @@ body.portfolio-template.case-study .baseline-metric .baseline-icon{margin:0}
 .video-open-play{color:#fff}
 
 /* Quiet treatment (Looped In reference): hairlines, soft panels, one slate-teal accent. */
-body.portfolio-template :is(h1,.type-h1){letter-spacing:-0.035em}
+body.portfolio-template :is(h1,.type-h1){letter-spacing:0}
 body.portfolio-template .case-facts{background:var(--panel);border-color:var(--border-subtle);padding-block:var(--space-2)}
 body.portfolio-template .case-facts > div{padding-block:var(--space-5)}
 body.portfolio-template .case-facts dt,body.portfolio-template h3.case-label{color:var(--text-secondary);letter-spacing:.06em;font-weight:600}
@@ -989,7 +989,7 @@ body.portfolio-template .rc7-card p{margin:0;font:var(--body-weight,400) 15px/1.
 .rc7-four .rc7-bar i::after{background:#6db8ad}
 .rc7-four .rc7-bar:first-child i::after{background:#f0a048}
 /* Smaller section titles (Situation, Task, Action, Result and the About sections) */
-body.portfolio-template.case-study .portfolio-accordion-heading h2{font-size:24px!important;letter-spacing:-.015em}
+body.portfolio-template.case-study .portfolio-accordion-heading h2{font-size:24px!important;letter-spacing:0}
 @media(max-width:700px){body.portfolio-template.case-study .portfolio-accordion-heading h2{font-size:22px!important}}
 /* Phone sweep: full-width sheet with no side bands, stacked facts, compact popup headers, tidy tables */
 @media(max-width:700px){

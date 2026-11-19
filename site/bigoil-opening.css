@@ -4,7 +4,7 @@
 .opening-title{display:grid;grid-template-columns:1.1fr 1fr;gap:20px 60px;align-items:end;margin-bottom:44px}
 .opening-title .eyebrow{grid-column:1/-1;display:flex;align-items:center;gap:20px;margin:0;color:#5d6b72;font-size:11px;letter-spacing:.12em;line-height:1.5}
 .opening-title .eyebrow span:first-child{color:#2c6e7e;border-right:1px solid #dce4e7;padding-right:20px}
-.opening .opening-title h1{font-size:72px;letter-spacing:-1.5px;line-height:1;margin:0;color:#223640}
+.opening .opening-title h1{font-size:72px;letter-spacing:0;line-height:1;margin:0;color:#223640}
 .opening .opening-title .lead{font-size:19px;line-height:1.45;margin:0;max-width:400px;color:#223640;padding-bottom:3px}
 .opening .lead span{display:block;font-size:14px;margin-top:9px;color:#5d6b72}
 .opening .outcomes{gap:16px;background:none;border:0;padding:0;align-items:stretch}
@@ -80,7 +80,7 @@
 
 /* Situation and responsibilities: shared left edge and readable text rhythm. */
 .original-study .situation{position:relative;left:50%;transform:translateX(-50%);width:min(1120px,calc(100vw - 80px));box-sizing:border-box;padding:48px 0 64px;color:#223640;font:var(--body-weight,400) 17px/1.65 'Inter',sans-serif}
-.original-study .situation h2{font:600 40px/1.15 var(--font-heading);letter-spacing:-0.025em;color:#223640;margin:0 0 20px}
+.original-study .situation h2{font:600 40px/1.15 var(--font-heading);letter-spacing:0;color:#223640;margin:0 0 20px}
 .original-study .situation p{max-width:78ch;font:inherit;margin:0 0 24px}
 .original-study .situation strong{font-weight:600}
 .original-study .situation ul{max-width:78ch;margin:0;padding:0 0 0 22px;list-style:disc}
