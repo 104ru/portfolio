@@ -1,3 +1,4 @@
+const escapeText = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const game = document.querySelector('#game');
 const announcements = document.querySelector('#announcements');
 const categories = ['legs', 'frame', 'hand', 'antenna', 'detail', 'sensor'];
@@ -175,7 +176,7 @@ function creatureSVG(creature, options = {}) {
   }).join('') : '';
   const slots = options.builder && activeCategory === 'hand' ? Object.entries(layout.sockets).map(([slot, position]) => `<circle class="socket ${slot === selectedSocket ? 'active' : ''}" data-socket="${slot}" role="button" tabindex="0" aria-label="${slot.replace('-', ' ')} arm socket" cx="${position.x}" cy="${position.y}" r="4.5"/>`).join('') : '';
   const filter = creature.finish === 'sage' ? 'url(#sage-paint)' : creature.finish === 'copper' ? 'url(#copper-paint)' : '';
-  return `<svg class="dweller-svg ${on ? 'powered' : ''} ${options.builder ? 'builder-character' : ''}" viewBox="0 ${minY} 320 ${389 - minY}" xmlns="http://www.w3.org/2000/svg" role="${options.builder ? 'group' : 'img'}" aria-label="${creature.name}" preserveAspectRatio="xMidYMax meet">
+  return `<svg class="dweller-svg ${on ? 'powered' : ''} ${options.builder ? 'builder-character' : ''}" viewBox="0 ${minY} 320 ${389 - minY}" xmlns="http://www.w3.org/2000/svg" role="${options.builder ? 'group' : 'img'}" aria-label="${escapeText(creature.name)}" preserveAspectRatio="xMidYMax meet">
     <ellipse class="dweller-shadow" cx="160" cy="382" rx="${layout.legs.width * .4}" ry="3"/>
     <g ${filter ? `filter="${filter}"` : ''}>
       ${showing.has('legs') ? partImage(layout.legs, 'robot-base') : ''}
@@ -219,7 +220,7 @@ function renderWorkshop() {
       else if (slot.create) rows += '<div class="cabinet-slot"><button class="create-slot" data-action="new" aria-label="Create a new Dweller">+</button></div>';
       else {
         const creature = slot.creature;
-        rows += `<div class="cabinet-slot"><button class="creature-button" data-edit="${creature.id}" aria-label="Edit ${creature.name}">${creatureSVG(creature)}</button><span class="cabinet-name">${creature.name}</span><button class="release-mini" data-release="${creature.id}" aria-label="${creature.released ? 'Find' : 'Release'} ${creature.name}" title="${creature.released ? 'Go to place' : 'Release'}">${icon(creature.released ? 'pin' : 'rocket')}</button></div>`;
+        rows += `<div class="cabinet-slot"><button class="creature-button" data-edit="${creature.id}" aria-label="Edit ${escapeText(creature.name)}">${creatureSVG(creature)}</button><span class="cabinet-name">${escapeText(creature.name)}</span><button class="release-mini" data-release="${creature.id}" aria-label="${creature.released ? 'Find' : 'Release'} ${escapeText(creature.name)}" title="${creature.released ? 'Go to place' : 'Release'}">${icon(creature.released ? 'pin' : 'rocket')}</button></div>`;
       }
     }
     rows += '</div>';
@@ -254,7 +255,7 @@ function renderBuilder() {
       <div class="builder-tools">${roundControl('close-builder', 'close', 'Close builder')}${roundControl('reset', 'undo', 'Reset this edit')}${roundControl('save', 'check', 'Save Dweller')}</div>
       ${newCreation && !ready ? `<span class="builder-helper">${activeCategory === 'hand' ? 'Choose a socket, then an arm' : `Choose ${categoryNames[activeCategory].toLowerCase()}`}</span>` : ''}
       <div class="builder-stage">${creatureSVG(draft, { builder: true })}</div>
-      <span class="builder-name">${draft.name}</span>
+      <span class="builder-name">${escapeText(draft.name)}</span>
       <button class="round-control ignite" data-action="power" aria-label="${powered ? 'Switch off' : 'Bring to life'}" title="${ready ? 'Bring to life' : 'Fit the eyes to bring it alive'}" ${ready ? '' : 'disabled'}>${icon('power')}</button>
     </div>
     <div class="builder-drawer">
@@ -293,7 +294,7 @@ function saveDraft() {
   currentId = draft.id;
   view = 'workshop';
   render();
-  toast(`${draft.name} is in the cabinet`);
+  toast(`${escapeText(draft.name)} is in the cabinet`);
 }
 
 function mapArt() {
@@ -316,9 +317,9 @@ function renderNearby() {
   const ordered = [...released].sort((a, b) => a.distance - b.distance);
   return `<div class="game-view">${navigation('nearby')}
     <div class="game-map"><div class="map-world" style="transform:scale(${mapZoom})">${mapArt()}<span class="map-radius"></span><span class="map-player" aria-label="Your demo location">▲</span>
-      ${released.map(creature => `<button class="map-pin ${creature.distance <= 150 ? 'reachable' : ''} ${creature.captured ? 'dormant' : ''}" style="left:${creature.x}%;top:${creature.y}%" data-find="${creature.id}" aria-label="${creature.name}, ${creature.distance} feet${creature.captured ? ', photographed today' : ''}">${creatureSVG(creature)}</button>`).join('')}
+      ${released.map(creature => `<button class="map-pin ${creature.distance <= 328 ? 'reachable' : ''} ${creature.captured ? 'dormant' : ''}" style="left:${creature.x}%;top:${creature.y}%" data-find="${creature.id}" aria-label="${escapeText(creature.name)}, ${creature.distance} feet${creature.captured ? ', photographed today' : ''}">${creatureSVG(creature)}</button>`).join('')}
     </div><span class="demo-tag">DEMO MAP</span><div class="map-controls">${roundControl('recenter', 'locate', 'Recenter demo map')}<button class="round-control" data-action="map-in" aria-label="Zoom map in">+</button><button class="round-control" data-action="map-out" aria-label="Zoom map out">−</button></div></div>
-    <div class="nearby-sheet ${sheetState === 'middle' ? '' : sheetState}"><button class="sheet-handle" data-action="sheet" aria-label="Change nearby drawer height. Drag up or down."><span></span></button><div class="nearby-list">${ordered.map(creature => `<button class="nearby-row" data-find="${creature.id}"><span class="row-creature">${creatureSVG(creature)}</span><span class="row-name">${creature.name}</span><span class="row-distance">${creature.distance} ft</span><span class="row-state ${creature.captured ? 'asleep' : ''}">${creature.captured ? 'Tomorrow' : creature.distance <= 150 ? 'Find' : 'Explore'}</span></button>`).join('')}</div></div>
+    <div class="nearby-sheet ${sheetState === 'middle' ? '' : sheetState}"><button class="sheet-handle" data-action="sheet" aria-label="Change nearby drawer height. Drag up or down."><span></span></button><div class="nearby-list">${ordered.map(creature => `<button class="nearby-row" data-find="${creature.id}"><span class="row-creature">${creatureSVG(creature)}</span><span class="row-name">${escapeText(creature.name)}</span><span class="row-distance">${creature.distance} ft</span><span class="row-state ${creature.captured ? 'asleep' : ''}">${creature.captured ? 'Tomorrow' : creature.distance <= 328 ? 'Find' : 'Explore'}</span></button>`).join('')}</div></div>
   </div>`;
 }
 
@@ -374,16 +375,16 @@ function huntScene(creature, scene = 0) {
 
 function renderHunt() {
   const creature = creatures.find(item => item.id === currentId);
-  return `<div class="hunt-screen"><div class="hunt-header">${roundControl('back-map', 'back', 'Back to nearby map')}<span>${creature.name}</span><span class="demo-disclosure">DEMO</span></div>${huntScene(creature)}<div class="hunt-footer"><span class="zoom-value">${zoom.toFixed(1)}×</span><div class="camera-controls"><button class="round-control zoom" data-action="zoom-out" aria-label="Zoom out">−</button><button class="shutter" data-action="capture" aria-label="Take a demo photo">${icon('camera')}</button><button class="round-control zoom" data-action="zoom-in" aria-label="Zoom in">+</button></div><span class="hunt-note">Drag to compose · pinch to zoom</span></div></div>`;
+  return `<div class="hunt-screen"><div class="hunt-header">${roundControl('back-map', 'back', 'Back to nearby map')}<span>${escapeText(creature.name)}</span><span class="demo-disclosure">DEMO</span></div>${huntScene(creature)}<div class="hunt-footer"><span class="zoom-value">${zoom.toFixed(1)}×</span><div class="camera-controls"><button class="round-control zoom" data-action="zoom-out" aria-label="Zoom out">−</button><button class="shutter" data-action="capture" aria-label="Take a demo photo">${icon('camera')}</button><button class="round-control zoom" data-action="zoom-in" aria-label="Zoom in">+</button></div><span class="hunt-note">Drag to compose · pinch to zoom</span></div></div>`;
 }
 
 function renderPreview() {
   const creature = creatures.find(item => item.id === currentId);
-  return `<div class="hunt-screen"><div class="hunt-header">${roundControl('retake', 'back', 'Retake photo')}<span class="preview-title">Your encounter</span><span></span></div><div class="shot-frame">${huntScene(creature)}<p>${creature.name}</p></div><div class="hunt-footer"><div class="preview-actions">${roundControl('retake', 'undo', 'Retake photo')}${roundControl('ask-publish', 'publish', 'Publish photo', 'publish-control')}</div><span class="hunt-note">Share this encounter in the demo feed</span></div></div>`;
+  return `<div class="hunt-screen"><div class="hunt-header">${roundControl('retake', 'back', 'Retake photo')}<span class="preview-title">Your encounter</span><span></span></div><div class="shot-frame">${huntScene(creature)}<p>${escapeText(creature.name)}</p></div><div class="hunt-footer"><div class="preview-actions">${roundControl('retake', 'undo', 'Retake photo')}${roundControl('ask-publish', 'publish', 'Publish photo', 'publish-control')}</div><span class="hunt-note">Share this encounter in the demo feed</span></div></div>`;
 }
 
 function renderFeed() {
-  return `<div class="game-view">${navigation('feed')}<div class="feed-scroll">${photos.map(photo => `<article class="feed-card" data-photo="${photo.id}"><div class="feed-photo">${outdoorArt(photo.scene)}<div class="feed-creature" ${photo.zoom ? `style="transform:translate(${photo.position.x}px,${photo.position.y}px) scale(${photo.zoom})"` : ''}>${creatureSVG(photo.creature)}</div></div><div class="feed-card-foot"><div><h4>${photo.creature.name}</h4><p class="feed-byline">${photo.sample ? 'Sample encounter · Dolores Park' : 'Your encounter · just now'}</p></div><button class="like ${photo.liked ? 'liked' : ''}" data-like="${photo.id}" aria-label="${photo.liked ? 'Unlike' : 'Like'} ${photo.creature.name} photo" aria-pressed="${photo.liked}">${photo.liked ? '♥' : '♡'}</button></div></article>`).join('')}</div></div>`;
+  return `<div class="game-view">${navigation('feed')}<div class="feed-scroll">${photos.map(photo => `<article class="feed-card" data-photo="${photo.id}"><div class="feed-photo">${outdoorArt(photo.scene)}<div class="feed-creature" ${photo.zoom ? `style="transform:translate(${photo.position.x}px,${photo.position.y}px) scale(${photo.zoom})"` : ''}>${creatureSVG(photo.creature)}</div></div><div class="feed-card-foot"><div><h4>${escapeText(photo.creature.name)}</h4><p class="feed-byline">${photo.sample ? 'Sample encounter · Dolores Park' : 'Your encounter · just now'}</p></div><button class="like ${photo.liked ? 'liked' : ''}" data-like="${photo.id}" aria-label="${photo.liked ? 'Unlike' : 'Like'} ${escapeText(photo.creature.name)} photo" aria-pressed="${photo.liked}">${photo.liked ? '♥' : '♡'}</button></div></article>`).join('')}</div></div>`;
 }
 
 function showDialog({ title, message, creature, confirm, action }) {
@@ -400,11 +401,11 @@ function showDialog({ title, message, creature, confirm, action }) {
   dialog.querySelector('[data-dialog-confirm]').onclick = () => { close(); action(); };
   dialog.addEventListener('click', event => { if (event.target === dialog) close(); });
   dialog.addEventListener('keydown', event => {
-    if (event.key === 'Escape') close();
+    if (event.key === 'Escape') { event.stopPropagation(); close(); }
     if (event.key === 'Tab') {
       event.preventDefault();
-      const buttons = dialog.querySelectorAll('button');
-      const index = document.activeElement === buttons[0] ? 1 : 0;
+      const buttons = dialog.querySelectorAll('input,button');
+      const index = (Array.from(buttons).indexOf(document.activeElement) + (event.shiftKey ? -1 : 1) + buttons.length) % buttons.length;
       buttons[index].focus();
     }
   });
@@ -419,7 +420,7 @@ function releaseCreature(id) {
     return;
   }
   showDialog({
-    title: 'Let this one explore?', message: `${creature.name} will appear on the demo map.`,
+    title: 'Let this one explore?', message: `${escapeText(creature.name)} will appear on the demo map.`,
     creature, confirm: 'Release', action: () => {
       creature.released = true;
       const nearbyIndex = creatures.filter(item => item.released && item.distance < 150).length;
@@ -428,7 +429,7 @@ function releaseCreature(id) {
       creature.distance = 30 + nearbyIndex * 18;
       view = 'nearby';
       render();
-      toast(`${creature.name} is out exploring`);
+      toast(`${escapeText(creature.name)} is out exploring`);
     }
   });
 }
@@ -438,7 +439,7 @@ const actions = {
   'close-builder': () => { view = 'workshop'; render(); },
   reset: () => { draft = structuredClone(initialDraft); progress = newCreation ? 0 : 5; activeCategory = 'legs'; powered = false; render(); },
   save: saveDraft,
-  power: () => { powered = !powered; render(); if (powered) toast(`${draft.name} is alive`); },
+  power: () => { powered = !powered; render(); if (powered) toast(`${escapeText(draft.name)} is alive`); },
   recenter: () => { mapZoom = 1; render(); },
   'map-in': () => { mapZoom = Math.min(2, mapZoom + .25); render(); },
   'map-out': () => { mapZoom = Math.max(.75, mapZoom - .25); render(); },
@@ -491,9 +492,9 @@ game.addEventListener('click', event => {
   else if (button.dataset.like) {
     const photo = photos.find(item => item.id === button.dataset.like);
     photo.liked = !photo.liked;
-    const scroll = game.querySelector('.feed-scroll').scrollTop;
+    const scroll = game.querySelector('.feed-scroll')?.scrollTop || 0;
     render();
-    game.querySelector('.feed-scroll').scrollTop = scroll;
+    if(game.querySelector('.feed-scroll')) game.querySelector('.feed-scroll').scrollTop = scroll;
   } else if (button.dataset.action) actions[button.dataset.action]?.();
 });
 

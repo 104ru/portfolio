@@ -25,3 +25,19 @@ Sources: `/Users/sandy/Desktop/Dwellers.pdf` and `/Users/sandy/Documents/Steam Z
 Compared both template CSS files byte for byte with the actual portfolio. Checked JavaScript syntax, local asset references, unique IDs, exactly four case sections, one prototype link and no embedded game. Browser-checked the desktop and 390px mobile layout, charts, all flow tabs and final designs. No horizontal overflow or broken images observed. Hosting identity remains in the separate Sites source checkout.
 
 Preview: `python3 -m http.server 4181 --directory portfolio`.
+
+## Browser preview update · 19 November 2026
+
+The portfolio launcher opens a dialog above 760px and navigates to a frameless,
+viewport-filling prototype on smaller screens. The homepage uses the same launcher.
+The native 0.3.5 source at `/Users/sandy/Documents/GitHub/dwellers` supplied the
+current PartsV2 sprites, measured attachment geometry and original FrameArtV1 art.
+The browser flow now includes ungated assembly, naming on Save, unsaved-edit
+protection, immutable released snapshots, sample release/account path, optical
+controls, photo finishing, daily catches, Feed detail, Library/Trash/restore,
+retirement, player histories and local browser persistence.
+
+This remains a browser adaptation: it does not run the Swift app or connect to
+native account, shared-world, AR camera or GPS services. Its account and locations
+are explicitly samples. No email or password is collected. Native volumetric
+rendering is represented with the current app's measured 2D part artwork.

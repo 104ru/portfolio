@@ -46,3 +46,5 @@
 @media(max-width:700px){.reader[data-mode="illustrations"] .face:not(.cover){padding:10px}}
 
 .reader[data-mode="illustrations"] .book::after{display:none}
+
+.reader[data-mode="illustrations"] .face:not(.cover){box-shadow:0 10px 22px #00000018}
