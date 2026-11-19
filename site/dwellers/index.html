@@ -1,26 +1,75 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Dwellers · Sandy Tayts</title><meta name="description" content="A little steampunk world. Create a robot, release it into the wild, and discover what other players have made.">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abel&family=Inter+Tight:wght@500;600;700&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../bigoil.css?v=20261118-ls0"><link rel="stylesheet" href="../bigoil-opening.css?v=20261118-ls0"><link rel="stylesheet" href="dwellers-case.css?v=20261118-short"><link rel="stylesheet" href="../portfolio-template.css?v=20261118-photo2">
-</head><body class="portfolio-template case-study dwellers-story">
-<a class="skip" href="#main">Skip to case study</a>
-<header class="masthead shell"><a class="name brand-logo" href="../index.html" aria-label="Inkpromptu home"><img src="assets/inkpromptu-logo.png" alt="Inkpromptu" width="48" height="48"></a><nav class="portfolio-section-nav" aria-label="Case study sections"><a class="portfolio-section-link" href="#players">Profiles</a><a class="portfolio-section-link" href="#steampunk">Why steampunk?</a><a class="portfolio-section-link" href="#rules">Rules</a></nav><a class="back" href="../index.html" aria-label="Close case study">✕</a></header>
-<main id="main"><div class="original-study shell">
-<div class="dw-intro"><div><h1>Dwellers</h1><p class="subheader-1">Little machines. A world to explore.</p></div><div><p>A social AR game for curious explorers and playful makers. Build a steampunk creature, set it free, and find the ones hiding around you.</p><p class="type-caption">My work: game concept, UX and visual design.</p><a class="figure-button" href="prototype.html">Play the prototype</a></div></div>
-<figure class="dw-header"><img src="assets/dwellers-cover-v1.png" alt="Three whimsical brass and patina robots on a warmly lit workshop bench, beneath the Dwellers title" width="1672" height="941" fetchpriority="high"></figure>
-<section id="players" class="portfolio-section"><header class="portfolio-section-header"><h2>Three ways to play</h2><p class="type-subtitle">Make something. Find something. Fall in love with someone else’s creation.</p></header>
-<div class="dw-profiles">
-<article><h3>Creator</h3><p>A spring for an antenna? Claws for hands? Assemble your own curious little machine, then release it into the world for someone else to discover.</p><p class="type-caption">For makers who love design, building games and steampunk.</p><img src="assets/profile-creator.webp" alt="Creator motivation profile: creativity, mastery, achievement, social connection, action and immersion" loading="lazy"></article>
-<article><h3>Hunter</h3><p>There’s a Dweller around the corner. Follow the map, meet it through your AR camera, and bring back a photograph worth sharing.</p><p class="type-caption">For explorers who love photography, travel and AR games.</p><img src="assets/profile-hunter.webp" alt="Hunter motivation profile across action, mastery, creativity, achievement, social connection and immersion" loading="lazy"></article>
-<article><h3>Spectator</h3><p>Stay for the strange creatures and the places they turn up. Browse the photographs, leave a comment, and cheer on your favorites.</p><p class="type-caption">For people who love animation, travel photos and the steampunk world.</p><img src="assets/profile-spectator.webp" alt="Spectator motivation profile across action, mastery, creativity, achievement, social connection and immersion" loading="lazy"></article>
-</div></section>
-<section id="steampunk" class="portfolio-section dw-steampunk"><div><header class="portfolio-section-header"><h2>Why steampunk?</h2></header><div class="portfolio-reading"><p>I love the beauty of old things: objects with weight, history, and a little wear. Steampunk brings that feeling into a digital world.</p><p>Gears, glass eyes, battered brass. Each part suggests a personality. Building a Dweller becomes a small creative project; sharing it gives people something to do together.</p></div></div><figure><img src="assets/current-game-collage.png" alt="The Dwellers workshop, parts drawers and cabinet filled with handmade mechanical creatures" width="1672" height="941" loading="lazy"><figcaption>The workshop: a place to make something your own.</figcaption></figure></section>
-<section id="rules" class="portfolio-section"><header class="portfolio-section-header"><h2>Make it. Set it free. Go find it.</h2><p class="type-subtitle">One shared world, four simple rules.</p></header><ol class="dw-rules">
-<li><h3>Create &amp; release</h3><p>Build a Dweller and place it at a real-world location.</p><img src="assets/original-builder-eyes.webp" alt="Dweller Builder with interchangeable sensors and eyes" loading="lazy"></li>
-<li><h3>Find</h3><p>Walk nearby. Dwellers in your area appear on the map.</p><img src="assets/original-map.webp" alt="Dweller Map showing nearby creatures" loading="lazy"></li>
-<li><h3>Photograph</h3><p>Use the AR camera to photograph a Dweller and share it on your feed.</p><img src="assets/original-camera.webp" alt="AR camera showing a Dweller in the real world" loading="lazy"></li>
-<li><h3>Connect</h3><p>Follow discoveries, leave comments, and like other players’ photographs.</p><img src="assets/original-feed.webp" alt="Community feed of Dweller photographs and reactions" loading="lazy"></li>
-</ol><p class="type-caption">Original mobile designs. The browser prototype simulates the map and camera; current workshop artwork is AI-assisted.</p><a class="figure-button" href="prototype.html">Play the prototype</a></section>
-</div></main><footer class="footer shell"><a href="../index.html">Back to selected work</a><a href="#main">Back to top</a></footer></body></html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#182b23">
+<title>Dwellers — A steampunk scavenger hunt</title>
+<meta name="description" content="Dwellers, a steampunk scavenger hunt. Build a creature, let it loose, and discover the ones hiding around you.">
+<link rel="stylesheet" href="dwellers-opening.css?v=6">
+</head>
+<body>
+<a class="skip" href="#main">Skip to the game</a>
+<div class="workshop">
+<header class="topbar">
+<a class="portfolio-link" href="https://sandy.tayts.com/">Sandy Tayts</a>
+<span>Game concept &amp; design</span>
+</header>
+<main id="main">
+<p class="visually-hidden">Dwellers</p>
+<picture class="cover">
+<source media="(max-width: 600px)" srcset="assets/dwellers-cover.png">
+<img src="assets/dwellers-cover-v1.png" alt="Dwellers: three curious little brass robots in a warmly lit, forest-green workshop" width="1672" height="941" fetchpriority="high">
+</picture>
+<section class="invitation" aria-labelledby="intro-title">
+<div class="intro-copy">
+<h1 id="intro-title">A steampunk scavenger hunt.</h1>
+<p>Build a creature. Let it loose.<br>Discover the ones hiding around you.</p>
+</div>
+<div class="invitation-action">
+<a class="brass-button" href="prototype.html">Build your Dweller</a>
+<span class="button-note">Explore the playable prototype</span>
+</div>
+</section>
+<section class="players" aria-labelledby="players-title">
+<header class="players-heading"><h2 id="players-title">Three ways to play</h2></header>
+<div class="player-gallery">
+<article class="player">
+<figure class="player-picture"><img src="assets/player-creator.png" alt="Amber Valve on the workbench, ready for a creator to change its parts" width="370" height="398" loading="lazy"></figure>
+<h3>Creator</h3>
+<p>For makers who can’t leave a box of spare parts alone. Build a creature with a character of its own, then set it free.</p>
+</article>
+<article class="player">
+<figure class="player-picture"><img src="assets/hunter-san-francisco-v2.png" alt="Illustrated Saffron Bell on a photographic San Francisco hillside street with bay-window houses and parked cars" width="1254" height="1254" loading="lazy"></figure>
+<h3>Hunter</h3>
+<p>For explorers with an eye for a good photograph. Follow the map, find a Dweller, and bring back a picture worth sharing.</p>
+</article>
+<article class="player">
+<figure class="player-picture"><img src="assets/spectator-dolores-park-v1.png" alt="Moss and Brass perched on a concrete ledge in a photographic San Francisco park, with palms and people enjoying the grass" width="1254" height="1254" loading="lazy"></figure>
+<h3>Spectator</h3>
+<p>For those who enjoy watching a world unfold. Browse the discoveries, leave a comment, and cheer on your favorite creatures.</p>
+</article>
+</div>
+</section>
+<section class="steampunk-story" aria-labelledby="steampunk-title">
+<figure class="steampunk-picture"><img src="assets/steampunk-parts-v1.png" alt="Green glass eyes, a brass claw, a spring and clockwork parts on a worn workbench, beside a drawing of a Dweller" width="1536" height="1024" loading="lazy"></figure>
+<div class="steampunk-copy">
+<h2 id="steampunk-title">Why steampunk?</h2>
+<p>I love old things: the weight of metal, the marks of use, the sense that every object has a history.</p>
+<p>Steampunk brings that feeling into the game. A spring becomes an antenna; a clock becomes a belly. Building a Dweller is a small creative project you can share with someone else.</p>
+</div>
+</section>
+<section class="game-rules" aria-labelledby="rules-title">
+<h2 id="rules-title">How to play</h2>
+<ol class="rules-list">
+<li><img class="rule-icon" src="assets/theme/nav-workshop-v2.webp" alt="" width="88" height="88" loading="lazy"><div class="rule-copy"><h3><span aria-hidden="true">1.</span> Create &amp; release</h3><p>Build a Dweller from parts and release it at a real-world location.</p></div></li>
+<li><img class="rule-icon" src="assets/theme/nav-nearby-v2.webp" alt="" width="88" height="88" loading="lazy"><div class="rule-copy"><h3><span aria-hidden="true">2.</span> Find</h3><p>Walk nearby. The map shows Dwellers waiting to be discovered.</p></div></li>
+<li><img class="rule-icon" src="assets/theme/nav-camera-v2.webp" alt="" width="88" height="88" loading="lazy"><div class="rule-copy"><h3><span aria-hidden="true">3.</span> Photograph</h3><p>Use the AR camera to photograph a Dweller, then share it on your feed.</p></div></li>
+<li><img class="rule-icon" src="assets/theme/nav-community-v1.png" alt="" width="88" height="88" loading="lazy"><div class="rule-copy"><h3><span aria-hidden="true">4.</span> Connect</h3><p>Explore other players’ photographs. Leave comments and likes.</p></div></li>
+</ol>
+<div class="rules-action"><a class="brass-button" href="prototype.html">Build your Dweller</a><p class="button-note">Browser demo with a simulated map and camera.</p></div>
+</section>
+</main>
+</div>
+</body>
+</html>
