@@ -996,7 +996,7 @@ body.portfolio-template .portfolio-card-grid.rc-measures{grid-template-columns:r
 body.portfolio-template .rc-measures .rc-word .metric-n{font-size:40px}
 @media(max-width:900px){body.portfolio-template .portfolio-card-grid.rc-measures{grid-template-columns:repeat(2,minmax(0,1fr))}}
 /* Case studies: straight corners everywhere except pills */
-body.case-study:not(.tint-lazy) *:not(.portfolio-filter-pill):not(.portfolio-section-link):not(.case-links a):not(.rc7-tags i):not(.li-tag):not(.li-avatar):not(.li-avatar img):not(.case-photo),body.case-study:not(.tint-lazy) *::before,body.case-study:not(.tint-lazy) *::after{border-radius:0!important}
+body.case-study:not(.tint-lazy) *:not(.video-close):not(.portfolio-filter-pill):not(.portfolio-section-link):not(.case-links a):not(.rc7-tags i):not(.li-tag):not(.li-avatar):not(.li-avatar img):not(.case-photo),body.case-study:not(.tint-lazy) *::before,body.case-study:not(.tint-lazy) *::after{border-radius:0!important}
 /* Rancourt: result cards on the findings-card template */
 body.portfolio-template .rc7-card h4{margin:0;font:600 13px/1.3 var(--font-body);letter-spacing:.08em;text-transform:uppercase;color:var(--accent-text)}
 body.portfolio-template .rc7-card p{margin:0;font:var(--body-weight,400) 15px/1.5 var(--font-body);color:var(--text-primary)}
@@ -1035,3 +1035,11 @@ body.portfolio-template.about-page .case-title h1{font-size:40px!important;line-
 /* Case studies: smaller main title */
 body.portfolio-template.case-study:not(.tint-lazy):not(.about-page) :is(.case-header > h1,.case-title h1){font-size:44px!important;line-height:1.08}
 @media(max-width:700px){body.portfolio-template.case-study:not(.tint-lazy):not(.about-page) :is(.case-header > h1,.case-title h1){font-size:32px!important}}
+
+/* Media viewers keep their controls on the picture, without a header bar. */
+body.portfolio-template .video-dialog{padding:0;overflow:auto;border:0;background:#172329}
+.media-viewer-title{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip-path:inset(50%);white-space:nowrap}
+body.portfolio-template .video-dialog .video-close{position:absolute;top:12px;right:12px;z-index:10;display:grid;place-items:center;width:44px;height:44px;min-width:44px;padding:12px;border:1px solid #fff8;border-radius:50%!important;background:#172329ef;color:#fff;box-shadow:0 2px 12px #0003}
+body.portfolio-template .video-dialog .video-close svg{width:20px;height:20px;stroke:currentColor;stroke-width:1.5;fill:none}
+body.portfolio-template .video-dialog .video-close:hover{background:#314b56}
+body.portfolio-template .video-dialog .video-close:focus-visible{outline:3px solid #fff;outline-offset:3px}
