@@ -769,11 +769,12 @@ body.portfolio-template .video-transcript p{margin:var(--space-3) 0 0}
 @media(max-width:700px){body.portfolio-template .case-owned{grid-template-columns:1fr}body.portfolio-template .case-facts > div.case-brief{grid-column:1/-1;padding-left:0;border-left:0;border-top:1px solid var(--border-subtle)}}
 
 /* Text-only case header (no video tile): title, then section pills. */
-body.portfolio-template .opening-title.case-header.case-header-text{grid-template-columns:1fr;grid-template-areas:"title" "intro" "ai" "did";margin-bottom:0;padding-bottom:var(--space-12)}
+body.portfolio-template .opening-title.case-header.case-header-text{grid-template-columns:1fr;grid-template-areas:"title" "intro" "core" "ai" "did";margin-bottom:0;padding-bottom:var(--space-12)}
 body.portfolio-template.case-study .opening.shell:has(.case-header-text){clip-path:inset(-41px -41px 0 -41px)}
 body.portfolio-template .case-header-text .case-intro{grid-area:intro}
 body.portfolio-template .case-header-text .case-intro p{margin:0}
 body.portfolio-template .case-header-text .case-ai{grid-area:ai}
+body.portfolio-template .case-header-text .case-core{grid-area:core}
 body.portfolio-template .case-ai-list{display:flex;flex-wrap:wrap;gap:var(--space-2);margin:var(--space-3) 0 0;padding:0;list-style:none}
 body.portfolio-template .case-ai-list li{margin:0;padding:6px 12px;border-radius:999px;background:var(--accent-tint);color:var(--accent-dark);font:500 13px/1.4 var(--font-body)}
 body.portfolio-template .case-header-text .case-title{grid-area:title}
