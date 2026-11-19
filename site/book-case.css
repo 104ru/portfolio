@@ -44,3 +44,5 @@
 .reader[data-mode="illustrations"] .face:not(.cover)::after{display:none}
 .reader[data-mode="illustrations"] .block{visibility:hidden}
 @media(max-width:700px){.reader[data-mode="illustrations"] .face:not(.cover){padding:10px}}
+
+.reader[data-mode="illustrations"] .book::after{display:none}
