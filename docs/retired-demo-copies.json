@@ -1,0 +1,90 @@
+{
+  "canonical": "https://sandy.tayts.com",
+  "githubRepositories": [
+    {
+      "name": "frey-eyewear",
+      "url": "https://github.com/liza-bam/frey-eyewear",
+      "status": "Pending permanent deletion; GitHub delete_repo authorization requested"
+    },
+    {
+      "name": "looped-in",
+      "url": "https://github.com/liza-bam/looped-in",
+      "status": "Pending permanent deletion; GitHub delete_repo authorization requested"
+    },
+    {
+      "name": "loomik-app",
+      "url": "https://github.com/liza-bam/loomik-app",
+      "status": "Pending permanent deletion; GitHub delete_repo authorization requested"
+    },
+    {
+      "name": "rancourt-shopify",
+      "url": "https://github.com/liza-bam/rancourt-shopify",
+      "status": "Pending permanent deletion; GitHub delete_repo authorization requested"
+    },
+    {
+      "name": "explorable-world",
+      "url": "https://github.com/liza-bam/explorable-world",
+      "status": "Pending permanent deletion; GitHub delete_repo authorization requested"
+    }
+  ],
+  "sites": [
+    {
+      "id": "appgprj_6b01ca4384388191b92dc0a392f1a53b",
+      "title": "Sarabesh — The Last Electrician",
+      "url": "https://explorable-world-poc.sandy-tayts.chatgpt.site",
+      "slug": "explorable-world-poc",
+      "status": "Pending manual deletion in Sites; no deletion tool available"
+    },
+    {
+      "id": "appgprj_6af817820e88819180832855d3fa11f7",
+      "title": "Loomik — Floating Workspace",
+      "url": "https://loomik-floating.sandy-tayts.chatgpt.site",
+      "slug": "loomik-floating",
+      "status": "Pending manual deletion in Sites; no deletion tool available"
+    },
+    {
+      "id": "appgprj_6af7b80818c08191a92e86d0b5acdeb9",
+      "title": "FREY Glasses",
+      "url": "https://frey-glasses-sandy.sandy-tayts.chatgpt.site",
+      "slug": "frey-glasses-sandy",
+      "status": "Pending manual deletion in Sites; no deletion tool available"
+    },
+    {
+      "id": "appgprj_6af7b349b79c8191831109964aa9fa3f",
+      "title": "Looped In",
+      "url": null,
+      "slug": "looped-in-campus-sandy",
+      "status": "Pending manual deletion in Sites; no deletion tool available"
+    },
+    {
+      "id": "appgprj_6af6170792208191af5bb748a425ef8d",
+      "title": "Dwellers — A social AR game",
+      "url": "https://dwellers-little-machines.sandy-tayts.chatgpt.site",
+      "slug": "dwellers-little-machines",
+      "status": "Pending manual deletion in Sites; no deletion tool available"
+    },
+    {
+      "id": "appgprj_6ae4db75cfb881918a989993e4c565fd",
+      "title": "Sandy Tayts — UX & Design",
+      "url": "https://sandy-tayts-design.sandy-tayts.chatgpt.site",
+      "slug": "sandy-tayts-design",
+      "status": "Pending manual deletion in Sites; no deletion tool available"
+    }
+  ],
+  "preserved": [
+    "Lazy",
+    "Pleasant Street",
+    "Dwellers native app and shared-world API",
+    "InkPromptu live site"
+  ],
+  "pagesRemoved": [
+    "portfolio",
+    "frey-eyewear",
+    "looped-in",
+    "rancourt-shopify"
+  ],
+  "pagesBlocked": {
+    "repository": "loomik-app",
+    "reason": "GitHub API rejects deactivation with HTTP 422; repository deletion will remove the retired copy."
+  }
+}

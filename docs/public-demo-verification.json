@@ -1,0 +1,54 @@
+[
+  {
+    "path": "/rancourt-store/",
+    "status": 200
+  },
+  {
+    "path": "/dh-map/wireflows.html",
+    "status": 200
+  },
+  {
+    "path": "/dwellers/prototype.html",
+    "status": 200
+  },
+  {
+    "path": "/early-ai/",
+    "status": 200
+  },
+  {
+    "path": "/early-ai/tour/",
+    "status": 200
+  },
+  {
+    "path": "/noah.html",
+    "status": 200
+  },
+  {
+    "path": "/panic.html",
+    "status": 200
+  },
+  {
+    "path": "/sarabesh/",
+    "status": 200
+  },
+  {
+    "path": "/frey/",
+    "status": 200
+  },
+  {
+    "path": "/looped-in/",
+    "status": 200
+  },
+  {
+    "path": "/looped-in/wireflows.html",
+    "status": 200
+  },
+  {
+    "path": "/loomik/?demo=floating",
+    "status": 200
+  },
+  {
+    "path": "/loomik-classic/",
+    "status": 200
+  }
+]
