@@ -1,0 +1,28 @@
+{
+  "checks": [
+    "Landing animation completes and reveals invitation",
+    "First entrance shows rocket journal",
+    "One clear visited porthole; nine shadowed; information only for visited",
+    "Information reopens journal and returns to map without travel",
+    "New place shows journal; return visit does not repeat",
+    "Exploration guide opens and closes",
+    "Skip intro reveals invitation",
+    "Mobile landscape start button is visible",
+    "Reduced motion skips landing animation",
+    "Skip settles rocket immediately",
+    "Fullscreen enters and exits",
+    "Visited and journal state persist after reload"
+  ],
+  "errors": [],
+  "live": {
+    "url": "https://explorable-world-poc.sandy-tayts.chatgpt.site/",
+    "opening": "Sarabesh title and rocket arrival verified",
+    "map": "Nine shadowed, one discovered; journal information reopens",
+    "errors": []
+  },
+  "artworkUpdates": {
+    "poolTable": "Seating removed in all eight tavern lighting states; localized projections and live browser view inspected",
+    "cache": "Live artwork revisions match all eight selected production textures",
+    "errors": []
+  }
+}

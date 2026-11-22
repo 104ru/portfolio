@@ -1,0 +1,7 @@
+{
+  "scene": "window",
+  "period": "morning",
+  "state": "morning-off",
+  "prompt": "Use case: lighting-weather. Image 1 is the FINAL morning panorama of the upstairs balcony/valley window viewpoint. Create the matching state when the single lamp INSIDE the living quarters, visible through the right-hand apartment window is switched OFF. Change ONLY the light from that one indoor lamp and its small area of bounced spill. The exterior landscape, sky, time of day, entire architecture, ground, railing, rocket shape, windows, doors, camera yaw and all geometry MUST remain exactly unchanged. The indoor lamp bulb is unlit; the room seen through the window remains visible from natural outdoor daylight rather than turning the window into a black rectangle. No darkening of the entire outdoor scene, no added lights, no new objects or characters, no crop or zoom. Same handmade painterly steampunk style and EXACT same true equirectangular 360x180 full spherical coverage and 2:1 ratio, same seamless wrap. One matching production light-state variant, no redesign.",
+  "mode": "built-in"
+}

@@ -1,0 +1,7 @@
+{
+  "mode": "built-in image generation",
+  "prompt": "Use case: compositing. Asset: a transparent cutout sprite for the opening rocket landing animation in this exact illustrated game. Reference image shows the APPROVED rocket and material style. Depict that same squat, rounded, handmade teal-and-brass rocket as a COMPLETE standalone object, viewed from a slightly low three-quarter front angle, upright, all three or four curved riveted landing struts visible, domed pointed cap, brass bands, worn turquoise enamel, large horizontal oval cabin window with warm amber lamp visible, round hatch with brass handwheel to its side, finely connected external pipes, small rear exhaust. Entire silhouette contained with generous transparent margins, no cropped legs or top. The rocket is a broad whimsical little cabin vessel, not a slender missile. Preserve the exquisite fine hand-painted steampunk material character of the reference, restrained surface wear and warm highlights; no photorealism, no glossy generic 3D. Isolated rocket only, NO ground, dust, sky, shadows outside silhouette, exhaust plume, scenery, text or UI. Genuine transparent background. Single selected final artwork, portrait composition, high resolution.",
+  "asset": "assets/ui/arrival-rocket.webp",
+  "purpose": "Single transparent illustration for the skippable rocket landing opening",
+  "copies": "Native generated intermediate removed after the selected WebP was installed"
+}

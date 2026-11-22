@@ -1,0 +1,7 @@
+{
+  "scene": "grocery",
+  "state": "night-off-corrected",
+  "prompt": "Use case: precise-object-edit. This is a TECHNICAL LIGHT SWITCH STATE CORRECTION, not a style take. Image 1 is the EDIT TARGET: the exact final NIGHT panorama of grocery with one lamp ON. Produce its matching lamp-OFF image. ONLY extinguish that one artificial lamp and its interior warm bounced illumination. CRITICAL: copy the entire view through EVERY exterior window/viewport/glazed door from Image 1 without alteration: identical sky, identical moon(s) and glowing celestial orb(s), identical stars, identical town silhouettes, positions, colors and exterior brightness. The indoor light switch MUST NOT move, add or remove a moon, change time, relight the desert, repaint the skyline, alter the outside exposure or affect outdoor window lights. Keep all architecture, furnishings, window borders, doors, floor, ceiling, texture and camera geometry fixed. Interior becomes dim and slightly cooler from the EXISTING outside light; the lamp glass is unlit. No new light source, sunbeam, window, characters, props, vignette or black area. Keep the SAME 2:1 full 360x180 spherical equirectangular image with identical wrap and poles. Preserve the exact chosen painterly steampunk art. One corrected production state.",
+  "mode": "built-in",
+  "reason": "Correct exterior-sky changes introduced in first off-state edit."
+}

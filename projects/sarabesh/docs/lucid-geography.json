@@ -1,0 +1,603 @@
+{
+  "version": 1,
+  "pages": [
+    {
+      "id": "geography-v1",
+      "title": "10-scene geography",
+      "shapes": [
+        {
+          "id": "rocket-exit",
+          "type": "rectangle",
+          "boundingBox": {
+            "x": 80,
+            "y": 640,
+            "w": 300,
+            "h": 180
+          },
+          "text": "<p style=\"font-size:18px;text-align:center;color:#24372F\"><b>01 · Rocket exit room</b><br><span style=\"font-size:13px\">ROCKET / START<br>New panorama; visible landscape</span></p>",
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#DFE9E5"
+            },
+            "stroke": {
+              "color": "#A88641",
+              "width": 3,
+              "style": "solid"
+            },
+            "textColor": "#24372F"
+          },
+          "note": "Inside the rocket at the exit hatch. A generous viewport clearly shows the landing ground and distant town. The landscape stays visible with the cabin light off."
+        },
+        {
+          "id": "landing",
+          "type": "rectangle",
+          "boundingBox": {
+            "x": 520,
+            "y": 640,
+            "w": 300,
+            "h": 180
+          },
+          "text": "<p style=\"font-size:18px;text-align:center;color:#24372F\"><b>02 · Landing ground</b><br><span style=\"font-size:13px\">OUTDOORS<br>Archived square.jpg; adapt</span></p>",
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#E9E1CF"
+            },
+            "stroke": {
+              "color": "#60756C",
+              "width": 1.5,
+              "style": "solid"
+            },
+            "textColor": "#24372F"
+          },
+          "note": "Outside the rocket, at the settlement edge. Looking back reveals the same hatch and viewport; the town entrance is ahead."
+        },
+        {
+          "id": "town",
+          "type": "rectangle",
+          "boundingBox": {
+            "x": 960,
+            "y": 640,
+            "w": 300,
+            "h": 180
+          },
+          "text": "<p style=\"font-size:18px;text-align:center;color:#24372F\"><b>03 · Sarabesh City Plaza</b><br><span style=\"font-size:13px\">OUTDOORS / HUB<br>Existing night.jpg</span></p>",
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#E9E1CF"
+            },
+            "stroke": {
+              "color": "#60756C",
+              "width": 1.5,
+              "style": "solid"
+            },
+            "textColor": "#24372F"
+          },
+          "note": "The desert town hub. Keep the original positions and entrances of the residence, grocery, caravanserai and motel."
+        },
+        {
+          "id": "foyer",
+          "type": "rectangle",
+          "boundingBox": {
+            "x": 1400,
+            "y": 640,
+            "w": 300,
+            "h": 180
+          },
+          "text": "<p style=\"font-size:18px;text-align:center;color:#24372F\"><b>04 · Cogswash foyer</b><br><span style=\"font-size:13px\">RESIDENCE / GROUND FLOOR<br>Existing entry.jpg</span></p>",
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#DFE9E5"
+            },
+            "stroke": {
+              "color": "#60756C",
+              "width": 1.5,
+              "style": "solid"
+            },
+            "textColor": "#24372F"
+          },
+          "note": "Residence entrance, with a route upstairs and a separate kitchen doorway. Daylight enters through the exterior doorway glazing; confirm the glazing in the polish pass."
+        },
+        {
+          "id": "kitchen",
+          "type": "rectangle",
+          "boundingBox": {
+            "x": 1400,
+            "y": 1040,
+            "w": 300,
+            "h": 180
+          },
+          "text": "<p style=\"font-size:18px;text-align:center;color:#24372F\"><b>05 · Cogswash kitchen</b><br><span style=\"font-size:13px\">RESIDENCE / GROUND FLOOR<br>Existing kitchen.jpg</span></p>",
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#DFE9E5"
+            },
+            "stroke": {
+              "color": "#60756C",
+              "width": 1.5,
+              "style": "solid"
+            },
+            "textColor": "#24372F"
+          },
+          "note": "Ground-floor kitchen off the foyer. Preserve the visible window and kitchen identity."
+        },
+        {
+          "id": "apartment",
+          "type": "rectangle",
+          "boundingBox": {
+            "x": 1400,
+            "y": 240,
+            "w": 300,
+            "h": 180
+          },
+          "text": "<p style=\"font-size:18px;text-align:center;color:#24372F\"><b>06 · Living quarters</b><br><span style=\"font-size:13px\">RESIDENCE / UPPER FLOOR<br>Existing apartment.jpg</span></p>",
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#DFE9E5"
+            },
+            "stroke": {
+              "color": "#60756C",
+              "width": 1.5,
+              "style": "solid"
+            },
+            "textColor": "#24372F"
+          },
+          "note": "Upstairs in Cogswash Residence. The outward opening leads to the existing valley-view viewpoint."
+        },
+        {
+          "id": "window",
+          "type": "rectangle",
+          "boundingBox": {
+            "x": 1840,
+            "y": 240,
+            "w": 300,
+            "h": 180
+          },
+          "text": "<p style=\"font-size:18px;text-align:center;color:#24372F\"><b>07 · Valley window view</b><br><span style=\"font-size:13px\">OUTWARD VIEW / UPPER FLOOR<br>Existing view.jpg</span></p>",
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#E9E1CF"
+            },
+            "stroke": {
+              "color": "#60756C",
+              "width": 1.5,
+              "style": "solid"
+            },
+            "textColor": "#24372F"
+          },
+          "note": "An upper-floor outward-looking viewpoint at the residence window. Return only to the living quarters. This is the existing valley view, not an assumed Paris destination."
+        },
+        {
+          "id": "bar",
+          "type": "rectangle",
+          "boundingBox": {
+            "x": 520,
+            "y": 240,
+            "w": 300,
+            "h": 180
+          },
+          "text": "<p style=\"font-size:18px;text-align:center;color:#24372F\"><b>08 · Clockwork Caravanserai</b><br><span style=\"font-size:13px\">TOWN / INTERIOR<br>Existing bar.jpg</span></p>",
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#DFE9E5"
+            },
+            "stroke": {
+              "color": "#60756C",
+              "width": 1.5,
+              "style": "solid"
+            },
+            "textColor": "#24372F"
+          },
+          "note": "Town tavern reached through its original street entrance. Exterior-facing glazing keeps a relationship to local daylight."
+        },
+        {
+          "id": "grocery",
+          "type": "rectangle",
+          "boundingBox": {
+            "x": 960,
+            "y": 240,
+            "w": 300,
+            "h": 180
+          },
+          "text": "<p style=\"font-size:18px;text-align:center;color:#24372F\"><b>09 · Mechaniker Grocery</b><br><span style=\"font-size:13px\">TOWN / INTERIOR<br>Existing grocery.jpg</span></p>",
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#DFE9E5"
+            },
+            "stroke": {
+              "color": "#60756C",
+              "width": 1.5,
+              "style": "solid"
+            },
+            "textColor": "#24372F"
+          },
+          "note": "Town grocery reached through its original street entrance. Preserve the shop layout; confirm whether daylight reaches it through glazing during polish."
+        },
+        {
+          "id": "hotel",
+          "type": "rectangle",
+          "boundingBox": {
+            "x": 960,
+            "y": 1040,
+            "w": 300,
+            "h": 180
+          },
+          "text": "<p style=\"font-size:18px;text-align:center;color:#24372F\"><b>10 · Motel-404</b><br><span style=\"font-size:13px\">TOWN / INTERIOR<br>Existing hotel.jpg</span></p>",
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#DFE9E5"
+            },
+            "stroke": {
+              "color": "#60756C",
+              "width": 1.5,
+              "style": "solid"
+            },
+            "textColor": "#24372F"
+          },
+          "note": "Motel entrance hall reached from town. Preserve the hallway, rooms and original return doorway; confirm daylight access during polish."
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "boundingBox": {
+            "x": 80,
+            "y": -80,
+            "w": 2060,
+            "h": 80
+          },
+          "text": "<p style=\"font-size:30px;color:#24372F\"><b>Sarabesh · V1 geography</b></p>"
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "boundingBox": {
+            "x": 80,
+            "y": 60,
+            "w": 2060,
+            "h": 80
+          },
+          "text": "<p style=\"font-size:18px;color:#475C52\">10 fixed viewpoints · arrive by rocket · every path works in both directions<br>Connections are spatial relationships, not compass bearings or walking distances.</p>"
+        },
+        {
+          "id": "legend",
+          "type": "rectangle",
+          "boundingBox": {
+            "x": 80,
+            "y": 1040,
+            "w": 560,
+            "h": 180
+          },
+          "text": "<p style=\"font-size:18px;text-align:center;color:#24372F\">Reading the map<br>Sand = outdoors; sage = interiors<br>Gold border = starting viewpoint<br>10-viewpoint POC; more rooms later.</p>",
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#F5F4EF"
+            },
+            "stroke": {
+              "color": "#C7CDC8",
+              "width": 1,
+              "style": "solid"
+            }
+          }
+        }
+      ],
+      "lines": [
+        {
+          "id": "rocket-exit--landing",
+          "lineType": "straight",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "rocket-exit",
+            "position": {
+              "x": 1,
+              "y": 0.5
+            }
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "landing",
+            "position": {
+              "x": 0,
+              "y": 0.5
+            }
+          },
+          "stroke": {
+            "color": "#60756C",
+            "width": 2,
+            "style": "solid"
+          },
+          "text": [
+            {
+              "text": "<span style=\"font-size:14px\">Hatch</span>",
+              "position": 0.5,
+              "side": "top"
+            }
+          ]
+        },
+        {
+          "id": "landing--town",
+          "lineType": "straight",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "landing",
+            "position": {
+              "x": 1,
+              "y": 0.5
+            }
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "town",
+            "position": {
+              "x": 0,
+              "y": 0.5
+            }
+          },
+          "stroke": {
+            "color": "#60756C",
+            "width": 2,
+            "style": "solid"
+          },
+          "text": [
+            {
+              "text": "<span style=\"font-size:14px\">Town path</span>",
+              "position": 0.5,
+              "side": "top"
+            }
+          ]
+        },
+        {
+          "id": "town--foyer",
+          "lineType": "straight",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "town",
+            "position": {
+              "x": 1,
+              "y": 0.5
+            }
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "foyer",
+            "position": {
+              "x": 0,
+              "y": 0.5
+            }
+          },
+          "stroke": {
+            "color": "#60756C",
+            "width": 2,
+            "style": "solid"
+          },
+          "text": [
+            {
+              "text": "<span style=\"font-size:14px\">Front door</span>",
+              "position": 0.5,
+              "side": "top"
+            }
+          ]
+        },
+        {
+          "id": "foyer--kitchen",
+          "lineType": "straight",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "foyer",
+            "position": {
+              "x": 0.5,
+              "y": 1
+            }
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "kitchen",
+            "position": {
+              "x": 0.5,
+              "y": 0
+            }
+          },
+          "stroke": {
+            "color": "#60756C",
+            "width": 2,
+            "style": "solid"
+          },
+          "text": [
+            {
+              "text": "<span style=\"font-size:14px\">Kitchen door</span>",
+              "position": 0.5,
+              "side": "top"
+            }
+          ]
+        },
+        {
+          "id": "foyer--apartment",
+          "lineType": "straight",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "foyer",
+            "position": {
+              "x": 0.5,
+              "y": 0
+            }
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "apartment",
+            "position": {
+              "x": 0.5,
+              "y": 1
+            }
+          },
+          "stroke": {
+            "color": "#60756C",
+            "width": 2,
+            "style": "solid"
+          },
+          "text": [
+            {
+              "text": "<span style=\"font-size:14px\">Stairs</span>",
+              "position": 0.5,
+              "side": "top"
+            }
+          ]
+        },
+        {
+          "id": "apartment--window",
+          "lineType": "straight",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "apartment",
+            "position": {
+              "x": 1,
+              "y": 0.5
+            }
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "window",
+            "position": {
+              "x": 0,
+              "y": 0.5
+            }
+          },
+          "stroke": {
+            "color": "#60756C",
+            "width": 2,
+            "style": "solid"
+          },
+          "text": [
+            {
+              "text": "<span style=\"font-size:14px\">Window</span>",
+              "position": 0.5,
+              "side": "top"
+            }
+          ]
+        },
+        {
+          "id": "town--bar",
+          "lineType": "straight",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "town",
+            "position": {
+              "x": 0.25,
+              "y": 0
+            }
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "bar",
+            "position": {
+              "x": 0.85,
+              "y": 1
+            }
+          },
+          "stroke": {
+            "color": "#60756C",
+            "width": 2,
+            "style": "solid"
+          },
+          "text": [
+            {
+              "text": "<span style=\"font-size:14px\">Tavern</span>",
+              "position": 0.5,
+              "side": "top"
+            }
+          ]
+        },
+        {
+          "id": "town--grocery",
+          "lineType": "straight",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "town",
+            "position": {
+              "x": 0.5,
+              "y": 0
+            }
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "grocery",
+            "position": {
+              "x": 0.5,
+              "y": 1
+            }
+          },
+          "stroke": {
+            "color": "#60756C",
+            "width": 2,
+            "style": "solid"
+          },
+          "text": [
+            {
+              "text": "<span style=\"font-size:14px\">Shop</span>",
+              "position": 0.5,
+              "side": "top"
+            }
+          ]
+        },
+        {
+          "id": "town--hotel",
+          "lineType": "straight",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "town",
+            "position": {
+              "x": 0.5,
+              "y": 1
+            }
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "hotel",
+            "position": {
+              "x": 0.5,
+              "y": 0
+            }
+          },
+          "stroke": {
+            "color": "#60756C",
+            "width": 2,
+            "style": "solid"
+          },
+          "text": [
+            {
+              "text": "<span style=\"font-size:14px\">Motel</span>",
+              "position": 0.5,
+              "side": "top"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

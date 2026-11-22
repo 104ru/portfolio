@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "Double-click, wheel and keyboard zoom are disabled",
+    "Selected lamp fluctuation is localized and disappears when switched off",
+    "Beetle travels across the floor and faces its route",
+    "Reduced motion removes ambient animation",
+    "Mobile pinch cannot zoom",
+    "Motel-404 is at the top of the map and map travel still works"
+  ],
+  "errors": []
+}

@@ -1,0 +1,326 @@
+{
+  "url": "https://sandy.tayts.com/sarabesh/",
+  "checked": 64,
+  "images": [
+    {
+      "scene": "rocket-exit",
+      "state": "morning-off",
+      "matches": true
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "morning-on",
+      "matches": true
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "day-off",
+      "matches": true
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "day-on",
+      "matches": true
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "evening-off",
+      "matches": true
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "evening-on",
+      "matches": true
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "night-off",
+      "matches": true
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "night-on",
+      "matches": true
+    },
+    {
+      "scene": "landing",
+      "state": "morning-off",
+      "matches": true
+    },
+    {
+      "scene": "landing",
+      "state": "morning-on",
+      "matches": true
+    },
+    {
+      "scene": "landing",
+      "state": "day-off",
+      "matches": true
+    },
+    {
+      "scene": "landing",
+      "state": "day-on",
+      "matches": true
+    },
+    {
+      "scene": "landing",
+      "state": "evening-off",
+      "matches": true
+    },
+    {
+      "scene": "landing",
+      "state": "evening-on",
+      "matches": true
+    },
+    {
+      "scene": "landing",
+      "state": "night-off",
+      "matches": true
+    },
+    {
+      "scene": "landing",
+      "state": "night-on",
+      "matches": true
+    },
+    {
+      "scene": "town",
+      "state": "morning",
+      "matches": true
+    },
+    {
+      "scene": "town",
+      "state": "day",
+      "matches": true
+    },
+    {
+      "scene": "town",
+      "state": "evening",
+      "matches": true
+    },
+    {
+      "scene": "town",
+      "state": "night",
+      "matches": true
+    },
+    {
+      "scene": "foyer",
+      "state": "light-off",
+      "matches": true
+    },
+    {
+      "scene": "foyer",
+      "state": "light-on",
+      "matches": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "morning-off",
+      "matches": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "morning-on",
+      "matches": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "day-off",
+      "matches": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "day-on",
+      "matches": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "evening-off",
+      "matches": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "evening-on",
+      "matches": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "night-off",
+      "matches": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "night-on",
+      "matches": true
+    },
+    {
+      "scene": "apartment",
+      "state": "morning-off",
+      "matches": true
+    },
+    {
+      "scene": "apartment",
+      "state": "morning-on",
+      "matches": true
+    },
+    {
+      "scene": "apartment",
+      "state": "day-off",
+      "matches": true
+    },
+    {
+      "scene": "apartment",
+      "state": "day-on",
+      "matches": true
+    },
+    {
+      "scene": "apartment",
+      "state": "evening-off",
+      "matches": true
+    },
+    {
+      "scene": "apartment",
+      "state": "evening-on",
+      "matches": true
+    },
+    {
+      "scene": "apartment",
+      "state": "night-off",
+      "matches": true
+    },
+    {
+      "scene": "apartment",
+      "state": "night-on",
+      "matches": true
+    },
+    {
+      "scene": "window",
+      "state": "morning-off",
+      "matches": true
+    },
+    {
+      "scene": "window",
+      "state": "morning-on",
+      "matches": true
+    },
+    {
+      "scene": "window",
+      "state": "day-off",
+      "matches": true
+    },
+    {
+      "scene": "window",
+      "state": "day-on",
+      "matches": true
+    },
+    {
+      "scene": "window",
+      "state": "evening-off",
+      "matches": true
+    },
+    {
+      "scene": "window",
+      "state": "evening-on",
+      "matches": true
+    },
+    {
+      "scene": "window",
+      "state": "night-off",
+      "matches": true
+    },
+    {
+      "scene": "window",
+      "state": "night-on",
+      "matches": true
+    },
+    {
+      "scene": "bar",
+      "state": "morning-off",
+      "matches": true
+    },
+    {
+      "scene": "bar",
+      "state": "morning-on",
+      "matches": true
+    },
+    {
+      "scene": "bar",
+      "state": "day-off",
+      "matches": true
+    },
+    {
+      "scene": "bar",
+      "state": "day-on",
+      "matches": true
+    },
+    {
+      "scene": "bar",
+      "state": "evening-off",
+      "matches": true
+    },
+    {
+      "scene": "bar",
+      "state": "evening-on",
+      "matches": true
+    },
+    {
+      "scene": "bar",
+      "state": "night-off",
+      "matches": true
+    },
+    {
+      "scene": "bar",
+      "state": "night-on",
+      "matches": true
+    },
+    {
+      "scene": "grocery",
+      "state": "morning-off",
+      "matches": true
+    },
+    {
+      "scene": "grocery",
+      "state": "morning-on",
+      "matches": true
+    },
+    {
+      "scene": "grocery",
+      "state": "day-off",
+      "matches": true
+    },
+    {
+      "scene": "grocery",
+      "state": "day-on",
+      "matches": true
+    },
+    {
+      "scene": "grocery",
+      "state": "evening-off",
+      "matches": true
+    },
+    {
+      "scene": "grocery",
+      "state": "evening-on",
+      "matches": true
+    },
+    {
+      "scene": "grocery",
+      "state": "night-off",
+      "matches": true
+    },
+    {
+      "scene": "grocery",
+      "state": "night-on",
+      "matches": true
+    },
+    {
+      "scene": "hotel",
+      "state": "light-off",
+      "matches": true
+    },
+    {
+      "scene": "hotel",
+      "state": "light-on",
+      "matches": true
+    }
+  ]
+}

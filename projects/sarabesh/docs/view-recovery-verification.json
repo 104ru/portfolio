@@ -1,0 +1,6 @@
+{
+  "blockedImage": "hotel/light-off.webp",
+  "timeoutMessage": "This view could not load.",
+  "retryReloaded": true,
+  "recoveredState": "light-off"
+}

@@ -1,0 +1,52 @@
+{
+  "stage": "completed-poc",
+  "style": "Preserve original handmade painterly steampunk desert and interiors. One focused master pass per existing scene; lighting edits use the selected master.",
+  "outdoors": [
+    "town",
+    "landing",
+    "window"
+  ],
+  "windowedInteriors": [
+    "rocket-exit",
+    "apartment",
+    "kitchen",
+    "grocery",
+    "bar"
+  ],
+  "windowlessInteriors": [
+    "foyer",
+    "hotel"
+  ],
+  "outdoorStates": [
+    "morning",
+    "day",
+    "evening",
+    "night"
+  ],
+  "windowedStates": [
+    "morning-off",
+    "morning-on",
+    "day-off",
+    "day-on",
+    "evening-off",
+    "evening-on",
+    "night-off",
+    "night-on"
+  ],
+  "windowlessStates": [
+    "light-off",
+    "light-on"
+  ],
+  "paris": "Dropped by user; no Paris assets.",
+  "lightingAssets": 64,
+  "linkedExteriorLights": {
+    "landing": "rocket-exit",
+    "window": "apartment"
+  },
+  "productionResolution": [
+    7096,
+    3548
+  ],
+  "enhancement": "Topaz Gigapixel AI 7.3.2 Art & CG 4x",
+  "intermediatesRetained": false
+}

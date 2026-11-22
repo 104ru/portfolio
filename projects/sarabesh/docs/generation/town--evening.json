@@ -1,0 +1,7 @@
+{
+  "scene": "town",
+  "state": "evening",
+  "source": "/Users/sandy/Documents/ChatGPT/Explorable world/assets/panoramas/town/night-seam-fixed.png",
+  "prompt": "Use case: lighting-weather. Image 1 is the chosen FINAL master spherical panorama for Sarabesh town. Produce only the matching evening lighting state. EVENING: low warm amber dusk, muted rose and lavender blue sky, elongated shadows, a few restrained amber windows beginning to glow. No star-filled midnight sky. Preserve all landmarks. Change ONLY lighting and sky conditions. All buildings, skyline, doors, windows, railings, foreground rocks, textures, perspective, camera yaw and image layout remain EXACTLY in place and at the same scale.  Preserve Sandy's handmade painterly steampunk character, not photorealism. Maintain the same true full equirectangular 360x180 coverage, exact 2:1 ratio, matching wrap seam and complete sky/ground poles. No new objects, characters, scene motion, crop, zoom, UI, black caps or vignette. Output one production lighting variant, no redesigned take.",
+  "mode": "built-in"
+}

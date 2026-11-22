@@ -1,0 +1,43 @@
+{
+  "mode": "built-in image generation",
+  "reference": "assets/ui/light-switch-on.webp",
+  "assets": [
+    "assets/ui/map-medallion.webp",
+    "assets/ui/time-dial-face.webp",
+    "assets/ui/time-needle.webp",
+    "assets/ui/entry-handle.webp"
+  ],
+  "prompts": [
+    {
+      "name": "time-dial-face",
+      "prompt": "Use case: stylized-concept. FINAL game UI asset. Reference image 1 is the approved Dwellers-style light switch: match its hammered gold brass, copper edge, restrained turquoise patina, forest-green enamel, realistic slotted screws, crisp handmade painted metal, warm upper-left light. Orthographic straight-on front view, absolutely level, no perspective tilt. Genuine transparent background outside the complete isolated object, no backdrop or black rectangle. No letters, words, watermark, floating icons, extra gears or interface mockup. One definitive production asset. Create one perfectly circular time-selector dial face, filling a square canvas with equal very small margins. Outer rim and 3 mounting screws echo the reference. Dark green recessed enamel circular face, precisely centered. Integrate EXACTLY FIVE large beautifully inlaid brass pictograms, equal size and weight, at equal 72-degree intervals on a circle of radius 29% of canvas width. Their positions, in clockwise order: TOP 12 o'clock a clear full SUN for DAY; upper-right 2:24 o'clock a SETTING SUN with two level horizon lines for EVENING; lower-right 4:48 o'clock CRESCENT MOON and small star for NIGHT; lower-left 7:12 o'clock a SMALL CLOCK inside a winding gear for AUTO; upper-left 9:36 o'clock a RISING SUN with short upward rays and one level horizon line for MORNING. All icons are built into the enamel as gold metal inlays, perfectly aligned and geometrically balanced, not tilted or crooked. Center of the face at exact canvas center. Leave the middle 25% of face clear green, with ONLY a small centered circular spindle socket; NO pointer, NO hand, NO central handle. Fine recessed detent ticks in the outer interior ring. Preserve ample distance between icon shapes and frame. The five icons must read clearly when the whole asset is displayed at 244px."
+    },
+    {
+      "name": "map-medallion",
+      "prompt": "Use case: stylized-concept. FINAL game UI asset. Reference image 1 is the approved Dwellers-style light switch: match its hammered gold brass, copper edge, restrained turquoise patina, forest-green enamel, realistic slotted screws, crisp handmade painted metal, warm upper-left light. Orthographic straight-on front view, absolutely level, no perspective tilt. Genuine transparent background outside the complete isolated object, no backdrop or black rectangle. No letters, words, watermark, floating icons, extra gears or interface mockup. One definitive production asset. Create one circular map-control medallion, filling a square canvas with small equal margins. One single fully integrated folded-map emblem made of raised aged brass inlay sits perfectly centered on a deep green enamel disk. Three equal panels, level top and bottom, straight vertical creases, clear and balanced at tiny button sizes; a few miniature cartographic marks engraved INSIDE the panels, never crossing the outline. No checkmark. Hammered brass circular rim with three handsome slotted mounting screws at top and lower corners, matching the approved switch family. The map emblem is large, occupies 50% of the inner disk. No additional detached icon or CSS-like outline appearance: the icon is tangible metal hardware in the image."
+    },
+    {
+      "name": "entry-handle",
+      "prompt": "Use case: stylized-concept. FINAL game UI asset. Reference image 1 is the approved Dwellers-style light switch: match its hammered gold brass, copper edge, restrained turquoise patina, forest-green enamel, realistic slotted screws, crisp handmade painted metal, warm upper-left light. Orthographic straight-on front view, absolutely level, no perspective tilt. Genuine transparent background outside the complete isolated object, no backdrop or black rectangle. No letters, words, watermark, floating icons, extra gears or interface mockup. One definitive production asset. Create one horizontal brass entrance handle mounted on a low, elegantly chamfered green-enamel rectangular plate, overall object ratio 3.5:1, filling a wide horizontal canvas with tiny equal margins. A substantial horizontal cast brass grip with dark green central wrap sits on two bolted supports in the LEFT HALF of the plate. Beautiful polished worn highlights and believable contact shadows. The RIGHT THIRD is clear unmarked dark green enamel reserved for a live text label later; do not render text. Crisp level hardware, handle perfectly horizontal. This is a button background image, not a scene. All object parts completely in frame."
+    }
+  ],
+  "needlePrompt": "Use case: stylized-concept. FINAL game UI sprite: ONLY ONE separate golden time-selector needle with its round screw-cap pivot, on genuine transparent background. Reference image 1 is STYLE AND MATERIAL ONLY; match its hammered aged brass, green enamel, fine patina and upper-left warm lighting. Do NOT include the reference dial or symbols. Straight-on orthographic, vertical narrow canvas with width:height 2:5, equal small margins. The needle points perfectly straight UP at 12 o'clock. It is a beautifully crafted solid brass blade, slender but substantial, tapering to a precise point; a clear golden bevel and dark aged-copper edge. At its base, one round raised brass pivot cap with a perfectly centered level slotted screw. Critical registration: center of the round pivot cap is at 50% of canvas width and 80% of canvas height. The needle tip is at 50% width and 5% height. The cap spans nearly the full canvas width and ends near the canvas bottom. Keep the whole tip and round cap in frame. No extra rings, dial face, text, icons, background rectangle, broad shadows, glow or objects. Transparent everywhere outside the single needle and pivot cap. This asset will be rotated as one rigid image around the pivot; keep it perfectly vertical and geometrically precise.",
+  "encoding": "Lossless WebP with alpha; one production file per asset",
+  "needleRegistration": {
+    "faceCenterPercent": [
+      49.84,
+      49.48
+    ],
+    "needlePivotPercent": [
+      49.56,
+      82.05
+    ]
+  },
+  "modeAngles": {
+    "auto": -136,
+    "morning": -66,
+    "day": 0,
+    "evening": 66,
+    "night": 138
+  }
+}

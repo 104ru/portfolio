@@ -1,0 +1,9 @@
+{
+  "scene": "hotel",
+  "state": "light-on",
+  "source": "hotel.jpg",
+  "details": "Motel-404 windowless entrance hall. Preserve long rounded hallway, room doors, left street return exit, near-right lounge arch and bookshelves. Complete the rounded roof and floor. ONE near-central warm ceiling lamp is on, all other hallway bulbs and lounge lamps remain unlit. Soft bounce keeps the route legible. Do not add any outside window or make it a rocket interior.",
+  "prompt": "Production asset: ONE complete true 2:1 equirectangular 360x180 spherical panorama, exact 4096x2048 pixels if supported. This is a SINGLE focused polish of Sandy's supplied image, not a redesign. Preserve camera yaw, main door/window positions, recognizable layout, all established furnishings, intricate handmade painterly steampunk style, old brass, aged wood, worn plaster, cozy eccentric atmosphere. Correct incoherent details gently. Fill every missing black area with coherent actual ceiling/walls/floor, reaching the full zenith and nadir; no black masks, vignette, empty caps, blurred filler or frame. Horizon at image center, left/right edges must wrap seamlessly, poles must converge properly. No UI, arrows, text overlays, people, characters or new gameplay props. Static background only. Keep one practical light ON; other existing fixtures remain present but unlit. Readable soft bounced lighting, no crushed black surfaces. Motel-404 windowless entrance hall. Preserve long rounded hallway, room doors, left street return exit, near-right lounge arch and bookshelves. Complete the rounded roof and floor. ONE near-central warm ceiling lamp is on, all other hallway bulbs and lounge lamps remain unlit. Soft bounce keeps the route legible. Do not add any outside window or make it a rocket interior.",
+  "file": "assets/panoramas/hotel/light-on.png",
+  "mode": "built-in"
+}

@@ -1,0 +1,9 @@
+{
+  "scene": "foyer",
+  "state": "light-on",
+  "source": "entry.jpg",
+  "details": "Cogswash foyer: preserve ornate central stairway, upper landing, old clockwork details, kitchen door and exit door. Complete the sides currently black; full vaulted ceiling overhead and patterned stone floor directly below. It is a windowless foyer. Only ONE central brass pendant lights the whole room. Do not add exterior windows.",
+  "prompt": "Production asset: ONE complete true 2:1 equirectangular 360x180 spherical panorama, exact 4096x2048 pixels if supported. This is a SINGLE focused polish of Sandy's supplied image, not a redesign. Preserve camera yaw, main door/window positions, recognizable layout, all established furnishings, intricate handmade painterly steampunk style, old brass, aged wood, worn plaster, cozy eccentric atmosphere. Correct incoherent details gently. Fill every missing black area with coherent actual ceiling/walls/floor, reaching the full zenith and nadir; no black masks, vignette, empty caps, blurred filler or frame. Horizon at image center, left/right edges must wrap seamlessly, poles must converge properly. No UI, arrows, text overlays, people, characters or new gameplay props. Static background only. Keep one practical light ON; other existing fixtures remain present but unlit. Readable soft bounced lighting, no crushed black surfaces. Cogswash foyer: preserve ornate central stairway, upper landing, old clockwork details, kitchen door and exit door. Complete the sides currently black; full vaulted ceiling overhead and patterned stone floor directly below. It is a windowless foyer. Only ONE central brass pendant lights the whole room. Do not add exterior windows.",
+  "file": "assets/panoramas/foyer/light-on.png",
+  "mode": "built-in"
+}

@@ -1,0 +1,7 @@
+{
+  "scene": "window",
+  "state": "day",
+  "source": "/Users/sandy/Documents/ChatGPT/Explorable world/assets/panoramas/window/night.png",
+  "prompt": "Use case: lighting-weather. Image 1 is the chosen FINAL master spherical panorama for the upper-floor valley window viewpoint. Produce only the matching day lighting state. Full DAY: clear blue desert daylight, neutral warm ochre ground, short soft shadows. No moon, stars or nocturnal window glow. Keep painterly texture and every landmark. Change ONLY lighting and sky conditions. All buildings, skyline, doors, windows, railings, foreground rocks, textures, perspective, camera yaw and image layout remain EXACTLY in place and at the same scale. The visible room through the right-hand return window keeps its geometry; daytime daylight enters it, its separate artificial lamp remains on as in the master. Preserve Sandy's handmade painterly steampunk character, not photorealism. Maintain the same true full equirectangular 360x180 coverage, exact 2:1 ratio, matching wrap seam and complete sky/ground poles. No new objects, characters, scene motion, crop, zoom, UI, black caps or vignette. Output one production lighting variant, no redesigned take.",
+  "mode": "built-in"
+}

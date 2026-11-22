@@ -1,0 +1,11 @@
+{
+  "scene": "town",
+  "state": "night",
+  "prompt": "Use case: precise-object-edit. Asset: production full spherical panorama for an explorable browser world. Image 1 is the EDIT TARGET, Sandy's original desert town Sarabesh. Polish this exact scene, do not redesign it. Preserve its quirky handmade painterly steampunk architecture, bulbous brass and clay towers, old machinery, rust-colored desert, whimsical slightly melancholy storybook atmosphere, all building silhouettes and positions and the camera orientation. This is the SINGLE master execution pass, not a competing style concept. Repair smeared details and incoherent junctions gently. Complete the missing black lower area with actual continuous desert ground and the upper area with actual continuous night sky. Remove the unnatural straight horizontal sky discontinuity. Deliver a true 2:1 equirectangular 360 degree horizontal by 180 degree vertical texture, preferably 4096x2048 or higher: horizon at mid-height; ceiling/zenith at top and ground/nadir at bottom; poles compressed properly, left and right edges must join seamlessly. Every pixel represents scenery, no black masks, empty caps, vignette, frame, border, UI, caption or collage. The camera is stationary at human eye height; this is a spherical environment map, not an ultrawide rectilinear illustration. Night state: cool readable moonlit desert, restrained amber window glow; preserve the supplied visual identity and legible pathways. No new characters, no interactive objects, no scene motion.",
+  "file": "assets/panoramas/town/night.png",
+  "nativeSize": [
+    1774,
+    887
+  ],
+  "mode": "built-in"
+}

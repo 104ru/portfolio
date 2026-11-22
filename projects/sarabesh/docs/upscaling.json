@@ -1,0 +1,39 @@
+{
+  "tool": "Topaz Gigapixel AI",
+  "version": "7.3.2",
+  "model": "Art & CG",
+  "scale": 4,
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "outputSize": [
+    7096,
+    3548
+  ],
+  "sharpen": 1,
+  "denoise": 1,
+  "faceRecovery": false,
+  "gammaCorrection": false,
+  "export": {
+    "format": "PNG",
+    "bitDepth": 8,
+    "colorSpace": "sRGB",
+    "compression": 6
+  },
+  "browserEncoding": {
+    "format": "WebP",
+    "quality": 90,
+    "resized": false
+  },
+  "test": "Tavern daylight checked side by side at enlarged viewing size; windows, pipes, tables and architecture retained.",
+  "scope": "All 64 selected lighting states; no new visual takes.",
+  "cleanup": "Keep final HD production textures only; remove GUI import copies, temporary PNG exports, low-resolution superseded images, generation cache, and local deployment build/staging copies after verification.",
+  "selectedStates": 64,
+  "completed": true,
+  "temporaryAndSupersededImageCopiesRemoved": true,
+  "browserScenesChecked": 10,
+  "largeTextureLoadedSuccessfully": true,
+  "hostingArchiveLimitMiB": 256,
+  "panoramaSetMiB": 199.8
+}

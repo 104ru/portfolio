@@ -1,0 +1,651 @@
+{
+  "viewpoints": 10,
+  "lightingAssets": 64,
+  "productionResolution": [
+    6144,
+    3072
+  ],
+  "oneProductionImagePerState": true,
+  "assets": [
+    {
+      "scene": "rocket-exit",
+      "state": "morning-off",
+      "file": "assets/panoramas-hd/rocket-exit/morning-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3447310,
+      "sha256": "5c699fd490df196a67648b126605bbf18abcf181e5d7219e48f1817b80bc076a",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "morning-on",
+      "file": "assets/panoramas-hd/rocket-exit/morning-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3617854,
+      "sha256": "04b9c126db9651fca010a6de93175d8e0ffdba111dd0f964f7f32f2ba438302d",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "day-off",
+      "file": "assets/panoramas-hd/rocket-exit/day-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3692346,
+      "sha256": "b16b716e1ecfd7ad1a7a04fe9b81cb7cfb971253fba5616b5c8adfae13bb1338",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "day-on",
+      "file": "assets/panoramas-hd/rocket-exit/day-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 4581462,
+      "sha256": "7dedeae247414ebc86d37feaed29e2553dac885b6d268c6d923adb35977edbf6",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "evening-off",
+      "file": "assets/panoramas-hd/rocket-exit/evening-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 2691054,
+      "sha256": "590d0add5540de043b582a70a1acf1398f1797b5d5a4ef2c5e397e8a72a63f46",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "evening-on",
+      "file": "assets/panoramas-hd/rocket-exit/evening-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3032806,
+      "sha256": "5662c6d39216047bfb00e27500299c3c831e3892002450cb5951338faa8c0ea7",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "night-off",
+      "file": "assets/panoramas-hd/rocket-exit/night-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 2166808,
+      "sha256": "29dd0e243a715de17da48b5addccf044972f4e42b6ac9782590e9a659b470cae",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "night-on",
+      "file": "assets/panoramas-hd/rocket-exit/night-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 2875592,
+      "sha256": "67485ff34c283f0f0fac585018280ef71511a6a568180218095469c63c579464",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "landing",
+      "state": "morning-off",
+      "file": "assets/panoramas-hd/landing/morning-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3207128,
+      "sha256": "0b7d39a2f5dee19214fe7ee9089efd811a3f536271f1c3662e71a4f3032425bf",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "landing",
+      "state": "morning-on",
+      "file": "assets/panoramas-hd/landing/morning-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3224828,
+      "sha256": "175f444b7524ce9132aea143ad585afe91737225c36019c9b58ac77f862c4c26",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "landing",
+      "state": "day-off",
+      "file": "assets/panoramas-hd/landing/day-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3514050,
+      "sha256": "44aec1975767df6f78681a64433f85d5aabaa4af9b2fb7ac2eab91eb6185e412",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "landing",
+      "state": "day-on",
+      "file": "assets/panoramas-hd/landing/day-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3536718,
+      "sha256": "bc2fe4c2e3e6e0f574bc6bb2b42402e5c9391d4aadae3c19a2ec993d08b17ec3",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "landing",
+      "state": "evening-off",
+      "file": "assets/panoramas-hd/landing/evening-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 2636102,
+      "sha256": "fe2065783a2b458442160d8665101cb51132f80b382010ef1d897fe152bb6768",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "landing",
+      "state": "evening-on",
+      "file": "assets/panoramas-hd/landing/evening-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 2812518,
+      "sha256": "b2eb3681af2d1e98b95ad1cf310b960d7bb713c2149bd1360061364aea5261c5",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "landing",
+      "state": "night-off",
+      "file": "assets/panoramas-hd/landing/night-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 2453140,
+      "sha256": "f41eca25d3cf31d00922f4600657852ffd9bcfc038294666693936642fb085df",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "landing",
+      "state": "night-on",
+      "file": "assets/panoramas-hd/landing/night-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3696162,
+      "sha256": "8d69a5988ea14e2704a9b0a2dfdad7fc2a4cf09356f72cc894edeac869ea3633",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "town",
+      "state": "morning",
+      "file": "assets/panoramas-hd/town/morning.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 2863102,
+      "sha256": "49e23d5d2616636a40c42314c463a1b188483dc1a22bc7ed197c9e27b08d1c02",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "town",
+      "state": "day",
+      "file": "assets/panoramas-hd/town/day.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3200260,
+      "sha256": "807c26115f803d92623b1cf9aef1fafc9ac8f80cbecd2cb1dd8920c6e158b4db",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "town",
+      "state": "evening",
+      "file": "assets/panoramas-hd/town/evening.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 2666564,
+      "sha256": "94ea408781bc3bca8d4396ccc2f2eb1b8f7e806502c708e40e732de563587055",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "town",
+      "state": "night",
+      "file": "assets/panoramas-hd/town/night.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 2696944,
+      "sha256": "b65e713825dcc76dcf99473814865a75ce841f4622183f00f6b33584bd3f11e5",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "foyer",
+      "state": "light-off",
+      "file": "assets/panoramas-hd/foyer/light-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 2786000,
+      "sha256": "5710d83c53c017bbe3f7aebeb1a1dedb6012598f0d5e9eb7f825e521a60670a1",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "foyer",
+      "state": "light-on",
+      "file": "assets/panoramas-hd/foyer/light-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 4629692,
+      "sha256": "137d274b849a12c1033e710e6736c0823fe2db8b0f3c7d4381b850525f4a6a15",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "morning-off",
+      "file": "assets/panoramas-hd/kitchen/morning-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3312394,
+      "sha256": "1b58c32f9791bbd6174c41329a8a2fc69b54cae10a9907ccac8bec0ed2c491e9",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "morning-on",
+      "file": "assets/panoramas-hd/kitchen/morning-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3650436,
+      "sha256": "d0ee9ea68c58f7582f5f04333e0a245a3a67767bf909b439a4581b7267f3dc16",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "day-off",
+      "file": "assets/panoramas-hd/kitchen/day-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3703962,
+      "sha256": "ef48ec141bed4fcf3fe6a779cc8690f1aa43ef2e07fd9ae973a7092d920f62ce",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "day-on",
+      "file": "assets/panoramas-hd/kitchen/day-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 4405634,
+      "sha256": "f923caaa3103d09571f768e7da79e5cf941573416233f1b84bd53af0f6c9c02b",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "evening-off",
+      "file": "assets/panoramas-hd/kitchen/evening-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 2698614,
+      "sha256": "1004c0f12945ee8c3b93c64a59d6e93e38d25c603d55e67c95ea0098590fa91b",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "evening-on",
+      "file": "assets/panoramas-hd/kitchen/evening-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3143416,
+      "sha256": "1d37e7760639f907017de9722798e48205e6a7bf1ac48722139d09bd860a1667",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "night-off",
+      "file": "assets/panoramas-hd/kitchen/night-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 2256590,
+      "sha256": "fb5441b2f4afb5a9605b90333839c3c4c675c87e3395ae3291ac6bdd84c80a16",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "night-on",
+      "file": "assets/panoramas-hd/kitchen/night-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 2968862,
+      "sha256": "33b0ad364022a9bb918b030886de6aac77c51e8ed18a48974c2a9ad969de729d",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "apartment",
+      "state": "morning-off",
+      "file": "assets/panoramas-hd/apartment/morning-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3594972,
+      "sha256": "a01a0fa2164f4e6db805bfb04e2ede8c3bc5c0759d04ef7de6f2e59fcf0137be",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "apartment",
+      "state": "morning-on",
+      "file": "assets/panoramas-hd/apartment/morning-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 4301782,
+      "sha256": "8cff8e3df4f525c2304116319c5aac6cd1ef42fcd01ad8ad669353bd8c793601",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "apartment",
+      "state": "day-off",
+      "file": "assets/panoramas-hd/apartment/day-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 4133018,
+      "sha256": "fce367e1852ffec59b3858ece2f749431f8b6fad4fed95209742440e3566789a",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "apartment",
+      "state": "day-on",
+      "file": "assets/panoramas-hd/apartment/day-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 5131106,
+      "sha256": "7c7d44e06a0adbb2b26a789a3c044cc4173d2fdbbfa39ee16207ed0ff094308f",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "apartment",
+      "state": "evening-off",
+      "file": "assets/panoramas-hd/apartment/evening-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3333568,
+      "sha256": "49a2f46ea4ae911e8a203ad8853df8826b8579538de6381e72bd54e28a3fa1fc",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "apartment",
+      "state": "evening-on",
+      "file": "assets/panoramas-hd/apartment/evening-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3934528,
+      "sha256": "fdafe7265b83a9de519dd7906f4c1f776fd585856db483004c3049aedfa966f2",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "apartment",
+      "state": "night-off",
+      "file": "assets/panoramas-hd/apartment/night-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3002628,
+      "sha256": "76baccaf82acad9c28c35581604a2fc4d0b66cf1e6301c9374e9e8fab7d1ce5d",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "apartment",
+      "state": "night-on",
+      "file": "assets/panoramas-hd/apartment/night-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3917718,
+      "sha256": "033878d22046ed7373d086acd5ccd4b307ff55c313560c23cf55c2ebe15e1e9e",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "window",
+      "state": "morning-off",
+      "file": "assets/panoramas-hd/window/morning-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3648816,
+      "sha256": "e6737b197268a2564ad43eb081678c5161e1981e8a92de6b554f328aebe7c4af",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "window",
+      "state": "morning-on",
+      "file": "assets/panoramas-hd/window/morning-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3669896,
+      "sha256": "86f7b12b13f1197bb20b1f127376f847ce6ba6cb387efe3beb89c2ef38a020f1",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "window",
+      "state": "day-off",
+      "file": "assets/panoramas-hd/window/day-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3843158,
+      "sha256": "ffe58806f09019227f0c350c5cd4d7c312a6e779f9cb08744fe78b1f83fe58cd",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "window",
+      "state": "day-on",
+      "file": "assets/panoramas-hd/window/day-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3718672,
+      "sha256": "dde63abe588077b7bdda93b4199653fa25b34ead5833960f5b07b6706f52b362",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "window",
+      "state": "evening-off",
+      "file": "assets/panoramas-hd/window/evening-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3029550,
+      "sha256": "3115dec2b5ffc2a51b954be9c45c61bed81a81543f127dd8d7f3f358293a2c53",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "window",
+      "state": "evening-on",
+      "file": "assets/panoramas-hd/window/evening-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3394426,
+      "sha256": "f286afec07d90cacb5cb707ae9810084ed1b3f028805d0205787e191e68d30a3",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "window",
+      "state": "night-off",
+      "file": "assets/panoramas-hd/window/night-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 2758494,
+      "sha256": "3260924c37c232ccaa9eb769c8a6322c4fc449a263983c41ed2a2296ca51767a",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "window",
+      "state": "night-on",
+      "file": "assets/panoramas-hd/window/night-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 2944008,
+      "sha256": "e59fb031f83caae182d5e7b5398c1ded32ad1e69e7ea0aa2c649d5598d23f6e7",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "bar",
+      "state": "morning-off",
+      "file": "assets/panoramas-hd/bar/morning-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3667906,
+      "sha256": "fe047d703a96270e967c066dc7b9fe69f8b42754a1e129c5d5bd22a3cb3ca57c",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "bar",
+      "state": "morning-on",
+      "file": "assets/panoramas-hd/bar/morning-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3874862,
+      "sha256": "3a887f8028a246e9251885a7a1bda870acfcfdaa648190a207dec17432b18d0d",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "bar",
+      "state": "day-off",
+      "file": "assets/panoramas-hd/bar/day-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 4060532,
+      "sha256": "d86b372b2ec96a828480d396b86e4d6638721609f2565fac849f9fde88dbd6f5",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "bar",
+      "state": "day-on",
+      "file": "assets/panoramas-hd/bar/day-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3990670,
+      "sha256": "1d5894f9ede3d056f6d2c7f5158c11415f84473924c54cdbf73c7b63c775aff5",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "bar",
+      "state": "evening-off",
+      "file": "assets/panoramas-hd/bar/evening-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 2973230,
+      "sha256": "2992bdf0ef837b30e3df9a55e9870f23190cbf852a98fc180cce687e40924167",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "bar",
+      "state": "evening-on",
+      "file": "assets/panoramas-hd/bar/evening-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3605738,
+      "sha256": "d3038bd31604e9bc68e139edeafd483f39218c530846271f7bd9e7404d6c68e0",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "bar",
+      "state": "night-off",
+      "file": "assets/panoramas-hd/bar/night-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 2672102,
+      "sha256": "a31935f1db3a9af1fde17f1b3c117c34eb9cc16403ab4fd86291752fa07a7c3b",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "bar",
+      "state": "night-on",
+      "file": "assets/panoramas-hd/bar/night-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3513168,
+      "sha256": "dae0997e12fb91b70b63c6eb2fb757b8839b7f13409565f87ddba3fe9750cd00",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "grocery",
+      "state": "morning-off",
+      "file": "assets/panoramas-hd/grocery/morning-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 4201164,
+      "sha256": "e8e428b0e14d2385bb19864d325e2d6470c5599465c79c19a6a6a25e96da8a9e",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "grocery",
+      "state": "morning-on",
+      "file": "assets/panoramas-hd/grocery/morning-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 4500848,
+      "sha256": "cc2a82546471331fe87083e2ff3c51c403e7685b927f434841da62634f37cc59",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "grocery",
+      "state": "day-off",
+      "file": "assets/panoramas-hd/grocery/day-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 4430912,
+      "sha256": "b15065a9cbf1bdc69c6da597a5870df50494acd7117320060e6a66d973618567",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "grocery",
+      "state": "day-on",
+      "file": "assets/panoramas-hd/grocery/day-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 5279958,
+      "sha256": "1057f2dc72095c6d148a43b35ddf9442758879ee71b414efd12150b87cfe53fd",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "grocery",
+      "state": "evening-off",
+      "file": "assets/panoramas-hd/grocery/evening-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3380460,
+      "sha256": "dd1467a1e4f79f261e7d606853be64ac2d0b6701d763bc738e0bf1a82703664c",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "grocery",
+      "state": "evening-on",
+      "file": "assets/panoramas-hd/grocery/evening-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 4016148,
+      "sha256": "23bd94999ebc2033ac7bde60a71ce401a667a310483581a152bf7a417da32add",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "grocery",
+      "state": "night-off",
+      "file": "assets/panoramas-hd/grocery/night-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3000500,
+      "sha256": "d04224fd226ec3ad78861c2413f4a407acc3e7056c68a10bf7093c13f5384c17",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "grocery",
+      "state": "night-on",
+      "file": "assets/panoramas-hd/grocery/night-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 4104132,
+      "sha256": "d5a4dbfa4d0bb31b09773b5f5251fd2d557be677fc56ddab979fa72c59797586",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "hotel",
+      "state": "light-off",
+      "file": "assets/panoramas-hd/hotel/light-off.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 1977082,
+      "sha256": "efd11cf773c5c4b82e12cfda15bf7681dcb67a199fec67af1413354ebc851472",
+      "hasImageAtBothPoles": true
+    },
+    {
+      "scene": "hotel",
+      "state": "light-on",
+      "file": "assets/panoramas-hd/hotel/light-on.webp",
+      "width": 6144,
+      "height": 3072,
+      "bytes": 3741588,
+      "sha256": "943e604950784a13db9dea7297ac5b9b150299a5d81f1abd5fb40ff8278896ca",
+      "hasImageAtBothPoles": true
+    }
+  ]
+}

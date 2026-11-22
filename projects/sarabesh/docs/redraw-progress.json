@@ -1,0 +1,31 @@
+{
+  "scope": "10 scenes and all 64 lighting states",
+  "productionRedrawScenes": [
+    "apartment",
+    "bar",
+    "foyer",
+    "grocery",
+    "hotel",
+    "kitchen",
+    "landing",
+    "rocket-exit",
+    "town",
+    "window"
+  ],
+  "remaining": [],
+  "published": true,
+  "validation": {
+    "assetCount": 64,
+    "sceneCount": 10,
+    "resolution": [
+      6144,
+      3072
+    ],
+    "directedTravelAnchorsReviewed": 18,
+    "browser": "All 64 exact selected images loaded in their matching browser lighting state; NPC lighting matches globally; desktop and mobile user zoom blocked",
+    "allLightingStatesReviewed": true,
+    "fullSphereDirectionsPerState": 6,
+    "liveChecksumMatches": 64
+  },
+  "lightingAssembly": "Full-detail master geometry, registered illumination fields; prior small-lighting-image base removed"
+}

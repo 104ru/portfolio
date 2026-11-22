@@ -300,3 +300,10 @@ body.entered[data-ready=true] #world-life{opacity:1}
 
 #panorama{touch-action:none;overscroll-behavior:none}
 #retry-view{position:fixed;z-index:10;left:50%;bottom:18%;transform:translateX(-50%);font:18px Georgia,serif}
+
+/* One directly operable brass instrument; each icon is a touch target. */
+.time-dial{width:176px;height:176px;filter:drop-shadow(0 4px 6px #0009)}
+.dial-stop{width:44px;height:44px;left:50%;top:50%;margin:-22px;transform:none}
+.stop-auto{left:35.25%;top:65.16%}.stop-morning{left:28.69%;top:40.57%}.stop-day{left:50%;top:26.23%}.stop-evening{left:71.31%;top:40.57%}.stop-night{left:63.93%;top:65.16%}
+.dial-stop:hover{background:radial-gradient(circle,#f9d47722,transparent 70%)}
+@media(max-height:500px){.time-dial{width:156px;height:156px}}

@@ -8,7 +8,7 @@
   <title>Sarabesh — The Last Electrician</title>
   <meta name="description" content="Explore Sarabesh, a hand-painted desert city of brass and clockwork. A proof of concept for The Last Electrician.">
   <link rel="stylesheet" href="viewer/pannellum.css">
-  <link rel="stylesheet" href="world/preview.css?v=sarabesh-life-16">
+  <link rel="stylesheet" href="world/preview.css?v=sarabesh-life-17">
   <link rel="preload" as="image" href="assets/ui/dwellers-chart-paper.jpg">
   <link rel="preload" as="image" href="assets/ui/light-switch-on.webp">
   <link rel="preload" as="image" href="assets/ui/light-switch-off.webp">
@@ -46,8 +46,8 @@
     </button>
   </div>
   <div class="time-controls">
-    <div id="time-picker" class="time-picker" hidden>
-      <fieldset class="time-dial"><legend class="visually-hidden">Choose time of day</legend>
+    <div class="time-instrument">
+      <fieldset id="time-dial" class="time-dial"><legend class="visually-hidden">Choose time of day</legend>
         <span class="dial-pointer time-needle" aria-hidden="true"></span>
         <label class="dial-stop stop-auto" title="Auto"><input type="radio" name="time-mode" value="auto" aria-label="Auto"><span class="visually-hidden">Auto</span></label>
         <label class="dial-stop stop-morning" title="Morning"><input type="radio" name="time-mode" value="morning" aria-label="Morning"><span class="visually-hidden">Morning</span></label>
@@ -56,7 +56,7 @@
         <label class="dial-stop stop-night" title="Night"><input type="radio" name="time-mode" value="night" aria-label="Night"><span class="visually-hidden">Night</span></label>
       </fieldset>
     </div>
-    <button id="time-toggle" class="time-knob" aria-label="Open time dial" aria-controls="time-picker" aria-expanded="false"><span class="knob-face" aria-hidden="true"><span class="knob-pointer time-needle"></span></span><span id="time-label" class="visually-hidden">Auto</span></button>
+    <span id="time-label" class="visually-hidden">Auto</span>
   </div>
   <div class="utility-controls">
     <button id="help-toggle" class="brass-medallion" aria-label="How to explore" title="How to explore"><span aria-hidden="true">?</span></button>
@@ -88,6 +88,6 @@
     <p id="map-current"></p>
   </dialog>
   <script src="viewer/pannellum.js?v=sarabesh-16"></script>
-  <script type="module" src="world/viewer.mjs?v=sarabesh-life-16"></script>
+  <script type="module" src="world/viewer.mjs?v=sarabesh-life-17"></script>
 </body>
 </html>

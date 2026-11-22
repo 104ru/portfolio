@@ -1,0 +1,392 @@
+{
+  "checked": 64,
+  "states": [
+    {
+      "scene": "rocket-exit",
+      "state": "morning-off",
+      "hfov": 110,
+      "ready": true
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "morning-on",
+      "hfov": 110,
+      "ready": true
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "day-off",
+      "hfov": 110,
+      "ready": true
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "day-on",
+      "hfov": 110,
+      "ready": true
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "evening-off",
+      "hfov": 110,
+      "ready": true
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "evening-on",
+      "hfov": 110,
+      "ready": true
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "night-off",
+      "hfov": 110,
+      "ready": true
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "night-on",
+      "hfov": 110,
+      "ready": true
+    },
+    {
+      "scene": "landing",
+      "state": "morning-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "landing",
+      "state": "morning-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "landing",
+      "state": "day-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "landing",
+      "state": "day-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "landing",
+      "state": "evening-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "landing",
+      "state": "evening-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "landing",
+      "state": "night-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "landing",
+      "state": "night-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "town",
+      "state": "morning",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "town",
+      "state": "day",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "town",
+      "state": "evening",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "town",
+      "state": "night",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "foyer",
+      "state": "light-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "foyer",
+      "state": "light-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "morning-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "morning-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "day-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "day-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "evening-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "evening-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "night-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "kitchen",
+      "state": "night-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "apartment",
+      "state": "morning-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "apartment",
+      "state": "morning-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "apartment",
+      "state": "day-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "apartment",
+      "state": "day-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "apartment",
+      "state": "evening-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "apartment",
+      "state": "evening-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "apartment",
+      "state": "night-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "apartment",
+      "state": "night-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "window",
+      "state": "morning-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "window",
+      "state": "morning-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "window",
+      "state": "day-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "window",
+      "state": "day-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "window",
+      "state": "evening-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "window",
+      "state": "evening-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "window",
+      "state": "night-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "window",
+      "state": "night-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "bar",
+      "state": "morning-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "bar",
+      "state": "morning-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "bar",
+      "state": "day-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "bar",
+      "state": "day-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "bar",
+      "state": "evening-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "bar",
+      "state": "evening-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "bar",
+      "state": "night-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "bar",
+      "state": "night-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "grocery",
+      "state": "morning-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "grocery",
+      "state": "morning-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "grocery",
+      "state": "day-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "grocery",
+      "state": "day-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "grocery",
+      "state": "evening-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "grocery",
+      "state": "evening-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "grocery",
+      "state": "night-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "grocery",
+      "state": "night-on",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "hotel",
+      "state": "light-off",
+      "hfov": 95,
+      "ready": true
+    },
+    {
+      "scene": "hotel",
+      "state": "light-on",
+      "hfov": 95,
+      "ready": true
+    }
+  ],
+  "hardZoomLock": true,
+  "browserPinchScale": 1,
+  "errors": []
+}

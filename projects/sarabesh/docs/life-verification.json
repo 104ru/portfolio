@@ -1,0 +1,94 @@
+{
+  "checks": [
+    {
+      "scene": "bar",
+      "residents": 5,
+      "visible": 3
+    },
+    "Character note opens and closes",
+    {
+      "scene": "town",
+      "residents": 3,
+      "visible": 3
+    },
+    {
+      "scene": "kitchen",
+      "residents": 1,
+      "visible": 1
+    },
+    {
+      "scene": "grocery",
+      "residents": 2,
+      "visible": 2
+    },
+    {
+      "scene": "apartment",
+      "residents": 1,
+      "visible": 1
+    },
+    {
+      "scene": "hotel",
+      "residents": 2,
+      "visible": 2
+    },
+    {
+      "scene": "landing",
+      "residents": 2,
+      "visible": 2
+    },
+    {
+      "scene": "foyer",
+      "residents": 1,
+      "visible": 1
+    },
+    {
+      "scene": "window",
+      "residents": 1,
+      "visible": 1
+    }
+  ],
+  "errors": [],
+  "motionChecks": [
+    "Residents move with the panorama camera",
+    "Light-off dims bodies and preserves visible eyes",
+    "Tumbleweed and low sand move over outdoor ground",
+    "Landscape mobile renders the cast and instruments",
+    "Reduced motion retains residents and stops ambient animation"
+  ],
+  "guestDescriptions": "Disabled and browser-checked",
+  "inspectedViews": [
+    "Tavern aisle at yaw -145/pitch -24",
+    "Bartender front at yaw -29.5/pitch -5",
+    "Balcony floor",
+    "Plaza paths"
+  ],
+  "visualReview": {
+    "status": "inspected",
+    "scenes": [
+      "bar",
+      "town",
+      "grocery",
+      "kitchen",
+      "apartment",
+      "hotel",
+      "landing",
+      "foyer",
+      "window"
+    ],
+    "notes": "Inspected rendered placements and corrected the tavern aisle, smaller raised bartender at the horizontal counter, balcony floor, distant plaza residents, and landing scavenger. Checked adjacent tavern camera headings. Guest clicks do not open notes."
+  },
+  "liveVerification": {
+    "status": "passed",
+    "scenes": [
+      "bar",
+      "town"
+    ],
+    "residents": [
+      5,
+      2
+    ],
+    "guestPopups": false,
+    "browserErrors": [],
+    "eyeArtwork": "Original proportions preserved; no lens-squashing animation"
+  }
+}

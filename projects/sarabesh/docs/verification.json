@@ -1,0 +1,117 @@
+{
+  "sceneCount": 10,
+  "twoWayConnectionCount": 9,
+  "reachableFromStart": 10,
+  "originalRoutesPreserved": 7,
+  "diagramMatchesGeography": true,
+  "lucidPreflight": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "lucidCanvasIssues": [],
+  "exportVisuallyInspected": true,
+  "verifiedDate": "2026-11-21",
+  "selectedPanoramaStates": 64,
+  "browserDirectedRoutesPassed": 18,
+  "browserScenesLoaded": 10,
+  "timeDialModesPassed": [
+    "auto",
+    "morning",
+    "day",
+    "evening",
+    "night"
+  ],
+  "indoorLightLeverPassed": true,
+  "linkedExteriorLampStatesPassed": true,
+  "mapCurrentAndVisitedPassed": true,
+  "mapKeyboardPassed": true,
+  "fullSphereCeilingAndGroundVisuallyVerified": true,
+  "mobileLandscapeViewport": [
+    844,
+    390
+  ],
+  "finalPublishedOpeningAndEntryVerified": true,
+  "notTested": [
+    "physical mobile orientation lock",
+    "headset hardware"
+  ],
+  "limits": [
+    "Topaz-enhanced resolution from approved generated inputs; headset hardware has not been tested.",
+    "Generated lighting states retain small detail and exposure differences."
+  ],
+  "demoUiPolish": {
+    "mapDestinationsClickedAndLoaded": 10,
+    "iconTimePositionsPassed": 5,
+    "indoorLeverOffOnPassed": true,
+    "landscapeViewport": [
+      844,
+      390
+    ],
+    "actualDwellersMaterialsReused": true,
+    "panoramaResolutionUnchanged": false,
+    "publishedVersion": 4,
+    "publishedMapVisuallyVerified": true,
+    "consoleErrors": 0
+  },
+  "initialSourceFilesChecksumVerifiedBeforeCleanup": 44,
+  "generatedInputSize": [
+    1774,
+    887
+  ],
+  "productionPanoramaSize": [
+    7096,
+    3548
+  ],
+  "hdTexturesVerified": 64,
+  "hdBrowserScenesLoaded": 10,
+  "hdLandscapeLightingAndLeverPassed": true,
+  "hdBrowserConsoleErrors": 0,
+  "publishedHDWorldVisuallyVerified": true,
+  "productionTextureCopiesRetained": 1,
+  "temporaryExportAndDeploymentFoldersRemoved": true,
+  "largerControlAndTravelUpdate": {
+    "controlScale": 1.4,
+    "switchOnAndOffPassed": true,
+    "hotspotGlidesPassed": 2,
+    "mapGlidesPassed": 10,
+    "fadeOverlaysAfterTravel": 0,
+    "browserConsoleErrors": 0,
+    "mobileLandscapeViewport": [
+      844,
+      390
+    ],
+    "reducedMotionBranchReviewed": true,
+    "publishedRoundTripPassed": true,
+    "publishedMapButtonWidth": 84,
+    "publishedMapButtonHeight": 89.6,
+    "publishedSwitchArtworkVisuallyVerified": true
+  },
+  "neonTravelAndIllustratedControls": {
+    "beaconHitSize": 56,
+    "beaconCoreSize": 20,
+    "pulseMs": 1650,
+    "tooltipFontSize": 20,
+    "keyboardTooltipPassed": true,
+    "mobileEdgeTooltipBounds": {
+      "left": 12.005,
+      "top": 122.999,
+      "right": 206.107,
+      "bottom": 182.999
+    },
+    "tooltipFlipsBelowNearTop": true,
+    "illustratedTimeModesPassed": [
+      "night",
+      "morning",
+      "evening",
+      "auto",
+      "day"
+    ],
+    "viewport": [
+      844,
+      390
+    ],
+    "entranceHandlePassed": true,
+    "mapTimeAndHandleArtworkIsRaster": true,
+    "publishedNightMarkerAndTooltipVisuallyVerified": true
+  }
+}

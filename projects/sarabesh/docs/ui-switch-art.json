@@ -1,0 +1,22 @@
+{
+  "mode": "built-in image generation",
+  "reference": "assets/ui/dwellers-bezel.png",
+  "assets": [
+    "assets/ui/light-switch-on.webp",
+    "assets/ui/light-switch-off.webp"
+  ],
+  "onPrompt": "Use case: stylized-concept. Asset type: FINAL illustrated game UI hardware, one isolated two-position LIGHT SWITCH, ON position, transparent background. Input image is a STYLE AND MATERIAL reference only: match this Dwellers handcrafted hammered golden brass, chipped copper edges, verdigris patina, dark forest-green enamel, convincing little slotted screws, tactile painterly 3D finish. Design ONE slender vertical capsule-shaped mounting plate, approximately 1:2.25 width/height proportion, straight-on orthographic front view, upper-left light. Beautiful precise layered bevels and a deeply recessed narrow green enamel well. Exactly two small brass slotted screws, one at each end. At center is a substantial circular brass pivot and a short solid cast brass toggle stem, tipped with a dark green enamel grip with a brass rim. Toggle tilted UP in ON position, realistic foreshortening and cast contact shadow. Tiny beautifully engraved light-bulb pictogram near the upper stop and power-circle pictogram near the lower stop, both exactly centered WITHIN the plate, never loose or outside. Small amber inset indicator subtly lit at upper stop. No letters or words anywhere. The silhouette must be clean, practical, elegant, distinctive, not a pile of gears; precision handcrafted instrument from the same world as the reference. Fit the whole switch fully inside a tight vertical canvas, very little empty padding, no cutoffs. Entire area outside the switch is genuinely transparent, including corners. No background rectangle, no room, no border around the canvas, no text, no watermark. This is the final UI asset; preserve crisp details at small display sizes.",
+  "offPrompt": "Use case: precise-object-edit. Image 1 is the FINAL approved ON-state light switch UI asset. Create its matching OFF-state sprite. Change ONLY the central toggle lever position from tilted UP to tilted DOWN, pivoting from the exact same central hinge, and turn the small amber status jewel OFF to dark amber glass. The handle must visibly point toward the lower power symbol, not the upper bulb. Preserve EXACTLY the mounting plate outline, every screw, bulb and power pictogram, green enamel, lighting, texture chips, patina, perspective, all pixel positions and the transparent canvas size/composition of image 1. The hardware must remain connected at the same hinge; the lever is the same solid brass stem and dark green enamel grip, now in its down position. Keep the lower power pictogram visible, do not cover it with the lever. No redesign, additional objects, duplicate handles or words. Same crisp handcrafted Dwellers brass and green enamel. Preserve true alpha transparency everywhere outside the silhouette. Output a precisely matching functional OFF-state partner, not a new design.",
+  "encoding": "Lossless WebP; native transparent artwork; PNG intermediates removed",
+  "nativeDimensions": {
+    "on": [
+      836,
+      1881
+    ],
+    "off": [
+      836,
+      1882
+    ]
+  },
+  "transparentBackground": true
+}

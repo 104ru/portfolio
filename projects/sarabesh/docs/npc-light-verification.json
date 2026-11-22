@@ -1,0 +1,25 @@
+{
+  "checks": [
+    "No NPC descriptions, hover names or popups",
+    "Subtle grounded idle motion changes over time",
+    "Windowless hotel residents dim with the actual light switch",
+    "All four time-dial states and night light-off change resident exposure",
+    "Reduced motion stops resident animations",
+    "Mobile landscape retains decorative residents and light control"
+  ],
+  "filters": {
+    "morning": "brightness(1.02) sepia(0.1) saturate(0.95)",
+    "day": "brightness(0.98) saturate(0.92)",
+    "evening": "brightness(0.91) sepia(0.18) saturate(0.94)",
+    "night": "brightness(0.86) sepia(0.15) saturate(0.94)"
+  },
+  "errors": [],
+  "liveVerification": {
+    "status": "passed",
+    "scene": "hotel",
+    "allNpcDescriptionsRemoved": true,
+    "lightSwitch": true,
+    "softShade": true,
+    "errors": []
+  }
+}

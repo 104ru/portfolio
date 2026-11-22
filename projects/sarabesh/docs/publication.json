@@ -1,0 +1,13 @@
+{
+  "url": "https://explorable-world-poc.sandy-tayts.chatgpt.site",
+  "audience": "private owner-only",
+  "project_id": "appgprj_6b01ca4384388191b92dc0a392f1a53b",
+  "deployment_id": "appgdep_6b022f211ff08191a7ee1e80507a92f4",
+  "version_id": "appgprj_6b01ca4384388191b92dc0a392f1a53b~appgver_6eb41754162c81919a7f5f3ae58ebf36",
+  "source_commit": "560209cea124adf546dbd5b45bb5f2513a280dab",
+  "status": "succeeded",
+  "verifiedDate": "2026-11-21",
+  "release": "All 64 lighting images verified and installed from full-detail redraws; matching bedroom/balcony opening; user zoom locked; Motel-404 moved to top of map; restrained ambient animations",
+  "browserReleaseMiB": 192.0,
+  "verifiedLiveImages": 64
+}

@@ -1,0 +1,583 @@
+{
+  "expected": 64,
+  "checked": 64,
+  "results": [
+    {
+      "scene": "rocket-exit",
+      "state": "morning-off",
+      "image": "assets/panoramas-hd/rocket-exit/morning-off.avif",
+      "revision": "123fd0eed54d",
+      "hfov": 110,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "morning-on",
+      "image": "assets/panoramas-hd/rocket-exit/morning-on.avif",
+      "revision": "28654ac6b3ec",
+      "hfov": 110,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "day-off",
+      "image": "assets/panoramas-hd/rocket-exit/day-off.avif",
+      "revision": "00fc9f996600",
+      "hfov": 110,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "evening-off",
+      "image": "assets/panoramas-hd/rocket-exit/evening-off.avif",
+      "revision": "08a296226b22",
+      "hfov": 110,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "evening-on",
+      "image": "assets/panoramas-hd/rocket-exit/evening-on.avif",
+      "revision": "0ec941756466",
+      "hfov": 110,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "day-on",
+      "image": "assets/panoramas-hd/rocket-exit/day-on.webp",
+      "revision": "7dedeae24741",
+      "hfov": 110,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "night-off",
+      "image": "assets/panoramas-hd/rocket-exit/night-off.avif",
+      "revision": "6dd406668ba6",
+      "hfov": 110,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "night-on",
+      "image": "assets/panoramas-hd/rocket-exit/night-on.avif",
+      "revision": "505d35e78e48",
+      "hfov": 110,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "landing",
+      "state": "morning-off",
+      "image": "assets/panoramas-hd/landing/morning-off.avif",
+      "revision": "2029285515de",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "landing",
+      "state": "day-on",
+      "image": "assets/panoramas-hd/landing/day-on.avif",
+      "revision": "95c9410780c4",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "landing",
+      "state": "morning-on",
+      "image": "assets/panoramas-hd/landing/morning-on.avif",
+      "revision": "b0a07b2aa2d7",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "landing",
+      "state": "day-off",
+      "image": "assets/panoramas-hd/landing/day-off.avif",
+      "revision": "199950361d90",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "landing",
+      "state": "night-off",
+      "image": "assets/panoramas-hd/landing/night-off.avif",
+      "revision": "8e65ef9810f6",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "landing",
+      "state": "evening-on",
+      "image": "assets/panoramas-hd/landing/evening-on.avif",
+      "revision": "4bd8cbc863db",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "landing",
+      "state": "evening-off",
+      "image": "assets/panoramas-hd/landing/evening-off.avif",
+      "revision": "366bd28d5524",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "landing",
+      "state": "night-on",
+      "image": "assets/panoramas-hd/landing/night-on.webp",
+      "revision": "8d69a5988ea1",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "town",
+      "state": "morning",
+      "image": "assets/panoramas-hd/town/morning.avif",
+      "revision": "192e2cf2d5ec",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "town",
+      "state": "day",
+      "image": "assets/panoramas-hd/town/day.webp",
+      "revision": "807c26115f80",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "town",
+      "state": "night",
+      "image": "assets/panoramas-hd/town/night.avif",
+      "revision": "31caab5e22ad",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "town",
+      "state": "evening",
+      "image": "assets/panoramas-hd/town/evening.avif",
+      "revision": "1a7da8a641fe",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "foyer",
+      "state": "light-off",
+      "image": "assets/panoramas-hd/foyer/light-off.avif",
+      "revision": "ef9ef39eb24a",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "kitchen",
+      "state": "morning-off",
+      "image": "assets/panoramas-hd/kitchen/morning-off.avif",
+      "revision": "cf2e7f0ef41b",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "kitchen",
+      "state": "morning-on",
+      "image": "assets/panoramas-hd/kitchen/morning-on.avif",
+      "revision": "358214232e34",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "foyer",
+      "state": "light-on",
+      "image": "assets/panoramas-hd/foyer/light-on.webp",
+      "revision": "137d274b849a",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "kitchen",
+      "state": "evening-off",
+      "image": "assets/panoramas-hd/kitchen/evening-off.avif",
+      "revision": "6f7dbabf62fe",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "kitchen",
+      "state": "day-off",
+      "image": "assets/panoramas-hd/kitchen/day-off.avif",
+      "revision": "51461d58a5af",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "kitchen",
+      "state": "day-on",
+      "image": "assets/panoramas-hd/kitchen/day-on.webp",
+      "revision": "f923caaa3103",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "kitchen",
+      "state": "evening-on",
+      "image": "assets/panoramas-hd/kitchen/evening-on.avif",
+      "revision": "67465124c992",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "kitchen",
+      "state": "night-off",
+      "image": "assets/panoramas-hd/kitchen/night-off.avif",
+      "revision": "60da0c20aba5",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "kitchen",
+      "state": "night-on",
+      "image": "assets/panoramas-hd/kitchen/night-on.avif",
+      "revision": "509e39f3aa26",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "apartment",
+      "state": "morning-off",
+      "image": "assets/panoramas-hd/apartment/morning-off.avif",
+      "revision": "90129737e51b",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "apartment",
+      "state": "morning-on",
+      "image": "assets/panoramas-hd/apartment/morning-on.avif",
+      "revision": "1a1db53fe309",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "apartment",
+      "state": "day-off",
+      "image": "assets/panoramas-hd/apartment/day-off.avif",
+      "revision": "e841ebbcd0a3",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "apartment",
+      "state": "evening-on",
+      "image": "assets/panoramas-hd/apartment/evening-on.avif",
+      "revision": "cf23fee2f7bc",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "apartment",
+      "state": "evening-off",
+      "image": "assets/panoramas-hd/apartment/evening-off.avif",
+      "revision": "4abd8e6d157d",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "apartment",
+      "state": "day-on",
+      "image": "assets/panoramas-hd/apartment/day-on.webp",
+      "revision": "7c7d44e06a0a",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "window",
+      "state": "morning-off",
+      "image": "assets/panoramas-hd/window/morning-off.avif",
+      "revision": "c3039a291410",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "apartment",
+      "state": "night-off",
+      "image": "assets/panoramas-hd/apartment/night-off.avif",
+      "revision": "e81bf418127d",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "apartment",
+      "state": "night-on",
+      "image": "assets/panoramas-hd/apartment/night-on.avif",
+      "revision": "c82a495b0930",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "window",
+      "state": "morning-on",
+      "image": "assets/panoramas-hd/window/morning-on.avif",
+      "revision": "8b81d840e7cc",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "window",
+      "state": "day-off",
+      "image": "assets/panoramas-hd/window/day-off.avif",
+      "revision": "7fabbda62291",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "window",
+      "state": "day-on",
+      "image": "assets/panoramas-hd/window/day-on.avif",
+      "revision": "34fb5b641818",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "window",
+      "state": "evening-on",
+      "image": "assets/panoramas-hd/window/evening-on.avif",
+      "revision": "6d30b02cb167",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "window",
+      "state": "evening-off",
+      "image": "assets/panoramas-hd/window/evening-off.avif",
+      "revision": "7f9bbadefec8",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "window",
+      "state": "night-off",
+      "image": "assets/panoramas-hd/window/night-off.avif",
+      "revision": "10f807d79af3",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "bar",
+      "state": "morning-off",
+      "image": "assets/panoramas-hd/bar/morning-off.avif",
+      "revision": "eca1a7a86fc9",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "window",
+      "state": "night-on",
+      "image": "assets/panoramas-hd/window/night-on.avif",
+      "revision": "fa30ecc7c0f6",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "bar",
+      "state": "morning-on",
+      "image": "assets/panoramas-hd/bar/morning-on.avif",
+      "revision": "1e3738428f03",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "bar",
+      "state": "day-off",
+      "image": "assets/panoramas-hd/bar/day-off.avif",
+      "revision": "5d549a6599df",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "bar",
+      "state": "evening-off",
+      "image": "assets/panoramas-hd/bar/evening-off.avif",
+      "revision": "7a7827364939",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "bar",
+      "state": "day-on",
+      "image": "assets/panoramas-hd/bar/day-on.webp",
+      "revision": "1d5894f9ede3",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "bar",
+      "state": "night-on",
+      "image": "assets/panoramas-hd/bar/night-on.avif",
+      "revision": "f520b48ef16c",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "bar",
+      "state": "night-off",
+      "image": "assets/panoramas-hd/bar/night-off.avif",
+      "revision": "e849c8956b45",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "bar",
+      "state": "evening-on",
+      "image": "assets/panoramas-hd/bar/evening-on.avif",
+      "revision": "473eaa050af6",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "grocery",
+      "state": "morning-on",
+      "image": "assets/panoramas-hd/grocery/morning-on.avif",
+      "revision": "ea063d0d603e",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "grocery",
+      "state": "day-off",
+      "image": "assets/panoramas-hd/grocery/day-off.avif",
+      "revision": "be5297f0c853",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "grocery",
+      "state": "morning-off",
+      "image": "assets/panoramas-hd/grocery/morning-off.avif",
+      "revision": "db03f147afeb",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "grocery",
+      "state": "evening-on",
+      "image": "assets/panoramas-hd/grocery/evening-on.avif",
+      "revision": "6444b9062081",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "grocery",
+      "state": "evening-off",
+      "image": "assets/panoramas-hd/grocery/evening-off.avif",
+      "revision": "2f6144a7876d",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "grocery",
+      "state": "day-on",
+      "image": "assets/panoramas-hd/grocery/day-on.webp",
+      "revision": "1057f2dc7209",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "hotel",
+      "state": "light-off",
+      "image": "assets/panoramas-hd/hotel/light-off.avif",
+      "revision": "e928c6568431",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "grocery",
+      "state": "night-off",
+      "image": "assets/panoramas-hd/grocery/night-off.avif",
+      "revision": "3aba289673ab",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "grocery",
+      "state": "night-on",
+      "image": "assets/panoramas-hd/grocery/night-on.avif",
+      "revision": "d6e0b1336661",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    },
+    {
+      "scene": "hotel",
+      "state": "light-on",
+      "image": "assets/panoramas-hd/hotel/light-on.webp",
+      "revision": "943e60495078",
+      "hfov": 95,
+      "ready": true,
+      "npcLighting": "matched"
+    }
+  ],
+  "errors": []
+}

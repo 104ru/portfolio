@@ -1,0 +1,11 @@
+{
+  "scene": "window",
+  "state": "night",
+  "refs": [
+    "/Users/sandy/Documents/ChatGPT/Explorable world/sources/original-panoramas/view.jpg",
+    "/Users/sandy/Documents/ChatGPT/Explorable world/assets/panoramas/town/night.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Image 1 EDIT TARGET: original upstairs valley window viewpoint. Image 2 supporting continuity reference: polished desert town at night. Single faithful polish, not a new direction. Preserve ornate iron balcony railing, position just outside the living-quarters window, right-hand view back into book-lined apartment with red settee, and the original outward-facing town skyline. Fill every black region with real curved wall or balcony structure, sky above, and actual balcony floor below. Deliver one true full spherical 360x180 equirectangular panorama, exact 2:1 ratio, 4096x2048 if supported. Horizon at middle, coherent zenith and nadir, left/right edges join seamlessly. No black caps, empty background, vignetting, seams, frame or collage. Keep original handmade painterly steampunk style, brass and old wood, eccentric melancholy desert mood. Night: readable cool moonlit outside, soft restrained amber town windows. Apartment visible through return window, not a separate invented landscape. No characters, props or interactive objects. This is an outdoor-facing threshold, not a Paris portal.",
+  "file": "assets/panoramas/window/night.png",
+  "mode": "built-in"
+}

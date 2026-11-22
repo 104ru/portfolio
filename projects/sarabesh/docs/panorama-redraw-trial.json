@@ -1,0 +1,102 @@
+{
+  "method": "built-in image generator; five registered rectilinear redraws plus approved front view",
+  "status": "Approved trial promoted to production landing/night-on.webp; all ten scenes now use the registered redraw workflow.",
+  "prompts": {
+    "right": "Use case: style-transfer. Asset: registered wide-angle game panorama view, right-hand continuation of an approved desert scrapyard illustration. Image 1 is the EDIT TARGET and exact camera/layout guide. Image 2 is the APPROVED painting style and neighboring view, not the composition to copy. Redraw image 1 with the beautiful crisp, coherent, hand-painted steampunk craftsmanship of image 2. Preserve image 1's exact 110-degree rectilinear camera, horizon, silhouettes, object positions, boundaries and framing: compact whimsical desert town across left half, open sandy path in middle, close curved teal-and-brass rocket wall on right with glowing instrument window, riveted curved landing strut reaching ground at lower middle-right. The town continues from the amber buildings on image 2's right edge. Preserve stars and deep blue night, amber window illumination, ochre desert, sparse dry grasses. Clarify individual pipes, rivets, window frames, bolts and grasses instead of soft melted details. Rich painterly textures, believable connected mechanical parts, crisp fine edges without photographic grit. Keep camera perfectly stationary and preserve edge geometry, no added landmarks, no people, no UI, no lettering or watermark. Deliver landscape 1600x983 full bleed, single view only.",
+    "back": "Use case: style-transfer. Redraw image 1, the exact camera and layout guide, as a crisp hand-painted steampunk game background matching image 2, the newly approved adjoining right-hand view. Preserve every major boundary and camera angle of image 1: close curved teal rocket hull fills the image, large rounded horizontal window on left showing warm interior, detailed door on right with central handwheel, brass hinges and curved stairs at bottom right, sparse grasses below hull. Same fixed 110 degree wide-angle rectilinear camera, same framing and perspective, horizon not visible. Keep exact window/door/step positions and cropping. Refine coherent connected brass pipes, separate rivets, scratched teal enamel, clear mechanical gauges and caged lamp, meticulous painterly craftsmanship. Nighttime outside, warm amber cabin lamp on. Image 2 is material/style continuity only; do not reproduce its town. No extra objects, no writing, no UI, no borders. Landscape 1600x983.",
+    "left": "Use case: style-transfer. Image 1 is the edit target and precise fixed-camera layout guide for the left/rear quadrant of a 360 degree illustrated desert world. Image 2 is the approved adjoining rocket/material painting reference. Redraw image 1 crisply in that same painstaking hand-painted steampunk style. LOCK exact framing, field of view110 degrees, horizon, all silhouettes and major object positions: close teal and brass rocket hatch occupies left44 percent; door handwheel cropped at left edge, horizontal hinges and vertical pipes; curved landing leg below. Rough crooked fence across center foreground. Desert settlement across middle distance/right, domed abandoned pod at right edge, low ochre mountains, dark blue starry sky. Do not rearrange the scene. Coherent separate pipes, bolts, hinges, rivets and beautiful dry grasses, painterly detail rather than photographic texture. Same night with amber window glow and gentle amber ground illumination. Preserve edge features for adjoining views. No text, UI, people, added machinery, borders or watermark. Full bleed landscape1600x983.",
+    "up": "Use case: style-transfer. Redraw image 1 as the UPWARD facing square view of a spherical steampunk desert panorama. Image 1 is the exact camera/layout guide, image 2 the approved adjoining material and paint style. Camera looks STRAIGHT UP, 120 degree rectilinear lens. Preserve the very unusual orientation EXACTLY: underside/curved side of teal-and-brass rocket occupies top ~42 percent and curves toward left midheight; open starry blue sky fills center and bottom. Do not rotate the image or convert to conventional landscape horizon. Retain the rocket hull edge, riveted straps, pipe, small vent at same coordinates. Refine weathered teal enamel, clear brass rivets and joints in same beautiful crisp painterly style as image 2. Stars should be clean points, gentle thin clouds, no radial vortex or star trails; coherent calm night sky. No new objects, no sun, text, people, UI, watermark or frame. Square1254x1254 full bleed.",
+    "down": "Use case: style-transfer. Image1 is exact edit target/camera guide for straight DOWNWARD facing square view of a desert steampunk game panorama. Image2 is the approved adjoining painting style. Redraw image1 preserving exact object boundaries and odd downward-camera framing: warm ochre sandy ground fills center and right, tiny stones and dry grass clumps around edges, teal/brass rocket landing leg cropped at left edge and short brass steps occupy bottom left corner. Camera directly downward,120degree rectilinear lens, no horizon. Do not rotate, reframe or move leg/stairs. Refine coherent painted pebbles, footprints-free soil, separately drawn dry grass blades, worn teal enamel, crisp brass edges and bolts. Warm golden ambient night light from rocket cabin, deep gentle ground shadows, handmade painterly fantasy craftsmanship matching image2. Avoid circular vortex soil texture, radial smearing or repeated pattern; natural flat desert floor. No new objects, people, text, UI or frame. Full bleed square1254x1254.",
+    "joinRepair": "Use case: precise-object-edit. This is an almost finished hand-painted steampunk desert panorama patch. Repair ONLY the ghosted vertical stitching transition around the middle of the supplied image. Make all buildings opaque and structurally coherent, remove doubled semi-transparent outlines and blend the two ground/sky lighting regions naturally. Keep the camera, composition, all main landmarks, outer left/right quarters and painterly style unchanged. Do not add or remove major buildings. Preserve clear machinery, amber-lit windows, dry grasses, ochre desert and deep blue starry night. Match both sides without a visible division. No text or UI. Deliver same full bleed1600x983 landscape image."
+  },
+  "imageGenerations": 7,
+  "scene": "landing",
+  "lightingState": "night-on",
+  "qa": {
+    "size": [
+      6144,
+      3072
+    ],
+    "coverage": "360 by 180 degrees",
+    "uncoveredPixels": 0,
+    "checkedBrowserViews": [
+      [
+        -80,
+        0
+      ],
+      [
+        55,
+        0
+      ],
+      [
+        -80,
+        90
+      ],
+      [
+        -80,
+        -90
+      ]
+    ],
+    "seamReview": "Original two town ghosting bands repainted; remaining small differences at cross-view joins may need further polish",
+    "resolutionNote": "6144x3072 assembled from separately generated views; not a native single 6K image generation"
+  },
+  "layout": {
+    "projection": "rectilinear patches into equirectangular sphere",
+    "targetSize": [
+      6144,
+      3072
+    ],
+    "frontApproved": "approved single-view input, consumed during assembly and removed after production promotion",
+    "views": [
+      {
+        "name": "front-guide",
+        "yaw": -80,
+        "pitch": 0,
+        "hfov": 95,
+        "width": 1600,
+        "height": 983
+      },
+      {
+        "name": "right-guide",
+        "yaw": 10,
+        "pitch": 0,
+        "hfov": 110,
+        "width": 1600,
+        "height": 983
+      },
+      {
+        "name": "back-guide",
+        "yaw": 100,
+        "pitch": 0,
+        "hfov": 110,
+        "width": 1600,
+        "height": 983
+      },
+      {
+        "name": "left-guide",
+        "yaw": -170,
+        "pitch": 0,
+        "hfov": 110,
+        "width": 1600,
+        "height": 983
+      },
+      {
+        "name": "up-guide",
+        "yaw": -80,
+        "pitch": 90,
+        "hfov": 120,
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "name": "down-guide",
+        "yaw": -80,
+        "pitch": -90,
+        "hfov": 120,
+        "width": 1254,
+        "height": 1254
+      }
+    ]
+  },
+  "productionAsset": "assets/panoramas-hd/landing/night-on.webp"
+}

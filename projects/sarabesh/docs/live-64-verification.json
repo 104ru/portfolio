@@ -1,0 +1,649 @@
+{
+  "checked": 64,
+  "matching": 64,
+  "sizes": [
+    "[6144, 3072]"
+  ],
+  "assets": [
+    {
+      "scene": "rocket-exit",
+      "state": "morning-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2919418
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "morning-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 3016630
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "day-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 3097593
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "day-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 4581462
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "evening-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2362512
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "evening-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2604812
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "night-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2065195
+    },
+    {
+      "scene": "rocket-exit",
+      "state": "night-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2483420
+    },
+    {
+      "scene": "landing",
+      "state": "morning-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2723000
+    },
+    {
+      "scene": "landing",
+      "state": "morning-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2701100
+    },
+    {
+      "scene": "landing",
+      "state": "day-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2947878
+    },
+    {
+      "scene": "landing",
+      "state": "day-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2944494
+    },
+    {
+      "scene": "landing",
+      "state": "evening-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2329989
+    },
+    {
+      "scene": "landing",
+      "state": "evening-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2377286
+    },
+    {
+      "scene": "landing",
+      "state": "night-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2319064
+    },
+    {
+      "scene": "landing",
+      "state": "night-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 3696162
+    },
+    {
+      "scene": "town",
+      "state": "morning",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2464303
+    },
+    {
+      "scene": "town",
+      "state": "day",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 3200260
+    },
+    {
+      "scene": "town",
+      "state": "evening",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2281239
+    },
+    {
+      "scene": "town",
+      "state": "night",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2330863
+    },
+    {
+      "scene": "foyer",
+      "state": "light-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2386434
+    },
+    {
+      "scene": "foyer",
+      "state": "light-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 4629692
+    },
+    {
+      "scene": "kitchen",
+      "state": "morning-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2698943
+    },
+    {
+      "scene": "kitchen",
+      "state": "morning-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2937509
+    },
+    {
+      "scene": "kitchen",
+      "state": "day-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2993842
+    },
+    {
+      "scene": "kitchen",
+      "state": "day-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 4405634
+    },
+    {
+      "scene": "kitchen",
+      "state": "evening-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2278533
+    },
+    {
+      "scene": "kitchen",
+      "state": "evening-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2566691
+    },
+    {
+      "scene": "kitchen",
+      "state": "night-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 1929712
+    },
+    {
+      "scene": "kitchen",
+      "state": "night-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2441451
+    },
+    {
+      "scene": "apartment",
+      "state": "morning-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2930661
+    },
+    {
+      "scene": "apartment",
+      "state": "morning-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 3315345
+    },
+    {
+      "scene": "apartment",
+      "state": "day-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 3316395
+    },
+    {
+      "scene": "apartment",
+      "state": "day-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 5131106
+    },
+    {
+      "scene": "apartment",
+      "state": "evening-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2779060
+    },
+    {
+      "scene": "apartment",
+      "state": "evening-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 3057960
+    },
+    {
+      "scene": "apartment",
+      "state": "night-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2501614
+    },
+    {
+      "scene": "apartment",
+      "state": "night-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 3052060
+    },
+    {
+      "scene": "window",
+      "state": "morning-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2924903
+    },
+    {
+      "scene": "window",
+      "state": "morning-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2923493
+    },
+    {
+      "scene": "window",
+      "state": "day-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 3084017
+    },
+    {
+      "scene": "window",
+      "state": "day-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2970288
+    },
+    {
+      "scene": "window",
+      "state": "evening-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2512437
+    },
+    {
+      "scene": "window",
+      "state": "evening-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2758962
+    },
+    {
+      "scene": "window",
+      "state": "night-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2337025
+    },
+    {
+      "scene": "window",
+      "state": "night-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2462631
+    },
+    {
+      "scene": "bar",
+      "state": "morning-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 3023710
+    },
+    {
+      "scene": "bar",
+      "state": "morning-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 3168536
+    },
+    {
+      "scene": "bar",
+      "state": "day-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 3365676
+    },
+    {
+      "scene": "bar",
+      "state": "day-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 3990670
+    },
+    {
+      "scene": "bar",
+      "state": "evening-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2517701
+    },
+    {
+      "scene": "bar",
+      "state": "evening-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2908619
+    },
+    {
+      "scene": "bar",
+      "state": "night-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2269624
+    },
+    {
+      "scene": "bar",
+      "state": "night-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2814717
+    },
+    {
+      "scene": "grocery",
+      "state": "morning-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 3195402
+    },
+    {
+      "scene": "grocery",
+      "state": "morning-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 3391794
+    },
+    {
+      "scene": "grocery",
+      "state": "day-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 3451230
+    },
+    {
+      "scene": "grocery",
+      "state": "day-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 5279958
+    },
+    {
+      "scene": "grocery",
+      "state": "evening-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2676764
+    },
+    {
+      "scene": "grocery",
+      "state": "evening-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 3034842
+    },
+    {
+      "scene": "grocery",
+      "state": "night-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 2409340
+    },
+    {
+      "scene": "grocery",
+      "state": "night-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 3083616
+    },
+    {
+      "scene": "hotel",
+      "state": "light-off",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 1854587
+    },
+    {
+      "scene": "hotel",
+      "state": "light-on",
+      "size": [
+        6144,
+        3072
+      ],
+      "matchesLocalProduction": true,
+      "bytes": 3741588
+    }
+  ]
+}

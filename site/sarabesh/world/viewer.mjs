@@ -111,8 +111,7 @@ function syncControls() {
   $('#light-toggle').setAttribute('aria-pressed', String(lightOn(current)));
   $('#light-toggle').setAttribute('aria-label', 'Switch indoor light ' + (lightOn(current) ? 'off' : 'on'));
   $('#light-toggle').title = 'Indoor light: ' + (lightOn(current) ? 'on' : 'off');
-  $('#time-toggle').title = mode === 'auto' ? 'Time: Auto (' + period + ')' : 'Time: ' + period;
-  $('#time-toggle').setAttribute('aria-label', $('#time-toggle').title + '. Open time dial');
+  $('#time-dial').title = mode === 'auto' ? 'Time: Auto (' + period + ')' : 'Time: ' + period;
   $('#time-label').textContent = mode === 'auto' ? 'Auto' : mode[0].toUpperCase() + mode.slice(1);
   document.documentElement.style.setProperty('--dial-angle', ({auto:-136, morning:-66, day:0, evening:66, night:138}[mode]) + 'deg');
   document.querySelectorAll('[name=time-mode]').forEach((input) => { input.checked = input.value === mode; });
@@ -179,8 +178,6 @@ function beginTravel(to, {fromMap = false} = {}) {
   document.body.dataset.ready = 'false';
   document.body.classList.add('travelling');
   document.body.dataset.travelPhase = 'departing';
-  $('#time-picker').hidden = true;
-  $('#time-toggle').setAttribute('aria-expanded', 'false');
   if (fromMap) $('#map-dialog').close();
   function depart() {
     current = to; period = nextPeriod;
@@ -264,7 +261,7 @@ async function requestLandscape() {
 }
 
 async function initialize() {
-  const responses = await Promise.all(['world/geography.json?v=sarabesh-life-16','world/assets.json?v=sarabesh-life-16'].map((url) => fetch(url)));
+  const responses = await Promise.all(['world/geography.json?v=sarabesh-life-17','world/assets.json?v=sarabesh-life-17'].map((url) => fetch(url)));
   if (responses.some((response) => !response.ok)) throw Error('World data failed to load');
   [geography, manifest] = await Promise.all(responses.map((response) => response.json()));
   current = sceneInfo(params.get('scene')) ? params.get('scene') : geography.startScene;
@@ -327,15 +324,12 @@ async function initialize() {
   $('#retry-view').addEventListener('click',retryView);
   viewer.on('scenechange',()=>{document.body.dataset.ready='false';});
   $('#light-toggle').addEventListener('click',()=>{if(!ready)return;lights[current]=!lightOn(current);persist();loadCurrent({keepView:true});});
-  $('#map-toggle').addEventListener('click',()=>{ if(!ready)return; $('#time-picker').hidden=true;$('#time-toggle').setAttribute('aria-expanded','false');renderMap();$('#map-dialog').showModal();});
+  $('#map-toggle').addEventListener('click',()=>{ if(!ready)return; renderMap();$('#map-dialog').showModal();});
   $('#map-close').addEventListener('click',()=>$('#map-dialog').close());
   $('#map-dialog').addEventListener('click',(event)=>{if(event.target===$('#map-dialog'))$('#map-dialog').close();});
-  $('#time-toggle').addEventListener('click',()=>{const picker=$('#time-picker');picker.hidden=!picker.hidden;$('#time-toggle').setAttribute('aria-expanded',String(!picker.hidden));});
   document.querySelectorAll('[name=time-mode]').forEach((input)=>input.addEventListener('change',()=>{
     if(!ready)return;mode=input.value;period=chosenPeriod();persist();loadCurrent({keepView:true});
   }));
-  document.addEventListener('pointerdown',(event)=>{if(!event.target.closest('.time-controls')){$('#time-picker').hidden=true;$('#time-toggle').setAttribute('aria-expanded','false');}});
-  document.addEventListener('keydown',(event)=>{if(event.key==='Escape'){$('#time-picker').hidden=true;$('#time-toggle').setAttribute('aria-expanded','false');}});
   $('#enter-world').addEventListener('click',()=>{if(!ready)return;entered=true;finishArrival();document.body.classList.add('entered');$('#intro').hidden=true;requestLandscape();discoverCurrent();});
   $('#skip-intro').addEventListener('click',()=>{finishArrival();$('#enter-world').focus({preventScroll:true});});
   $('#place-close').addEventListener('click',closePlace);

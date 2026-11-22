@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/liza-bam/portfolio",
+  "path": "site/sarabesh",
+  "url": "https://sandy.tayts.com/sarabesh/",
+  "commit": "60170bb22d8751ae01b6ca14f8c1b6bb82676446",
+  "maintenance": "Publish selected release files into site/sarabesh on portfolio main. Existing portfolio workflow updates sandy.tayts.com automatically. Preserve relative asset URLs.",
+  "deployment": "https://github.com/liza-bam/portfolio/actions/runs/44967422676",
+  "status": "live and verified",
+  "verifiedStates": 64,
+  "desktop": true,
+  "mobile": true,
+  "zoomLocked": true
+}

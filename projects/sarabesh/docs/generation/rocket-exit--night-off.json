@@ -1,0 +1,9 @@
+{
+  "scene": "rocket-exit",
+  "period": "night",
+  "on": false,
+  "state": "night-off",
+  "prompt": "Use case: lighting-weather. Image 1 is the chosen FINAL production master panorama of rocket-exit. Create its single matching night-off lighting variant. Change ONLY lighting and the sky/time seen through EXISTING windows. NIGHT outside: dark blue sky, restrained stars and cool readable moonlit landscape. The single artificial lamp is fully OFF: its bulb is visibly unlit, no warm artificial glow. Other fixtures also stay unlit. Natural daylight or moonlight still enters the existing windows and remains plainly visible outside; do NOT darken or black out the exterior with the switch. Night room is dim but navigable; daytime room has natural window lighting. CRITICAL INVARIANTS: lock camera yaw, projection, all door/window outlines and positions, every shelf, stair, furnishing, gauge, railing, floor tile and ceiling rib to the input. No shifted architecture, new windows, opened doors, added or removed props, redesign or different composition. Retain Sandy's original handmade painterly steampunk texture, patinated brass, old wood, worn teal plaster and quiet whimsical character. For rocket-exit the exact desert town is CLEARLY VISIBLE through the large central viewport in every variant, including lamp off; preserve the right-hand exit hatch. Preserve the SAME full spherical equirectangular 360x180 coverage, 2:1 pixel ratio, matching wrap seam and full zenith/nadir. No crop, zoom, black caps, vignette, border, UI, characters, collectibles or scene animation. Output one matching production state.",
+  "mode": "built-in",
+  "master": "assets/panoramas/rocket-exit/night-on.png"
+}

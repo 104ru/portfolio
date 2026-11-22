@@ -1,0 +1,6 @@
+{
+  "scene": "hotel",
+  "state": "light-off",
+  "prompt": "Use case: lighting-weather. Image 1 is the chosen FINAL master panorama of Motel-404. Create its matching LIGHT OFF state. Change ONLY illumination: switch the single glowing ceiling pendant fully off, its bulb must no longer emit light. Keep every door, shelf, stair, furnishing, floor tile, ceiling rib, wall detail, camera orientation and panorama geometry EXACTLY fixed. This is a windowless interior: no invented windows, sunbeams or exterior landscapes. Very low, neutral residual ambient bounce leaves enough silhouettes and floor detail for navigation, without any visible glowing artificial fixture; do not make the output pure black. Preserve the original painterly steampunk execution, hue relationships and texture. Keep the exact same full spherical equirectangular 360x180 coverage, seamless wrap and 2:1 ratio as the input. No crop, resize layout, zoom, added or removed objects, text, UI, vignette or black caps. One production lighting variant, no redesign.",
+  "mode": "built-in"
+}

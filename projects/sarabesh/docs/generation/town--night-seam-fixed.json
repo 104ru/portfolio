@@ -1,0 +1,10 @@
+{
+  "scene": "town",
+  "state": "night-seam-fixed",
+  "refs": [
+    "/Users/sandy/Documents/ChatGPT/Explorable world/assets/panoramas/town/night.png"
+  ],
+  "prompt": "Use case: precise-object-edit. This existing 2:1 equirectangular night panorama is the EDIT TARGET and the chosen final art direction. Make ONLY a technical seam correction: the leftmost and rightmost columns currently fail to match and cause a vertical cut through the skyline and desert when wrapped around a sphere. Make both edges the same continuous matching view with fully coherent architecture, sky and foreground across the wrap. Preserve all other pixels as closely as possible, all layout, character, silhouettes, camera rotation, colors, lighting and style. Keep the full sky/ground coverage and correct spherical pole compression. Output one full equirectangular 360x180 panorama at the SAME 2:1 aspect ratio, exact 4096x2048 if supported. No new design, no vignette, black bands, extra characters, scene objects, border or text.",
+  "file": "assets/panoramas/town/night-seam-fixed.png",
+  "mode": "built-in"
+}

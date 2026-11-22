@@ -1,0 +1,184 @@
+{
+  "portfolio": "https://github.com/liza-bam/portfolio",
+  "localSource": "/Users/sandy/Documents/ChatGPT/Portfolio",
+  "copiedFromWorkingTree": true,
+  "files": [
+    {
+      "path": "viewer/COPYING",
+      "sha256": "b956ebda245899e35149c6a0a867916bfc9d11a6e9464b09fa1d8b3485ce608f"
+    },
+    {
+      "path": "viewer/apartment.jpg",
+      "sha256": "b0c177f639347269862cd2e8d6859e57e52e346fd8779212012d19bc8ddd2f7d"
+    },
+    {
+      "path": "viewer/bar.jpg",
+      "sha256": "0a0e98b5d67bc0276b1e734edb2d6515c892c55fb9dce297c3b6537bfca9082d"
+    },
+    {
+      "path": "viewer/entry.jpg",
+      "sha256": "ed837d2a4aa8d0928e17cbac6c283a703fa07bda61a0bd58ec31cf9ac9279458"
+    },
+    {
+      "path": "viewer/grocery.jpg",
+      "sha256": "ac7596755bac55827e2392b8f657f83b4fd40cf271ed9948b20b3ffa2d99eb05"
+    },
+    {
+      "path": "viewer/hotel.jpg",
+      "sha256": "6529504d5e9bfbad044a15bfce2b155acadff8c56b80a1e5c47df5ef482271dd"
+    },
+    {
+      "path": "viewer/index.html",
+      "sha256": "6c32b6b2bca5a5a3314157e05a3f3cfb16d5487ae7539c4a924826ec4f89dd4f"
+    },
+    {
+      "path": "viewer/kitchen.jpg",
+      "sha256": "a578e234acd8aba93a917d7f4ad1a8b11f1315c93d8795cd24795ab516fac06b"
+    },
+    {
+      "path": "viewer/night.jpg",
+      "sha256": "d0474a4496189fcc77cc65addb5af234b798a9c852d87872a982eb2fae0f022d"
+    },
+    {
+      "path": "viewer/pannellum.css",
+      "sha256": "a7f1d7b86f1068f228d92f1b0aef95bd41d1e2e12785516573adbf552ee2793d"
+    },
+    {
+      "path": "viewer/pannellum.js",
+      "sha256": "a28b2f7b339fd0a602c6769df1dca6ad43af73bc8c6a5be67209715289c12a9a"
+    },
+    {
+      "path": "viewer/tour.js",
+      "sha256": "4f3dba29589f4d67c1b4b00198c2b0a88dc477b788c294b498faa7490a950376"
+    },
+    {
+      "path": "viewer/tour.json",
+      "sha256": "e702f80048cc7e24974b8a4b1cc0ed4fd9679e9f8678d84e14c710678c2b347f"
+    },
+    {
+      "path": "viewer/window.jpg",
+      "sha256": "442517634e63e0c7d8904d564eddaf9ead531b472467ed49109448fe475261af"
+    },
+    {
+      "path": "sources/original-config/.DS_Store",
+      "sha256": "4f922fe0899f34c7b18eaa211270cc8f730756e3c6085e5766f5729d92c82dcc"
+    },
+    {
+      "path": "sources/original-config/apartment.json",
+      "sha256": "3c2b49cafa67e7a4a3fe12e660c7aecfaf85fd75db98b563b55287c1bd9f91f7"
+    },
+    {
+      "path": "sources/original-config/bar.json",
+      "sha256": "8827b4d5e7b0a39105005c90c60c7d0dc177314163f15d6bdcfee71aa77d30c6"
+    },
+    {
+      "path": "sources/original-config/crooked.json",
+      "sha256": "7605f4ed600cae20d1c6f5bc8ff53f4eb5d2714d08afedd5f1ac517181e0ab91"
+    },
+    {
+      "path": "sources/original-config/desert-night.json",
+      "sha256": "012ac17e54051d874ba4526160014f71b89db3143f2c896d7298499cf4eb5c02"
+    },
+    {
+      "path": "sources/original-config/entry.json",
+      "sha256": "8c077c4470af172273ae671264d1a65ccd533bd96c95f8d93e207d3c414c07cb"
+    },
+    {
+      "path": "sources/original-config/grocery.json",
+      "sha256": "ce4c5b124db53bb59ab8d6a527d6d880c5b88c586b2fcba68b131acd508eaad8"
+    },
+    {
+      "path": "sources/original-config/hotel.json",
+      "sha256": "7ddb30c39aa8991a5bfe8d7c77097547a4bbdf422148ef9721d2001cafb224ff"
+    },
+    {
+      "path": "sources/original-config/kitchen.json",
+      "sha256": "0da22bfc43a4145906901af0e16fa5cec2bccff812ced816b2d48e626d152846"
+    },
+    {
+      "path": "sources/original-config/panned.json",
+      "sha256": "617756ad92f540363c496f85af4b064559d4fce4c5136a99d8937c697c0dfed6"
+    },
+    {
+      "path": "sources/original-config/squared.json",
+      "sha256": "af90ffbef6c5696818fe9abff91c475bc4fa85c7ad15f6bb03776645a65eff52"
+    },
+    {
+      "path": "sources/original-engine/COPYING",
+      "sha256": "b956ebda245899e35149c6a0a867916bfc9d11a6e9464b09fa1d8b3485ce608f"
+    },
+    {
+      "path": "sources/original-engine/VERSION",
+      "sha256": "71a5033569c12d418eed534bfec7ace7e0394e6e0dc349a6f0201c49d6dbf04e"
+    },
+    {
+      "path": "sources/original-engine/changelog.md",
+      "sha256": "817e0e4ed56405f5f6114091f21bb15c6d70a8bcc49be1bc8b4482cd9f0776a2"
+    },
+    {
+      "path": "sources/original-engine/pannellum.css",
+      "sha256": "a7f1d7b86f1068f228d92f1b0aef95bd41d1e2e12785516573adbf552ee2793d"
+    },
+    {
+      "path": "sources/original-engine/pannellum.htm",
+      "sha256": "8b5bebc3f4d7310ce319cf5980250b7dbc6b2c136f21ab6ee37f344f9f11e3bc"
+    },
+    {
+      "path": "sources/original-engine/pannellum.js",
+      "sha256": "a28b2f7b339fd0a602c6769df1dca6ad43af73bc8c6a5be67209715289c12a9a"
+    },
+    {
+      "path": "sources/original-engine/readme.md",
+      "sha256": "6dbdc2f96ce8b5f0b4e9acc8080a911d5fa18b654130345f1d584a712cc5c27c"
+    },
+    {
+      "path": "sources/original-panoramas/.DS_Store",
+      "sha256": "2f1a5e9bdc70c021e44aacc31c1dff1542c44f7a6338fe8943feda88fa2a0f2f"
+    },
+    {
+      "path": "sources/original-panoramas/apartment.jpg",
+      "sha256": "487854eb03bd382cdbd5998002710c0c9ef5792c149b7abaaaf7f7e9eaa25510"
+    },
+    {
+      "path": "sources/original-panoramas/bar.jpg",
+      "sha256": "7b3e64066a426f524241b3198dc783632d6c30fe71dadd1a4636842640318ce6"
+    },
+    {
+      "path": "sources/original-panoramas/crooked-town.jpg",
+      "sha256": "e4404544d4a293901d22f1a0170931e46fa917f2c09c4f1b5662651efdb7e2bd"
+    },
+    {
+      "path": "sources/original-panoramas/entry.jpg",
+      "sha256": "909991fb71b589f48966061f93d1dfaf27c43b8226cad18599a357cf795724ab"
+    },
+    {
+      "path": "sources/original-panoramas/grocery.jpg",
+      "sha256": "5313073f95351482ab102a235db9348eae7e0da18b3f61b30e59a9b98d94a569"
+    },
+    {
+      "path": "sources/original-panoramas/hotel.jpg",
+      "sha256": "371acfec849544ff464869d8476e01cd048a9f0fcbc6cca68b43103a26d44bea"
+    },
+    {
+      "path": "sources/original-panoramas/kitchen.jpg",
+      "sha256": "7ece0be67023b84ef2b519aecdb3ff2294b21abcd86206b848f889820c84caee"
+    },
+    {
+      "path": "sources/original-panoramas/night.jpg",
+      "sha256": "33ea1a7ea5e599187a90f566d79a60920d77568be71887d92851b9a997d2be0b"
+    },
+    {
+      "path": "sources/original-panoramas/panned.jpg",
+      "sha256": "41ef1330d8472885f29e4c847911a417ad29da1875f764e37ddcc06ca70dc48e"
+    },
+    {
+      "path": "sources/original-panoramas/square.jpg",
+      "sha256": "47b899e2c96aba92c138fdbb91b656b6c98437c2ada0470f30feb079006d1a09"
+    },
+    {
+      "path": "sources/original-panoramas/view.jpg",
+      "sha256": "7c03b3d07106eae0457aedee1ddada95d547a1c9577128262832505c6883f370"
+    }
+  ],
+  "retention": "Historical provenance and checksums only. Redundant source copies removed at Sandy\u2019s request; owning originals remain in the portfolio repository."
+}

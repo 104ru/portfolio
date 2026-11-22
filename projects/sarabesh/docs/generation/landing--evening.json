@@ -1,0 +1,6 @@
+{
+  "scene": "landing",
+  "state": "evening",
+  "prompt": "Use case: lighting-weather. Image 1 is the final landing ground master. Produce the matching evening state. Amber evening, rose/lavender dusk sky, long shadows, restrained amber town windows. Change ONLY light, shadows and sky. Preserve the exact vintage teal-and-brass landed rocket shape, large oval viewport, wheel hatch, steps, path, skyline, rock and grass positions, camera yaw and all geometry. The rocket interior's single artificial lamp remains on as in the master, visible through the viewport; outdoor time changes independently. No stars or moon in morning/day, no deep midnight sky for evening. Preserve the handmade painterly steampunk style. Same complete true equirectangular 360x180 panorama with exact 2:1 ratio, seamless wrapping, full sky and ground poles. No crop, black caps, vignette, characters, objects, text, interface or animation. This is a lighting variant, no new design.",
+  "mode": "built-in"
+}

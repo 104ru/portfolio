@@ -1,0 +1,102 @@
+{
+  "method": "Built-in image edit of a registered 90\u00b0 view; localized spherical projection at yaw -80\u00b0, pitch -20\u00b0",
+  "scope": "Remove chairs/stools immediately around the billiards table; preserve dining and bar seating",
+  "states": [
+    {
+      "state": "day-on",
+      "paintedViewSize": [
+        1254,
+        1254
+      ],
+      "productionSize": [
+        6144,
+        3072
+      ],
+      "projectedPixels": 792877
+    },
+    {
+      "state": "day-off",
+      "paintedViewSize": [
+        1254,
+        1254
+      ],
+      "productionSize": [
+        6144,
+        3072
+      ],
+      "projectedPixels": 792877
+    },
+    {
+      "state": "evening-off",
+      "paintedViewSize": [
+        1254,
+        1254
+      ],
+      "productionSize": [
+        6144,
+        3072
+      ],
+      "projectedPixels": 792877
+    },
+    {
+      "state": "evening-on",
+      "paintedViewSize": [
+        1254,
+        1254
+      ],
+      "productionSize": [
+        6144,
+        3072
+      ],
+      "projectedPixels": 792877
+    },
+    {
+      "state": "morning-off",
+      "paintedViewSize": [
+        1254,
+        1254
+      ],
+      "productionSize": [
+        6144,
+        3072
+      ],
+      "projectedPixels": 792877
+    },
+    {
+      "state": "morning-on",
+      "paintedViewSize": [
+        1254,
+        1254
+      ],
+      "productionSize": [
+        6144,
+        3072
+      ],
+      "projectedPixels": 792877
+    },
+    {
+      "state": "night-off",
+      "paintedViewSize": [
+        1254,
+        1254
+      ],
+      "productionSize": [
+        6144,
+        3072
+      ],
+      "projectedPixels": 792877
+    },
+    {
+      "state": "night-on",
+      "paintedViewSize": [
+        1254,
+        1254
+      ],
+      "productionSize": [
+        6144,
+        3072
+      ],
+      "projectedPixels": 792877
+    }
+  ]
+}

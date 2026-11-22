@@ -1,3 +1,7 @@
+## Maintained portfolio
+
+The canonical public site is https://sandy.tayts.com. All portfolio demos are maintained in this repository; see [the demo inventory](docs/portfolio-demos.md). Push main to publish through `.github/workflows/static-sites.yml`. The duplicate GitHub Pages workflow has been retired. Live services remain at their existing domains.
+
 # Sandy Tayts Portfolio
 
 New portfolio workspace. The original site is https://www.sandyux.com/.

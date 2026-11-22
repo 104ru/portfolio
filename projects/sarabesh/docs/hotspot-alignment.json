@@ -1,0 +1,138 @@
+{
+  "review": "All 18 directed travel points visually aligned to the selected redraw",
+  "anchors": [
+    "wheel hubs",
+    "door handles and door centers",
+    "stair landing doorway",
+    "balcony opening",
+    "exterior path"
+  ],
+  "points": [
+    {
+      "destination": "landing",
+      "previousYaw": 115.0,
+      "previousPitch": -3.0,
+      "yaw": 108.51,
+      "pitch": -3.52
+    },
+    {
+      "destination": "rocket-exit",
+      "previousYaw": 115.0,
+      "previousPitch": -8.0,
+      "yaw": 136.08,
+      "pitch": 10.32
+    },
+    {
+      "destination": "town",
+      "previousYaw": -40.0,
+      "previousPitch": -6.0,
+      "yaw": -34.49,
+      "pitch": -2.16
+    },
+    {
+      "destination": "landing",
+      "previousYaw": -30.0,
+      "previousPitch": -16.0,
+      "yaw": -29.94,
+      "pitch": -16.06
+    },
+    {
+      "destination": "foyer",
+      "previousYaw": -104.5,
+      "previousPitch": -8.0,
+      "yaw": -104.44,
+      "pitch": -6.6
+    },
+    {
+      "destination": "bar",
+      "previousYaw": -173.5,
+      "previousPitch": -6.0,
+      "yaw": -167.36,
+      "pitch": -4.57
+    },
+    {
+      "destination": "grocery",
+      "previousYaw": -157.0,
+      "previousPitch": -2.0,
+      "yaw": -158.4,
+      "pitch": 0.13
+    },
+    {
+      "destination": "hotel",
+      "previousYaw": 40.0,
+      "previousPitch": -10.0,
+      "yaw": 40.06,
+      "pitch": -8.6
+    },
+    {
+      "destination": "town",
+      "previousYaw": 85.0,
+      "previousPitch": -2.0,
+      "yaw": 90.14,
+      "pitch": 4.46
+    },
+    {
+      "destination": "apartment",
+      "previousYaw": 25.0,
+      "previousPitch": -1.0,
+      "yaw": 26.51,
+      "pitch": 17.92
+    },
+    {
+      "destination": "kitchen",
+      "previousYaw": -85.0,
+      "previousPitch": -3.0,
+      "yaw": -61.73,
+      "pitch": 8.43
+    },
+    {
+      "destination": "foyer",
+      "previousYaw": -168.0,
+      "previousPitch": -5.0,
+      "yaw": -162.06,
+      "pitch": -8.66
+    },
+    {
+      "destination": "foyer",
+      "previousYaw": -149.0,
+      "previousPitch": -1.0,
+      "yaw": -146.02,
+      "pitch": -3.97
+    },
+    {
+      "destination": "window",
+      "previousYaw": 90.0,
+      "previousPitch": 4.0,
+      "yaw": 90.06,
+      "pitch": -0.43
+    },
+    {
+      "destination": "apartment",
+      "previousYaw": 124.0,
+      "previousPitch": 0.0,
+      "yaw": 131.32,
+      "pitch": -8.68
+    },
+    {
+      "destination": "town",
+      "previousYaw": 31.0,
+      "previousPitch": -2.0,
+      "yaw": 18.82,
+      "pitch": -3.44
+    },
+    {
+      "destination": "town",
+      "previousYaw": 126.0,
+      "previousPitch": -5.0,
+      "yaw": 131.09,
+      "pitch": -9.4
+    },
+    {
+      "destination": "town",
+      "previousYaw": -100.0,
+      "previousPitch": -5.0,
+      "yaw": -109.31,
+      "pitch": 0.04
+    }
+  ]
+}
