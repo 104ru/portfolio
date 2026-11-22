@@ -1,0 +1,434 @@
+{
+  "version": 1,
+  "title": "Sarabesh \u2014 V1 geography",
+  "status": "poc-complete",
+  "sceneCount": 10,
+  "startScene": "rocket-exit",
+  "scope": {
+    "browserFirst": true,
+    "futureHeadset": true,
+    "movement": "fixed-viewpoint transitions",
+    "panoramaTarget": {
+      "horizontalDegrees": 360,
+      "verticalDegrees": 180
+    },
+    "sceneAnimation": false,
+    "gameObjects": false,
+    "audio": false,
+    "map": "illustrated ten-place chart, current and visited locations, direct travel",
+    "interface": "full-screen; no header or footer; tiny map and indoor-light controls; pulsing travel dots",
+    "release": "proof-of-concept",
+    "futureRooms": "Existing extra doors and stairs remain scenery now; allow explicit future connections without adding rooms in this POC.",
+    "timeControl": {
+      "default": "auto",
+      "modes": [
+        "auto",
+        "morning",
+        "day",
+        "evening",
+        "night"
+      ]
+    },
+    "opening": "Skippable illustrated rocket landing, large Sarabesh title and exploration-only POC introduction",
+    "travelMotion": {
+      "departureMs": 300,
+      "arrivalMs": 440,
+      "transition": "directional camera glide and crossfade",
+      "respectsReducedMotion": true
+    }
+  },
+  "localTime": {
+    "clock": "visitor device local time",
+    "useGeolocation": false,
+    "periods": [
+      {
+        "id": "morning",
+        "startHour": 6,
+        "endHour": 10
+      },
+      {
+        "id": "day",
+        "startHour": 10,
+        "endHour": 18
+      },
+      {
+        "id": "evening",
+        "startHour": 18,
+        "endHour": 21
+      },
+      {
+        "id": "night",
+        "startHour": 21,
+        "endHour": 6
+      }
+    ]
+  },
+  "lighting": {
+    "outdoors": "morning/day/evening/night",
+    "interiors": "one independent artificial light on/off; window daylight stays visible when light is off",
+    "windowedInteriors": "coordinate daylight with outside; never black out the window with the light switch",
+    "windowlessInteriors": "artificial light on/off only",
+    "classificationStatus": "Foyer and motel treated as windowless; grocery clerestory, tavern glazing, kitchen, apartment and rocket have exterior daylight."
+  },
+  "map": {
+    "showCurrentLocation": true,
+    "showVisitedPlaces": true,
+    "fastTravel": true,
+    "showParis": false,
+    "positionUnits": "topology coordinates; not geographic distance; floor information is separate",
+    "showUnvisitedPlaces": true,
+    "unvisitedAppearance": "shadowed picture portholes",
+    "visitedAppearance": "full-color picture portholes with separate information buttons",
+    "placeDescriptions": "First entrance opens a brief journal note; visited place information reopens it from the map"
+  },
+  "futureCapabilities": {
+    "note": "Extension points only. No placeholder objects, inventory, puzzles, animation or dashboard controls are implemented.",
+    "sceneState": [
+      "visited",
+      "artificialLightOn"
+    ],
+    "interactionKinds": [
+      "travel",
+      "light"
+    ],
+    "later": [
+      "objects",
+      "inventory",
+      "puzzles",
+      "sceneAnimation",
+      "headsetInput"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "rocket-exit",
+      "number": "01",
+      "name": "Rocket exit room",
+      "environment": "interior-windowed",
+      "sourceImage": null,
+      "assetStatus": "New scene",
+      "description": "Inside the rocket at the exit hatch. A generous viewport clearly shows the landing ground and distant town. The landscape stays visible with the cabin light off.",
+      "mapPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "floor": 0,
+      "artificialLight": true,
+      "panoramaReady": true,
+      "productionStatus": "POC panorama and lighting states complete",
+      "visitorDescription": "Your little vessel has brought you across the dunes. Beyond its brass-rimmed window lies Sarabesh. Turn towards the wheel on the hatch when you\u2019re ready to step outside."
+    },
+    {
+      "id": "landing",
+      "number": "02",
+      "name": "Landing ground",
+      "environment": "outdoor",
+      "sourceImage": "sources/original-panoramas/square.jpg",
+      "assetStatus": "Archived source",
+      "description": "Outside the rocket, at the settlement edge. Looking back reveals the same hatch and viewport; the town entrance is ahead.",
+      "mapPosition": {
+        "x": 0,
+        "y": 1
+      },
+      "floor": 0,
+      "artificialLight": false,
+      "panoramaReady": true,
+      "productionStatus": "POC panorama and lighting states complete",
+      "visitorDescription": "Warm sand, weathered machinery and the first glimpse of Sarabesh. Your rocket rests behind you; the crooked skyline ahead marks the way into the city."
+    },
+    {
+      "id": "town",
+      "number": "03",
+      "name": "Sarabesh City Plaza",
+      "environment": "outdoor",
+      "sourceImage": "sources/original-panoramas/night.jpg",
+      "assetStatus": "Existing scene",
+      "description": "The desert town hub. Keep the original positions and entrances of the residence, grocery, caravanserai and motel.",
+      "mapPosition": {
+        "x": 0,
+        "y": 2
+      },
+      "floor": 0,
+      "artificialLight": false,
+      "panoramaReady": true,
+      "productionStatus": "POC panorama and lighting states complete",
+      "visitorDescription": "Sarabesh rises from the desert in a tangle of copper pipes, domes and improbable towers. Its water has fallen silent. For now, wander its doorways and discover the places waiting within."
+    },
+    {
+      "id": "foyer",
+      "number": "04",
+      "name": "Cogswash foyer",
+      "environment": "interior-windowless",
+      "sourceImage": "sources/original-panoramas/entry.jpg",
+      "assetStatus": "Existing scene",
+      "description": "Residence entrance, with a route upstairs and a separate kitchen doorway. Daylight enters through the exterior doorway glazing; confirm the glazing in the polish pass.",
+      "mapPosition": {
+        "x": -1,
+        "y": 2
+      },
+      "floor": 0,
+      "artificialLight": true,
+      "panoramaReady": true,
+      "productionStatus": "POC panorama and lighting states complete",
+      "visitorDescription": "The Cogswash residence opens around a winding staircase, worn rugs and intricate brass fittings. The kitchen lies nearby; the stairs lead up to the living quarters."
+    },
+    {
+      "id": "kitchen",
+      "number": "05",
+      "name": "Cogswash kitchen",
+      "environment": "interior-windowed",
+      "sourceImage": "sources/original-panoramas/kitchen.jpg",
+      "assetStatus": "Existing scene",
+      "description": "Ground-floor kitchen off the foyer. Preserve the visible window and kitchen identity.",
+      "mapPosition": {
+        "x": -1,
+        "y": 3
+      },
+      "floor": 0,
+      "artificialLight": true,
+      "panoramaReady": true,
+      "productionStatus": "POC panorama and lighting states complete",
+      "visitorDescription": "A well-used kitchen wrapped in warm timber, hanging pans and curious pipework. Daylight reaches the worktops through the windows. Try the light lever, or turn the time dial to see the room change."
+    },
+    {
+      "id": "apartment",
+      "number": "06",
+      "name": "Living quarters",
+      "environment": "interior-windowed",
+      "sourceImage": "sources/original-panoramas/apartment.jpg",
+      "assetStatus": "Existing scene",
+      "description": "Upstairs in Cogswash Residence. The outward opening leads to the existing valley-view viewpoint.",
+      "mapPosition": {
+        "x": -1,
+        "y": 1
+      },
+      "floor": 1,
+      "artificialLight": true,
+      "panoramaReady": true,
+      "productionStatus": "POC panorama and lighting states complete",
+      "visitorDescription": "Books crowd the shelves of these quiet living quarters. A comfortable chair, a writing desk and a view across the rooftops make this a good place to pause. The open window leads to the balcony."
+    },
+    {
+      "id": "window",
+      "number": "07",
+      "name": "Valley window view",
+      "environment": "outdoor-threshold",
+      "sourceImage": "sources/original-panoramas/view.jpg",
+      "assetStatus": "Existing scene",
+      "description": "An upper-floor outward-looking viewpoint at the residence window. Return only to the living quarters. This is the existing valley view, not an assumed Paris destination.",
+      "mapPosition": {
+        "x": -2,
+        "y": 1
+      },
+      "floor": 1,
+      "artificialLight": false,
+      "panoramaReady": true,
+      "productionStatus": "POC panorama and lighting states complete",
+      "visitorDescription": "Above the streets, the valley opens beyond an ornate brass railing. Look back through the glass to see the living quarters, or watch the city shift from morning gold to night-time blue."
+    },
+    {
+      "id": "bar",
+      "number": "08",
+      "name": "Clockwork Caravanserai",
+      "environment": "interior-windowed",
+      "sourceImage": "sources/original-panoramas/bar.jpg",
+      "assetStatus": "Existing scene",
+      "description": "Town tavern reached through its original street entrance. Exterior-facing glazing keeps a relationship to local daylight.",
+      "mapPosition": {
+        "x": 1,
+        "y": 2
+      },
+      "floor": 0,
+      "artificialLight": true,
+      "panoramaReady": true,
+      "productionStatus": "POC panorama and lighting states complete",
+      "visitorDescription": "The Clockwork Caravanserai offers polished wood, bottles and a forest of pipes overhead. Sunlight falls across its tables by day; warm lamps draw the room together after dark."
+    },
+    {
+      "id": "grocery",
+      "number": "09",
+      "name": "Mechaniker Grocery",
+      "environment": "interior-windowed",
+      "sourceImage": "sources/original-panoramas/grocery.jpg",
+      "assetStatus": "Existing scene",
+      "description": "Town grocery reached through its original street entrance. Preserve the shop layout; confirm whether daylight reaches it through glazing during polish.",
+      "mapPosition": {
+        "x": 1,
+        "y": 1
+      },
+      "floor": 0,
+      "artificialLight": true,
+      "panoramaReady": true,
+      "productionStatus": "POC panorama and lighting states complete",
+      "visitorDescription": "Behind the Mechaniker Grocery\u2019s doors, jars, provisions and elaborate machinery share the shelves. Look up to the tall windows and vaulted ceiling, then follow the green light back to the city."
+    },
+    {
+      "id": "hotel",
+      "number": "10",
+      "name": "Motel-404",
+      "environment": "interior-windowless",
+      "sourceImage": "sources/original-panoramas/hotel.jpg",
+      "assetStatus": "Existing scene",
+      "description": "Motel entrance hall reached from town. Preserve the hallway, rooms and original return doorway; confirm daylight access during polish.",
+      "mapPosition": {
+        "x": 1,
+        "y": 3
+      },
+      "floor": 0,
+      "artificialLight": true,
+      "panoramaReady": true,
+      "productionStatus": "POC panorama and lighting states complete",
+      "visitorDescription": "Motel-404 is a quiet refuge of curved metal corridors, shelves and softly worn furnishings. There are more doors than answers here. In this first exploration, only the entrance hall is open."
+    }
+  ],
+  "connections": [
+    {
+      "id": "rocket-exit--landing",
+      "from": "rocket-exit",
+      "to": "landing",
+      "bidirectional": true,
+      "labels": {
+        "forward": "Exit hatch",
+        "return": "Enter the rocket"
+      },
+      "origin": "new",
+      "continuity": "Hatch and landing position must match both views.",
+      "hotspotPlacement": "retain original coordinates for existing routes; calibrate new routes after panorama polish"
+    },
+    {
+      "id": "landing--town",
+      "from": "landing",
+      "to": "town",
+      "bidirectional": true,
+      "labels": {
+        "forward": "Walk into town",
+        "return": "Return to the landing ground"
+      },
+      "origin": "new",
+      "continuity": "Same approach path, rocket silhouette and town skyline in both views.",
+      "hotspotPlacement": "retain original coordinates for existing routes; calibrate new routes after panorama polish"
+    },
+    {
+      "id": "town--foyer",
+      "from": "town",
+      "to": "foyer",
+      "bidirectional": true,
+      "labels": {
+        "forward": "Enter Cogswash Residence",
+        "return": "Return to town"
+      },
+      "origin": "existing",
+      "continuity": "Preserve the original residence entrance.",
+      "hotspotPlacement": "retain original coordinates for existing routes; calibrate new routes after panorama polish"
+    },
+    {
+      "id": "foyer--kitchen",
+      "from": "foyer",
+      "to": "kitchen",
+      "bidirectional": true,
+      "labels": {
+        "forward": "Enter the kitchen",
+        "return": "Return to the foyer"
+      },
+      "origin": "existing",
+      "continuity": "Match the kitchen doorway and reverse view.",
+      "hotspotPlacement": "retain original coordinates for existing routes; calibrate new routes after panorama polish"
+    },
+    {
+      "id": "foyer--apartment",
+      "from": "foyer",
+      "to": "apartment",
+      "bidirectional": true,
+      "labels": {
+        "forward": "Go upstairs",
+        "return": "Go downstairs"
+      },
+      "origin": "existing",
+      "continuity": "Same staircase and floor relationship.",
+      "hotspotPlacement": "retain original coordinates for existing routes; calibrate new routes after panorama polish"
+    },
+    {
+      "id": "apartment--window",
+      "from": "apartment",
+      "to": "window",
+      "bidirectional": true,
+      "labels": {
+        "forward": "Look out over the valley",
+        "return": "Return inside"
+      },
+      "origin": "existing",
+      "continuity": "Match the window frame, elevation and town landmarks.",
+      "hotspotPlacement": "retain original coordinates for existing routes; calibrate new routes after panorama polish"
+    },
+    {
+      "id": "town--bar",
+      "from": "town",
+      "to": "bar",
+      "bidirectional": true,
+      "labels": {
+        "forward": "Enter Clockwork Caravanserai",
+        "return": "Return to town"
+      },
+      "origin": "existing",
+      "continuity": "Keep the original tavern entrance bearing.",
+      "hotspotPlacement": "retain original coordinates for existing routes; calibrate new routes after panorama polish"
+    },
+    {
+      "id": "town--grocery",
+      "from": "town",
+      "to": "grocery",
+      "bidirectional": true,
+      "labels": {
+        "forward": "Enter Mechaniker Grocery",
+        "return": "Return to town"
+      },
+      "origin": "existing",
+      "continuity": "Keep the original grocery entrance bearing.",
+      "hotspotPlacement": "retain original coordinates for existing routes; calibrate new routes after panorama polish"
+    },
+    {
+      "id": "town--hotel",
+      "from": "town",
+      "to": "hotel",
+      "bidirectional": true,
+      "labels": {
+        "forward": "Enter Motel-404",
+        "return": "Return to town"
+      },
+      "origin": "existing",
+      "continuity": "Keep the original motel entrance bearing.",
+      "hotspotPlacement": "retain original coordinates for existing routes; calibrate new routes after panorama polish"
+    }
+  ],
+  "exclusions": {
+    "paris": {
+      "status": "dropped",
+      "reason": "User confirmed the idea was probably scratched; do not create Paris assets or routes."
+    },
+    "unusedSourceReferences": [
+      "panned.jpg",
+      "crooked-town.jpg"
+    ]
+  },
+  "production": {
+    "viewpoints": 10,
+    "lightingAssets": 64,
+    "masterDimensions": {
+      "width": 6144,
+      "height": 3072
+    },
+    "browserEncoding": "WebP quality 90; full resolution",
+    "masterEncoding": "WebP",
+    "generationMode": "built-in image tool",
+    "headsetRuntimeImplemented": false,
+    "panoramaResolution": [
+      6144,
+      3072
+    ],
+    "enhancement": "Registered view redraw, assembled master detail retained for lighting",
+    "generatedInputDimensions": {
+      "width": 1774,
+      "height": 887
+    }
+  }
+}

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="theme-color" content="#192322">
+  <title>Sarabesh — The Last Electrician</title>
+  <meta name="description" content="Explore Sarabesh, a hand-painted desert city of brass and clockwork. A proof of concept for The Last Electrician.">
+  <link rel="stylesheet" href="viewer/pannellum.css">
+  <link rel="stylesheet" href="world/preview.css?v=sarabesh-life-16">
+  <link rel="preload" as="image" href="assets/ui/dwellers-chart-paper.jpg">
+  <link rel="preload" as="image" href="assets/ui/light-switch-on.webp">
+  <link rel="preload" as="image" href="assets/ui/light-switch-off.webp">
+</head>
+<body>
+  <main id="panorama" aria-label="Explorable panorama"></main>
+  <div id="instrument-shade" aria-hidden="true"></div>
+  <div id="loading-veil" aria-hidden="true"></div>
+  <section id="intro" aria-label="Welcome to Sarabesh" data-phase="landing">
+    <div class="arrival-landscape" aria-hidden="true"></div>
+    <div class="arrival-vignette" aria-hidden="true"></div>
+    <div class="landing-vessel" aria-hidden="true">
+      <div class="rocket-shadow"></div>
+      <img id="arrival-rocket" src="assets/ui/arrival-rocket.webp" alt="" fetchpriority="high">
+      <div class="engine-glow"></div>
+      <div class="landing-dust dust-one"></div><div class="landing-dust dust-two"></div><div class="landing-dust dust-three"></div><div class="landing-dust dust-four"></div><div class="landing-dust dust-five"></div><div class="landing-dust dust-six"></div>
+    </div>
+    <div id="landing-caption" role="status">A distant engine breaks the silence.</div>
+    <button id="skip-intro" class="brass-pill">Skip intro</button>
+    <div class="nameplate" id="welcome-card" inert>
+      <p class="intro-prelude">A world waiting to wake</p>
+      <h1>Sarabesh</h1>
+      <p class="intro-story">A city of brass sleeps beyond the dunes. As the last electrician, you’ll one day restore its water—and bring the desert to life.</p>
+      <p class="intro-scope">A proof of concept for <em>The Last Electrician.</em> Exploration only for now: explore ten places, meet their Dwellers, and change the light. The quest is still to come.</p>
+      <button id="enter-world" class="explore-button" disabled><span>Preparing your arrival…</span></button>
+      <p class="intro-guidance">Drag to look around. Follow the green lights. <br>Use the map to travel.</p>
+    </div>
+  </section>
+  <div class="controls">
+    <button id="map-toggle" class="small-control" aria-label="Open map" title="Map">
+
+    </button>
+    <button id="light-toggle" class="small-control" aria-label="Switch light off" aria-pressed="true" title="Light" hidden>
+      <span class="switch-art" aria-hidden="true"></span>
+    </button>
+  </div>
+  <div class="time-controls">
+    <div id="time-picker" class="time-picker" hidden>
+      <fieldset class="time-dial"><legend class="visually-hidden">Choose time of day</legend>
+        <span class="dial-pointer time-needle" aria-hidden="true"></span>
+        <label class="dial-stop stop-auto" title="Auto"><input type="radio" name="time-mode" value="auto" aria-label="Auto"><span class="visually-hidden">Auto</span></label>
+        <label class="dial-stop stop-morning" title="Morning"><input type="radio" name="time-mode" value="morning" aria-label="Morning"><span class="visually-hidden">Morning</span></label>
+        <label class="dial-stop stop-day" title="Day"><input type="radio" name="time-mode" value="day" aria-label="Day"><span class="visually-hidden">Day</span></label>
+        <label class="dial-stop stop-evening" title="Evening"><input type="radio" name="time-mode" value="evening" aria-label="Evening"><span class="visually-hidden">Evening</span></label>
+        <label class="dial-stop stop-night" title="Night"><input type="radio" name="time-mode" value="night" aria-label="Night"><span class="visually-hidden">Night</span></label>
+      </fieldset>
+    </div>
+    <button id="time-toggle" class="time-knob" aria-label="Open time dial" aria-controls="time-picker" aria-expanded="false"><span class="knob-face" aria-hidden="true"><span class="knob-pointer time-needle"></span></span><span id="time-label" class="visually-hidden">Auto</span></button>
+  </div>
+  <div class="utility-controls">
+    <button id="help-toggle" class="brass-medallion" aria-label="How to explore" title="How to explore"><span aria-hidden="true">?</span></button>
+    <button id="fullscreen-toggle" class="brass-medallion" aria-label="Enter fullscreen" title="Fullscreen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></button>
+  </div>
+  <p id="status" role="status">Preparing your arrival…</p>
+  <button id="retry-view" class="brass-pill" hidden>Try again</button>
+  <dialog id="place-dialog" aria-labelledby="place-title" aria-describedby="place-description">
+    <button id="place-close" class="brass-medallion journal-close" aria-label="Close place description">×</button>
+    <div class="journal-porthole"><img id="place-image" alt=""></div>
+    <p id="place-kicker" class="journal-kicker">From your traveller’s journal</p>
+    <h2 id="place-title"></h2>
+    <p id="place-description"></p>
+    <button id="place-continue" class="brass-pill">Continue exploring</button>
+  </dialog>
+  <dialog id="help-dialog" aria-labelledby="help-title">
+    <button id="help-close" class="brass-medallion journal-close" aria-label="Close exploration guide">×</button>
+    <h2 id="help-title">Find your way</h2>
+    <p>Drag—or swipe—to look around, above and below. Follow the glowing green lights to move between places.</p>
+    <p>Open the traveller’s chart to travel anywhere. Visited places become clear; their little <i>i</i> buttons reopen your journal notes.</p>
+    <p>Turn the brass dial to choose morning, day, evening or night. Auto follows your local time. Indoors, pull the lever to switch the lights.</p>
+    <p class="help-scope">This proof of concept is exploration only. There are no puzzles or objects to collect yet.</p>
+    <button id="help-continue" class="brass-pill">Back to exploring</button>
+  </dialog>
+  <button id="rotate" hidden aria-label="Rotate your phone or tap to request landscape">Rotate your phone</button>
+  <dialog id="map-dialog" aria-label="Visited places">
+    <button id="map-close" class="small-control" aria-label="Close map">×</button>
+    <div class="chart-heading" aria-hidden="true">Sarabesh<span>A traveller’s chart</span></div><svg id="world-map" viewBox="0 0 1040 450" role="group" aria-label="World map. Choose a place to travel."></svg>
+    <p id="map-current"></p>
+  </dialog>
+  <script src="viewer/pannellum.js?v=sarabesh-16"></script>
+  <script type="module" src="world/viewer.mjs?v=sarabesh-life-16"></script>
+</body>
+</html>

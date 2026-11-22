@@ -1,0 +1,654 @@
+{
+  "version": 1,
+  "scenes": {
+    "rocket-exit": {
+      "windowless": false,
+      "indoor": true,
+      "linkedLightScene": null,
+      "states": {
+        "morning-off": {
+          "url": "assets/panoramas-hd/rocket-exit/morning-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "5c699fd490df",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3447310,
+          "previewUrl": "assets/map/rocket-exit/morning-off.webp"
+        },
+        "morning-on": {
+          "url": "assets/panoramas-hd/rocket-exit/morning-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "04b9c126db96",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3617854,
+          "previewUrl": "assets/map/rocket-exit/morning-on.webp"
+        },
+        "day-off": {
+          "url": "assets/panoramas-hd/rocket-exit/day-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "b16b716e1ecf",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3692346,
+          "previewUrl": "assets/map/rocket-exit/day-off.webp"
+        },
+        "day-on": {
+          "url": "assets/panoramas-hd/rocket-exit/day-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "7dedeae24741",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 4581462,
+          "previewUrl": "assets/map/rocket-exit/day-on.webp"
+        },
+        "evening-off": {
+          "url": "assets/panoramas-hd/rocket-exit/evening-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "590d0add5540",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 2691054,
+          "previewUrl": "assets/map/rocket-exit/evening-off.webp"
+        },
+        "evening-on": {
+          "url": "assets/panoramas-hd/rocket-exit/evening-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "5662c6d39216",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3032806,
+          "previewUrl": "assets/map/rocket-exit/evening-on.webp"
+        },
+        "night-off": {
+          "url": "assets/panoramas-hd/rocket-exit/night-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "29dd0e243a71",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 2166808,
+          "previewUrl": "assets/map/rocket-exit/night-off.webp"
+        },
+        "night-on": {
+          "url": "assets/panoramas-hd/rocket-exit/night-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "67485ff34c28",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 2875592,
+          "previewUrl": "assets/map/rocket-exit/night-on.webp"
+        }
+      }
+    },
+    "landing": {
+      "windowless": false,
+      "indoor": false,
+      "linkedLightScene": "rocket-exit",
+      "states": {
+        "morning-off": {
+          "url": "assets/panoramas-hd/landing/morning-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "0b7d39a2f5de",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3207128,
+          "previewUrl": "assets/map/landing/morning-off.webp"
+        },
+        "morning-on": {
+          "url": "assets/panoramas-hd/landing/morning-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "175f444b7524",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3224828,
+          "previewUrl": "assets/map/landing/morning-on.webp"
+        },
+        "day-off": {
+          "url": "assets/panoramas-hd/landing/day-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "44aec1975767",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3514050,
+          "previewUrl": "assets/map/landing/day-off.webp"
+        },
+        "day-on": {
+          "url": "assets/panoramas-hd/landing/day-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "bc2fe4c2e3e6",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3536718,
+          "previewUrl": "assets/map/landing/day-on.webp"
+        },
+        "evening-off": {
+          "url": "assets/panoramas-hd/landing/evening-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "fe2065783a2b",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 2636102,
+          "previewUrl": "assets/map/landing/evening-off.webp"
+        },
+        "evening-on": {
+          "url": "assets/panoramas-hd/landing/evening-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "b2eb3681af2d",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 2812518,
+          "previewUrl": "assets/map/landing/evening-on.webp"
+        },
+        "night-off": {
+          "url": "assets/panoramas-hd/landing/night-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "f41eca25d3cf",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 2453140,
+          "previewUrl": "assets/map/landing/night-off.webp"
+        },
+        "night-on": {
+          "url": "assets/panoramas-hd/landing/night-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "8d69a5988ea1",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3696162,
+          "previewUrl": "assets/map/landing/night-on.webp"
+        }
+      }
+    },
+    "town": {
+      "windowless": false,
+      "indoor": false,
+      "linkedLightScene": null,
+      "states": {
+        "morning": {
+          "url": "assets/panoramas-hd/town/morning.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "49e23d5d2616",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 2863102,
+          "previewUrl": "assets/map/town/morning.webp"
+        },
+        "day": {
+          "url": "assets/panoramas-hd/town/day.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "807c26115f80",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3200260,
+          "previewUrl": "assets/map/town/day.webp"
+        },
+        "evening": {
+          "url": "assets/panoramas-hd/town/evening.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "94ea408781bc",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 2666564,
+          "previewUrl": "assets/map/town/evening.webp"
+        },
+        "night": {
+          "url": "assets/panoramas-hd/town/night.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "b65e713825dc",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 2696944,
+          "previewUrl": "assets/map/town/night.webp"
+        }
+      }
+    },
+    "foyer": {
+      "windowless": true,
+      "indoor": true,
+      "linkedLightScene": null,
+      "states": {
+        "light-off": {
+          "url": "assets/panoramas-hd/foyer/light-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "5710d83c53c0",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 2786000,
+          "previewUrl": "assets/map/foyer/light-off.webp"
+        },
+        "light-on": {
+          "url": "assets/panoramas-hd/foyer/light-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "137d274b849a",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 4629692,
+          "previewUrl": "assets/map/foyer/light-on.webp"
+        }
+      }
+    },
+    "kitchen": {
+      "windowless": false,
+      "indoor": true,
+      "linkedLightScene": null,
+      "states": {
+        "morning-off": {
+          "url": "assets/panoramas-hd/kitchen/morning-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "1b58c32f9791",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3312394,
+          "previewUrl": "assets/map/kitchen/morning-off.webp"
+        },
+        "morning-on": {
+          "url": "assets/panoramas-hd/kitchen/morning-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "d0ee9ea68c58",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3650436,
+          "previewUrl": "assets/map/kitchen/morning-on.webp"
+        },
+        "day-off": {
+          "url": "assets/panoramas-hd/kitchen/day-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "ef48ec141bed",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3703962,
+          "previewUrl": "assets/map/kitchen/day-off.webp"
+        },
+        "day-on": {
+          "url": "assets/panoramas-hd/kitchen/day-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "f923caaa3103",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 4405634,
+          "previewUrl": "assets/map/kitchen/day-on.webp"
+        },
+        "evening-off": {
+          "url": "assets/panoramas-hd/kitchen/evening-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "1004c0f12945",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 2698614,
+          "previewUrl": "assets/map/kitchen/evening-off.webp"
+        },
+        "evening-on": {
+          "url": "assets/panoramas-hd/kitchen/evening-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "1d37e7760639",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3143416,
+          "previewUrl": "assets/map/kitchen/evening-on.webp"
+        },
+        "night-off": {
+          "url": "assets/panoramas-hd/kitchen/night-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "fb5441b2f4af",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 2256590,
+          "previewUrl": "assets/map/kitchen/night-off.webp"
+        },
+        "night-on": {
+          "url": "assets/panoramas-hd/kitchen/night-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "33b0ad364022",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 2968862,
+          "previewUrl": "assets/map/kitchen/night-on.webp"
+        }
+      }
+    },
+    "apartment": {
+      "windowless": false,
+      "indoor": true,
+      "linkedLightScene": null,
+      "states": {
+        "morning-off": {
+          "url": "assets/panoramas-hd/apartment/morning-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "a01a0fa2164f",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3594972,
+          "previewUrl": "assets/map/apartment/morning-off.webp"
+        },
+        "morning-on": {
+          "url": "assets/panoramas-hd/apartment/morning-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "8cff8e3df4f5",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 4301782,
+          "previewUrl": "assets/map/apartment/morning-on.webp"
+        },
+        "day-off": {
+          "url": "assets/panoramas-hd/apartment/day-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "fce367e1852f",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 4133018,
+          "previewUrl": "assets/map/apartment/day-off.webp"
+        },
+        "day-on": {
+          "url": "assets/panoramas-hd/apartment/day-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "7c7d44e06a0a",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 5131106,
+          "previewUrl": "assets/map/apartment/day-on.webp"
+        },
+        "evening-off": {
+          "url": "assets/panoramas-hd/apartment/evening-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "49a2f46ea4ae",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3333568,
+          "previewUrl": "assets/map/apartment/evening-off.webp"
+        },
+        "evening-on": {
+          "url": "assets/panoramas-hd/apartment/evening-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "fdafe7265b83",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3934528,
+          "previewUrl": "assets/map/apartment/evening-on.webp"
+        },
+        "night-off": {
+          "url": "assets/panoramas-hd/apartment/night-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "76baccaf82ac",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3002628,
+          "previewUrl": "assets/map/apartment/night-off.webp"
+        },
+        "night-on": {
+          "url": "assets/panoramas-hd/apartment/night-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "033878d22046",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3917718,
+          "previewUrl": "assets/map/apartment/night-on.webp"
+        }
+      }
+    },
+    "window": {
+      "windowless": false,
+      "indoor": false,
+      "linkedLightScene": "apartment",
+      "states": {
+        "morning-off": {
+          "url": "assets/panoramas-hd/window/morning-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "e6737b197268",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3648816,
+          "previewUrl": "assets/map/window/morning-off.webp"
+        },
+        "morning-on": {
+          "url": "assets/panoramas-hd/window/morning-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "86f7b12b13f1",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3669896,
+          "previewUrl": "assets/map/window/morning-on.webp"
+        },
+        "day-off": {
+          "url": "assets/panoramas-hd/window/day-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "ffe58806f090",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3843158,
+          "previewUrl": "assets/map/window/day-off.webp"
+        },
+        "day-on": {
+          "url": "assets/panoramas-hd/window/day-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "dde63abe5880",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3718672,
+          "previewUrl": "assets/map/window/day-on.webp"
+        },
+        "evening-off": {
+          "url": "assets/panoramas-hd/window/evening-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "3115dec2b5ff",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3029550,
+          "previewUrl": "assets/map/window/evening-off.webp"
+        },
+        "evening-on": {
+          "url": "assets/panoramas-hd/window/evening-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "f286afec07d9",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3394426,
+          "previewUrl": "assets/map/window/evening-on.webp"
+        },
+        "night-off": {
+          "url": "assets/panoramas-hd/window/night-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "3260924c37c2",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 2758494,
+          "previewUrl": "assets/map/window/night-off.webp"
+        },
+        "night-on": {
+          "url": "assets/panoramas-hd/window/night-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "e59fb031f83c",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 2944008,
+          "previewUrl": "assets/map/window/night-on.webp"
+        }
+      }
+    },
+    "bar": {
+      "windowless": false,
+      "indoor": true,
+      "linkedLightScene": null,
+      "states": {
+        "morning-off": {
+          "url": "assets/panoramas-hd/bar/morning-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "fe047d703a96",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3667906,
+          "previewUrl": "assets/map/bar/morning-off.webp"
+        },
+        "morning-on": {
+          "url": "assets/panoramas-hd/bar/morning-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "3a887f8028a2",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3874862,
+          "previewUrl": "assets/map/bar/morning-on.webp"
+        },
+        "day-off": {
+          "url": "assets/panoramas-hd/bar/day-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "d86b372b2ec9",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 4060532,
+          "previewUrl": "assets/map/bar/day-off.webp"
+        },
+        "day-on": {
+          "url": "assets/panoramas-hd/bar/day-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "1d5894f9ede3",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3990670,
+          "previewUrl": "assets/map/bar/day-on.webp"
+        },
+        "evening-off": {
+          "url": "assets/panoramas-hd/bar/evening-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "2992bdf0ef83",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 2973230,
+          "previewUrl": "assets/map/bar/evening-off.webp"
+        },
+        "evening-on": {
+          "url": "assets/panoramas-hd/bar/evening-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "d3038bd31604",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3605738,
+          "previewUrl": "assets/map/bar/evening-on.webp"
+        },
+        "night-off": {
+          "url": "assets/panoramas-hd/bar/night-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "a31935f1db3a",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 2672102,
+          "previewUrl": "assets/map/bar/night-off.webp"
+        },
+        "night-on": {
+          "url": "assets/panoramas-hd/bar/night-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "dae0997e12fb",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3513168,
+          "previewUrl": "assets/map/bar/night-on.webp"
+        }
+      }
+    },
+    "grocery": {
+      "windowless": false,
+      "indoor": true,
+      "linkedLightScene": null,
+      "states": {
+        "morning-off": {
+          "url": "assets/panoramas-hd/grocery/morning-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "e8e428b0e14d",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 4201164,
+          "previewUrl": "assets/map/grocery/morning-off.webp"
+        },
+        "morning-on": {
+          "url": "assets/panoramas-hd/grocery/morning-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "cc2a82546471",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 4500848,
+          "previewUrl": "assets/map/grocery/morning-on.webp"
+        },
+        "day-off": {
+          "url": "assets/panoramas-hd/grocery/day-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "b15065a9cbf1",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 4430912,
+          "previewUrl": "assets/map/grocery/day-off.webp"
+        },
+        "day-on": {
+          "url": "assets/panoramas-hd/grocery/day-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "1057f2dc7209",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 5279958,
+          "previewUrl": "assets/map/grocery/day-on.webp"
+        },
+        "evening-off": {
+          "url": "assets/panoramas-hd/grocery/evening-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "dd1467a1e4f7",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3380460,
+          "previewUrl": "assets/map/grocery/evening-off.webp"
+        },
+        "evening-on": {
+          "url": "assets/panoramas-hd/grocery/evening-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "23bd94999ebc",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 4016148,
+          "previewUrl": "assets/map/grocery/evening-on.webp"
+        },
+        "night-off": {
+          "url": "assets/panoramas-hd/grocery/night-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "d04224fd226e",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3000500,
+          "previewUrl": "assets/map/grocery/night-off.webp"
+        },
+        "night-on": {
+          "url": "assets/panoramas-hd/grocery/night-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "d5a4dbfa4d0b",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 4104132,
+          "previewUrl": "assets/map/grocery/night-on.webp"
+        }
+      }
+    },
+    "hotel": {
+      "windowless": true,
+      "indoor": true,
+      "linkedLightScene": null,
+      "states": {
+        "light-off": {
+          "url": "assets/panoramas-hd/hotel/light-off.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "efd11cf773c5",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 1977082,
+          "previewUrl": "assets/map/hotel/light-off.webp"
+        },
+        "light-on": {
+          "url": "assets/panoramas-hd/hotel/light-on.webp",
+          "width": 6144,
+          "height": 3072,
+          "revision": "943e60495078",
+          "enhancement": "Full-detail assembled redraw; structure-preserving lighting",
+          "bytes": 3741588,
+          "previewUrl": "assets/map/hotel/light-on.webp"
+        }
+      }
+    }
+  },
+  "expected": 64,
+  "available": 64,
+  "missing": []
+}

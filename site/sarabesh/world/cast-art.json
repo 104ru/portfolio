@@ -1,0 +1,86 @@
+{
+  "resident-1": {
+    "aspect": 1.0833333333333333,
+    "eyeX": 0.5,
+    "eyeY": 0.41526553156987944,
+    "body": "assets/dwellers/resident-1-body.webp",
+    "eyes": "assets/dwellers/resident-1-eyes.webp"
+  },
+  "resident-2": {
+    "aspect": 1.0732600732600732,
+    "eyeX": 0.5,
+    "eyeY": 0.41718374702667893,
+    "body": "assets/dwellers/resident-2-body.webp",
+    "eyes": "assets/dwellers/resident-2-eyes.webp"
+  },
+  "resident-3": {
+    "aspect": 1.0961887477313974,
+    "eyeX": 0.5,
+    "eyeY": 0.4254970760233919,
+    "body": "assets/dwellers/resident-3-body.webp",
+    "eyes": "assets/dwellers/resident-3-eyes.webp"
+  },
+  "resident-4": {
+    "aspect": 1.0653357531760435,
+    "eyeX": 0.4991482112436116,
+    "eyeY": 0.4157005665077114,
+    "body": "assets/dwellers/resident-4-body.webp",
+    "eyes": "assets/dwellers/resident-4-eyes.webp"
+  },
+  "resident-5": {
+    "aspect": 1.11864406779661,
+    "eyeX": 0.5,
+    "eyeY": 0.42922264865449417,
+    "body": "assets/dwellers/resident-5-body.webp",
+    "eyes": "assets/dwellers/resident-5-eyes.webp"
+  },
+  "resident-6": {
+    "aspect": 0.9178294573643411,
+    "eyeX": 0.4983108108108108,
+    "eyeY": 0.35856916036237957,
+    "body": "assets/dwellers/resident-6-body.webp",
+    "eyes": "assets/dwellers/resident-6-eyes.webp"
+  },
+  "resident-7": {
+    "aspect": 1.0525362318840579,
+    "eyeX": 0.5008605851979346,
+    "eyeY": 0.41569833410696794,
+    "body": "assets/dwellers/resident-7-body.webp",
+    "eyes": "assets/dwellers/resident-7-eyes.webp"
+  },
+  "resident-8": {
+    "aspect": 1.1983967935871744,
+    "eyeX": 0.5,
+    "eyeY": 0.46686842667966205,
+    "body": "assets/dwellers/resident-8-body.webp",
+    "eyes": "assets/dwellers/resident-8-eyes.webp"
+  },
+  "resident-9": {
+    "aspect": 1.2179226069246436,
+    "eyeX": 0.5,
+    "eyeY": 0.4679429735234217,
+    "body": "assets/dwellers/resident-9-body.webp",
+    "eyes": "assets/dwellers/resident-9-eyes.webp"
+  },
+  "resident-10": {
+    "aspect": 1.1576923076923078,
+    "eyeX": 0.5,
+    "eyeY": 0.45359615384615376,
+    "body": "assets/dwellers/resident-10-body.webp",
+    "eyes": "assets/dwellers/resident-10-eyes.webp"
+  },
+  "resident-11": {
+    "aspect": 1.1849710982658959,
+    "eyeX": 0.5008130081300813,
+    "eyeY": 0.3819096078506767,
+    "body": "assets/dwellers/resident-11-body.webp",
+    "eyes": "assets/dwellers/resident-11-eyes.webp"
+  },
+  "resident-12": {
+    "aspect": 0.9457735247208932,
+    "eyeX": 0.4991568296795953,
+    "eyeY": 0.3762519936204147,
+    "body": "assets/dwellers/resident-12-body.webp",
+    "eyes": "assets/dwellers/resident-12-eyes.webp"
+  }
+}

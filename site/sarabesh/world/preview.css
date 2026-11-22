@@ -1,0 +1,302 @@
+:root{color-scheme:dark;font-family:system-ui,sans-serif;background:#192322;color:#f1e4c6}
+*{box-sizing:border-box}html,body,#panorama{width:100%;height:100%;margin:0;overflow:hidden}
+#panorama{position:absolute;inset:0}.controls{position:fixed;z-index:4;top:max(10px,env(safe-area-inset-top));left:max(10px,env(safe-area-inset-left));display:flex;gap:4px}
+.small-control{width:44px;height:44px;display:grid;place-items:center;border:0;background:transparent;padding:8px;color:#f1e4c6;cursor:pointer;position:relative}
+.small-control::before{content:'';position:absolute;inset:6px;border:1px solid #d9be8170;border-radius:50%;background:#17201ed9;z-index:-1}
+.small-control svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.small-control[aria-pressed=false]{color:#b6b6aa}.small-control:focus-visible{outline:2px solid #f1d292;outline-offset:0;border-radius:50%}
+[hidden]{display:none!important}#status{position:fixed;z-index:5;bottom:18px;left:50%;transform:translateX(-50%);padding:7px 14px;border-radius:18px;background:#17201ee0;font-size:13px;margin:0;max-width:90vw;text-align:center}
+.pnlm-title-box,.pnlm-author-box,.pnlm-about-msg{display:none!important}
+.pnlm-hotspot-base.travel-dot{width:56px;height:56px;background:none;border:0;cursor:pointer}
+.travel-dot::before{content:'';position:absolute;inset:18px;border:2px solid #d6ffb0;border-radius:50%;background:radial-gradient(circle at 35% 30%,#edffcb,#91ff27 48%,#3dff00);box-shadow:0 0 0 3px #112c16e8,0 0 14px 3px #76ff03c9;animation:dot-pulse 1.65s ease-in-out infinite;pointer-events:none}
+.travel-dot::after{content:'';position:absolute;inset:10px;border:2px solid #91ff33;border-radius:50%;box-shadow:0 0 6px #65ff20;animation:dot-ring 1.65s ease-out infinite;pointer-events:none}
+.travel-dot:focus-visible{outline:2px solid #c8ff80;outline-offset:3px;border-radius:50%}
+.travel-tip{display:none;position:absolute;z-index:3;bottom:68px;left:50%;transform:translateX(calc(-50% + var(--tip-shift,0px)));width:max-content;max-width:min(340px,calc(100vw - 32px));padding:16px 25px;border:1px solid #e2bb70;border-radius:11px;background:linear-gradient(125deg,#243b2d,#14281f 48%,#0f2019);box-shadow:0 5px 18px #000b,inset 0 0 0 3px #634323,inset 0 0 0 4px #bd985a99;color:#f1d89d;font:20px/1.3 Georgia,serif;text-align:center;white-space:normal;text-shadow:0 1px 1px #000;pointer-events:none}
+.travel-tip::before,.travel-tip::after{content:'';position:absolute;width:5px;height:5px;border:1px solid #a68145;border-radius:50%;background:linear-gradient(135deg,#f0d08b,#5d3d20);box-shadow:0 1px 1px #0008}
+.travel-tip::before{left:7px;top:7px}.travel-tip::after{right:7px;bottom:7px}
+.travel-dot:hover .travel-tip,.travel-dot:focus-visible .travel-tip{display:block}
+.travel-dot.tip-below .travel-tip{top:68px;bottom:auto}
+body.travelling .travel-dot .travel-tip{display:none}
+@keyframes dot-pulse{0%,100%{transform:scale(.92)}50%{transform:scale(1.14);box-shadow:0 0 0 3px #112c16e8,0 0 22px 6px #76ff03ed}}
+@keyframes dot-ring{0%{transform:scale(.8);opacity:.85}80%,100%{transform:scale(1.75);opacity:0}}
+
+dialog{width:min(700px,92vw);padding:34px 18px 12px;border:1px solid #b6985e;border-radius:12px;background:#1d2826f5;color:#f1e4c6;box-shadow:0 12px 70px #0007}
+dialog::backdrop{background:#07100e66}#map-close{position:absolute;right:4px;top:4px;font-size:24px}#world-map{display:block;width:100%;max-height:65vh}#world-map text{font-size:24px;fill:#f1e4c6;text-anchor:middle}#world-map line{stroke:#a9956b;stroke-width:1.5}#world-map circle{fill:#aa986d;stroke:#ddc58f;stroke-width:1.5}#world-map circle.current{fill:#f7db96;stroke:#f7db96;stroke-width:4}#map-current{text-align:center;font-size:14px;margin:8px 0}
+#rotate{position:fixed;z-index:6;inset:0;margin:auto;width:max-content;height:44px;padding:0 18px;border:1px solid #d9be8190;border-radius:24px;background:#17201ef5;color:#f1e4c6;font:14px system-ui}
+@media(prefers-reduced-motion:reduce){.travel-dot::before,.travel-dot::after{animation:none}.travel-dot::after{opacity:.55}}
+
+@font-face{font-family:Rye;src:url('../assets/fonts/Rye-Regular.ttf') format('truetype');font-display:swap}
+:root{--brass:#93632f;--brass-light:#e2bf70;--iron:#192322;--patina:#293a38;--ivory:#e9d6ae;--dial-angle:-144deg}
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+/* Small instruments: actual Dwellers metalwork, precise interactive overlays. */
+.controls{top:auto;bottom:max(20px,env(safe-area-inset-bottom));left:max(20px,env(safe-area-inset-left));align-items:end;gap:12px}
+body:not(.entered) .controls,body:not(.entered) .time-controls{visibility:hidden;pointer-events:none}
+.small-control{font-family:Georgia,serif;color:#efd29a;isolation:isolate;text-shadow:none;transition:filter .15s,transform .15s}
+.small-control:hover{filter:brightness(1.12)}.small-control:active{transform:translateY(1px)}
+#map-toggle{width:60px;height:64px;padding:16px}
+#map-toggle::before{inset:0;border:0;border-radius:0;background:url('../assets/ui/map-medallion.webp') center/contain no-repeat;box-shadow:none;filter:drop-shadow(0 3px 3px #000a)}
+#map-toggle svg{width:28px;height:28px;stroke:#dfbc73;stroke-width:1.4;filter:drop-shadow(0 1px 0 #000);transform:translateY(1px)}
+#light-toggle{height:94px;width:48px;margin:0;padding:0;color:var(--ivory)}
+#light-toggle::before{display:none}
+#light-toggle{width:56px;height:116px}
+.switch-art{position:absolute;inset:0;background:url('../assets/ui/light-switch-on.webp') center/auto 100% no-repeat;filter:drop-shadow(0 3px 3px #000a);pointer-events:none}
+#light-toggle[aria-pressed=false] .switch-art{background-image:url('../assets/ui/light-switch-off.webp')}
+.time-controls{position:fixed;right:max(20px,env(safe-area-inset-right));bottom:max(20px,env(safe-area-inset-bottom));z-index:5}
+.time-knob{position:relative;display:grid;place-items:center;width:86px;height:86px;padding:0;background:none;border:0;cursor:pointer;color:var(--ivory)}
+.knob-face{position:relative;display:block;width:86px;height:86px;background:url('../assets/ui/time-dial-face.webp') center/contain no-repeat;filter:drop-shadow(0 3px 4px #000a)}
+.time-knob:hover .knob-face{filter:brightness(1.1) drop-shadow(0 3px 4px #000a)}
+.time-knob:focus-visible{outline:2px solid #f1d292;border-radius:50%;outline-offset:4px}
+.time-picker{position:absolute;right:0;bottom:136px;width:244px;height:244px;filter:drop-shadow(0 8px 12px #0009)}
+.time-dial{position:relative;padding:0;margin:0;width:244px;height:244px;border:0;background:url('../assets/ui/time-dial-face.webp') center/contain no-repeat;isolation:isolate}
+.time-needle{position:absolute;left:45.776%;top:32.660%;width:8.2%;height:20.5%;background:url('../assets/ui/time-needle.webp') center/100% 100% no-repeat;transform-origin:49.56% 82.05%;transform:rotate(var(--dial-angle));pointer-events:none}
+.dial-stop{position:absolute;width:50px;height:50px;left:97px;top:97px;display:grid;place-items:center;cursor:pointer;border-radius:50%}
+.dial-stop input{position:absolute;width:100%;height:100%;inset:0;opacity:0;cursor:pointer;margin:0}
+.dial-stop:has(input:focus-visible){outline:2px solid #f2d594;outline-offset:2px}
+.stop-auto{transform:translate(-36px,37px)}.stop-morning{transform:translate(-52px,-23px)}.stop-day{transform:translate(0,-58px)}.stop-evening{transform:translate(52px,-23px)}.stop-night{transform:translate(34px,37px)}
+@media(prefers-reduced-motion:reduce){.small-control{transition:none}}
+#intro{position:fixed;inset:0;z-index:8;display:flex;justify-content:center;align-items:end;padding:24px 20px 6vh;background:linear-gradient(transparent 48%,#07100b18 72%,#07100b70);pointer-events:auto}
+.nameplate{position:relative;text-align:center;width:min(500px,90vw);padding:20px 24px 14px;color:#e9d5a7;isolation:isolate}
+.nameplate::before{content:'';position:absolute;inset:0;z-index:-1;border:1px solid #a38853;border-radius:5px 5px 28px 28px;background:linear-gradient(115deg,#15201edb,#263730ee 35%,#1a2924eb 75%,#111e1be8);box-shadow:0 6px 24px #0008,inset 0 0 0 4px #273126,inset 0 0 0 5px #94774499}
+.nameplate::after{content:'';position:absolute;inset:11px;pointer-events:none;background:radial-gradient(circle at 0 0,#d1b06b 0 2px,#3a3324 3px,transparent 4px),radial-gradient(circle at 100% 0,#d1b06b 0 2px,#3a3324 3px,transparent 4px)}
+.nameplate h1{font:clamp(27px,4.5vw,46px)/1.25 Rye,Georgia,serif;letter-spacing:-.02em;margin:0 0 10px;text-shadow:0 2px #2b2215,0 -1px #ffebba44;color:#d9bc80}
+.nameplate p{font:13px/1.5 Georgia,serif;color:#d1c09b;margin:7px 0 0}
+.entry-handle{position:relative;display:flex;align-items:center;justify-content:center;width:270px;height:90px;padding:0 20px 0 142px;margin:0 auto;border:0;border-radius:0;color:#f0dbad;background:url('../assets/ui/entry-handle.webp') center/contain no-repeat;filter:drop-shadow(0 4px 5px #0008);cursor:pointer;font:22px Georgia,serif;text-shadow:0 1px #101c14}
+.entry-handle:active{transform:translateY(1px)}.entry-handle:focus-visible{outline:2px solid #f5dd9a;outline-offset:4px}
+
+dialog{border-color:#ab8b50;background:#24342df7;box-shadow:0 12px 70px #0008,inset 0 0 0 4px #202c23,inset 0 0 0 5px #866b3d}
+#map-close{color:#382b1b}#status{z-index:9}
+#panorama.pnlm-container{background:#192322}
+#panorama .pnlm-load-box{display:none!important}
+body:not(.entered) #status{top:18px;bottom:auto}
+.entry-handle:disabled{opacity:.65;cursor:wait}
+@media(max-height:500px){#intro{padding-bottom:15px}.nameplate{padding:14px 22px 12px;width:410px}.nameplate h1{font-size:31px;margin-bottom:8px}.nameplate p{font-size:12px}.entry-handle{min-height:44px}.time-picker{bottom:134px;width:244px;height:244px}.controls,.time-controls{bottom:max(12px,env(safe-area-inset-bottom))}}
+/* A traveller's chart, with porthole views and hand-drawn routes. */
+#map-dialog{width:min(1100px,96vw);max-width:none;padding:16px 24px 12px;border:2px solid #7e5127;border-radius:18px 11px 16px 12px;color:#362a1b;background-color:#d5bd8e;background-image:radial-gradient(ellipse at 50% 45%,#eddbaf44,#64441a55),url('../assets/ui/dwellers-chart-paper.jpg');background-position:center,60% 45%;background-size:cover,125% auto;box-shadow:0 20px 80px #000b,inset 0 0 0 2px #d5ac65,inset 0 0 0 6px #553b2066,inset 0 0 35px #3d261a88;overflow:hidden}
+#map-dialog::backdrop{background:#09120dcc;backdrop-filter:blur(5px)}
+.chart-heading{width:max-content;margin:0 auto 3px;text-align:center;color:#423420;font:25px/1.2 Rye,Georgia,serif;text-shadow:0 1px #fff2bd88}
+.chart-heading span{display:block;margin-top:5px;font:italic 14px Georgia,serif;color:#6b5132}
+#world-map{display:block;width:100%;height:auto;max-height:calc(90dvh - 112px);overflow:visible}
+#world-map .chart-route{fill:none;stroke:#775733;stroke-width:2;stroke-dasharray:3 8;stroke-linecap:round;opacity:.6}
+#world-map .chart-route.walked{stroke:#66441f;stroke-width:2.5;opacity:.85}
+#world-map .chart-halo{fill:#78562933;stroke:none}
+#world-map .chart-view{filter:saturate(.72) brightness(.8)}
+#world-map .chart-place.visited .chart-view{filter:saturate(.9)}
+#world-map .chart-porthole{filter:drop-shadow(1px 3px 3px #38231399)}
+#world-map .chart-glass{fill:transparent;stroke:#5a3c20;stroke-width:1.2}
+#world-map .chart-name{font:22px Georgia,serif;fill:#49341c;paint-order:stroke;stroke:#dfc58e;stroke-width:3px;stroke-linejoin:round;text-anchor:middle}
+#world-map .chart-place{cursor:pointer;outline:none}
+#world-map .chart-place:hover .chart-glass,#world-map .chart-place:focus-visible .chart-glass{stroke:#fff0b9;stroke-width:3}
+#world-map .chart-place:hover .chart-view,#world-map .chart-place:focus-visible .chart-view{filter:brightness(1.12)}
+#world-map .chart-place.here .chart-halo{fill:none;stroke:#66552b;stroke-width:1.5;stroke-dasharray:2 5;r:45}
+#world-map .chart-location{fill:#4a5b41;stroke:#dfce9d;stroke-width:1.5}
+#world-map .chart-visited{fill:none;stroke:#283e2a;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 1px #f7d99b)}
+#map-current{width:max-content;max-width:80%;margin:0 auto;font:italic 14px Georgia,serif;color:#624624;text-align:center}
+#map-close{width:44px;height:44px;right:8px;top:8px;color:#d8b775;font:26px Georgia,serif}
+#map-close::before{inset:1px;border:none;border-radius:0;background:url('../assets/ui/dwellers-bezel.png') center/contain no-repeat;box-shadow:none;filter:drop-shadow(0 2px 2px #0006)}
+@media(max-height:500px){#map-dialog{padding:10px 18px 8px}.chart-heading{font-size:20px}.chart-heading span{font-size:12px;margin-top:2px}#world-map{max-height:calc(94dvh - 86px)}#map-current{font-size:13px}}
+#map-current{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+@media(max-height:500px){#world-map{max-height:calc(94dvh - 88px)}}
+#world-map .chart-place>*{pointer-events:none}#world-map .chart-place>.chart-hit{pointer-events:all;outline:none}
+#world-map .chart-place:focus-within .chart-glass{stroke:#fff0b9;stroke-width:3}
+
+/* Instruments need enough presence to show their hand-finished hardware. */
+.controls{transform:scale(1.4);transform-origin:bottom left}
+.time-knob{transform:scale(1.4);transform-origin:bottom right}
+.time-picker{bottom:136px}
+#map-dialog{width:min(1280px,96vw)}
+body.travelling #panorama{pointer-events:none}
+body.travelling .controls,body.travelling .time-controls{pointer-events:none}
+@media(max-height:500px){.time-picker{bottom:134px;transform:scale(.9);transform-origin:bottom right}}
+@media(max-height:360px){.time-picker{transform:scale(.72)}}
+
+#light-toggle:focus-visible{border-radius:24px}
+
+/* Sarabesh: arrival, instruments and the traveller’s journal. */
+#instrument-shade{position:fixed;inset:auto 0 0;height:min(29vh,240px);z-index:3;pointer-events:none;background:linear-gradient(to bottom,transparent,#0a161136 35%,#07110eae 78%,#050e0cda)}
+body:not(.entered) #instrument-shade,body:not(.entered) .utility-controls{visibility:hidden;pointer-events:none}
+#loading-veil{position:fixed;inset:0;z-index:3;pointer-events:none;background:#10251c66;backdrop-filter:blur(2px);opacity:0;transition:opacity .22s}
+body.entered[data-ready=false] #loading-veil{opacity:1}
+#status{bottom:154px;border:1px solid #a4834b;border-radius:24px;padding:12px 22px;background:linear-gradient(120deg,#233b30f5,#0e2119f5);color:#f0deb5;font:16px/1.4 Georgia,serif;box-shadow:0 5px 24px #0007,inset 0 0 0 3px #80613c44}
+body:not(.entered) #status{top:auto;bottom:22px;left:auto;right:22px;transform:none;font-size:14px}
+.utility-controls{position:fixed;z-index:5;bottom:max(22px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);display:flex;gap:10px}
+.brass-medallion{position:relative;width:48px;height:52px;padding:12px;display:grid;place-items:center;background:url('../assets/ui/dwellers-bezel.png') center/contain no-repeat;border:0;color:#e8cb86;font:24px/1 Georgia,serif;cursor:pointer;filter:drop-shadow(0 2px 3px #0009)}
+.brass-medallion span,.brass-medallion svg{position:relative;top:1px}.brass-medallion svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.brass-medallion:hover{filter:brightness(1.2) drop-shadow(0 2px 3px #0009)}
+.brass-medallion:focus-visible,.brass-pill:focus-visible,.explore-button:focus-visible{outline:2px solid #f5dfad;outline-offset:4px;border-radius:22px}
+.brass-pill{border:1px solid #c4a16a;border-radius:22px;padding:11px 24px;color:#f0deb5;background:linear-gradient(#304d3a,#142b21);box-shadow:inset 0 0 0 3px #a27a3933,0 3px 9px #0005;font:17px/1.25 Georgia,serif;cursor:pointer}
+.brass-pill:hover{background:linear-gradient(#3e5b42,#1b3627)}
+#intro{align-items:center;justify-content:start;padding:28px max(5.5vw,24px);background:#101c26;isolation:isolate;overflow:auto}
+.arrival-landscape,.arrival-vignette{position:absolute;inset:0;z-index:-3;pointer-events:none}
+.arrival-landscape{background:#15262a url('../assets/panoramas-hd/town/evening.webp') center 56%/cover no-repeat;filter:brightness(.78) saturate(.86)}
+.arrival-vignette{z-index:-1;background:linear-gradient(90deg,#06140feb 0,#081b15be 36%,#07191328 69%,#101b171a),linear-gradient(0deg,#08100bea,transparent 30%,transparent 85%,#0b171866)}
+.landing-vessel{position:absolute;z-index:-2;right:7%;bottom:8%;height:72%;width:min(43vw,600px);pointer-events:none;transform-origin:50% 100%}
+#arrival-rocket{display:block;width:100%;height:100%;object-fit:contain;object-position:center bottom;filter:drop-shadow(0 12px 15px #0007);position:relative;z-index:2}
+.rocket-shadow{position:absolute;bottom:-1%;left:12%;width:76%;height:6%;background:radial-gradient(ellipse,#100e0bba,transparent 68%);transform:scaleX(.9)}
+.engine-glow{position:absolute;z-index:1;width:17%;height:20%;bottom:-6%;left:42%;background:radial-gradient(ellipse at 50% 0,#fff2c0bb,#d48936aa 25%,transparent 65%);filter:blur(7px);opacity:0}
+.landing-dust{position:absolute;z-index:3;bottom:-4%;left:-12%;width:124%;height:13%;border-radius:50%;background:radial-gradient(ellipse,#c8986288,#ad7a4544 40%,transparent 70%);filter:blur(9px);opacity:0;transform-origin:center}
+.dust-two{width:105%;left:3%;bottom:0}.dust-three{width:130%;left:-20%;bottom:-3%}
+#landing-caption{position:absolute;inset:auto 20px 12%;text-align:center;color:#f2deb0;font:italic 22px/1.5 Georgia,serif;text-shadow:0 2px 12px #000;transition:opacity .4s}
+#skip-intro{position:absolute;right:24px;top:24px;z-index:3;background:#12271ce8;font-size:16px}
+#intro .nameplate{width:min(620px,50vw);padding:34px 36px 30px;text-align:left;opacity:0;visibility:hidden;transform:translateY(8px);transition:opacity .6s,transform .6s;flex-shrink:0}
+#intro .nameplate::before{border:1px solid #b99559;border-radius:42px 12px 38px 14px;background:linear-gradient(125deg,#173329ed,#11291fef 62%,#0b1e18f2);box-shadow:0 16px 60px #0007,inset 0 0 0 5px #13291d,inset 0 0 0 6px #94774480}
+#intro .nameplate::after{inset:16px;background:radial-gradient(circle at 0 0,#dec18d 0 2px,#4b3d29 3px,transparent 4px),radial-gradient(circle at 100% 100%,#dec18d 0 2px,#4b3d29 3px,transparent 4px)}
+#intro .nameplate h1{font:clamp(58px,7vw,108px)/1.08 Rye,Georgia,serif;letter-spacing:-.045em;margin:14px 0 22px;color:#e2c388;text-shadow:0 3px 1px #07130e,0 -1px #ffe3a44d}
+#intro .nameplate p{margin:0;color:#efdfbd;font:18px/1.6 Georgia,serif;max-width:49ch}
+#intro .nameplate .intro-prelude{font:italic 18px/1.4 Georgia,serif;color:#d1b780}
+#intro .nameplate .intro-scope{margin-top:20px;font-size:16px;line-height:1.6;color:#cbbd9d}
+#intro .nameplate .intro-guidance{margin-top:17px;font-size:15px;line-height:1.5;color:#c5b894}
+.explore-button{position:relative;min-height:64px;margin-top:26px;padding:17px 34px;border:1px solid #dfbe78;border-radius:12px 26px 12px 26px;background:linear-gradient(120deg,#d9b86b,#a57836 48%,#d0a357);box-shadow:inset 0 0 0 3px #5c402c,inset 0 0 0 4px #ead39a66,0 5px 14px #0007;color:#1b2d20;text-shadow:0 1px #f1d89480;font:bold 20px/1.25 Georgia,serif;cursor:pointer}
+.explore-button::before,.explore-button::after{content:'';position:absolute;width:5px;height:5px;background:#76522e;border:1px solid #d9bd7b;border-radius:50%;top:50%;transform:translateY(-50%)}
+.explore-button::before{left:11px}.explore-button::after{right:11px}
+.explore-button:hover{filter:brightness(1.12)}.explore-button:disabled{opacity:.6;cursor:wait}
+#intro[data-phase=ready] .nameplate{opacity:1;visibility:visible;transform:none}
+#intro[data-phase=landing] .landing-vessel{opacity:0}
+#intro.arrival-playing[data-phase=landing] .landing-vessel{opacity:1}
+#intro.arrival-playing .landing-vessel{animation:rocket-arrival 4.8s cubic-bezier(.22,.7,.35,1) both}
+#intro.arrival-playing .engine-glow{animation:engine-landing 4.8s ease-out both}
+#intro.arrival-playing .landing-dust{animation:dust-landing 2s 2.9s ease-out both}
+#intro.arrival-playing .dust-two{animation-delay:3.2s}#intro.arrival-playing .dust-three{animation-delay:3.5s}
+@keyframes rocket-arrival{0%{transform:translateY(-110vh) rotate(-7deg)}52%{transform:translateY(-10vh) rotate(2deg)}76%{transform:translateY(1.5%) rotate(-.7deg)}88%,100%{transform:none}}
+@keyframes engine-landing{0%,15%{opacity:.9;transform:scaleY(1.5)}65%{opacity:.8}85%,100%{opacity:0;transform:scaleY(.2)}}
+@keyframes dust-landing{0%{opacity:0;transform:scale(.2)}24%{opacity:.8}100%{opacity:0;transform:scale(1.7)}}
+#place-dialog,#help-dialog{width:min(520px,calc(100vw - 32px));max-height:calc(100dvh - 40px);padding:34px 38px 30px;text-align:center;border:1px solid #b79356;border-radius:34px 12px 32px 14px;background:linear-gradient(135deg,#253e2df9,#10291ffb);box-shadow:0 18px 90px #000b,inset 0 0 0 5px #12261c,inset 0 0 0 6px #9c7a4580;overflow:auto;color:#edddba}
+#place-dialog::backdrop,#help-dialog::backdrop{background:#07130d88;backdrop-filter:blur(3px)}
+.journal-close{position:absolute;right:10px;top:9px;width:42px;height:46px;padding:8px;font-size:25px}
+.journal-porthole{position:relative;width:120px;height:129px;margin:0 auto 16px;display:grid;place-items:center;background:url('../assets/ui/dwellers-bezel.png') center/contain no-repeat;filter:drop-shadow(0 4px 6px #0008)}
+.journal-porthole img{width:91px;height:91px;border-radius:50%;object-fit:cover;box-shadow:inset 0 0 10px #000;border:2px solid #ae8549}
+#place-title,#help-title{font:30px/1.25 Rye,Georgia,serif;margin:10px 0 18px;color:#e0bf7e}
+#place-description,#help-dialog p{font:18px/1.65 Georgia,serif;margin:0 0 24px;color:#edddba}
+#place-dialog .journal-kicker{font:italic 15px/1.4 Georgia,serif;color:#c5ac7d;margin:0 0 8px}
+#help-dialog{text-align:left;padding-top:44px}#help-dialog .help-scope{font-size:16px;color:#c5b798}
+#world-map .chart-place.visited .chart-view,#world-map .chart-place.visited:hover .chart-view{filter:none}
+#world-map .chart-place.undiscovered .chart-view,#world-map .chart-place.undiscovered:hover .chart-view{filter:grayscale(.65) saturate(.3) brightness(.33)}
+#world-map .chart-unseen-shade{fill:#06120b80;stroke:none}
+#world-map .chart-place>.chart-info{pointer-events:all;outline:none}
+#world-map .chart-info>*{pointer-events:none}
+#world-map .chart-info .chart-info-letter{font:italic bold 26px Georgia,serif;fill:#efce8c;stroke:none;text-anchor:middle}
+#world-map .chart-info:focus-visible{filter:drop-shadow(0 0 3px #fff0b9)}
+#world-map .chart-info:hover{filter:brightness(1.25)}
+@media(max-width:760px){
+ #intro{padding:24px;align-items:center;justify-content:center}
+ #intro .nameplate{width:min(550px,100%);padding:27px 28px 24px;margin:100px 0 20px}
+ #intro .nameplate h1{font-size:clamp(48px,11vw,76px);margin:10px 0 17px}
+ #intro .nameplate p{font-size:17px;line-height:1.5}
+ #intro .nameplate .intro-scope{font-size:15px;margin-top:16px}
+ #intro .nameplate .intro-guidance{font-size:14px}
+ .landing-vessel{height:70%;width:80vw;right:10%;bottom:13%}
+ #intro[data-phase=ready] .landing-vessel{opacity:.35}
+ .arrival-vignette{background:linear-gradient(0deg,#081911dc,#08191170 65%,#08191130)}
+ .utility-controls{gap:3px}.brass-medallion{width:42px;height:46px}
+}
+@media(max-height:540px) and (min-width:600px){
+ #intro{padding:18px 4vw}
+ #intro .nameplate{width:57vw;max-width:620px;padding:20px 26px;margin:0}
+ #intro .nameplate h1{font-size:48px;margin:7px 0 12px}
+ #intro .nameplate .intro-prelude{font-size:15px}
+ #intro .nameplate p{font-size:15px;line-height:1.4}
+ #intro .nameplate .intro-scope{font-size:14px;line-height:1.4;margin-top:12px}
+ #intro .nameplate .intro-guidance{font-size:14px;line-height:1.35;margin-top:10px}
+ .explore-button{min-height:46px;padding:11px 25px;margin-top:14px;font-size:17px}
+ .landing-vessel{right:1%;height:82%;width:40vw;bottom:8%}
+ #intro[data-phase=ready] .landing-vessel{opacity:1}
+ #place-dialog{width:min(620px,calc(100vw - 38px));padding:22px 30px 22px 165px;text-align:left;min-height:270px}
+ .journal-porthole{position:absolute;left:24px;top:48px;width:115px;height:124px}
+ .journal-porthole img{width:87px;height:87px}
+ #place-title{font-size:25px;margin:8px 0 12px}
+ #place-description{font-size:16px;line-height:1.5;margin-bottom:18px}
+ .utility-controls{bottom:12px}
+}
+@media(prefers-reduced-motion:reduce){
+ #intro *,#loading-veil{animation:none!important;transition:none!important}
+ #intro[data-phase=ready] .landing-vessel{opacity:1}
+}
+#world-map .chart-info>circle{pointer-events:all;fill:transparent;stroke:none}
+@media(max-height:540px) and (min-width:600px){
+ #intro .nameplate{width:65vw;padding:14px 22px}
+ #intro .nameplate .intro-prelude{display:none}
+ #intro .nameplate h1{font-size:42px;margin:4px 0 10px}
+ #intro .nameplate p{line-height:1.35}
+ #intro .nameplate .intro-scope{margin-top:10px}
+ #intro .nameplate .intro-guidance{margin-top:8px}
+ .intro-guidance br{display:none}
+ .explore-button{margin-top:12px;min-height:44px}
+}
+
+/* Painted residents share the scene’s spherical camera and its light. */
+#world-life{position:absolute;inset:0;z-index:2;pointer-events:none;overflow:hidden;opacity:0;transition:opacity .35s}
+body.entered[data-ready=true] #world-life{opacity:1}
+.world-resident,.ambient{position:absolute;display:block;transform:translate(-50%,-100%);transform-origin:center bottom}
+.world-resident{pointer-events:none;padding:0;margin:0;border:0;background:none;color:#e7d099;isolation:isolate}
+.resident-crop,.dweller-motion,.critter-step{position:absolute;inset:0;display:block}
+.dweller-body,.dweller-eyes{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;pointer-events:none;user-select:none}
+:is(.dweller-body,.dweller-eyes){filter:brightness(.88) saturate(.82) contrast(.96)}
+.dweller-eyes{transform-origin:var(--eye-x,50%) var(--eye-y,40%)}
+.dweller-motion{transform-origin:50% 100%;animation:resident-idle var(--idle-duration,8s) var(--idle-delay,0s) ease-in-out infinite}
+.dweller-motion.tipsy{animation:resident-tipsy 4.7s var(--idle-delay,0s) ease-in-out infinite}
+.dweller-motion.busy{animation:resident-busy 5.3s var(--idle-delay,0s) ease-in-out infinite}
+.dweller-motion.curious{animation:resident-curious 8.2s var(--idle-delay,0s) ease-in-out infinite}
+.resident-shadow,.weed-shadow{position:absolute;left:22%;bottom:-1.5%;width:56%;height:8%;border-radius:50%;background:radial-gradient(ellipse,#17140bd4,#17140b60 35%,transparent 72%);filter:blur(2px);pointer-events:none}
+#world-life[data-period=morning] :is(.dweller-body,.dweller-eyes){filter:brightness(.95) sepia(.13) saturate(.95)}
+#world-life[data-period=evening] :is(.dweller-body,.dweller-eyes){filter:brightness(.78) sepia(.16) saturate(.9)}
+#world-life[data-period=night] :is(.dweller-body,.dweller-eyes){filter:brightness(.61) saturate(.7)}
+#world-life[data-period=night]:not(.outside)[data-light=true] :is(.dweller-body,.dweller-eyes){filter:brightness(.86) sepia(.15) saturate(.94)}
+#world-life[data-light=false]:not(.outside) :is(.dweller-body,.dweller-eyes){filter:brightness(.68) saturate(.62)}
+#world-life[data-period=night][data-light=false]:not(.outside) :is(.dweller-body,.dweller-eyes){filter:brightness(.35) saturate(.55)}
+.dweller-prop{position:absolute;pointer-events:none}
+.dweller-prop.tankard{left:84%;top:47%;width:10%;height:14%;border:1px solid #76512d;border-radius:15% 15% 30% 30%;background:linear-gradient(90deg,#6d4b24,#c7a166 40%,#8a612e);box-shadow:inset 0 3px 0 #e6c58d,1px 2px 2px #0005;transform:rotate(9deg)}
+.dweller-prop.tankard::after{content:'';position:absolute;left:95%;top:16%;width:50%;height:60%;border:2px solid #bb9457;border-left:0;border-radius:0 70% 70% 0}
+@keyframes resident-idle{0%,100%{transform:rotate(-1.1deg) scaleY(.997)}50%{transform:rotate(1.1deg) scaleY(1.004)}}
+@keyframes resident-tipsy{0%,100%{transform:rotate(-3.5deg)}25%{transform:rotate(-1deg)}55%{transform:rotate(3.7deg)}80%{transform:rotate(1.5deg)}}
+@keyframes resident-busy{0%,100%{transform:rotate(-.7deg)}35%{transform:rotate(1deg) scaleY(.99)}55%{transform:rotate(.5deg)}70%{transform:rotate(-1.2deg)}}
+@keyframes resident-curious{0%,60%,100%{transform:rotate(0)}70%,80%{transform:rotate(2.6deg)}90%{transform:rotate(-1deg)}}
+.steam-source{pointer-events:none}
+.steam-wisp{position:absolute;left:15%;bottom:-2%;width:70%;height:65%;border-radius:50%;background:radial-gradient(ellipse,#e6e4d33b,#d1d8ce17 35%,transparent 68%);filter:blur(3px);animation:pipe-breath 6.2s var(--wisp-delay,0s) ease-out infinite;transform-origin:50% 100%;opacity:0}
+@keyframes pipe-breath{0%{opacity:0;transform:translate(0,20%) scale(.3)}20%{opacity:.55}65%{opacity:.34}100%{opacity:0;transform:translate(var(--drift,15%),-110%) scale(1.5)}}
+.wind-sand{border-radius:50%;background:radial-gradient(ellipse at 35% 60%,#d4b07b22,transparent 60%),radial-gradient(ellipse at 65% 45%,#dfbd8024,transparent 70%);filter:blur(4px);pointer-events:none}
+.tumbleweed{pointer-events:none;filter:brightness(.8) drop-shadow(0 1px 1px #3c281b70)}
+.weed-brush{position:absolute;inset:0;display:block;width:100%;height:100%;transform:rotate(var(--roll,0deg));transform-origin:center}
+.weed-shadow{left:5%;bottom:-1%;width:90%;height:12%}
+.clockwork-critter{pointer-events:none;filter:brightness(.68) saturate(.65)}
+.critter-step{transform:rotate(var(--heading,0deg));animation:critter-scamper .24s ease-in-out infinite}
+@keyframes critter-scamper{0%,100%{translate:0 0}50%{translate:0 -1.5px}}
+.landing-dust.dust-four{width:170%;left:-35%;height:17%;bottom:-7%;animation-delay:3.15s}
+.landing-dust.dust-five{width:160%;left:-20%;height:19%;bottom:-8%;animation-delay:3.45s}
+.landing-dust.dust-six{width:180%;left:-40%;height:14%;bottom:-4%;animation-delay:3.7s}
+@media(prefers-reduced-motion:reduce){.dweller-motion,.dweller-eyes,.critter-step,.steam-wisp{animation:none!important}.ambient{display:none!important}#world-life{transition:none}}
+.resident-shadow{height:6%;bottom:-1%;background:radial-gradient(ellipse,#100b08e6 0,#22150a99 28%,transparent 70%);filter:blur(1.5px)}
+.resident-crop{filter:drop-shadow(0 2px 2px #080d0a66) drop-shadow(0 0 var(--shade-softness,5px) #080d0a80)}
+
+
+/* Residents follow the selected environment light without changing their position. */
+.dweller-body,.dweller-eyes{transition:filter .65s ease}
+#world-life[data-period=morning] :is(.dweller-body,.dweller-eyes){filter:brightness(1.02) sepia(.1) saturate(.95)}
+#world-life[data-period=day] :is(.dweller-body,.dweller-eyes){filter:brightness(.98) saturate(.92)}
+#world-life[data-period=evening] :is(.dweller-body,.dweller-eyes){filter:brightness(.77) sepia(.24) saturate(.9)}
+#world-life.outside[data-period=night] :is(.dweller-body,.dweller-eyes){filter:brightness(.42) saturate(.65)}
+#world-life:not(.outside)[data-light=true][data-period=evening] :is(.dweller-body,.dweller-eyes){filter:brightness(.91) sepia(.18) saturate(.94)}
+#world-life:not(.outside)[data-light=false][data-period=morning] :is(.dweller-body,.dweller-eyes){filter:brightness(.75) saturate(.78)}
+#world-life:not(.outside)[data-light=false][data-period=day] :is(.dweller-body,.dweller-eyes){filter:brightness(.82) saturate(.82)}
+#world-life:not(.outside)[data-light=false][data-period=evening] :is(.dweller-body,.dweller-eyes){filter:brightness(.5) saturate(.65)}
+#world-life:not(.outside)[data-light=false][data-period=night] :is(.dweller-body,.dweller-eyes){filter:brightness(.25) saturate(.55)}
+#world-life.windowless:not(.outside)[data-light=true] :is(.dweller-body,.dweller-eyes){filter:brightness(.86) sepia(.13) saturate(.9)}
+#world-life.windowless:not(.outside)[data-light=false] :is(.dweller-body,.dweller-eyes){filter:brightness(.22) saturate(.55)}
+@media(prefers-reduced-motion:reduce){.dweller-body,.dweller-eyes{transition:none}}
+
+.clockwork-beetle{display:block;width:100%;height:100%;overflow:visible}
+.beetle-legs{animation:beetle-feet .2s steps(2,end) infinite;transform-origin:50% 60%}
+@keyframes beetle-feet{50%{transform:scaleX(.9) scaleY(.96)}}
+@media(prefers-reduced-motion:reduce){.beetle-legs{animation:none}}
+
+/* Small, localized lamp fluctuations; quiet intervals are deliberate. */
+.lamp-flicker{pointer-events:none;transform:translate(-50%,-50%)}
+.lamp-aura,.lamp-dip{position:absolute;inset:0;border-radius:50%;pointer-events:none}
+.lamp-aura{background:radial-gradient(ellipse,#ffe5a535,#edb34f19 35%,transparent 72%);mix-blend-mode:screen;animation:lamp-breathe 21s var(--lamp-delay,0s) linear infinite}
+.lamp-dip{background:radial-gradient(ellipse,#24130732,transparent 62%);mix-blend-mode:multiply;animation:lamp-flutter 29s var(--lamp-delay,0s) linear infinite;opacity:0}
+@keyframes lamp-breathe{0%,100%{opacity:.35}23%{opacity:.5}54%{opacity:.3}78%{opacity:.55}}
+@keyframes lamp-flutter{0%,76%,78%,79.4%,81%,100%{opacity:0}76.6%{opacity:.55}78.7%{opacity:.35}80%{opacity:.2}}
+.steam-source{animation:steam-rest 31s var(--steam-delay,0s) linear infinite}
+@keyframes steam-rest{0%,7%,65%,100%{opacity:0}15%,40%{opacity:1}}
+@media(prefers-reduced-motion:reduce){.lamp-aura,.lamp-dip,.steam-source{animation:none!important}.lamp-flicker{display:none!important}}
+
+#panorama{touch-action:none;overscroll-behavior:none}
+#retry-view{position:fixed;z-index:10;left:50%;bottom:18%;transform:translateX(-50%);font:18px Georgia,serif}
