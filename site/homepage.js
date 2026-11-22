@@ -6,3 +6,12 @@ filters.forEach(button => button.addEventListener('click', () => {
 }));
 
 (()=>{const mq=matchMedia('(max-width:700px) and (pointer:coarse)');const pills=[...document.querySelectorAll('[data-filter][data-short]')];const swap=()=>pills.forEach(p=>{p.textContent=mq.matches?p.dataset.short:p.dataset.full;});swap();mq.addEventListener('change',swap);})();
+
+// Keep the experiments menu usable after any project filter has been selected.
+document.querySelector('.flask-nav a[href="#lab"]')?.addEventListener('click', () => {
+  document.querySelector('[data-filter="Experimental Projects"]')?.click();
+});
+if (location.hash === '#lab') document.querySelector('[data-filter="Experimental Projects"]')?.click();
+document.querySelector('.flask-nav a[href="#work"]')?.addEventListener('click', () => {
+  document.querySelector('[data-filter="All"]')?.click();
+});
