@@ -13,3 +13,5 @@ for name in ['loomik','loomik-classic']:
   target=root/'site'/name/route/'index.html'
   target.parent.mkdir(parents=True,exist_ok=True)
   target.write_bytes(entry)
+# Keep share previews in every generated static entry point.
+subprocess.run(['python3',str(root/'scripts/apply-social-metadata.py')],check=True)

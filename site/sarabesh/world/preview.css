@@ -156,7 +156,9 @@ body:not(.entered) #status{top:auto;bottom:22px;left:auto;right:22px;transform:n
 #intro.arrival-playing .engine-glow{animation:engine-landing 4.8s ease-out both}
 #intro.arrival-playing .landing-dust{animation:dust-landing 2s 2.9s ease-out both}
 #intro.arrival-playing .dust-two{animation-delay:3.2s}#intro.arrival-playing .dust-three{animation-delay:3.5s}
-@keyframes rocket-arrival{0%{transform:translateY(-110vh) rotate(-7deg)}52%{transform:translateY(-10vh) rotate(2deg)}76%{transform:translateY(1.5%) rotate(-.7deg)}88%,100%{transform:none}}
+@keyframes rocket-arrival{0%{transform:translateY(-110vh)}76%{transform:translateY(1.5%)}88%,100%{transform:none}}
+#intro.arrival-playing #arrival-rocket{transform-origin:50% 100%;animation:rocket-attitude 4.8s ease-in-out both}
+@keyframes rocket-attitude{0%{transform:rotate(-7deg)}52%{transform:rotate(2deg)}76%{transform:rotate(-.7deg)}88%,100%{transform:none}}
 @keyframes engine-landing{0%,15%{opacity:.9;transform:scaleY(1.5)}65%{opacity:.8}85%,100%{opacity:0;transform:scaleY(.2)}}
 @keyframes dust-landing{0%{opacity:0;transform:scale(.2)}24%{opacity:.8}100%{opacity:0;transform:scale(1.7)}}
 #place-dialog,#help-dialog{width:min(520px,calc(100vw - 32px));max-height:calc(100dvh - 40px);padding:34px 38px 30px;text-align:center;border:1px solid #b79356;border-radius:34px 12px 32px 14px;background:linear-gradient(135deg,#253e2df9,#10291ffb);box-shadow:0 18px 90px #000b,inset 0 0 0 5px #12261c,inset 0 0 0 6px #9c7a4580;overflow:auto;color:#edddba}
@@ -308,3 +310,6 @@ body.entered[data-ready=true] #world-life{opacity:1}
 .dial-stop:hover{background:radial-gradient(circle,#f9d47722,transparent 70%)}
 @media(max-height:500px){.time-dial{width:156px;height:156px}}
 @media(max-width:520px) and (orientation:portrait){.utility-controls{top:max(12px,env(safe-area-inset-top));bottom:auto}.time-dial{width:164px;height:164px}}
+
+body.travelling #panorama{will-change:transform,filter}
+body.travelling #loading-veil{opacity:0}

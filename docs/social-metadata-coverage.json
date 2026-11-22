@@ -1,0 +1,974 @@
+[
+  {
+    "project": "portfolio",
+    "path": "about.html",
+    "url": "https://sandy.tayts.com/about.html",
+    "image": "https://sandy.tayts.com/assets/og/portfolio-20261121.jpg"
+  },
+  {
+    "project": "portfolio",
+    "path": "contact.html",
+    "url": "https://sandy.tayts.com/contact.html",
+    "image": "https://sandy.tayts.com/assets/og/portfolio-20261121.jpg"
+  },
+  {
+    "project": "portfolio",
+    "path": "index.html",
+    "url": "https://sandy.tayts.com/",
+    "image": "https://sandy.tayts.com/assets/og/portfolio-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/blogs/our-story/celebrating-250-years-of-america-with-our-commemorative-boat-shoe/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/blogs/our-story/celebrating-250-years-of-america-with-our-commemorative-boat-shoe/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/blogs/our-story/handcrafted-for-the-maine-coast-the-read-boat-shoe/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/blogs/our-story/handcrafted-for-the-maine-coast-the-read-boat-shoe/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/blogs/our-story/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/blogs/our-story/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/blogs/our-story/well-worn-paths-a-maine-summer-in-rancourt-shoes/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/blogs/our-story/well-worn-paths-a-maine-summer-in-rancourt-shoes/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/blogs/our-story/well-worn-paths-built-by-family-made-by-hand/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/blogs/our-story/well-worn-paths-built-by-family-made-by-hand/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/blogs/style-news/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/blogs/style-news/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/cart/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/cart/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/collections/mens-loafers/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/collections/mens-loafers/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/collections/mens-shoes/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/collections/mens-shoes/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/collections/shoe-care-collection/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/collections/shoe-care-collection/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/collections/womens-footwear/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/collections/womens-footwear/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/pages/about-us/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/pages/about-us/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/pages/cobbler-services-1/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/pages/cobbler-services-1/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/pages/contact/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/pages/contact/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/pages/journal/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/pages/journal/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/pages/partner-with-rancourt/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/pages/partner-with-rancourt/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/pages/returns/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/pages/returns/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/1967-venetian-dark-brown-chromepak/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/1967-venetian-dark-brown-chromepak/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/250th-commemorative-boat-shoe-tri-color/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/250th-commemorative-boat-shoe-tri-color/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/acadia-chukka-redux-cognac-bison/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/acadia-chukka-redux-cognac-bison/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/armstrong-s-brooklyn-boot-wax-1/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/armstrong-s-brooklyn-boot-wax-1/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/armstrong-shoe-care-kit/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/armstrong-shoe-care-kit/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/armstrongs-leather-cleaner-black/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/armstrongs-leather-cleaner-black/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/armstrongs-leather-cleaner-scrub-brush-2/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/armstrongs-leather-cleaner-scrub-brush-2/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/armstrongs-suedeproof-suede-nubuck-leather-protector/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/armstrongs-suedeproof-suede-nubuck-leather-protector/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/bartlett-oxford-caramel-shell-cordovan/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/bartlett-oxford-caramel-shell-cordovan/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/baxter-boot-womens-roughman-chocolate/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/baxter-boot-womens-roughman-chocolate/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/baxter-ranger-moc-carolina-brown-chromexcel/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/baxter-ranger-moc-carolina-brown-chromexcel/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/beefroll-penny-loafer-lh-rowdy-bison-dark-brown/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/beefroll-penny-loafer-lh-rowdy-bison-dark-brown/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/beefroll-penny-loafers-carolina-brown-chromexcel/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/beefroll-penny-loafers-carolina-brown-chromexcel/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/beefroll-penny-loafers-lh-natural-chromexcel/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/beefroll-penny-loafers-lh-natural-chromexcel/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/beefroll-penny-loafers-roughman-chocolate/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/beefroll-penny-loafers-roughman-chocolate/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/belgrade-camp-loafer-burnt-chiptan-bison/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/belgrade-camp-loafer-burnt-chiptan-bison/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/blue-isle-english-bit-moc-color-8-shell-cordovan/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/blue-isle-english-bit-moc-color-8-shell-cordovan/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/blue-isle-venetian-color-8-shell-cordovan/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/blue-isle-venetian-color-8-shell-cordovan/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/blue-isle-weltline-penny-loafers-whisky-shell-cordovan/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/blue-isle-weltline-penny-loafers-whisky-shell-cordovan/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/brush-armstrongs-brass-suede-brush/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/brush-armstrongs-brass-suede-brush/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/brush-dauber-black-horsehair/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/brush-dauber-black-horsehair/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/brush-shoe-shine-black-horsehair-6-inch/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/brush-shoe-shine-black-horsehair-6-inch/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/camden-derby-carolina-brown-chromexcel/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/camden-derby-carolina-brown-chromexcel/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/camden-derby-snuff/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/camden-derby-snuff/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/casco-derby-roughman-chocolate/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/casco-derby-roughman-chocolate/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/casual-horsebit-heritage-brown/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/casual-horsebit-heritage-brown/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/classic-ranger-moc-roughman-chocolate/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/classic-ranger-moc-roughman-chocolate/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/court-classic-2-0-low-carolina-brown-cxl-1/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/court-classic-2-0-low-carolina-brown-cxl-1/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/court-classic-2-0-low-charcoal-grizzly/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/court-classic-2-0-low-charcoal-grizzly/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/court-classic-2-0-low-parisian-blue/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/court-classic-2-0-low-parisian-blue/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/court-classic-2-0-low-red-orion-fleshout/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/court-classic-2-0-low-red-orion-fleshout/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/court-classic-2-0-low-white-weston/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/court-classic-2-0-low-white-weston/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/cup-sole-penny-burnt-chiptan-bison/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/cup-sole-penny-burnt-chiptan-bison/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/gilman-camp-moc-roughman-chocolate/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/gilman-camp-moc-roughman-chocolate/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/gusset-chukka-snuff/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/gusset-chukka-snuff/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/harrison-boot-redux-roughman-chocolate/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/harrison-boot-redux-roughman-chocolate/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/horsebit-loafers-dark-brown-calf-1/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/horsebit-loafers-dark-brown-calf-1/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/leather-conditioner-armstrongs-brooklyn-leather-conditioner-neutral/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/leather-conditioner-armstrongs-brooklyn-leather-conditioner-neutral/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/marion-boat-shoe-carolina-brown-chromexcel/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/marion-boat-shoe-carolina-brown-chromexcel/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/pinch-penny-loafer-dark-brown/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/pinch-penny-loafer-dark-brown/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/pinch-penny-loafers-color-8-shell-cordovan/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/pinch-penny-loafers-color-8-shell-cordovan/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/pinch-penny-loafers-tan/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/pinch-penny-loafers-tan/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/pinch-penny-moc-roughman-chocolate/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/pinch-penny-moc-roughman-chocolate/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/rockland-blucher-pearl-nubuck/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/rockland-blucher-pearl-nubuck/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/rubber-bottom-slipper-cognac-bison-bison/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/rubber-bottom-slipper-cognac-bison-bison/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/sanford-blucher-black-shell-cordovan/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/sanford-blucher-black-shell-cordovan/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/shoe-tree-bundle/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/shoe-tree-bundle/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/solid-toe-cedar-shoe-tree-1/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/solid-toe-cedar-shoe-tree-1/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/tassel-loafer-color-8-cordovan/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/tassel-loafer-color-8-cordovan/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/venetian-loafer-rye-crazy-horse/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/venetian-loafer-rye-crazy-horse/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/venetian-shoe-care-kit/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/venetian-shoe-care-kit/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/venetian-shoe-cream/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/venetian-shoe-cream/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/venetian-shoe-cream-2/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/venetian-shoe-cream-2/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/weltline-penny-loafers-tan-calf/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/weltline-penny-loafers-tan-calf/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/westbrook-driving-moc-parisian-blue/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/westbrook-driving-moc-parisian-blue/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/women-s-horsebit-loafers-black-calf/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/women-s-horsebit-loafers-black-calf/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/womens-beefroll-penny-loafer-heritage-brown/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/womens-beefroll-penny-loafer-heritage-brown/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/womens-belgrade-loafer-napa-canyon/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/womens-belgrade-loafer-napa-canyon/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/womens-belgrade-loafer-rye-crazy-horse/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/womens-belgrade-loafer-rye-crazy-horse/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/womens-bradbury-slipper-british-tan/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/womens-bradbury-slipper-british-tan/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/womens-pinch-penny-loafer-dark-brown-labrador/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/womens-pinch-penny-loafer-dark-brown-labrador/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/womens-pinch-penny-loafer-roughman-chocolate/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/womens-pinch-penny-loafer-roughman-chocolate/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/womens-pinch-penny-loafer-tan-labrador/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/womens-pinch-penny-loafer-tan-labrador/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/products/york-weltline-roughman-chocolate/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/products/york-weltline-roughman-chocolate/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/search/boot/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/search/boot/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/search/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/search/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt-store/search/loafer/index.html",
+    "url": "https://sandy.tayts.com/rancourt-store/search/loafer/",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "rancourt",
+    "path": "rancourt.html",
+    "url": "https://sandy.tayts.com/rancourt.html",
+    "image": "https://sandy.tayts.com/assets/og/rancourt-20261121.jpg"
+  },
+  {
+    "project": "bp",
+    "path": "bigoil.html",
+    "url": "https://sandy.tayts.com/bigoil.html",
+    "image": "https://sandy.tayts.com/assets/og/bp-20261121.jpg"
+  },
+  {
+    "project": "digital-hub",
+    "path": "dh-map/wireflows.html",
+    "url": "https://sandy.tayts.com/dh-map/wireflows.html",
+    "image": "https://sandy.tayts.com/assets/og/digital-hub-20261121.jpg"
+  },
+  {
+    "project": "digital-hub",
+    "path": "dh.html",
+    "url": "https://sandy.tayts.com/dh.html",
+    "image": "https://sandy.tayts.com/assets/og/digital-hub-20261121.jpg"
+  },
+  {
+    "project": "lazy",
+    "path": "lazy.html",
+    "url": "https://sandy.tayts.com/lazy.html",
+    "image": "https://sandy.tayts.com/assets/og/lazy-20261121.jpg"
+  },
+  {
+    "project": "looped-in",
+    "path": "looped-in/audit.html",
+    "url": "https://sandy.tayts.com/looped-in/audit.html",
+    "image": "https://sandy.tayts.com/assets/og/looped-in-20261121.jpg"
+  },
+  {
+    "project": "looped-in",
+    "path": "looped-in/index.html",
+    "url": "https://sandy.tayts.com/looped-in/",
+    "image": "https://sandy.tayts.com/assets/og/looped-in-20261121.jpg"
+  },
+  {
+    "project": "looped-in",
+    "path": "looped-in/reference.html",
+    "url": "https://sandy.tayts.com/looped-in/reference.html",
+    "image": "https://sandy.tayts.com/assets/og/looped-in-20261121.jpg"
+  },
+  {
+    "project": "looped-in",
+    "path": "looped-in/testing.html",
+    "url": "https://sandy.tayts.com/looped-in/testing.html",
+    "image": "https://sandy.tayts.com/assets/og/looped-in-20261121.jpg"
+  },
+  {
+    "project": "looped-in",
+    "path": "looped-in/wireflows.html",
+    "url": "https://sandy.tayts.com/looped-in/wireflows.html",
+    "image": "https://sandy.tayts.com/assets/og/looped-in-20261121.jpg"
+  },
+  {
+    "project": "looped-in",
+    "path": "looped-in.html",
+    "url": "https://sandy.tayts.com/looped-in.html",
+    "image": "https://sandy.tayts.com/assets/og/looped-in-20261121.jpg"
+  },
+  {
+    "project": "dwellers",
+    "path": "dwellers/index.html",
+    "url": "https://sandy.tayts.com/dwellers/",
+    "image": "https://sandy.tayts.com/assets/og/dwellers-20261121.jpg"
+  },
+  {
+    "project": "dwellers",
+    "path": "dwellers/prototype.html",
+    "url": "https://sandy.tayts.com/dwellers/prototype.html",
+    "image": "https://sandy.tayts.com/assets/og/dwellers-20261121.jpg"
+  },
+  {
+    "project": "noah",
+    "path": "noah.html",
+    "url": "https://sandy.tayts.com/noah.html",
+    "image": "https://sandy.tayts.com/assets/og/noah-20261121.jpg"
+  },
+  {
+    "project": "panic",
+    "path": "panic.html",
+    "url": "https://sandy.tayts.com/panic.html",
+    "image": "https://sandy.tayts.com/assets/og/panic-20261121.jpg"
+  },
+  {
+    "project": "early-ai",
+    "path": "early-ai/index.html",
+    "url": "https://sandy.tayts.com/early-ai/",
+    "image": "https://sandy.tayts.com/assets/og/early-ai-20261121.jpg"
+  },
+  {
+    "project": "loomik",
+    "path": "loomik/action-hub/index.html",
+    "url": "https://sandy.tayts.com/loomik/action-hub/",
+    "image": "https://sandy.tayts.com/assets/og/loomik-20261121.jpg"
+  },
+  {
+    "project": "loomik",
+    "path": "loomik/assets/index.html",
+    "url": "https://sandy.tayts.com/loomik/assets/",
+    "image": "https://sandy.tayts.com/assets/og/loomik-20261121.jpg"
+  },
+  {
+    "project": "loomik",
+    "path": "loomik/calendar/index.html",
+    "url": "https://sandy.tayts.com/loomik/calendar/",
+    "image": "https://sandy.tayts.com/assets/og/loomik-20261121.jpg"
+  },
+  {
+    "project": "loomik",
+    "path": "loomik/deal/1/index.html",
+    "url": "https://sandy.tayts.com/loomik/deal/1/",
+    "image": "https://sandy.tayts.com/assets/og/loomik-20261121.jpg"
+  },
+  {
+    "project": "loomik",
+    "path": "loomik/deal/2/index.html",
+    "url": "https://sandy.tayts.com/loomik/deal/2/",
+    "image": "https://sandy.tayts.com/assets/og/loomik-20261121.jpg"
+  },
+  {
+    "project": "loomik",
+    "path": "loomik/deal/3/index.html",
+    "url": "https://sandy.tayts.com/loomik/deal/3/",
+    "image": "https://sandy.tayts.com/assets/og/loomik-20261121.jpg"
+  },
+  {
+    "project": "loomik",
+    "path": "loomik/deal/4/index.html",
+    "url": "https://sandy.tayts.com/loomik/deal/4/",
+    "image": "https://sandy.tayts.com/assets/og/loomik-20261121.jpg"
+  },
+  {
+    "project": "loomik",
+    "path": "loomik/deal/5/index.html",
+    "url": "https://sandy.tayts.com/loomik/deal/5/",
+    "image": "https://sandy.tayts.com/assets/og/loomik-20261121.jpg"
+  },
+  {
+    "project": "loomik",
+    "path": "loomik/deal/6/index.html",
+    "url": "https://sandy.tayts.com/loomik/deal/6/",
+    "image": "https://sandy.tayts.com/assets/og/loomik-20261121.jpg"
+  },
+  {
+    "project": "loomik",
+    "path": "loomik/deal/7/index.html",
+    "url": "https://sandy.tayts.com/loomik/deal/7/",
+    "image": "https://sandy.tayts.com/assets/og/loomik-20261121.jpg"
+  },
+  {
+    "project": "loomik",
+    "path": "loomik/deal-gps/index.html",
+    "url": "https://sandy.tayts.com/loomik/deal-gps/",
+    "image": "https://sandy.tayts.com/assets/og/loomik-20261121.jpg"
+  },
+  {
+    "project": "loomik",
+    "path": "loomik/history/index.html",
+    "url": "https://sandy.tayts.com/loomik/history/",
+    "image": "https://sandy.tayts.com/assets/og/loomik-20261121.jpg"
+  },
+  {
+    "project": "loomik",
+    "path": "loomik/index.html",
+    "url": "https://sandy.tayts.com/loomik/",
+    "image": "https://sandy.tayts.com/assets/og/loomik-20261121.jpg"
+  },
+  {
+    "project": "loomik",
+    "path": "loomik/portfolio/index.html",
+    "url": "https://sandy.tayts.com/loomik/portfolio/",
+    "image": "https://sandy.tayts.com/assets/og/loomik-20261121.jpg"
+  },
+  {
+    "project": "loomik",
+    "path": "loomik-classic/action-hub/index.html",
+    "url": "https://sandy.tayts.com/loomik-classic/action-hub/",
+    "image": "https://sandy.tayts.com/assets/og/loomik-20261121.jpg"
+  },
+  {
+    "project": "loomik",
+    "path": "loomik-classic/assets/index.html",
+    "url": "https://sandy.tayts.com/loomik-classic/assets/",
+    "image": "https://sandy.tayts.com/assets/og/loomik-20261121.jpg"
+  },
+  {
+    "project": "loomik",
+    "path": "loomik-classic/calendar/index.html",
+    "url": "https://sandy.tayts.com/loomik-classic/calendar/",
+    "image": "https://sandy.tayts.com/assets/og/loomik-20261121.jpg"
+  },
+  {
+    "project": "loomik",
+    "path": "loomik-classic/deal-gps/index.html",
+    "url": "https://sandy.tayts.com/loomik-classic/deal-gps/",
+    "image": "https://sandy.tayts.com/assets/og/loomik-20261121.jpg"
+  },
+  {
+    "project": "loomik",
+    "path": "loomik-classic/history/index.html",
+    "url": "https://sandy.tayts.com/loomik-classic/history/",
+    "image": "https://sandy.tayts.com/assets/og/loomik-20261121.jpg"
+  },
+  {
+    "project": "loomik",
+    "path": "loomik-classic/index.html",
+    "url": "https://sandy.tayts.com/loomik-classic/",
+    "image": "https://sandy.tayts.com/assets/og/loomik-20261121.jpg"
+  },
+  {
+    "project": "loomik",
+    "path": "loomik-classic/portfolio/index.html",
+    "url": "https://sandy.tayts.com/loomik-classic/portfolio/",
+    "image": "https://sandy.tayts.com/assets/og/loomik-20261121.jpg"
+  },
+  {
+    "project": "sarabesh",
+    "path": "sarabesh/index.html",
+    "url": "https://sandy.tayts.com/sarabesh/",
+    "image": "https://sandy.tayts.com/assets/og/sarabesh-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/about/index.html",
+    "url": "https://sandy.tayts.com/frey/about/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/account/index.html",
+    "url": "https://sandy.tayts.com/frey/account/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/best/index.html",
+    "url": "https://sandy.tayts.com/frey/best/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/cart/index.html",
+    "url": "https://sandy.tayts.com/frey/cart/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/checkout/address/index.html",
+    "url": "https://sandy.tayts.com/frey/checkout/address/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/checkout/index.html",
+    "url": "https://sandy.tayts.com/frey/checkout/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/checkout/payment/index.html",
+    "url": "https://sandy.tayts.com/frey/checkout/payment/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/checkout/review/index.html",
+    "url": "https://sandy.tayts.com/frey/checkout/review/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/contact/index.html",
+    "url": "https://sandy.tayts.com/frey/contact/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/index.html",
+    "url": "https://sandy.tayts.com/frey/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/new/index.html",
+    "url": "https://sandy.tayts.com/frey/new/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/products/candice/index.html",
+    "url": "https://sandy.tayts.com/frey/products/candice/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/products/candy-crush/index.html",
+    "url": "https://sandy.tayts.com/frey/products/candy-crush/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/products/clear-sky/index.html",
+    "url": "https://sandy.tayts.com/frey/products/clear-sky/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/products/cricket/index.html",
+    "url": "https://sandy.tayts.com/frey/products/cricket/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/products/dase-oh/index.html",
+    "url": "https://sandy.tayts.com/frey/products/dase-oh/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/products/dusk-baby/index.html",
+    "url": "https://sandy.tayts.com/frey/products/dusk-baby/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/products/dusky-moe/index.html",
+    "url": "https://sandy.tayts.com/frey/products/dusky-moe/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/products/fogster/index.html",
+    "url": "https://sandy.tayts.com/frey/products/fogster/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/products/heavy/index.html",
+    "url": "https://sandy.tayts.com/frey/products/heavy/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/products/hypercare-pack/index.html",
+    "url": "https://sandy.tayts.com/frey/products/hypercare-pack/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/products/lippity/index.html",
+    "url": "https://sandy.tayts.com/frey/products/lippity/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/products/peach-pie/index.html",
+    "url": "https://sandy.tayts.com/frey/products/peach-pie/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/products/rain-bow/index.html",
+    "url": "https://sandy.tayts.com/frey/products/rain-bow/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/products/roudy-circus/index.html",
+    "url": "https://sandy.tayts.com/frey/products/roudy-circus/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/products/squiggles/index.html",
+    "url": "https://sandy.tayts.com/frey/products/squiggles/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/products/subzero/index.html",
+    "url": "https://sandy.tayts.com/frey/products/subzero/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/products/sun-care-kit/index.html",
+    "url": "https://sandy.tayts.com/frey/products/sun-care-kit/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/products/tic-toe/index.html",
+    "url": "https://sandy.tayts.com/frey/products/tic-toe/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/products/torty-round/index.html",
+    "url": "https://sandy.tayts.com/frey/products/torty-round/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/products/truss/index.html",
+    "url": "https://sandy.tayts.com/frey/products/truss/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/products/whaler/index.html",
+    "url": "https://sandy.tayts.com/frey/products/whaler/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/products/windmaster/index.html",
+    "url": "https://sandy.tayts.com/frey/products/windmaster/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/round/index.html",
+    "url": "https://sandy.tayts.com/frey/round/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/search/index.html",
+    "url": "https://sandy.tayts.com/frey/search/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  },
+  {
+    "project": "frey",
+    "path": "frey/shop/index.html",
+    "url": "https://sandy.tayts.com/frey/shop/",
+    "image": "https://sandy.tayts.com/assets/og/frey-20261121.jpg"
+  }
+]

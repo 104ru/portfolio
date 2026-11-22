@@ -1,0 +1,56 @@
+{
+  "descent": [
+    {
+      "ms": 1800,
+      "y": -98.1846
+    },
+    {
+      "ms": 2100,
+      "y": -57.6593
+    },
+    {
+      "ms": 2300,
+      "y": -37.8498
+    },
+    {
+      "ms": 2500,
+      "y": -22.5442
+    },
+    {
+      "ms": 2700,
+      "y": -10.9362
+    },
+    {
+      "ms": 2900,
+      "y": -2.39622
+    },
+    {
+      "ms": 3200,
+      "y": 5.72196
+    }
+  ],
+  "departing": {
+    "phase": "departing",
+    "scale": 1.00272,
+    "hfov": 110
+  },
+  "scenes": [
+    "town",
+    "foyer",
+    "kitchen",
+    "foyer",
+    "apartment",
+    "window",
+    "apartment",
+    "foyer",
+    "town",
+    "bar",
+    "town",
+    "grocery",
+    "town",
+    "hotel"
+  ],
+  "zoomLocked": true,
+  "reducedMotion": true,
+  "errors": []
+}

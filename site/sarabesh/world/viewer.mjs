@@ -7,7 +7,7 @@ const storageKey = 'sarabesh-poc-v1';
 const legacyStorageKey = 'zan-ha-adim-poc-v1';
 const modes = ['auto', 'morning', 'day', 'evening', 'night'];
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
-let viewTimer;
+let viewTimer, travelMotion;
 let worldLife;
 let saved = {};
 try { saved = params.get('reset') === '1' ? {} : JSON.parse(localStorage.getItem(storageKey) || localStorage.getItem(legacyStorageKey) || '{}'); } catch {}
@@ -123,6 +123,7 @@ function syncControls() {
 }
 
 function failedView() {
+  travelMotion?.cancel();travelMotion=null;
   clearTimeout(viewTimer);ready=false;document.body.dataset.ready='false';
   document.body.classList.remove('travelling');document.body.dataset.travelPhase='error';
   showStatus('This view could not load.');$('#retry-view').hidden=false;
@@ -185,8 +186,14 @@ function beginTravel(to, {fromMap = false} = {}) {
     loadCurrent({from, moving: true});
   }
   if (reducedMotion.matches) { depart(); return; }
-  // Face the chosen doorway, then crossfade without changing the field of view.
-  viewer.lookAt(spot && !fromMap ? spot.pitch : viewer.getPitch(), spot && !fromMap ? spot.yaw : viewer.getYaw(), undefined, 300, depart);
+  // Move the composited world, including residents, without unlocking panorama zoom.
+  travelMotion?.cancel();
+  travelMotion=$('#panorama').animate([
+    {transform:'scale(1)',filter:'blur(0px)'},
+    {transform:'scale(1.09)',filter:'blur(1.2px)'}
+  ],{duration:340,easing:'cubic-bezier(.45,0,.75,.45)',fill:'forwards'});
+  viewer.lookAt(spot && !fromMap ? spot.pitch : viewer.getPitch(), spot && !fromMap ? spot.yaw : viewer.getYaw(), undefined, 340);
+  travelMotion.finished.then(depart,depart);
 }
 
 function travel(to) {
@@ -316,7 +323,16 @@ async function initialize() {
       document.body.dataset.travelPhase='idle';
       discoverCurrent();
     };
-    clearTimeout(viewTimer);$('#retry-view').hidden=true;finish();
+    clearTimeout(viewTimer);$('#retry-view').hidden=true;
+    if(document.body.classList.contains('travelling')&&!reducedMotion.matches){
+      travelMotion?.cancel();
+      const arrival=$('#panorama').animate([
+        {transform:'scale(1.09)',filter:'blur(1.2px)'},
+        {transform:'scale(1)',filter:'blur(0px)'}
+      ],{duration:460,easing:'cubic-bezier(.16,.8,.3,1)',fill:'forwards'});
+      travelMotion=arrival;
+      arrival.finished.then(()=>{arrival.cancel();travelMotion=null;finish();});
+    }else{travelMotion?.cancel();travelMotion=null;finish();}
     if (params.has('pitch')) viewer.setPitch(Number(params.get('pitch')),false);
     if (params.has('yaw')) viewer.setYaw(Number(params.get('yaw')),false);
   });

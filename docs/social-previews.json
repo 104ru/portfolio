@@ -1,0 +1,154 @@
+{
+  "origin": "https://sandy.tayts.com",
+  "projects": [
+    {
+      "slug": "portfolio",
+      "title": "Sandy Tayts",
+      "summary": "UX & service design",
+      "art": "assets/covers/rancourt.webp",
+      "pages": [
+        "index.html",
+        "about.html",
+        "contact.html"
+      ],
+      "image": "assets/og/portfolio-20261121.jpg"
+    },
+    {
+      "slug": "rancourt",
+      "title": "Rancourt & Co.",
+      "summary": "Research, product data and a custom Shopify store.",
+      "art": "assets/covers/rancourt.webp",
+      "pages": [
+        "rancourt.html",
+        "rancourt-store/**/*.html"
+      ],
+      "image": "assets/og/rancourt-20261121.jpg"
+    },
+    {
+      "slug": "bp",
+      "title": "Sales at BP",
+      "summary": "UX and service design for sales modernisation.",
+      "art": "assets/covers/bigoil.webp",
+      "pages": [
+        "bigoil.html"
+      ],
+      "image": "assets/og/bp-20261121.jpg"
+    },
+    {
+      "slug": "digital-hub",
+      "title": "EY Digital Hub",
+      "summary": "An omnichannel IT support experience.",
+      "art": "assets/covers/digital-hub.webp",
+      "pages": [
+        "dh.html",
+        "dh-map/*.html"
+      ],
+      "image": "assets/og/digital-hub-20261121.jpg"
+    },
+    {
+      "slug": "lazy",
+      "title": "Lazy",
+      "summary": "A no-code builder for specialized websites.",
+      "art": "assets/covers/lazy.webp",
+      "pages": [
+        "lazy.html"
+      ],
+      "image": "assets/og/lazy-20261121.jpg"
+    },
+    {
+      "slug": "looped-in",
+      "title": "Looped In",
+      "summary": "College life, connections and rewards.",
+      "art": "assets/covers/looped-in-pennants.webp",
+      "pages": [
+        "looped-in.html",
+        "looped-in/*.html"
+      ],
+      "image": "assets/og/looped-in-20261121.jpg"
+    },
+    {
+      "slug": "dwellers",
+      "title": "Dwellers",
+      "summary": "Build a creature. Let it loose. Discover a world.",
+      "art": "dwellers/assets/dwellers-cover.png",
+      "pages": [
+        "dwellers/*.html"
+      ],
+      "image": "assets/og/dwellers-20261121.jpg"
+    },
+    {
+      "slug": "noah",
+      "title": "Noah Fixes the Rainbow",
+      "summary": "A children’s picture book, illustrated by Sandy Tayts.",
+      "art": "assets/current/noah-stones-square.png",
+      "pages": [
+        "noah.html"
+      ],
+      "image": "assets/og/noah-20261121.jpg"
+    },
+    {
+      "slug": "panic",
+      "title": "No Grounds for Panic",
+      "summary": "Urban fantasy stories and illustrations.",
+      "art": "assets/current/panic-mobile.png",
+      "pages": [
+        "panic.html"
+      ],
+      "image": "assets/og/panic-20261121.jpg"
+    },
+    {
+      "slug": "early-ai",
+      "title": "Early AI work",
+      "summary": "China, botanical dragons, New York characters and a 360° world.",
+      "art": "early-ai/assets/dragon-poppy.webp",
+      "pages": [
+        "early-ai/index.html",
+        "early-ai/tour/index.html"
+      ],
+      "image": "assets/og/early-ai-20261121.jpg"
+    },
+    {
+      "slug": "loomik",
+      "title": "Loomik",
+      "summary": "An interactive AI-assisted sales workspace.",
+      "art": "assets/covers/loomik.webp",
+      "pages": [
+        "loomik/**/index.html",
+        "loomik-classic/**/index.html"
+      ],
+      "image": "assets/og/loomik-20261121.jpg"
+    },
+    {
+      "slug": "sarabesh",
+      "title": "Sarabesh",
+      "summary": "The Last Electrician · Explore a city of brass and clockwork.",
+      "art": "assets/covers/sarabesh.webp",
+      "pages": [
+        "sarabesh/index.html"
+      ],
+      "image": "assets/og/sarabesh-20261121.jpg"
+    },
+    {
+      "slug": "frey",
+      "title": "FREY",
+      "summary": "Where Sun Always Shine · Eyewear storefront demo.",
+      "art": "frey/assets/25b2f.svg",
+      "pages": [
+        "frey/**/*.html"
+      ],
+      "image": "assets/og/frey-20261121.jpg"
+    }
+  ],
+  "externalServices": [
+    {
+      "url": "https://lazy.vacations/",
+      "image": "https://lazy.vacations/og-share.jpg",
+      "status": "Existing OG metadata verified; service unchanged"
+    },
+    {
+      "url": "https://pleasant.vacations/",
+      "image": "https://pleasant.vacations/assets/og/pleasant-street-20261026.jpg",
+      "status": "Existing OG metadata verified; service unchanged"
+    }
+  ]
+}
