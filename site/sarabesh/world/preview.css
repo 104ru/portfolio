@@ -22,7 +22,6 @@ body.travelling .travel-dot .travel-tip{display:none}
 
 dialog{width:min(700px,92vw);padding:34px 18px 12px;border:1px solid #b6985e;border-radius:12px;background:#1d2826f5;color:#f1e4c6;box-shadow:0 12px 70px #0007}
 dialog::backdrop{background:#07100e66}#map-close{position:absolute;right:4px;top:4px;font-size:24px}#world-map{display:block;width:100%;max-height:65vh}#world-map text{font-size:24px;fill:#f1e4c6;text-anchor:middle}#world-map line{stroke:#a9956b;stroke-width:1.5}#world-map circle{fill:#aa986d;stroke:#ddc58f;stroke-width:1.5}#world-map circle.current{fill:#f7db96;stroke:#f7db96;stroke-width:4}#map-current{text-align:center;font-size:14px;margin:8px 0}
-#rotate{position:fixed;z-index:6;inset:0;margin:auto;width:max-content;height:44px;padding:0 18px;border:1px solid #d9be8190;border-radius:24px;background:#17201ef5;color:#f1e4c6;font:14px system-ui}
 @media(prefers-reduced-motion:reduce){.travel-dot::before,.travel-dot::after{animation:none}.travel-dot::after{opacity:.55}}
 
 @font-face{font-family:Rye;src:url('../assets/fonts/Rye-Regular.ttf') format('truetype');font-display:swap}

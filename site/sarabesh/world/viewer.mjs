@@ -255,18 +255,6 @@ function renderMap() {
   $('#map-current').textContent = sceneInfo(current).name;
 }
 
-function updateOrientationPrompt() {
-  $('#rotate').hidden = !entered || !(matchMedia('(pointer:coarse)').matches && innerHeight > innerWidth);
-}
-async function requestLandscape() {
-  if (!matchMedia('(pointer:coarse)').matches) return;
-  try {
-    if (innerHeight > innerWidth && !document.fullscreenElement && document.documentElement.requestFullscreen) await document.documentElement.requestFullscreen();
-    if (screen.orientation?.lock) await screen.orientation.lock('landscape');
-  } catch {}
-  updateOrientationPrompt();
-}
-
 async function initialize() {
   const responses = await Promise.all(['world/geography.json?v=sarabesh-life-17','world/assets.json?v=sarabesh-life-17'].map((url) => fetch(url)));
   if (responses.some((response) => !response.ok)) throw Error('World data failed to load');
@@ -346,7 +334,7 @@ async function initialize() {
   document.querySelectorAll('[name=time-mode]').forEach((input)=>input.addEventListener('change',()=>{
     if(!ready)return;mode=input.value;period=chosenPeriod();persist();loadCurrent({keepView:true});
   }));
-  $('#enter-world').addEventListener('click',()=>{if(!ready)return;entered=true;finishArrival();document.body.classList.add('entered');$('#intro').hidden=true;requestLandscape();discoverCurrent();});
+  $('#enter-world').addEventListener('click',()=>{if(!ready)return;entered=true;finishArrival();document.body.classList.add('entered');$('#intro').hidden=true;discoverCurrent();});
   $('#skip-intro').addEventListener('click',()=>{finishArrival();$('#enter-world').focus({preventScroll:true});});
   $('#place-close').addEventListener('click',closePlace);
   $('#place-continue').addEventListener('click',closePlace);
@@ -359,13 +347,11 @@ async function initialize() {
   $('#fullscreen-toggle').addEventListener('click',toggleFullscreen);
   document.addEventListener('fullscreenchange',syncFullscreen);
   reducedMotion.addEventListener('change',event=>{if(event.matches)finishArrival();});
-  $('#rotate').addEventListener('click',requestLandscape);
-  addEventListener('resize',updateOrientationPrompt);
   document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshTime();});
   function refreshTime(){const next=chosenPeriod();if(next!==period&&ready){period=next;loadCurrent({keepView:true});}}
   setInterval(refreshTime,30000);
   if(entered){document.body.classList.add('entered');$('#intro').hidden=true;}
-  updateOrientationPrompt();syncControls();playArrival();
+  syncControls();playArrival();
   window.worldPOC = {getState:()=>({scene:current, period, mode, lightOn:lightOn(current), visited:[...visited], ready, pitch:viewer.getPitch(), yaw:viewer.getYaw(), hfov:viewer.getHfov(), state:assetState(manifest.scenes[current],period,lightOn(current))})};
 }
 
