@@ -200,7 +200,7 @@ body.flask-home.contact-page .contact-form h2{font:600 18px/1.3 var(--font-body)
 
 /* Privacy page: contact-page header, then one column of text. Homepage footer links to it. */
 .privacy{width:min(720px,calc(100% - 48px));margin:0 auto;padding-bottom:96px;font-size:17px;line-height:1.6}
-.privacy h2{font:600 20px/1.3 var(--font-body);letter-spacing:0;margin:32px 0 8px}
+body.flask-home .privacy h2{font:600 20px/1.3 var(--font-body);letter-spacing:0;margin:32px 0 8px}
 .privacy p{margin:0 0 12px}
 .privacy .privacy-updated{margin-top:32px;font-size:14px}
 .site-footer{display:flex;justify-content:center;gap:24px;width:min(880px,calc(100% - 48px));margin:0 auto;padding:32px 0 48px;border-top:1px solid var(--rule);font-size:14px}
