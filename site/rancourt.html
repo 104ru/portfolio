@@ -36,17 +36,10 @@
 <style>
 @media (max-width:600px) {
   body.portfolio-template .portfolio-accordion-summary.rancourt-result-summary {
-    grid-template-columns: max-content minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr) auto;
   }
-  .rancourt-result-summary > .portfolio-accordion-heading {
-    grid-column: 1 / -1;
-  }
-  body.portfolio-template .rancourt-result-summary > .portfolio-accordion-link {
-    grid-column: 1;
-  }
-  body.portfolio-template .rancourt-result-summary:has(.portfolio-accordion-description) > .portfolio-accordion-action {
-    justify-self: start;
-    margin-block: 0;
+  .rancourt-result-summary > .portfolio-accordion-link {
+    grid-row: 3;
   }
 }
 </style>
