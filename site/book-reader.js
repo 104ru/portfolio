@@ -111,7 +111,11 @@
   function size() {
     const w = stage.clientWidth, h = stage.clientHeight, aspect = mode === 'illustrations' ? 1 : config.aspect;
     single = w < 700;
-    const pw = Math.max(80, Math.floor(Math.min(w * (single ? .86 : .43), (h - (expanded ? 42 : 20)) * aspect)));
+    const mobile = matchMedia('(max-width:700px)').matches;
+    book.classList.toggle('single-page', single && mobile);
+    const widthRatio = single ? (mobile ? .96 : .86) : .43;
+    const verticalPadding = mobile ? 12 : expanded ? 42 : 20;
+    const pw = Math.max(80, Math.floor(Math.min(w * widthRatio, (h - verticalPadding) * aspect)));
     book.style.setProperty('--pw', pw + 'px'); book.style.setProperty('--ph', pw / aspect + 'px');
     book.style.setProperty('--t', Math.round(pw * config.thickness) + 'px'); book.classList.add('jump'); view();
   }
