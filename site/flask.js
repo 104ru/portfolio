@@ -1,6 +1,5 @@
-// Homepage preview. On load the flask fills with coloured dots in the middle of the screen
-// and rises straight into the header; then the name, copy, pills and cards follow. Afterwards it
-// keeps its colours and sprinkles confetti when hovered or clicked.
+// The flask pops in, then the name appears before the flask fills and rises.
+// Afterwards the flask sprinkles confetti when hovered or clicked.
 (() => {
   const COLORS = ['#f2a035', '#82b747', '#69b8aa', '#b598be', '#87b9d4', '#e8647c', '#f4c84a', '#2c6e7e'];
   const FLY = 600, POP = 1300, DRAIN = 600, EMPTY = 138, FULL = 30, MOUTH = [83 / 170, 40 / 170];
@@ -121,8 +120,14 @@
     history.scrollRestoration = 'manual';
     scrollTo(0, 0);
     const r = flask.getBoundingClientRect();
-    flask.style.setProperty('--rise', `${innerHeight / 2 - (r.top + r.height / 2)}px`);
-    requestAnimationFrame(() => requestAnimationFrame(() => { flask.classList.add('shown'); setTimeout(play, 250); }));
+    stage.style.setProperty('--rise', `${innerHeight / 2 - (r.top + r.height / 2)}px`);
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      flask.classList.add('shown');
+      setTimeout(() => {
+        stage.classList.add('intro-name-visible');
+        setTimeout(play, 220);
+      }, 400);
+    }));
   }
 
   // Only a pointer that actually moves counts, so the flask passing under a resting cursor doesn't fire a burst.

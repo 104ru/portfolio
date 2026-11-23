@@ -90,7 +90,7 @@ body.flask-home .profile h1{position:relative;font-size:clamp(48px,8vw,88px);mar
 .loaded .seq{opacity:1;transform:none}
 .loaded .seq-3{transition-delay:1.3s}
 .loaded .seq-4{transition-delay:1.8s}
-.flask.intro{opacity:0;transform:translateY(var(--rise,0)) scale(0)}
+.flask.intro{opacity:1;transform:translateY(var(--rise,0)) scale(.65)}
 .flask.intro.shown{opacity:1;transform:translateY(var(--rise,0)) scale(1);transition:opacity .12s ease,transform .4s cubic-bezier(.3,1.7,.5,1)}
 .flask.intro.up{transform:none;transition:transform .7s cubic-bezier(.5,0,.2,1)}
 
@@ -101,6 +101,10 @@ body.flask-home .profile h1{position:relative;font-size:clamp(48px,8vw,88px);mar
 .loaded .reveal>span>span{transform:none}
 /* Nothing of the name shows before the intro: the masked line used to leave a sliver. */
 body:not(.loaded) .reveal{visibility:hidden}
+.flask-home .intro-name-visible h1.reveal{visibility:visible}
+.flask-home .intro-name-visible .flask:not(.up) ~ h1.reveal{transform:translateY(var(--rise,0))}
+.flask-home .intro-name-visible .flask.up ~ h1.reveal{transition:transform .7s cubic-bezier(.5,0,.2,1)}
+.flask-home .intro-name-visible h1.reveal>span>span{transform:none;transition:none}
 @media(prefers-reduced-motion:reduce){body:not(.loaded) .reveal{visibility:visible}}
 @media(prefers-reduced-motion:reduce){.reveal>span>span{transform:none;transition:none}}
 
